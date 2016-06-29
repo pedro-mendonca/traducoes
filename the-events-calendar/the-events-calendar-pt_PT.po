@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Events Calendar\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-06-29 22:52+0100\n"
+"PO-Revision-Date: 2016-06-30 00:28+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: WP-Portugal\n"
 "Language: pt_PT\n"
@@ -183,7 +183,6 @@ msgid "<p>Certain features and add-ons require an API key in order for The Event
 msgstr "<p>Algumas funcionalidades necessitam de uma chave API para que o Calendário de Eventos trabalhe com fontes externas. Por favor, siga as instruções de configuração abaixo.</p>"
 
 #: src/functions/template-tags/venue.php:502
-#, fuzzy
 msgctxt "Address separator"
 msgid ", "
 msgstr ", "
@@ -306,6 +305,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: vendor/tickets/src/views/tickets/orders-link.php:37
+#, fuzzy
 msgid "%d Ticket"
 msgid_plural "%d Tickets"
 msgstr[0] "%d bilhete"
@@ -383,7 +383,6 @@ msgid "Organizer Featured Image"
 msgstr "Imagem de destaque do organizador"
 
 #: src/Tribe/Main.php:2661
-#, fuzzy
 msgid " (View Full %1$s Description Here: %2$s)"
 msgstr " (Ver a descrição completa de %1$s aqui: %2$s)"
 
@@ -839,7 +838,7 @@ msgstr "%s Nome não pode ficar vazio"
 #: src/admin-views/venue-meta-box.php:195
 #, fuzzy
 msgid "%s Name already exists"
-msgstr "%s Nome já existe"
+msgstr "O nome %s já existe"
 
 #: src/functions/template-tags/day.php:106
 #, fuzzy
@@ -1120,9 +1119,8 @@ msgstr "Instalar plugin"
 
 #: common/src/Tribe/Admin/Help_Page.php:814
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:814
-#, fuzzy
 msgid "Active Users:"
-msgstr "Utilizadores Activos:"
+msgstr "Utilizadores activos:"
 
 #: common/src/Tribe/Admin/Help_Page.php:817
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:817
@@ -1268,9 +1266,8 @@ msgstr[1] "Ver todos %1$s %2$s"
 
 #: common/src/Tribe/Validate.php:211
 #: vendor/tickets/common/src/Tribe/Validate.php:211
-#, fuzzy
 msgid "%s must be a positive number or percent."
-msgstr "%s deve ser um numero positivo ou percentagem."
+msgstr "%s deve ser um número positivo ou percentagem."
 
 #: vendor/tickets/src/admin-views/meta-box.php:233
 msgid "Cancel"
@@ -1318,7 +1315,6 @@ msgid "Google Maps default zoom level"
 msgstr "Nível de zoom por omissão dos Google Maps"
 
 #: src/admin-views/tribe-options-general.php:188
-#, fuzzy
 msgid "0 = zoomed out; 21 = zoomed in."
 msgstr "0 = Zoom out; 21 = Zoom in."
 
@@ -1573,9 +1569,8 @@ msgid "Origin:"
 msgstr "Origem:"
 
 #: src/functions/advanced-functions/meta_registration.php:286
-#, fuzzy
 msgid "%s:"
-msgstr "%s"
+msgstr "%s:"
 
 #: src/functions/template-tags/date.php:151
 msgid "The function needs to be passed an $event or used in the loop."
@@ -1632,9 +1627,8 @@ msgid "Click to view a Google Map"
 msgstr "Clique para ver no Google Maps"
 
 #: src/functions/template-tags/google-map.php:47
-#, fuzzy
 msgid "+ Google Map"
-msgstr "+ Mapas Google"
+msgstr "+ Mapa Google"
 
 #: src/functions/template-tags/loop.php:131
 #, fuzzy
@@ -1840,9 +1834,8 @@ msgid "View As"
 msgstr "Ver como"
 
 #: src/views/modules/meta/details.php:142
-#, fuzzy
 msgid "%s Tags:"
-msgstr "%s Etiquetas:"
+msgstr "Etiquetas de %s:"
 
 #: src/views/month/nav.php:19
 #, fuzzy
@@ -2859,7 +2852,6 @@ msgid "URL:"
 msgstr "URL:"
 
 #: src/admin-views/events-meta-box.php:186
-#, fuzzy
 msgid "%s Cost"
 msgstr "Custo de %s"
 
@@ -2958,7 +2950,6 @@ msgstr "Data e hora de fim:"
 #: src/admin-views/create-venue-fields.php:5
 #: src/admin-views/venue-meta-box.php:34
 #: src/functions/advanced-functions/meta_registration.php:176
-#, fuzzy
 msgid "Address:"
 msgstr "Endereço:"
 
@@ -3051,7 +3042,6 @@ msgstr "Remover"
 
 #: vendor/tickets/src/admin-views/meta-box.php:112
 #: vendor/tickets/src/admin-views/meta-box.php:122
-#, fuzzy
 msgid "Add new ticket"
 msgstr "Adicionar novo bilhete"
 
@@ -3081,9 +3071,8 @@ msgid "Price:"
 msgstr "Preço:"
 
 #: vendor/tickets/src/admin-views/legacy-ticket-fields.php:19
-#, fuzzy
 msgid "(0 or empty for free tickets)"
-msgstr "(0 para bilhetes gratuitos)"
+msgstr "(0 ou vazio para bilhetes gratuitos)"
 
 #: vendor/tickets/src/admin-views/legacy-ticket-fields.php:24
 #, fuzzy
@@ -3302,7 +3291,6 @@ msgid "Advanced Template Settings"
 msgstr "Definições Avançadas de Template"
 
 #: src/admin-views/tribe-options-display.php:210
-#, fuzzy
 msgid "Add HTML before event content"
 msgstr "Adicionar HTML antes do conteúdo do evento"
 
@@ -3312,9 +3300,8 @@ msgid "If you are familiar with HTML, you can add additional code before the eve
 msgstr "Se está familiarizado com HTML, pode adicionar código extra antes do template do evento. Alguns temas podem necessitar disto para ajudar a criar estilos ou layouts."
 
 #: src/admin-views/tribe-options-display.php:216
-#, fuzzy
 msgid "Add HTML after event content"
-msgstr "Adicionar HTML após conteúdo do evento"
+msgstr "Adicionar HTML após o conteúdo do evento"
 
 #: src/admin-views/tribe-options-display.php:217
 #, fuzzy
@@ -3478,7 +3465,6 @@ msgid "Have an event that runs past midnight? Select a time after that event's e
 msgstr "Tem um evento que ainda ocorre depois de passada a meia-noite? Selecione uma hora após o termino desse evento para evitar que o mesmo seja disponibilizado no calendário no dia seguinte. "
 
 #: src/Tribe/Admin/Bar/Default_Configurator.php:18
-#, fuzzy
 msgid "%s"
 msgstr "%s"
 
@@ -3488,7 +3474,6 @@ msgid "View Calendar"
 msgstr "Ver Calendário"
 
 #: src/Tribe/Admin/Bar/Default_Configurator.php:53
-#, fuzzy
 msgid "Add %s"
 msgstr "Adicionar %s"
 
@@ -3943,9 +3928,8 @@ msgstr "%s deve conter somente números, letras e pontos"
 #: common/src/Tribe/Validate.php:197 common/src/Tribe/Validate.php:225
 #: vendor/tickets/common/src/Tribe/Validate.php:197
 #: vendor/tickets/common/src/Tribe/Validate.php:225
-#, fuzzy
 msgid "%s must be a positive number."
-msgstr "%s deve ser um número positivo"
+msgstr "%s deve ser um número positivo."
 
 #: common/src/Tribe/Validate.php:240
 #: vendor/tickets/common/src/Tribe/Validate.php:240
@@ -3955,7 +3939,6 @@ msgstr "%s deve ser uma slug válida (números, letras, traço e underscores)."
 
 #: common/src/Tribe/Validate.php:255
 #: vendor/tickets/common/src/Tribe/Validate.php:255
-#, fuzzy
 msgid "%s must be a valid absolute URL."
 msgstr "%s deve ser um URL válido e absoluto."
 
@@ -3988,13 +3971,11 @@ msgstr "%s não pode ser duplicado"
 
 #: common/src/Tribe/Validate.php:349
 #: vendor/tickets/common/src/Tribe/Validate.php:349
-#, fuzzy
 msgid "%s must be a number or percentage."
-msgstr "%s deve ser um número ou uma percentagem."
+msgstr "%s deve ser um número ou percentagem."
 
 #: common/src/Tribe/Validate.php:403
 #: vendor/tickets/common/src/Tribe/Validate.php:403
-#, fuzzy
 msgid "%s must be a number between 0 and 21."
 msgstr "%s deve ser um número entre 0 e 21."
 
@@ -4012,15 +3993,13 @@ msgstr "%s deve ser constituído por letras, espaços, apóstrofes e traços"
 
 #: common/src/Tribe/Validate.php:449
 #: vendor/tickets/common/src/Tribe/Validate.php:449
-#, fuzzy
 msgid "%s must consist of 5 numbers."
-msgstr "%s deve ser constituído por 5 números"
+msgstr "%s deve ser constituído por 5 números."
 
 #: common/src/Tribe/Validate.php:463
 #: vendor/tickets/common/src/Tribe/Validate.php:463
-#, fuzzy
 msgid "%s must be a phone number."
-msgstr "%s deve ser um número de telefone"
+msgstr "%s deve ser um número de telefone."
 
 #: common/src/Tribe/Validate.php:479
 #: vendor/tickets/common/src/Tribe/Validate.php:479
@@ -4037,37 +4016,31 @@ msgstr "Selecione um país:"
 
 #: common/src/Tribe/View_Helpers.php:47
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:47
-#, fuzzy
 msgid "Afghanistan"
-msgstr "Afghanistan"
+msgstr "Afeganistão"
 
 #: common/src/Tribe/View_Helpers.php:48
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:48
-#, fuzzy
 msgid "Albania"
-msgstr "Albania"
+msgstr "Albânia"
 
 #: common/src/Tribe/View_Helpers.php:49
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:49
-#, fuzzy
 msgid "Algeria"
-msgstr "Algeria"
+msgstr "Argélia"
 
 #: common/src/Tribe/View_Helpers.php:50
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:50
-#, fuzzy
 msgid "American Samoa"
-msgstr "American Samoa"
+msgstr "Samoa Americana"
 
 #: common/src/Tribe/View_Helpers.php:51
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:51
-#, fuzzy
 msgid "Andorra"
 msgstr "Andorra"
 
 #: common/src/Tribe/View_Helpers.php:52
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:52
-#, fuzzy
 msgid "Angola"
 msgstr "Angola"
 
@@ -4079,9 +4052,8 @@ msgstr "Anguilla"
 
 #: common/src/Tribe/View_Helpers.php:54
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:54
-#, fuzzy
 msgid "Antarctica"
-msgstr "Antarctica"
+msgstr "Antártica"
 
 #: common/src/Tribe/View_Helpers.php:55
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:55
@@ -4091,15 +4063,13 @@ msgstr "Antigua And Barbuda"
 
 #: common/src/Tribe/View_Helpers.php:56
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:56
-#, fuzzy
 msgid "Argentina"
 msgstr "Argentina"
 
 #: common/src/Tribe/View_Helpers.php:57
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:57
-#, fuzzy
 msgid "Armenia"
-msgstr "Armenia"
+msgstr "Arménia"
 
 #: common/src/Tribe/View_Helpers.php:58
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:58
@@ -4109,15 +4079,13 @@ msgstr "Aruba"
 
 #: common/src/Tribe/View_Helpers.php:59
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:59
-#, fuzzy
 msgid "Australia"
-msgstr "Australia"
+msgstr "Austrália"
 
 #: common/src/Tribe/View_Helpers.php:60
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:60
-#, fuzzy
 msgid "Austria"
-msgstr "Austria"
+msgstr "Áustria"
 
 #: common/src/Tribe/View_Helpers.php:61
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:61
@@ -4127,7 +4095,6 @@ msgstr "Azerbaijan"
 
 #: common/src/Tribe/View_Helpers.php:62
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:62
-#, fuzzy
 msgid "Bahamas"
 msgstr "Bahamas"
 
@@ -4145,21 +4112,18 @@ msgstr "Bangladesh"
 
 #: common/src/Tribe/View_Helpers.php:65
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:65
-#, fuzzy
 msgid "Barbados"
 msgstr "Barbados"
 
 #: common/src/Tribe/View_Helpers.php:66
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:66
-#, fuzzy
 msgid "Belarus"
-msgstr "Belarus"
+msgstr "Bielorrússia"
 
 #: common/src/Tribe/View_Helpers.php:67
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:67
-#, fuzzy
 msgid "Belgium"
-msgstr "Belgium"
+msgstr "Bélgica"
 
 #: common/src/Tribe/View_Helpers.php:68
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:68
@@ -4175,21 +4139,18 @@ msgstr "Benin"
 
 #: common/src/Tribe/View_Helpers.php:70
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:70
-#, fuzzy
 msgid "Bermuda"
-msgstr "Bermuda"
+msgstr "Bermudas"
 
 #: common/src/Tribe/View_Helpers.php:71
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:71
-#, fuzzy
 msgid "Bhutan"
-msgstr "Bhutan"
+msgstr "Butão"
 
 #: common/src/Tribe/View_Helpers.php:72
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:72
-#, fuzzy
 msgid "Bolivia"
-msgstr "Bolivia"
+msgstr "Bolívia"
 
 #: common/src/Tribe/View_Helpers.php:73
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:73
@@ -4211,7 +4172,6 @@ msgstr "Bouvet Island"
 
 #: common/src/Tribe/View_Helpers.php:76
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:76
-#, fuzzy
 msgid "Brazil"
 msgstr "Brasil"
 
@@ -4229,9 +4189,8 @@ msgstr "Brunei Darussalam"
 
 #: common/src/Tribe/View_Helpers.php:79
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:79
-#, fuzzy
 msgid "Bulgaria"
-msgstr "Bulgaria"
+msgstr "Bulgária"
 
 #: common/src/Tribe/View_Helpers.php:80
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:80
@@ -4259,15 +4218,13 @@ msgstr "Cameroon"
 
 #: common/src/Tribe/View_Helpers.php:84
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:84
-#, fuzzy
 msgid "Canada"
-msgstr "Canada"
+msgstr "Canadá"
 
 #: common/src/Tribe/View_Helpers.php:85
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:85
-#, fuzzy
 msgid "Cape Verde"
-msgstr "Cape Verde"
+msgstr "Cabo Verde"
 
 #: common/src/Tribe/View_Helpers.php:86
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:86
@@ -4325,7 +4282,6 @@ msgstr "Comoros"
 
 #: common/src/Tribe/View_Helpers.php:95
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:95
-#, fuzzy
 msgid "Congo"
 msgstr "Congo"
 
@@ -4337,21 +4293,18 @@ msgstr "Congo, The Democratic Republic Of The"
 
 #: common/src/Tribe/View_Helpers.php:97
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:97
-#, fuzzy
 msgid "Cook Islands"
-msgstr "Cook Islands"
+msgstr "Ilhas Cook"
 
 #: common/src/Tribe/View_Helpers.php:98
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:98
-#, fuzzy
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
 #: common/src/Tribe/View_Helpers.php:99
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:99
-#, fuzzy
 msgid "Cote D'Ivoire"
-msgstr "Cote D'Ivoire"
+msgstr "Costa do Marfim"
 
 #: common/src/Tribe/View_Helpers.php:100
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:100
@@ -4361,27 +4314,23 @@ msgstr "Croatia (Local Name: Hrvatska)"
 
 #: common/src/Tribe/View_Helpers.php:101
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:101
-#, fuzzy
 msgid "Cuba"
 msgstr "Cuba"
 
 #: common/src/Tribe/View_Helpers.php:102
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:102
-#, fuzzy
 msgid "Cyprus"
-msgstr "Cyprus"
+msgstr "Chipre"
 
 #: common/src/Tribe/View_Helpers.php:103
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:103
-#, fuzzy
 msgid "Czech Republic"
-msgstr "Czech Republic"
+msgstr "República Checa"
 
 #: common/src/Tribe/View_Helpers.php:104
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:104
-#, fuzzy
 msgid "Denmark"
-msgstr "Denmark"
+msgstr "Dinamarca"
 
 #: common/src/Tribe/View_Helpers.php:105
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:105
@@ -4397,27 +4346,23 @@ msgstr "Dominica"
 
 #: common/src/Tribe/View_Helpers.php:107
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:107
-#, fuzzy
 msgid "Dominican Republic"
-msgstr "Dominican Republic"
+msgstr "República Dominicana"
 
 #: common/src/Tribe/View_Helpers.php:108
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:108
-#, fuzzy
 msgid "East Timor"
-msgstr "East Timor"
+msgstr "Timor Leste"
 
 #: common/src/Tribe/View_Helpers.php:109
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:109
-#, fuzzy
 msgid "Ecuador"
-msgstr "Ecuador"
+msgstr "Equador"
 
 #: common/src/Tribe/View_Helpers.php:110
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:110
-#, fuzzy
 msgid "Egypt"
-msgstr "Egypt"
+msgstr "Egipto"
 
 #: common/src/Tribe/View_Helpers.php:111
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:111
@@ -4427,27 +4372,23 @@ msgstr "El Salvador"
 
 #: common/src/Tribe/View_Helpers.php:112
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:112
-#, fuzzy
 msgid "Equatorial Guinea"
-msgstr "Equatorial Guinea"
+msgstr "Guiné Equatorial"
 
 #: common/src/Tribe/View_Helpers.php:113
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:113
-#, fuzzy
 msgid "Eritrea"
-msgstr "Eritrea"
+msgstr "Eritreia"
 
 #: common/src/Tribe/View_Helpers.php:114
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:114
-#, fuzzy
 msgid "Estonia"
-msgstr "Estonia"
+msgstr "Estónia"
 
 #: common/src/Tribe/View_Helpers.php:115
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:115
-#, fuzzy
 msgid "Ethiopia"
-msgstr "Ethiopia"
+msgstr "Etiópia"
 
 #: common/src/Tribe/View_Helpers.php:116
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:116
@@ -4475,9 +4416,8 @@ msgstr "Finland"
 
 #: common/src/Tribe/View_Helpers.php:120
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:120
-#, fuzzy
 msgid "France"
-msgstr "France"
+msgstr "França"
 
 #: common/src/Tribe/View_Helpers.php:121
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:121
@@ -4505,28 +4445,24 @@ msgstr "French Southern Territories"
 
 #: common/src/Tribe/View_Helpers.php:125
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:125
-#, fuzzy
 msgid "Gabon"
-msgstr "Gabon"
+msgstr "Gabão"
 
 #: common/src/Tribe/View_Helpers.php:126
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:126
-#, fuzzy
 msgid "Gambia"
-msgstr "Gambia"
+msgstr "Gâmbia"
 
 #: common/src/Tribe/View_Helpers.php:127 common/src/Tribe/View_Helpers.php:326
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:127
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:326
-#, fuzzy
 msgid "Georgia"
-msgstr "Georgia"
+msgstr "Geórgia"
 
 #: common/src/Tribe/View_Helpers.php:128
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:128
-#, fuzzy
 msgid "Germany"
-msgstr "Germany"
+msgstr "Alemanha"
 
 #: common/src/Tribe/View_Helpers.php:129
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:129
@@ -4536,15 +4472,13 @@ msgstr "Ghana"
 
 #: common/src/Tribe/View_Helpers.php:130
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:130
-#, fuzzy
 msgid "Gibraltar"
 msgstr "Gibraltar"
 
 #: common/src/Tribe/View_Helpers.php:131
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:131
-#, fuzzy
 msgid "Greece"
-msgstr "Greece"
+msgstr "Grécia"
 
 #: common/src/Tribe/View_Helpers.php:132
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:132
@@ -4578,15 +4512,13 @@ msgstr "Guatemala"
 
 #: common/src/Tribe/View_Helpers.php:137
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:137
-#, fuzzy
 msgid "Guinea"
-msgstr "Guinea"
+msgstr "Guiné"
 
 #: common/src/Tribe/View_Helpers.php:138
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:138
-#, fuzzy
 msgid "Guinea-Bissau"
-msgstr "Guinea-Bissau"
+msgstr "Guiné-Bissau"
 
 #: common/src/Tribe/View_Helpers.php:139
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:139
@@ -4614,39 +4546,33 @@ msgstr "Holy See (Vatican City State)"
 
 #: common/src/Tribe/View_Helpers.php:143
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:143
-#, fuzzy
 msgid "Honduras"
 msgstr "Honduras"
 
 #: common/src/Tribe/View_Helpers.php:144
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:144
-#, fuzzy
 msgid "Hong Kong"
 msgstr "Hong Kong"
 
 #: common/src/Tribe/View_Helpers.php:145
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:145
-#, fuzzy
 msgid "Hungary"
-msgstr "Hungary"
+msgstr "Hungria"
 
 #: common/src/Tribe/View_Helpers.php:146
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:146
-#, fuzzy
 msgid "Iceland"
-msgstr "Iceland"
+msgstr "Islândia"
 
 #: common/src/Tribe/View_Helpers.php:147
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:147
-#, fuzzy
 msgid "India"
-msgstr "India"
+msgstr "Índia"
 
 #: common/src/Tribe/View_Helpers.php:148
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:148
-#, fuzzy
 msgid "Indonesia"
-msgstr "Indonesia"
+msgstr "Indonésia"
 
 #: common/src/Tribe/View_Helpers.php:149
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:149
@@ -4656,45 +4582,38 @@ msgstr "Iran (Islamic Republic Of)"
 
 #: common/src/Tribe/View_Helpers.php:150
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:150
-#, fuzzy
 msgid "Iraq"
-msgstr "Iraq"
+msgstr "Iraque"
 
 #: common/src/Tribe/View_Helpers.php:151
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:151
-#, fuzzy
 msgid "Ireland"
-msgstr "Ireland"
+msgstr "Irlanda"
 
 #: common/src/Tribe/View_Helpers.php:152
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:152
-#, fuzzy
 msgid "Israel"
 msgstr "Israel"
 
 #: common/src/Tribe/View_Helpers.php:153
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:153
-#, fuzzy
 msgid "Italy"
-msgstr "Italy"
+msgstr "Itália"
 
 #: common/src/Tribe/View_Helpers.php:154
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:154
-#, fuzzy
 msgid "Jamaica"
 msgstr "Jamaica"
 
 #: common/src/Tribe/View_Helpers.php:155
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:155
-#, fuzzy
 msgid "Japan"
-msgstr "Japan"
+msgstr "Japão"
 
 #: common/src/Tribe/View_Helpers.php:156
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:156
-#, fuzzy
 msgid "Jordan"
-msgstr "Jordan"
+msgstr "Jordânia"
 
 #: common/src/Tribe/View_Helpers.php:157
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:157
@@ -4746,15 +4665,13 @@ msgstr "Lao People's Democratic Republic"
 
 #: common/src/Tribe/View_Helpers.php:165
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:165
-#, fuzzy
 msgid "Latvia"
-msgstr "Latvia"
+msgstr "Letónia"
 
 #: common/src/Tribe/View_Helpers.php:166
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:166
-#, fuzzy
 msgid "Lebanon"
-msgstr "Lebanon"
+msgstr "Líbano"
 
 #: common/src/Tribe/View_Helpers.php:167
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:167
@@ -4764,15 +4681,13 @@ msgstr "Lesotho"
 
 #: common/src/Tribe/View_Helpers.php:168
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:168
-#, fuzzy
 msgid "Liberia"
-msgstr "Liberia"
+msgstr "Libéria"
 
 #: common/src/Tribe/View_Helpers.php:169
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:169
-#, fuzzy
 msgid "Libya"
-msgstr "Libya"
+msgstr "Líbia"
 
 #: common/src/Tribe/View_Helpers.php:170
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:170
@@ -4782,33 +4697,28 @@ msgstr "Liechtenstein"
 
 #: common/src/Tribe/View_Helpers.php:171
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:171
-#, fuzzy
 msgid "Lithuania"
-msgstr "Lithuania"
+msgstr "Lituânia"
 
 #: common/src/Tribe/View_Helpers.php:172
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:172
-#, fuzzy
 msgid "Luxembourg"
-msgstr "Luxembourg"
+msgstr "Luxemburgo"
 
 #: common/src/Tribe/View_Helpers.php:173
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:173
-#, fuzzy
 msgid "Macau"
 msgstr "Macau"
 
 #: common/src/Tribe/View_Helpers.php:174
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:174
-#, fuzzy
 msgid "Macedonia"
-msgstr "Macedonia"
+msgstr "Macedónia"
 
 #: common/src/Tribe/View_Helpers.php:175
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:175
-#, fuzzy
 msgid "Madagascar"
-msgstr "Madagascar"
+msgstr "Madagáscar"
 
 #: common/src/Tribe/View_Helpers.php:176
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:176
@@ -4818,33 +4728,28 @@ msgstr "Malawi"
 
 #: common/src/Tribe/View_Helpers.php:177
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:177
-#, fuzzy
 msgid "Malaysia"
-msgstr "Malaysia"
+msgstr "Malásia"
 
 #: common/src/Tribe/View_Helpers.php:178
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:178
-#, fuzzy
 msgid "Maldives"
-msgstr "Maldives"
+msgstr "Maldivas"
 
 #: common/src/Tribe/View_Helpers.php:179
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:179
-#, fuzzy
 msgid "Mali"
 msgstr "Mali"
 
 #: common/src/Tribe/View_Helpers.php:180
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:180
-#, fuzzy
 msgid "Malta"
 msgstr "Malta"
 
 #: common/src/Tribe/View_Helpers.php:181
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:181
-#, fuzzy
 msgid "Marshall Islands"
-msgstr "Marshall Islands"
+msgstr "Ilhas Marshall"
 
 #: common/src/Tribe/View_Helpers.php:182
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:182
@@ -4854,15 +4759,13 @@ msgstr "Martinique"
 
 #: common/src/Tribe/View_Helpers.php:183
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:183
-#, fuzzy
 msgid "Mauritania"
-msgstr "Mauritania"
+msgstr "Mauritânia"
 
 #: common/src/Tribe/View_Helpers.php:184
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:184
-#, fuzzy
 msgid "Mauritius"
-msgstr "Mauritius"
+msgstr "Maurícias"
 
 #: common/src/Tribe/View_Helpers.php:185
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:185
@@ -4872,9 +4775,8 @@ msgstr "Mayotte"
 
 #: common/src/Tribe/View_Helpers.php:186
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:186
-#, fuzzy
 msgid "Mexico"
-msgstr "Mexico"
+msgstr "México"
 
 #: common/src/Tribe/View_Helpers.php:187
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:187
@@ -4890,19 +4792,16 @@ msgstr "Moldova, Republic Of"
 
 #: common/src/Tribe/View_Helpers.php:189
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:189
-#, fuzzy
 msgid "Monaco"
-msgstr "Monaco"
+msgstr "Mónaco"
 
 #: common/src/Tribe/View_Helpers.php:190
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:190
-#, fuzzy
 msgid "Mongolia"
-msgstr "Mongolia"
+msgstr "Mongólia"
 
 #: common/src/Tribe/View_Helpers.php:191
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:191
-#, fuzzy
 msgid "Montenegro"
 msgstr "Montenegro"
 
@@ -4914,15 +4813,13 @@ msgstr "Montserrat"
 
 #: common/src/Tribe/View_Helpers.php:193
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:193
-#, fuzzy
 msgid "Morocco"
-msgstr "Morocco"
+msgstr "Marrocos"
 
 #: common/src/Tribe/View_Helpers.php:194
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:194
-#, fuzzy
 msgid "Mozambique"
-msgstr "Mozambique"
+msgstr "Moçambique"
 
 #: common/src/Tribe/View_Helpers.php:195
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:195
@@ -4932,9 +4829,8 @@ msgstr "Myanmar"
 
 #: common/src/Tribe/View_Helpers.php:196
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:196
-#, fuzzy
 msgid "Namibia"
-msgstr "Namibia"
+msgstr "Namíbia"
 
 #: common/src/Tribe/View_Helpers.php:197
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:197
@@ -4944,7 +4840,6 @@ msgstr "Nauru"
 
 #: common/src/Tribe/View_Helpers.php:198
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:198
-#, fuzzy
 msgid "Nepal"
 msgstr "Nepal"
 
@@ -4974,9 +4869,8 @@ msgstr "New Zealand"
 
 #: common/src/Tribe/View_Helpers.php:203
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:203
-#, fuzzy
 msgid "Nicaragua"
-msgstr "Nicaragua"
+msgstr "Nicarágua"
 
 #: common/src/Tribe/View_Helpers.php:204
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:204
@@ -4986,9 +4880,8 @@ msgstr "Niger"
 
 #: common/src/Tribe/View_Helpers.php:205
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:205
-#, fuzzy
 msgid "Nigeria"
-msgstr "Nigeria"
+msgstr "Nigéria"
 
 #: common/src/Tribe/View_Helpers.php:206
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:206
@@ -4998,21 +4891,18 @@ msgstr "Niue"
 
 #: common/src/Tribe/View_Helpers.php:207
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:207
-#, fuzzy
 msgid "Norfolk Island"
-msgstr "Norfolk Island"
+msgstr "Ilha Norfolk"
 
 #: common/src/Tribe/View_Helpers.php:208
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:208
-#, fuzzy
 msgid "Northern Mariana Islands"
-msgstr "Northern Mariana Islands"
+msgstr "Ilhas Marianas do Norte"
 
 #: common/src/Tribe/View_Helpers.php:209
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:209
-#, fuzzy
 msgid "Norway"
-msgstr "Norway"
+msgstr "Noruega"
 
 #: common/src/Tribe/View_Helpers.php:210
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:210
@@ -5022,9 +4912,8 @@ msgstr "Oman"
 
 #: common/src/Tribe/View_Helpers.php:211
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:211
-#, fuzzy
 msgid "Pakistan"
-msgstr "Pakistan"
+msgstr "Paquistão"
 
 #: common/src/Tribe/View_Helpers.php:212
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:212
@@ -5034,9 +4923,8 @@ msgstr "Palau"
 
 #: common/src/Tribe/View_Helpers.php:213
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:213
-#, fuzzy
 msgid "Panama"
-msgstr "Panama"
+msgstr "Panamá"
 
 #: common/src/Tribe/View_Helpers.php:214
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:214
@@ -5046,21 +4934,18 @@ msgstr "Papua New Guinea"
 
 #: common/src/Tribe/View_Helpers.php:215
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:215
-#, fuzzy
 msgid "Paraguay"
-msgstr "Paraguay"
+msgstr "Paraguai"
 
 #: common/src/Tribe/View_Helpers.php:216
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:216
-#, fuzzy
 msgid "Peru"
-msgstr "Peru"
+msgstr "Perú"
 
 #: common/src/Tribe/View_Helpers.php:217
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:217
-#, fuzzy
 msgid "Philippines"
-msgstr "Philippines"
+msgstr "Filipinas"
 
 #: common/src/Tribe/View_Helpers.php:218
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:218
@@ -5069,41 +4954,35 @@ msgid "Pitcairn"
 msgstr "Pitcairn"
 
 #: src/Tribe/Venue.php:290
-#, fuzzy
 msgid "Unnamed Venue"
-msgstr "Local Sem Nome"
+msgstr "Local sem nome"
 
 #: common/src/Tribe/View_Helpers.php:46 src/Tribe/Venue.php:251
 #: src/functions/template-tags/venue.php:272
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:46
-#, fuzzy
 msgid "United States"
 msgstr "Estados Unidos"
 
 #: src/Tribe/Activation_Page.php:38
-#, fuzzy
 msgid "Go to plugins page"
 msgstr "Ir para a página de plugins"
 
 #: src/Tribe/Activation_Page.php:38
-#, fuzzy
 msgid "Return to Plugins page"
 msgstr "Voltar para a página de plugins"
 
 #: src/Tribe/Activation_Page.php:46
-#, fuzzy
 msgid "Go to WordPress Updates page"
 msgstr "Ir para a página de actualizações do WordPress"
 
 #: src/Tribe/Activation_Page.php:46
-#, fuzzy
 msgid "Return to WordPress Updates"
 msgstr "Voltar para a página de actualizações do WordPress"
 
 #: src/Tribe/Activation_Page.php:192
 #, fuzzy
 msgid "Welcome to The Events Calendar"
-msgstr "O Calendário de Eventos dá-lhe as boas-vindas"
+msgstr "Bem-vindo ao The Events Calendar"
 
 #: src/Tribe/Activation_Page.php:212
 #, fuzzy
@@ -5138,7 +5017,6 @@ msgstr "Usar %s antigo:"
 #: src/Tribe/Linked_Posts/Chooser_Meta_Box.php:180 src/Tribe/Main.php:1474
 #: src/Tribe/Main.php:1637 src/Tribe/Main.php:1703 src/Tribe/Organizer.php:69
 #: src/Tribe/Venue.php:75
-#, fuzzy
 msgid "Edit %s"
 msgstr "Editar %s"
 
@@ -5163,17 +5041,14 @@ msgid "A problem stopped the timezone update process from completing. Please ref
 msgstr "Um problema impediu a conclusão do processo de actualização de fuso horário. Por favor faça refresh e tente de novo."
 
 #: src/Tribe/Admin_List.php:246 src/Tribe/Main.php:1488
-#, fuzzy
 msgid "%s Categories"
-msgstr "%s Categorias"
+msgstr "Categorias de %s"
 
 #: src/Tribe/Admin_List.php:252
-#, fuzzy
 msgid "Start Date"
 msgstr "Data de início"
 
 #: src/Tribe/Admin_List.php:253
-#, fuzzy
 msgid "End Date"
 msgstr "Data de fim"
 
@@ -5185,28 +5060,24 @@ msgstr "Todos %s"
 #: src/Tribe/Advanced_Functions/Register_Meta.php:37
 #: src/Tribe/Advanced_Functions/Register_Meta.php:69
 #: src/views/modules/meta/details.php:65 src/views/modules/meta/details.php:90
-#, fuzzy
 msgid "Start:"
 msgstr "Início:"
 
 #: src/Tribe/Advanced_Functions/Register_Meta.php:46
 #: src/Tribe/Advanced_Functions/Register_Meta.php:78
 #: src/views/modules/meta/details.php:70 src/views/modules/meta/details.php:95
-#, fuzzy
 msgid "End:"
 msgstr "Fim:"
 
 #: src/Tribe/Advanced_Functions/Register_Meta.php:57
 #: src/Tribe/Advanced_Functions/Register_Meta.php:89
 #: src/views/modules/meta/details.php:80 src/views/modules/meta/details.php:105
-#, fuzzy
 msgid "Date:"
 msgstr "Data:"
 
 #: src/Tribe/Advanced_Functions/Register_Meta.php:100
 #: src/Tribe/Advanced_Functions/Register_Meta.php:111
 #: src/views/modules/meta/details.php:48
-#, fuzzy
 msgid "Time:"
 msgstr "Hora:"
 
@@ -5231,9 +5102,8 @@ msgid " - "
 msgstr "-"
 
 #: src/Tribe/Cost_Utils.php:175 vendor/tickets/src/Tribe/JSON_LD/Order.php:106
-#, fuzzy
 msgid "Free"
-msgstr "Grátis"
+msgstr "Gratuito"
 
 #: common/src/Tribe/Credits.php:26
 #: vendor/tickets/common/src/Tribe/Credits.php:26
@@ -5263,7 +5133,6 @@ msgstr "Não foram especificadas opções de select"
 
 #: src/Tribe/Admin/Bar/Default_Configurator.php:73
 #: src/Tribe/Importer/Admin_Page.php:68 src/Tribe/Importer/Admin_Page.php:69
-#, fuzzy
 msgid "Import"
 msgstr "Importar"
 
@@ -5274,7 +5143,6 @@ msgstr "O ficheiro desapareceu?! Tente novamente!"
 
 #: common/src/Tribe/Settings_Manager.php:55
 #: vendor/tickets/common/src/Tribe/Settings_Manager.php:55
-#, fuzzy
 msgid "General"
 msgstr "Geral"
 
@@ -5289,49 +5157,40 @@ msgid "The following fields are required for a successful import:"
 msgstr "Os seguintes campos são necessários para uma importação bem sucedida:"
 
 #: src/Tribe/Importer/Column_Mapper.php:43
-#, fuzzy
 msgid "Do Not Import"
 msgstr "Não Importar"
 
 #: src/Tribe/Importer/Column_Mapper.php:62
-#, fuzzy
 msgid "Event Name"
-msgstr "Nome do Evento"
+msgstr "Nome do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:63
-#, fuzzy
 msgid "Event Description"
-msgstr "Descrição do Evento:"
+msgstr "Descrição do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:65
-#, fuzzy
 msgid "Event Start Date"
-msgstr "Data de início do Evento"
+msgstr "Data de início do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:66
-#, fuzzy
 msgid "Event Start Time"
-msgstr "Hora de início do Evento"
+msgstr "Hora de início do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:67
-#, fuzzy
 msgid "Event End Date"
-msgstr "Data do término do Evento"
+msgstr "Data do fim do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:68
-#, fuzzy
 msgid "Event End Time"
-msgstr "Hora do término do Evento"
+msgstr "Hora do fim do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:70
-#, fuzzy
 msgid "All Day Event"
-msgstr "Dia Todo"
+msgstr "Todo o dia"
 
 #: src/Tribe/Importer/Column_Mapper.php:73
-#, fuzzy
 msgid "Event Venue Name"
-msgstr "Nome do local do Evento:"
+msgstr "Nome do local do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:75
 #, fuzzy
@@ -5344,9 +5203,8 @@ msgid "Event Show Map"
 msgstr "Mostrar Evento no Mapa"
 
 #: src/Tribe/Importer/Column_Mapper.php:77
-#, fuzzy
 msgid "Event Cost"
-msgstr "Preço do evento:"
+msgstr "Preço do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:78
 #, fuzzy
@@ -5490,20 +5348,17 @@ msgid "Events List"
 msgstr "Lista de Eventos"
 
 #: src/Tribe/List_Widget.php:186
-#, fuzzy
 msgid "Upcoming Events"
 msgstr "Próximos eventos"
 
 #: src/Tribe/Importer/Admin_Page.php:196 src/Tribe/Venue.php:139
 #: src/functions/template-tags/venue.php:52
-#, fuzzy
 msgid "Venues"
 msgstr "Locais"
 
 #: src/Tribe/Venue.php:130
 #: src/functions/advanced-functions/meta_registration.php:126
 #: src/functions/template-tags/venue.php:41
-#, fuzzy
 msgid "Venue"
 msgstr "Local"
 
@@ -5526,12 +5381,10 @@ msgstr "Organizador"
 #: vendor/tickets/common/src/Tribe/Settings.php:148
 #: vendor/tickets/common/src/Tribe/Settings.php:202
 #: vendor/tickets/common/src/Tribe/Settings.php:203
-#, fuzzy
 msgid "Events"
 msgstr "Eventos"
 
 #: src/Tribe/Main.php:706 src/functions/template-tags/general.php:58
-#, fuzzy
 msgid "Event"
 msgstr "Evento"
 
@@ -5545,32 +5398,26 @@ msgid "The Events Calendar"
 msgstr "Agenda de Eventos"
 
 #: src/Tribe/Main.php:781
-#, fuzzy
 msgid "month"
 msgstr "mês"
 
 #: src/Tribe/Main.php:782
-#, fuzzy
 msgid "list"
 msgstr "lista"
 
 #: src/Tribe/Main.php:783
-#, fuzzy
 msgid "upcoming"
 msgstr "próximos"
 
 #: src/Tribe/Main.php:784
-#, fuzzy
 msgid "past"
 msgstr "passados"
 
 #: src/Tribe/Main.php:785
-#, fuzzy
 msgid "day"
 msgstr "dia"
 
 #: src/Tribe/Main.php:786
-#, fuzzy
 msgid "today"
 msgstr "hoje"
 
@@ -5600,7 +5447,6 @@ msgstr "Visualização"
 #: src/Tribe/Admin/Bar/Default_Configurator.php:106
 #: vendor/tickets/common/src/Tribe/Settings_Manager.php:62
 #: vendor/tickets/common/src/Tribe/Settings_Manager.php:289
-#, fuzzy
 msgid "Help"
 msgstr "Ajuda"
 
@@ -5608,7 +5454,6 @@ msgstr "Ajuda"
 #: common/src/admin-views/tribe-options-licenses.php:46
 #: vendor/tickets/common/src/Tribe/Settings_Manager.php:263
 #: vendor/tickets/common/src/admin-views/tribe-options-licenses.php:46
-#, fuzzy
 msgid "Licenses"
 msgstr "Licenças"
 
@@ -5623,7 +5468,6 @@ msgid "Sorry, The Events Calendar requires PHP %s or higher. Talk to your Web ho
 msgstr "Desculpe, mas o plugin Agenda de Eventos exige versão PHP %s ou superior. Entre em contacto com o seu servidor de alojamento e peça para actualizarem a versão do PHP."
 
 #: src/Tribe/Main.php:1403 src/Tribe/Main.php:2266
-#, fuzzy
 msgid "category"
 msgstr "categoria"
 
@@ -5698,7 +5542,6 @@ msgid "Update %s Category"
 msgstr "Actualizar Categoria de %s"
 
 #: src/Tribe/Main.php:1496
-#, fuzzy
 msgid "Add New %s Category"
 msgstr "Adicionar nova categoria de %s"
 
