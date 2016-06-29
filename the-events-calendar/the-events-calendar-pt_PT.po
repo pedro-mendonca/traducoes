@@ -2,28 +2,27 @@
 # This file is distributed under the same license as the Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-06-29 22:07+0100\n"
+"PO-Revision-Date: 2016-06-29 22:05+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.8\n"
 "Project-Id-Version: Stable (latest release)\n"
 "POT-Creation-Date: \n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt_PT\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: common/src/Tribe/Log/Admin.php:132
 #: vendor/tickets/common/src/Tribe/Log/Admin.php:132
-#, fuzzy
 msgctxt "log selector"
 msgid "None currently available"
 msgstr "Nenhum actualmente disponível"
 
 #: common/src/Tribe/Log/Admin.php:147
 #: vendor/tickets/common/src/Tribe/Log/Admin.php:147
-#, fuzzy
 msgctxt "log engines"
 msgid "None currently available"
 msgstr "Nenhum actualmente disponível"
@@ -32,7 +31,7 @@ msgstr "Nenhum actualmente disponível"
 #: vendor/tickets/common/src/Tribe/Log/File_Logger.php:116
 #, fuzzy
 msgid "Default (uses temporary files)"
-msgstr "Padrão (usa arquivos temporários)"
+msgstr "Padrão (usa ficheiros temporários)"
 
 #: common/src/Tribe/Log/Null_Logger.php:26
 #: vendor/tickets/common/src/Tribe/Log/Null_Logger.php:26
@@ -41,29 +40,24 @@ msgid "Null logger (will log nothing)"
 msgstr "Registo nulo"
 
 #: common/src/Tribe/Log.php:210 vendor/tickets/common/src/Tribe/Log.php:210
-#, fuzzy
 msgid "Cannot set %s as the current logging engine"
 msgstr "Não é possível definir %s como mecanismo de registo"
 
 #: common/src/Tribe/Log.php:309 vendor/tickets/common/src/Tribe/Log.php:309
-#, fuzzy
 msgid "Disabled"
-msgstr "Inactivo"
+msgstr "Desactivado"
 
 #: common/src/Tribe/Log.php:310 vendor/tickets/common/src/Tribe/Log.php:310
-#, fuzzy
 msgid "Only errors"
 msgstr "Apenas erros"
 
 #: common/src/Tribe/Log.php:311 vendor/tickets/common/src/Tribe/Log.php:311
-#, fuzzy
 msgid "Warnings and errors"
 msgstr "Avisos e erros"
 
 #: common/src/Tribe/Log.php:312 vendor/tickets/common/src/Tribe/Log.php:312
-#, fuzzy
 msgid "Full debug (all events)"
-msgstr "Detecção total de erros (todos os eventos)"
+msgstr "Depuração completa (todos os eventos)"
 
 #: common/src/Tribe/PUE/Checker.php:457
 #: vendor/tickets/common/src/Tribe/PUE/Checker.php:457
@@ -79,13 +73,11 @@ msgstr "%s deve conter apenas números, letras, traços e underscores"
 
 #: common/src/admin-views/event-log.php:21
 #: vendor/tickets/common/src/admin-views/event-log.php:21
-#, fuzzy
 msgid "Logging level"
 msgstr "Nível de registo"
 
 #: common/src/admin-views/event-log.php:39
 #: vendor/tickets/common/src/admin-views/event-log.php:39
-#, fuzzy
 msgid "Method"
 msgstr "Método"
 
@@ -97,14 +89,12 @@ msgstr "O arquivo de registo seleccionado está vazio ou ainda não foi criado."
 
 #: common/src/admin-views/event-log.php:104
 #: vendor/tickets/common/src/admin-views/event-log.php:104
-#, fuzzy
 msgid "Download log"
 msgstr "Descarregar o registo"
 
 #: src/Tribe/Google/Maps_API_Key.php:45
-#, fuzzy
 msgid "Google Maps API"
-msgstr "Google Maps API"
+msgstr "API do Google Maps"
 
 #: src/Tribe/Google/Maps_API_Key.php:50
 #, fuzzy
@@ -122,7 +112,6 @@ msgid "<p>%s to create your Google Maps API key."
 msgstr "<p>%s para criar a sua chave de API do Google Maps."
 
 #: src/Tribe/Google/Maps_API_Key.php:59
-#, fuzzy
 msgid "Click here"
 msgstr "Clique aqui"
 
@@ -132,12 +121,10 @@ msgid "Default encoding for imported csv file"
 msgstr "Codificação por omissão nos ficheiros CSV importados"
 
 #: src/Tribe/Importer/Column_Mapper.php:64
-#, fuzzy
 msgid "Event Excerpt"
 msgstr "Resumo do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:69
-#, fuzzy
 msgid "Event Timezone"
 msgstr "Fuso horário do evento"
 
@@ -157,22 +144,18 @@ msgid "Event Organizer Name(s) or ID(s)"
 msgstr "Nome(s) ou ID(s) do(s) organizador(es) do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:84
-#, fuzzy
 msgid "Event Allow Comments"
 msgstr "Evento permite comentários"
 
 #: src/Tribe/Importer/Column_Mapper.php:85
-#, fuzzy
 msgid "Event Allow Trackbacks and Pingbacks"
 msgstr "Evento permite trackbacks e pingbacks"
 
 #: src/Tribe/Importer/Column_Mapper.php:99
-#, fuzzy
 msgid "Venue Description"
 msgstr "Descrição do local"
 
 #: src/Tribe/Importer/Column_Mapper.php:122
-#, fuzzy
 msgid "Organizer Description"
 msgstr "Descrição do organizador"
 
@@ -212,35 +195,29 @@ msgstr ""
 #: vendor/tickets/src/Tribe/CSV_Importer/Column_Names.php:34
 #, fuzzy
 msgid "Event Name or ID or Slug"
-msgstr "Nome do evento ou ID ou slug"
+msgstr "Nome, ID ou slug do evento"
 
 #: vendor/tickets/src/Tribe/CSV_Importer/Column_Names.php:35
-#, fuzzy
 msgid "Ticket Name"
 msgstr "Nome do bilhete"
 
 #: vendor/tickets/src/Tribe/CSV_Importer/Column_Names.php:36
-#, fuzzy
 msgid "Ticket Description"
 msgstr "Descrição do bilhete"
 
 #: vendor/tickets/src/Tribe/CSV_Importer/Column_Names.php:37
-#, fuzzy
 msgid "Ticket Start Sale Date"
 msgstr "Data de início da venda de bilhetes"
 
 #: vendor/tickets/src/Tribe/CSV_Importer/Column_Names.php:38
-#, fuzzy
 msgid "Ticket Start Sale Time"
 msgstr "Hora de início da venda de bilhetes"
 
 #: vendor/tickets/src/Tribe/CSV_Importer/Column_Names.php:39
-#, fuzzy
 msgid "Ticket End Sale Date"
 msgstr "Data do fim da venda de bilhetes"
 
 #: vendor/tickets/src/Tribe/CSV_Importer/Column_Names.php:40
-#, fuzzy
 msgid "Ticket End Sale Time"
 msgstr "Hora do fim da venda de bilhetes"
 
@@ -260,7 +237,6 @@ msgid "RSVPs"
 msgstr "RSVP"
 
 #: vendor/tickets/src/Tribe/Main.php:528
-#, fuzzy
 msgid "Buy"
 msgstr "Comprar"
 
@@ -280,17 +256,14 @@ msgid "There are no tickets available at this time."
 msgstr "Por agora não há bilhetes disponíveis."
 
 #: vendor/tickets/src/Tribe/Tickets_View.php:511
-#, fuzzy
 msgid "Going"
 msgstr "Vão"
 
 #: vendor/tickets/src/Tribe/Tickets_View.php:512
-#, fuzzy
 msgid "Not Going"
 msgstr "Não vão"
 
 #: vendor/tickets/src/Tribe/Tickets_View.php:608
-#, fuzzy
 msgid "Ticket"
 msgstr "Bilhete"
 
@@ -329,7 +302,6 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: vendor/tickets/src/views/tickets/orders-link.php:37
-#, fuzzy
 msgid "%d Ticket"
 msgid_plural "%d Tickets"
 msgstr[0] "%d bilhete"
@@ -348,7 +320,6 @@ msgid "My RSVPs for This %s"
 msgstr ""
 
 #: vendor/tickets/src/views/tickets/orders-rsvp.php:38
-#, fuzzy
 msgid "Reserved by %1$s (%2$s)"
 msgstr "Reservado por %1$s (%2$s)"
 
@@ -367,7 +338,6 @@ msgid "RSVP: "
 msgstr "RSVP: "
 
 #: vendor/tickets/src/views/tickets/orders.php:51
-#, fuzzy
 msgid "Update %s"
 msgstr "Actualizar %s"
 
@@ -377,9 +347,8 @@ msgid "Login to RSVP"
 msgstr "Inicie a sessão para RSVP"
 
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:281
-#, fuzzy
 msgid "Customer Name"
-msgstr "Nome de Cliente"
+msgstr "Nome de cliente"
 
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:282
 #, fuzzy
@@ -398,17 +367,14 @@ msgid "If you are creating a recurring event, Tickets will only show up once per
 msgstr "Se está a criar um evento recorrente, “Bilhetes” só aparece uma vez por série de eventos, o que significa que o mesmo bilhete será exibido em todos os eventos. Por favor configure os seus eventos em conformidade."
 
 #: src/Tribe/Importer/Column_Mapper.php:83
-#, fuzzy
 msgid "Event Featured Image"
 msgstr "Imagem de destaque do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:108
-#, fuzzy
 msgid "Venue Featured Image"
 msgstr "Imagem de destaque do local"
 
 #: src/Tribe/Importer/Column_Mapper.php:126
-#, fuzzy
 msgid "Organizer Featured Image"
 msgstr "Imagem de destaque do organizador"
 
@@ -464,7 +430,6 @@ msgid "Recent Template Changes"
 msgstr "Mudanças recentes no template"
 
 #: vendor/tickets/src/Tribe/Attendees_Table.php:260
-#, fuzzy
 msgid "View order"
 msgstr "Ver encomenda"
 
@@ -486,7 +451,6 @@ msgid "Independent (do not use global stock)"
 msgstr ""
 
 #: vendor/tickets/src/admin-views/attendees.php:100
-#, fuzzy
 msgid "Deleted:"
 msgstr "Eliminado:"
 
@@ -499,14 +463,12 @@ msgid "Global stock level"
 msgstr ""
 
 #: vendor/tickets/src/admin-views/meta-box.php:85
-#, fuzzy
 msgid "(%s sold)"
 msgid_plural "(%s sold)"
 msgstr[0] "(%s vendido)"
 msgstr[1] "(%s vendidos)"
 
 #: vendor/tickets/src/template-tags/tickets.php:221
-#, fuzzy
 msgid "global inventory"
 msgstr "inventário global"
 
@@ -537,12 +499,10 @@ msgid "Send RSVP confirmation to:"
 msgstr "Enviar a confirmação RSVP para:"
 
 #: vendor/tickets/src/admin-views/attendees.php:46
-#, fuzzy
 msgid "Post Type:"
 msgstr "Tipo de conteúdo:"
 
 #: vendor/tickets/src/admin-views/attendees.php:29
-#, fuzzy
 msgid "Edit Event"
 msgstr "Editar evento"
 
@@ -552,7 +512,6 @@ msgid "See Event Page"
 msgstr "Ver Página do Evento"
 
 #: src/Tribe/Event_Tickets/Attendees_Report.php:64
-#, fuzzy
 msgid "Edit Venue"
 msgstr "Editar local"
 
@@ -630,9 +589,8 @@ msgid "Out of stock!"
 msgstr "Esgotados!"
 
 #: vendor/tickets/src/views/tickets/rsvp.php:110
-#, fuzzy
 msgid "Full Name"
-msgstr "Nome Completo:"
+msgstr "Nome completo"
 
 #: vendor/tickets/src/views/tickets/rsvp.php:151
 #, fuzzy
@@ -676,9 +634,8 @@ msgid "In order to RSVP, you must enter your name and a valid email address."
 msgstr "Para enviar um RSVP, tem de inserir o seu nome e um endereço de email válido."
 
 #: vendor/tickets/src/Tribe/RSVP.php:869
-#, fuzzy
 msgid "(deleted)"
-msgstr "(apagado)"
+msgstr "(eliminado)"
 
 #: vendor/tickets/src/Tribe/RSVP.php:1126
 #, fuzzy
@@ -721,12 +678,10 @@ msgid "Invalid Event ID"
 msgstr "ID de Evento Inválido"
 
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:390
-#, fuzzy
 msgid "Empty user and email"
 msgstr "Utilizador e email vazios"
 
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:402
-#, fuzzy
 msgid "Invalid Email"
 msgstr "Email inválido"
 
@@ -737,9 +692,8 @@ msgid "Invalid User ID"
 msgstr "ID de utilizador inválida"
 
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:445
-#, fuzzy
 msgid "Error when sending the email"
-msgstr "Erro no envio do email"
+msgstr "Erro ao enviar email"
 
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:450
 #, fuzzy
@@ -1044,22 +998,18 @@ msgid "Only license fields for %1$snetwork activated%2$s plugins will be listed 
 msgstr ""
 
 #: src/Tribe/Organizer.php:270
-#, fuzzy
 msgid "Unnamed %s"
 msgstr "%s sem nome"
 
 #: src/Tribe/Linked_Posts/Chooser_Meta_Box.php:148
-#, fuzzy
 msgid "Create New %s"
 msgstr "Criar novo %s"
 
 #: src/Tribe/Linked_Posts/Chooser_Meta_Box.php:218
-#, fuzzy
 msgid "Add another %s"
 msgstr "Adicionar outro %s"
 
 #: src/Tribe/Asset/Bootstrap_Datepicker.php:19
-#, fuzzy
 msgid "Clear"
 msgstr "Limpar"
 
@@ -1156,15 +1106,13 @@ msgstr "Obrigado por usar %s! Todos nós na Modern Tribe estamos gratos pelo seu
 
 #: common/src/admin-views/tribe-options-help.php:14
 #: vendor/tickets/common/src/admin-views/tribe-options-help.php:14
-#, fuzzy
 msgid "Getting Support"
-msgstr "Obter Ajuda"
+msgstr "Obter suporte"
 
 #: common/src/Tribe/Admin/Help_Page.php:791
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:791
-#, fuzzy
 msgid "Install Plugin"
-msgstr "Instalar Plugin"
+msgstr "Instalar plugin"
 
 #: common/src/Tribe/Admin/Help_Page.php:814
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:814
@@ -1174,9 +1122,8 @@ msgstr "Utilizadores Activos:"
 
 #: common/src/Tribe/Admin/Help_Page.php:817
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:817
-#, fuzzy
 msgid "Rating:"
-msgstr "Avaliação:"
+msgstr "Classificação:"
 
 #: common/src/Tribe/Admin/Help_Page.php:842
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:842
@@ -1225,19 +1172,16 @@ msgstr ""
 
 #: common/src/Tribe/Admin/Help_Page.php:775
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:775
-#, fuzzy
 msgid "Upgrade Plugin"
 msgstr "Actualizar plugin"
 
 #: common/src/Tribe/Admin/Help_Page.php:791
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:791
-#, fuzzy
 msgid "Install %s"
 msgstr "Instalar %s"
 
 #: common/src/Tribe/Admin/Help_Page.php:767
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:767
-#, fuzzy
 msgid "Activate Plugin"
 msgstr "Activar plugin"
 
@@ -1260,7 +1204,6 @@ msgstr ""
 
 #: common/src/Tribe/Admin/Help_Page.php:80
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:80
-#, fuzzy
 msgid "Advanced Post Manager"
 msgstr "Advanced Post Manager"
 
@@ -1309,7 +1252,6 @@ msgstr "Bilhetes Comunitários"
 
 #: common/src/Tribe/Admin/Help_Page.php:767
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:767
-#, fuzzy
 msgid "Activate %s"
 msgstr "Activar %s"
 
@@ -1327,7 +1269,6 @@ msgid "%s must be a positive number or percent."
 msgstr "%s deve ser um numero positivo ou percentagem."
 
 #: vendor/tickets/src/admin-views/meta-box.php:233
-#, fuzzy
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -1337,7 +1278,6 @@ msgid "Editing the ticket price is currently disallowed."
 msgstr "A edição do preço do bilhete está de momento desactivada."
 
 #: src/admin-views/tribe-options-general.php:128
-#, fuzzy
 msgid "Default currency symbol"
 msgstr "Símbolo de moeda por omissão"
 
@@ -1347,9 +1287,8 @@ msgid "Set the default currency symbol for event costs. Note that this only impa
 msgstr "Define o símbolo de moeda por omissão para custos de eventos. Note que esta opção só irá ser aplicada em eventos futuros, e não tem efeitos retroactivos."
 
 #: src/admin-views/tribe-options-general.php:136
-#, fuzzy
 msgid "Currency symbol follows value"
-msgstr "Símbolo da moeda"
+msgstr "Símbolo de moeda a seguir ao valor"
 
 #: src/admin-views/tribe-options-general.php:137
 #, fuzzy
@@ -1357,12 +1296,10 @@ msgid "The currency symbol normally precedes the value. Enabling this option pos
 msgstr "O símbolo da moeda normalmente precede o valor. Se habilitar esta opção o símbolo será apresentado após o valor."
 
 #: src/admin-views/tribe-options-general.php:175
-#, fuzzy
 msgid "Map Settings"
 msgstr "Definições de mapas"
 
 #: src/admin-views/tribe-options-general.php:179
-#, fuzzy
 msgid "Enable Google Maps"
 msgstr "Activar Google Maps"
 
@@ -1382,7 +1319,6 @@ msgid "0 = zoomed out; 21 = zoomed in."
 msgstr "0 = Zoom out; 21 = Zoom in."
 
 #: src/admin-views/tribe-options-general.php:148
-#, fuzzy
 msgid "Miscellaneous Settings"
 msgstr "Definições várias"
 
@@ -1418,9 +1354,8 @@ msgstr "Visitar a página que lhe foi mostrada quando actualizou o plugin."
 
 #: common/src/admin-views/tribe-options-general.php:58
 #: vendor/tickets/common/src/admin-views/tribe-options-general.php:58
-#, fuzzy
 msgid "Debug mode"
-msgstr "Modo de debug"
+msgstr "Modo de depuração"
 
 #: common/src/admin-views/tribe-options-general.php:64
 #: vendor/tickets/common/src/admin-views/tribe-options-general.php:64
@@ -1443,7 +1378,6 @@ msgstr "N/D "
 
 #: common/src/Tribe/Admin/Help_Page.php:402
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:402
-#, fuzzy
 msgid "You need to upgrade!"
 msgstr "Precisa de actualizar!"
 
@@ -1451,7 +1385,6 @@ msgstr "Precisa de actualizar!"
 #: common/src/Tribe/Admin/Help_Page.php:777
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:402
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:777
-#, fuzzy
 msgid "You are up to date!"
 msgstr "Está actualizado!"
 
@@ -1463,25 +1396,21 @@ msgstr "Calendário de Eventos PRO"
 
 #: common/src/admin-views/tribe-options-help.php:63
 #: vendor/tickets/common/src/admin-views/tribe-options-help.php:63
-#, fuzzy
 msgid "More..."
 msgstr "Mais..."
 
 #: common/src/Tribe/Admin/Help_Page.php:808
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:808
-#, fuzzy
 msgid "Latest Version:"
 msgstr "Última versão:"
 
 #: common/src/Tribe/Admin/Help_Page.php:811
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:811
-#, fuzzy
 msgid "Requires:"
 msgstr "Requer:"
 
 #: common/src/Tribe/Admin/Help_Page.php:812
 #: vendor/tickets/common/src/Tribe/Admin/Help_Page.php:812
-#, fuzzy
 msgid "WordPress "
 msgstr "WordPress "
 
@@ -1493,9 +1422,8 @@ msgstr "Extensões Premium"
 
 #: common/src/admin-views/tribe-options-help.php:57
 #: vendor/tickets/common/src/admin-views/tribe-options-help.php:57
-#, fuzzy
 msgid "News and Tutorials"
-msgstr "Notícias e Tutoriais"
+msgstr "Notícias e tutoriais"
 
 #: common/src/admin-views/tribe-options-licenses.php:13
 #: vendor/tickets/common/src/admin-views/tribe-options-licenses.php:13
@@ -1509,9 +1437,8 @@ msgstr ""
 
 #: common/src/admin-views/tribe-options-network.php:15
 #: vendor/tickets/common/src/admin-views/tribe-options-network.php:15
-#, fuzzy
 msgid "Network Settings"
-msgstr "Definições de Rede"
+msgstr "Definições de rede"
 
 #: common/src/admin-views/tribe-options-network.php:19
 #: vendor/tickets/common/src/admin-views/tribe-options-network.php:19
@@ -1546,7 +1473,6 @@ msgid "Timezone Settings"
 msgstr "Definições de fuso horário"
 
 #: src/admin-views/tribe-options-timezones.php:38
-#, fuzzy
 msgid "Timezone mode"
 msgstr "Modo de fuso horário"
 
@@ -1561,7 +1487,6 @@ msgid "Use the sitewide timezone everywhere"
 msgstr "Utilize o fuso horário do site em todo o lado"
 
 #: src/admin-views/tribe-options-timezones.php:48
-#, fuzzy
 msgid "Show timezone"
 msgstr "Mostrar fuso horário"
 
@@ -1572,13 +1497,11 @@ msgstr "Anexa o fuso horário ao fim da informação da marcação de evento &nd
 
 #: src/admin-views/create-venue-fields.php:12
 #: src/admin-views/venue-meta-box.php:41
-#, fuzzy
 msgid "City:"
 msgstr "Cidade:"
 
 #: src/admin-views/create-venue-fields.php:19
 #: src/admin-views/venue-meta-box.php:48
-#, fuzzy
 msgid "Country:"
 msgstr "País:"
 
@@ -1622,7 +1545,6 @@ msgid "Title:"
 msgstr "Título:"
 
 #: src/admin-views/widget-admin-list.php:18
-#, fuzzy
 msgid "Show:"
 msgstr "Mostrar:"
 
@@ -1633,7 +1555,6 @@ msgstr "Mostrar widget apenas se houver eventos futuros:"
 
 #: src/functions/advanced-functions/meta_registration.php:16
 #: src/views/modules/meta/details.php:55
-#, fuzzy
 msgid "Details"
 msgstr "Detalhes"
 
@@ -1657,19 +1578,16 @@ msgid "The function needs to be passed an $event or used in the loop."
 msgstr ""
 
 #: src/functions/template-tags/day.php:110
-#, fuzzy
 msgid "Yesterday"
 msgstr "Ontem"
 
 #: src/functions/template-tags/day.php:112
-#, fuzzy
 msgid "Tomorrow"
 msgstr "Amanhã"
 
 #: src/functions/template-tags/deprecated.php:1299
-#, fuzzy
 msgid "Category"
-msgstr "Categoria:"
+msgstr "Categoria"
 
 #. translators: %s is the singular translation of "Event"
 #: src/functions/template-tags/general.php:379
@@ -1681,7 +1599,6 @@ msgstr[0] "%s Categoria"
 msgstr[1] "%s Categorias"
 
 #: src/functions/template-tags/general.php:418
-#, fuzzy
 msgid "Tags:"
 msgstr "Etiquetas:"
 
@@ -1757,57 +1674,46 @@ msgid "Columns have been mapped based on your last import. Please ensure the sel
 msgstr "As colunas foram mapeadas com base na sua última importação . Por favor, verifique se os campos selecionados correspondem às colunas no seu arquivo CSV."
 
 #: src/io/csv/admin-views/columns.php:32
-#, fuzzy
 msgid "Column Headings"
 msgstr "Cabeçalhos das colunas"
 
 #: src/io/csv/admin-views/columns.php:33
-#, fuzzy
 msgid "Event Fields"
 msgstr "Campos do evento"
 
 #: src/io/csv/admin-views/columns.php:44
-#, fuzzy
 msgid "Perform Import"
 msgstr "Importar"
 
 #: src/io/csv/admin-views/general.php:10
-#, fuzzy
 msgid "Instructions"
 msgstr "Instruções"
 
 #: src/Tribe/Importer/Admin_Page.php:229
-#, fuzzy
 msgid "Import Settings"
-msgstr "Importar configurações"
+msgstr "Importar definições"
 
 #: src/Tribe/Importer/Options.php:133
-#, fuzzy
 msgid "Published"
 msgstr "Publicado"
 
 #: src/Tribe/Importer/Options.php:134
-#, fuzzy
 msgid "Pending"
 msgstr "Pendente"
 
 #: src/Tribe/Importer/Options.php:135
-#, fuzzy
 msgid "Draft"
 msgstr "Rascunho"
 
 #: src/io/csv/admin-views/general.php:54
-#, fuzzy
 msgid "Save Settings"
 msgstr "Guardar definições"
 
 #: src/io/csv/admin-views/header.php:17
-#, fuzzy
 msgid "Events Import"
 msgstr "Importação de eventos"
 
 #: src/io/csv/admin-views/import.php:17
-#, fuzzy
 msgid "Import Instructions"
 msgstr "Instruções de importação"
 
@@ -1852,12 +1758,10 @@ msgid "One column in your CSV should have the Event title. Another should have t
 msgstr "Uma coluna do seu ficheiro CSV deveria ser a do título do evento. Outra deveria ser a da data de início do evento. Todos os outros campos são opcionais. "
 
 #: src/io/csv/admin-views/import.php:43
-#, fuzzy
 msgid "Import Type:"
-msgstr "Tipo de Importação:"
+msgstr "Tipo de importação:"
 
 #: src/io/csv/admin-views/import.php:55
-#, fuzzy
 msgid "CSV File:"
 msgstr "Ficheiro CSV:"
 
@@ -1867,7 +1771,6 @@ msgid "This file has column names in the first row"
 msgstr "Este ficheiro tem nomes de colunas na primeira linha"
 
 #: src/io/csv/admin-views/import.php:78
-#, fuzzy
 msgid "Import CSV File"
 msgstr "Importar ficheiro CSV"
 
@@ -1877,9 +1780,8 @@ msgid "Import Result"
 msgstr "Resultado da Importação"
 
 #: src/io/csv/admin-views/result.php:16
-#, fuzzy
 msgid "Import complete!"
-msgstr "Importação completa!"
+msgstr "Importação concluída!"
 
 #: src/io/csv/admin-views/result.php:18
 #, fuzzy
@@ -1887,7 +1789,6 @@ msgid "Inserted: %d"
 msgstr "Inseridos: %d"
 
 #: src/io/csv/admin-views/result.php:19
-#, fuzzy
 msgid "Updated: %d"
 msgstr "Actualizados: %d"
 
@@ -1922,7 +1823,6 @@ msgid "%s List Navigation"
 msgstr "%s Lista de Navegação"
 
 #: src/views/modules/bar.php:30 src/views/modules/bar.php:61
-#, fuzzy
 msgid "Find %s"
 msgstr "Pesquisar %s"
 
@@ -1932,7 +1832,6 @@ msgid "Event Views Navigation"
 msgstr "Navegação de eventos"
 
 #: src/views/modules/bar.php:38
-#, fuzzy
 msgid "View As"
 msgstr "Ver como"
 
@@ -1952,17 +1851,14 @@ msgid "%s Navigation"
 msgstr "%s Navegação"
 
 #: vendor/tickets/src/views/tickets/attendees-email.php:24
-#, fuzzy
 msgid "Attendee List"
 msgstr "Lista de participantes"
 
 #: vendor/tickets/src/views/tickets/email.php:26
-#, fuzzy
 msgid "Your tickets"
 msgstr "Os seus bilhetes"
 
 #: vendor/tickets/src/views/tickets/email.php:336
-#, fuzzy
 msgid "Ticket Type"
 msgstr "Tipo de bilhete"
 
@@ -1972,12 +1868,10 @@ msgid "Purchaser"
 msgstr "Comprador"
 
 #: src/views/widgets/list-widget.php:67
-#, fuzzy
 msgid "View All %s"
 msgstr "Ver todos %s"
 
 #: src/views/widgets/list-widget.php:73
-#, fuzzy
 msgid "There are no upcoming %s at this time."
 msgstr "Não exitem %s agendados de momento."
 
@@ -2715,32 +2609,26 @@ msgid "Add to Google Calendar"
 msgstr "Adicionar aos calendários Google"
 
 #: src/Tribe/iCal.php:76
-#, fuzzy
 msgid "Google Calendar"
 msgstr "Calendário Google"
 
 #: src/Tribe/iCal.php:77
-#, fuzzy
 msgid "Download .ics file"
-msgstr "Download ficheiro .ics"
+msgstr "Descarregar ficheiro .ics"
 
 #: src/Tribe/iCal.php:77
-#, fuzzy
 msgid "iCal Export"
 msgstr "Exportar iCal"
 
 #: src/Tribe/iCal.php:107
-#, fuzzy
 msgid "Month's %s"
 msgstr "%s do mês"
 
 #: src/Tribe/iCal.php:110
-#, fuzzy
 msgid "Week's %s"
 msgstr "%s da semana"
 
 #: src/Tribe/iCal.php:113
-#, fuzzy
 msgid "Day's %s"
 msgstr "%s do dia"
 
@@ -3440,7 +3328,6 @@ msgid "Finding your calendar."
 msgstr "Encontre o seu calendário."
 
 #: src/admin-views/tribe-options-general.php:22
-#, fuzzy
 msgid "Where's my calendar?"
 msgstr "Onde está o meu calendário?"
 
@@ -3953,14 +3840,12 @@ msgid "Set as ticket header"
 msgstr "Definir como cabeçalho do bilhete"
 
 #: vendor/tickets/src/Tribe/Tickets.php:379
-#, fuzzy
 msgid "Your ticket has been saved."
 msgstr "O seu bilhete foi guardado."
 
 #: vendor/tickets/src/Tribe/Tickets.php:539
-#, fuzzy
 msgid "Your ticket has been deleted."
-msgstr "O seu bilhete foi apagado."
+msgstr "O seu bilhete foi eliminado."
 
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:77
 #: vendor/tickets/src/admin-views/list.php:81
@@ -3996,7 +3881,6 @@ msgid "You can use Screen Options to select which columns you want to see. The s
 msgstr "Pode usar as opções de ecrã para selecionar que colunas pretende usar. A seleção funciona na tabela abaixo, no email, a imprimir e para exportar o CSV."
 
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:311
-#, fuzzy
 msgid "Yes"
 msgstr "Sim"
 
@@ -5745,29 +5629,24 @@ msgid "tag"
 msgstr "tag"
 
 #: src/Tribe/Main.php:1472 src/Tribe/Organizer.php:67 src/Tribe/Venue.php:73
-#, fuzzy
 msgid "Add New"
 msgstr "Adicionar novo"
 
 #: src/Tribe/Main.php:1473 src/Tribe/Main.php:1604 src/Tribe/Main.php:1605
 #: src/Tribe/Organizer.php:68 src/Tribe/Venue.php:74
-#, fuzzy
 msgid "Add New %s"
-msgstr "Adicionar Novo %s"
+msgstr "Adicionar novo %s"
 
 #: src/Tribe/Main.php:1475 src/Tribe/Organizer.php:70 src/Tribe/Venue.php:76
-#, fuzzy
 msgid "New %s"
 msgstr "Novo %s"
 
 #: src/Tribe/Main.php:1476 src/Tribe/Organizer.php:71 src/Tribe/Venue.php:77
 #: vendor/tickets/src/views/tickets/orders.php:26
-#, fuzzy
 msgid "View %s"
 msgstr "Ver %s"
 
 #: src/Tribe/Main.php:1477 src/Tribe/Organizer.php:72 src/Tribe/Venue.php:78
-#, fuzzy
 msgid "Search %s"
 msgstr "Pesquisar %s"
 
@@ -5782,7 +5661,6 @@ msgid "No %s found in Trash"
 msgstr "Nenhum %s encontrado no Lixo."
 
 #: src/Tribe/Main.php:1489
-#, fuzzy
 msgid "%s Category"
 msgstr "Categoria de %s"
 
@@ -5792,9 +5670,8 @@ msgid "Search %s Categories"
 msgstr "Pesquisar Categorias de %s "
 
 #: src/Tribe/Main.php:1491
-#, fuzzy
 msgid "All %s Categories"
-msgstr "Todas %s Categorias"
+msgstr "Todas as categorias de %s"
 
 #: src/Tribe/Main.php:1492
 #, fuzzy
@@ -5849,7 +5726,6 @@ msgid "%1$s restored to revision from %2$s"
 msgstr "%1$s restaurado para revisão de %2$s"
 
 #: src/Tribe/Main.php:1529 src/Tribe/Main.php:1562 src/Tribe/Main.php:1582
-#, fuzzy
 msgid "%s saved."
 msgstr "%s guardado."
 
@@ -5866,19 +5742,17 @@ msgid "%s restored to revision from %s"
 msgstr "%s recuperado para revisão de %s"
 
 #: src/Tribe/Main.php:1561 src/Tribe/Main.php:1581
-#, fuzzy
 msgid "%s published."
 msgstr "%s publicado."
 
 #: src/Tribe/Main.php:1563 src/Tribe/Main.php:1583
-#, fuzzy
 msgid "%s submitted."
 msgstr "%s submetido."
 
 #: src/Tribe/Main.php:1570 src/Tribe/Main.php:1590
 #, fuzzy
 msgid "%s draft updated."
-msgstr "%s rascunho actualizado."
+msgstr "Rascunho de %s actualizado."
 
 #: src/Tribe/Linked_Posts.php:780
 #, fuzzy
@@ -5886,9 +5760,8 @@ msgid "Use New %s"
 msgstr "Usar %s Novo"
 
 #: src/Tribe/Linked_Posts.php:784
-#, fuzzy
 msgid "My %s"
-msgstr "Meu %s"
+msgstr "O meu %s"
 
 #: src/Tribe/Linked_Posts.php:814
 #, fuzzy
@@ -5912,33 +5785,27 @@ msgstr "Anterior"
 
 #: src/Tribe/Asset/Bootstrap_Datepicker.php:20 src/Tribe/Main.php:1876
 #: src/functions/template-tags/day.php:104
-#, fuzzy
 msgid "Today"
 msgstr "Hoje"
 
 #: src/Tribe/Main.php:1877
-#, fuzzy
 msgid "Done"
-msgstr "Feito"
+msgstr "Concluído"
 
 #: common/src/Tribe/Settings_Manager.php:229
 #: vendor/tickets/common/src/Tribe/Settings_Manager.php:229
-#, fuzzy
 msgid "Network"
 msgstr "Rede"
 
 #: src/Tribe/Main.php:2267
-#, fuzzy
 msgid "page"
 msgstr "página"
 
 #: src/Tribe/Main.php:2268 src/functions/template-tags/general.php:69
-#, fuzzy
 msgid "event"
 msgstr "evento"
 
 #: src/Tribe/Main.php:2269 src/functions/template-tags/general.php:91
-#, fuzzy
 msgid "events"
 msgstr "eventos"
 
@@ -5965,17 +5832,14 @@ msgid "%s Information"
 msgstr "%s Informação"
 
 #: src/Tribe/Main.php:3918
-#, fuzzy
 msgid "Support"
 msgstr "Suporte"
 
 #: src/Tribe/Main.php:3921
-#, fuzzy
 msgid "View All Add-Ons"
-msgstr "Ver todos os Add-Ons"
+msgstr "Ver todos os add-ons"
 
 #: src/Tribe/Main.php:3941
-#, fuzzy
 msgid "News from Modern Tribe"
 msgstr "Notícias da Modern Tribe"
 
