@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Events Calendar\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-06-30 00:16+0100\n"
+"PO-Revision-Date: 2016-06-30 00:28+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: WP-Portugal\n"
 "Language: pt_PT\n"
@@ -4965,7 +4965,7 @@ msgstr "Estados Unidos"
 
 #: src/Tribe/Activation_Page.php:38
 msgid "Go to plugins page"
-msgstr "Ir para página de plugins"
+msgstr "Ir para a página de plugins"
 
 #: src/Tribe/Activation_Page.php:38
 msgid "Return to Plugins page"
