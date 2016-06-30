@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Events Calendar\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-06-30 11:04+0100\n"
-"Last-Translator: Alvaro Gois dos Santos <alvarogois@ovni.org>\n"
+"PO-Revision-Date: 2016-06-30 15:13+0100\n"
+"Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: WP-Portugal\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -524,9 +524,8 @@ msgid "Sales by Ticket"
 msgstr "Vendas por Bilhete"
 
 #: vendor/tickets/src/admin-views/attendees.php:67
-#, fuzzy
 msgid "Edit Ticket"
-msgstr "Editar Bilhete"
+msgstr "Editar bilhete"
 
 #: vendor/tickets/src/admin-views/attendees.php:78
 #, fuzzy
@@ -699,7 +698,6 @@ msgid "Error when sending the email"
 msgstr "Erro ao enviar email"
 
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:450
-#, fuzzy
 msgid "Email sent successfully!"
 msgstr "Email enviado com sucesso!"
 
@@ -918,9 +916,8 @@ msgid "Customizing the Events plugins"
 msgstr "Personalizar os plugins de Eventos"
 
 #: src/Tribe/Main.php:625
-#, fuzzy
 msgid "Events Tickets"
-msgstr "Bilhetes de Eventos"
+msgstr "Bilhetes de eventos"
 
 #: src/Tribe/Main.php:626
 msgid "If you have tried the above steps and are still having trouble, you can post a new thread to our WordPress.org forums for %1$s or %2$s. Our support staff monitors these forums once a week and would be happy to assist you there. "
@@ -933,9 +930,8 @@ msgid "premium support on our website"
 msgstr "suporte premium no nosso site"
 
 #: src/Tribe/Importer/Admin_Page.php:80
-#, fuzzy
 msgid "CSV Import Settings"
-msgstr "Opções de Importação CSV"
+msgstr "Definições de importação CSV"
 
 #: src/Tribe/Importer/Admin_Page.php:88
 #, fuzzy
@@ -1453,9 +1449,8 @@ msgid "Hide the following settings tabs on every site:"
 msgstr "Esconder estes separadores de definições em todos os sites:"
 
 #: src/admin-views/tribe-options-timezones.php:7
-#, fuzzy
 msgid "Enable timezone support"
-msgstr "Activar suporte de fuso horário"
+msgstr "Activar suporte para fuso horário"
 
 #: src/admin-views/tribe-options-timezones.php:9
 #, fuzzy
@@ -1662,7 +1657,6 @@ msgid "You %1$scannot%2$s use the same slug as above. The above should ideally b
 msgstr "%1$sNão pode%2$s usar a mesma slug que é usada acima. A slug acima deverá idealmente ser plural, e esta singular. %3$sO URL do seu evento individual será: %4$s"
 
 #: src/io/csv/admin-views/columns.php:22
-#, fuzzy
 msgid "Column Mapping: %s"
 msgstr "Mapeamento de colunas: %s"
 
@@ -2291,25 +2285,21 @@ msgstr "Zimbabwe"
 
 #: common/src/Tribe/View_Helpers.php:316
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:316
-#, fuzzy
 msgid "Alabama"
 msgstr "Alabama"
 
 #: common/src/Tribe/View_Helpers.php:317
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:317
-#, fuzzy
 msgid "Alaska"
-msgstr "Alaska"
+msgstr "Alasca"
 
 #: common/src/Tribe/View_Helpers.php:318
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:318
-#, fuzzy
 msgid "Arizona"
 msgstr "Arizona"
 
 #: common/src/Tribe/View_Helpers.php:319
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:319
-#, fuzzy
 msgid "Arkansas"
 msgstr "Arkansas"
 
@@ -2856,9 +2846,8 @@ msgid "%s Cost"
 msgstr "Custo de %s"
 
 #: src/admin-views/events-meta-box.php:189
-#, fuzzy
 msgid "Currency Symbol:"
-msgstr "Símbolo de Moeda"
+msgstr "Símbolo de moeda:"
 
 #: src/admin-views/events-meta-box.php:204
 #, fuzzy
@@ -2921,9 +2910,8 @@ msgstr "Site:"
 #: src/admin-views/organizer-meta-box.php:43
 #: src/functions/advanced-functions/meta_registration.php:254
 #: src/views/modules/meta/organizer.php:53
-#, fuzzy
 msgid "Email:"
-msgstr "E-mail:"
+msgstr "Email:"
 
 #: src/admin-views/linked-post-meta-box.php:49
 #: src/admin-views/organizer-meta-box.php:75
@@ -2932,9 +2920,8 @@ msgid "%s Name Already Exists"
 msgstr "O nome %s já existe"
 
 #: vendor/tickets/src/admin-views/attendees.php:33
-#, fuzzy
 msgid "Event Details"
-msgstr "Detalhes do Evento"
+msgstr "Detalhes do evento"
 
 #: src/Tribe/Event_Tickets/Attendees_Report.php:49
 #, fuzzy
@@ -2989,17 +2976,14 @@ msgid "or"
 msgstr "ou"
 
 #: vendor/tickets/src/admin-views/attendees-email.php:22
-#, fuzzy
 msgid "Email Address:"
-msgstr "Endereço de Email:"
+msgstr "Endereço de email:"
 
 #: vendor/tickets/src/admin-views/list.php:33
-#, fuzzy
 msgid "Edit"
 msgstr "Editar"
 
 #: vendor/tickets/src/admin-views/list.php:52
-#, fuzzy
 msgid "Edit in %s"
 msgstr "Editar em %s"
 
@@ -3046,9 +3030,8 @@ msgid "Add new ticket"
 msgstr "Adicionar novo bilhete"
 
 #: vendor/tickets/src/admin-views/meta-box.php:123
-#, fuzzy
 msgid "Edit ticket"
-msgstr "Editar Bilhete"
+msgstr "Editar bilhete"
 
 #: vendor/tickets/src/admin-views/meta-box.php:128
 #, fuzzy
@@ -3172,7 +3155,6 @@ msgid "Choose a page template to control the appearance of your calendar and eve
 msgstr "Escolha um template de página para controlar a aparência do seu calendário e do conteúdo do evento."
 
 #: src/admin-views/tribe-options-display.php:161
-#, fuzzy
 msgid "Enable event views"
 msgstr "Activar vistas de evento"
 
@@ -3187,9 +3169,8 @@ msgid "Default view"
 msgstr "Visualização padrão"
 
 #: src/admin-views/tribe-options-display.php:177
-#, fuzzy
 msgid "Disable the Event Search Bar"
-msgstr "Desativar a Barra da Pesquisa de Eventos"
+msgstr "Desactivar a barra da pesquisa de eventos"
 
 #: src/admin-views/tribe-options-display.php:178
 #, fuzzy
@@ -3218,9 +3199,8 @@ msgstr "Active esta opção para armazenar em cache o HTML da visualização por
 
 #: common/src/admin-views/tribe-options-display.php:22
 #: vendor/tickets/common/src/admin-views/tribe-options-display.php:22
-#, fuzzy
 msgid "Date Format Settings"
-msgstr "Definições do Formato da Data"
+msgstr "Definições do formato da data"
 
 #: common/src/admin-views/tribe-options-display.php:26
 #: vendor/tickets/common/src/admin-views/tribe-options-display.php:26
@@ -3229,12 +3209,10 @@ msgid "<p>The following three fields accept the date format options available to
 msgstr "<p>Os três campos seguintes aceitam o formato da data disponíveis na função php date(). <a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\">Aprenda como fazer o seu próprio formato aqui</a>.</p>"
 
 #: src/admin-views/tribe-options-display.php:67
-#, fuzzy
 msgid "Date with year"
 msgstr "Data com ano"
 
 #: src/admin-views/tribe-options-display.php:90
-#, fuzzy
 msgid "Date without year"
 msgstr "Data sem ano"
 
@@ -3254,7 +3232,6 @@ msgid "Enter the format to use for dates that show a month and year only. Used o
 msgstr "Insira o formato a utilizar em datas que mostram apenas o mês e o ano. Utilizado na vista mensal."
 
 #: src/admin-views/tribe-options-display.php:75
-#, fuzzy
 msgid "Date time separator"
 msgstr "Separador data hora"
 
@@ -3275,9 +3252,8 @@ msgstr "Insira o separador que será utilizado entre a hora de início e a hora 
 
 #: common/src/admin-views/tribe-options-display.php:30
 #: vendor/tickets/common/src/admin-views/tribe-options-display.php:30
-#, fuzzy
 msgid "Datepicker Date Format"
-msgstr "Datepicker Formato da Data"
+msgstr "Formato da selecção de data"
 
 #: common/src/admin-views/tribe-options-display.php:31
 #: vendor/tickets/common/src/admin-views/tribe-options-display.php:31
@@ -3402,9 +3378,8 @@ msgid "Show comments"
 msgstr "Mostrar comentários"
 
 #: src/admin-views/tribe-options-general.php:54
-#, fuzzy
 msgid "Enable comments on event pages."
-msgstr "Ativar comenários nas páginas de Eventos"
+msgstr "Activar comentários nas páginas de eventos."
 
 #: src/admin-views/tribe-options-general.php:60
 #, fuzzy
@@ -3479,7 +3454,6 @@ msgstr "Adicionar %s"
 
 #: src/Tribe/Admin/Bar/Default_Configurator.php:79
 #: src/Tribe/Importer/Admin_Page.php:230
-#, fuzzy
 msgid "CSV"
 msgstr "CSV"
 
@@ -3491,7 +3465,6 @@ msgid "Settings"
 msgstr "Configurações"
 
 #: src/Tribe/Main.php:4094
-#, fuzzy
 msgid "Calendar"
 msgstr "Calendário"
 
@@ -3506,7 +3479,6 @@ msgid "Month"
 msgstr "Mês"
 
 #: src/Tribe/Main.php:4190
-#, fuzzy
 msgid "Day"
 msgstr "Dia"
 
@@ -3516,7 +3488,6 @@ msgid "Search"
 msgstr "Pesquisar"
 
 #: src/Tribe/Main.php:4240 src/Tribe/Main.php:4256
-#, fuzzy
 msgid "Date"
 msgstr "Data"
 
@@ -3541,7 +3512,6 @@ msgid "Once Every 30 Mins"
 msgstr "A cada 30 Mins"
 
 #: src/Tribe/Options_Exception.php:19 src/Tribe/Post_Exception.php:22
-#, fuzzy
 msgid "Error"
 msgstr "Erro"
 
@@ -3590,9 +3560,8 @@ msgstr "Ups.. alguma coisa correu mal com esta validação. Por favor contacte o
 #: common/src/Tribe/Settings.php:214 common/src/Tribe/Settings.php:235
 #: vendor/tickets/common/src/Tribe/Settings.php:213
 #: vendor/tickets/common/src/Tribe/Settings.php:234
-#, fuzzy
 msgid "Events Settings"
-msgstr "Definiçoes de Eventos"
+msgstr "Definições de eventos"
 
 #: common/src/Tribe/Settings.php:300
 #: vendor/tickets/common/src/Tribe/Settings.php:299
@@ -3790,7 +3759,6 @@ msgstr "Imprimir"
 
 #: vendor/tickets/src/Tribe/Attendees_Table.php:329
 #: vendor/tickets/src/views/tickets/rsvp.php:118
-#, fuzzy
 msgid "Email"
 msgstr "Email"
 
@@ -3806,9 +3774,8 @@ msgstr "Filtar pelo nome do comprador,bilhete #, encomenda # ou código de segur
 
 #: vendor/tickets/src/Tribe/Attendees_Table.php:357
 #: vendor/tickets/src/admin-views/list.php:43
-#, fuzzy
 msgid "Delete"
-msgstr "Apagar"
+msgstr "Eliminar"
 
 #: src/admin-views/admin-update-message.php:52
 #: vendor/tickets/src/Tribe/Admin/Ticket_Settings.php:22
@@ -3845,7 +3812,6 @@ msgstr "Ver quem comprou bilhetes para este evento"
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:77
 #: vendor/tickets/src/admin-views/attendees.php:26
 #: vendor/tickets/src/admin-views/list.php:83
-#, fuzzy
 msgid "Attendees"
 msgstr "Participantes"
 
@@ -3860,7 +3826,6 @@ msgid "Sending..."
 msgstr "A enviar..."
 
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:158
-#, fuzzy
 msgid "Columns"
 msgstr "Colunas"
 
@@ -3874,7 +3839,6 @@ msgid "Yes"
 msgstr "Sim"
 
 #: vendor/tickets/src/Tribe/Tickets_Handler.php:340
-#, fuzzy
 msgid "attendees"
 msgstr "participantes"
 
@@ -4246,13 +4210,11 @@ msgstr "Chad"
 
 #: common/src/Tribe/View_Helpers.php:89
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:89
-#, fuzzy
 msgid "Chile"
 msgstr "Chile"
 
 #: common/src/Tribe/View_Helpers.php:90
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:90
-#, fuzzy
 msgid "China"
 msgstr "China"
 
@@ -4270,9 +4232,8 @@ msgstr "Cocos (Keeling) Islands"
 
 #: common/src/Tribe/View_Helpers.php:93
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:93
-#, fuzzy
 msgid "Colombia"
-msgstr "Colombia"
+msgstr "Colômbia"
 
 #: common/src/Tribe/View_Helpers.php:94
 #: vendor/tickets/common/src/Tribe/View_Helpers.php:94
@@ -4997,7 +4958,6 @@ msgstr "<a href=\"%s\">Editar o slug da página</a>"
 
 #: common/src/Tribe/Admin/Notice/Archive_Slug_Conflict.php:89
 #: vendor/tickets/common/src/Tribe/Admin/Notice/Archive_Slug_Conflict.php:89
-#, fuzzy
 msgid "Ask the site administrator to edit the page slug"
 msgstr "Solicitar ao administrador do site para editar a slug da página."
 
@@ -5227,9 +5187,8 @@ msgid "Event Tags"
 msgstr "Tags de evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:82
-#, fuzzy
 msgid "Event Website"
-msgstr "Site do evento"
+msgstr "Website do evento"
 
 #: src/Tribe/Importer/Column_Mapper.php:98
 #, fuzzy
@@ -5326,9 +5285,8 @@ msgid "Temporary file not found. Could not save %s."
 msgstr "Ficheiro temporário não encontrado. Sem poder guardar %s."
 
 #: src/Tribe/Importer/File_Uploader.php:36
-#, fuzzy
 msgid "Could not save %s."
-msgstr "Sem poder guardar %s."
+msgstr "Não foi possível guardar %s."
 
 #: common/src/Tribe/Settings.php:583 src/Tribe/Importer/Options.php:54
 #: vendor/tickets/common/src/Tribe/Settings.php:585
@@ -5337,14 +5295,12 @@ msgid "Settings saved."
 msgstr "Definições guardadas."
 
 #: src/Tribe/List_Widget.php:30
-#, fuzzy
 msgid "A widget that displays upcoming events."
-msgstr "Um widget que mostra os próximos eventos"
+msgstr "Um widget que mostra os próximos eventos."
 
 #: src/Tribe/List_Widget.php:38
-#, fuzzy
 msgid "Events List"
-msgstr "Lista de Eventos"
+msgstr "Lista de eventos"
 
 #: src/Tribe/List_Widget.php:186
 msgid "Upcoming Events"
@@ -5531,9 +5487,8 @@ msgid "Parent %s Category:"
 msgstr "Categoria de %s Parent:"
 
 #: src/Tribe/Main.php:1494
-#, fuzzy
 msgid "Edit %s Category"
-msgstr "Editar Categoria de %s"
+msgstr "Editar categoria de %s"
 
 #: src/Tribe/Main.php:1495
 #, fuzzy
@@ -5550,14 +5505,12 @@ msgid "New %s Category Name"
 msgstr "Novo Nome de Categoria de %s"
 
 #: src/Tribe/Main.php:1519 src/Tribe/Main.php:1556 src/Tribe/Main.php:1576
-#, fuzzy
 msgid "Custom field updated."
 msgstr "Campo personalizado actualizado."
 
 #: src/Tribe/Main.php:1520 src/Tribe/Main.php:1557 src/Tribe/Main.php:1577
-#, fuzzy
 msgid "Custom field deleted."
-msgstr "Campo personalizado excluído."
+msgstr "Campo personalizado eliminado."
 
 #: src/Tribe/Main.php:1521 src/Tribe/Main.php:1555 src/Tribe/Main.php:1558
 #: src/Tribe/Main.php:1575 src/Tribe/Main.php:1578
@@ -5663,7 +5616,6 @@ msgstr "todas"
 #: src/Tribe/Main.php:3494 src/Tribe/Main.php:3529
 #: src/functions/template-tags/day.php:157
 #: src/functions/template-tags/day.php:178
-#, fuzzy
 msgid "Date out of range."
 msgstr "Data fora do alcance."
 
