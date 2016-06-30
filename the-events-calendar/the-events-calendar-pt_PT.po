@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Events Calendar\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-06-30 00:28+0100\n"
-"Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
+"PO-Revision-Date: 2016-06-30 11:04+0100\n"
+"Last-Translator: Alvaro Gois dos Santos <alvarogois@ovni.org>\n"
 "Language-Team: WP-Portugal\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -1870,7 +1870,7 @@ msgstr "Ver todos %s"
 
 #: src/views/widgets/list-widget.php:73
 msgid "There are no upcoming %s at this time."
-msgstr "Não exitem %s agendados de momento."
+msgstr "Não existem %s agendados de momento."
 
 #. Description of the plugin/theme
 #, fuzzy
@@ -5307,9 +5307,8 @@ msgid "Missing required fields in row %d."
 msgstr "Falta um campo obrigatório na linha %d."
 
 #: src/Tribe/Importer/File_Importer.php:166
-#, fuzzy
 msgid "Failed to import record in row %d."
-msgstr "Importação sem sucesso da linda %d."
+msgstr "Falha ao importar registo na linha %d."
 
 #: src/Tribe/Importer/File_Importer.php:177
 #, fuzzy
@@ -5696,6 +5695,5 @@ msgid "Additional Functionality"
 msgstr "Funcionalidade adicional"
 
 #: src/Tribe/Main.php:3991
-#, fuzzy
 msgid "Looking for additional functionality including recurring events, ticket sales, publicly submitted events, new views and more?"
-msgstr "Procura por funcionalidade adicionar incluindo eventos recorrentes, venda de bilhetes, eventos enviados publicamente, novas vistas e mais?"
+msgstr "Necessita de mais funcionalidades, incluindo eventos recorrentes, venda de bilhetes, eventos criados pelos utilizadores, novas visualizações…?"
