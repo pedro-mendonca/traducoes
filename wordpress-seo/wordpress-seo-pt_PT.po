@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yoast SEO 3.4.2\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
-"PO-Revision-Date: 2016-09-22 01:44+0100\n"
+"PO-Revision-Date: 2016-09-22 15:28+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -102,7 +102,7 @@ msgstr "Insira facilmente Google Maps, localização de lojas, horário de funci
 
 #: admin/pages/licenses.php:56
 msgid "Improve the usability of your contact page"
-msgstr "Melhorar a usabilidade da página de contacto"
+msgstr "Melhore a usabilidade da página de contacto"
 
 #: admin/pages/licenses.php:68
 msgid "Improve sharing on Pinterest"
@@ -113,15 +113,13 @@ msgid "Use %1$s breadcrumbs instead of %2$s ones"
 msgstr "Use breadcrumbs de %1$s em vez de %2$s"
 
 #: admin/pages/licenses.php:74
-#, fuzzy
 msgid "A seamless integration between %1$s and %2$s"
-msgstr "Uma integração sem mácula entre %1$s e %2$s"
+msgstr "Uma óptima integração entre %1$s e %2$s"
 
 #. translators: %1$s expands to Yoast SEO Premium
 #: admin/pages/licenses.php:125
-#, fuzzy
 msgid "%1$s, take your optimization to the next level!"
-msgstr "%1$s, leva a optimização até um próximo nível!"
+msgstr "%1$s, eleva a optimização a um nível superior!"
 
 #: admin/pages/licenses.php:130
 msgid "Redirect manager"
@@ -136,7 +134,6 @@ msgid "Multiple focus keywords"
 msgstr "Múltiplas palavras-chave principais"
 
 #: admin/pages/licenses.php:135
-#, fuzzy
 msgid "optimize a single post for up to 5 keywords."
 msgstr "optimize um único artigo até 5 palavras-chave."
 
@@ -146,7 +143,7 @@ msgstr "Pré-visualizações das redes sociais"
 
 #: admin/pages/licenses.php:139
 msgid "check what your Facebook or Twitter post will look like."
-msgstr "verificar aparência das publicações no Facebook e Twitter."
+msgstr "verifique a aparência das publicações no Facebook e Twitter."
 
 #: admin/pages/licenses.php:142
 msgid "Premium support"
@@ -154,7 +151,7 @@ msgstr "Suporte Premium"
 
 #: admin/pages/licenses.php:143
 msgid "gain access to our 24/7 support team."
-msgstr "obter acesso à nossa equipa de suporte 24/7."
+msgstr "obtenha acesso à nossa equipa de suporte 24/7."
 
 #: admin/pages/licenses.php:148 admin/pages/licenses.php:199
 msgid "Installed"
@@ -181,7 +178,6 @@ msgstr "Extensões de %1$s"
 
 #. translators: %1$s expands to Yoast SEO extensions
 #: admin/pages/licenses.php:179
-#, fuzzy
 msgid "%1$s to optimize your site even further"
 msgstr "%1$s para optimizar ainda mais o seu site"
 
@@ -499,9 +495,8 @@ msgid "Improvements"
 msgstr "Melhoramentos"
 
 #: admin/views/partial-alerts-warnings.php:10
-#, fuzzy
 msgid "Implement the following suggestions to further optimize your site for SEO."
-msgstr "Implemente as seguintes sugestões para optimizar o SEO do seu site."
+msgstr "Implemente as seguintes sugestões para optimizar o seu site para SEO."
 
 #: admin/views/partial-alerts-warnings.php:11
 msgid "Good job! We found nothing you can improve upon."
@@ -684,7 +679,6 @@ msgid "Format-based archives"
 msgstr "Arquivo baseado no formato"
 
 #: admin/views/tabs/sitemaps/user-sitemap.php:20
-#, fuzzy
 msgid "The user sitemap contains the author archive URLs for every user on your site."
 msgstr "O sitemap de utilizadores contém o URL do arquivo do autor para cada utilizador no site."
 
@@ -697,9 +691,8 @@ msgid "You can choose to not include users without posts."
 msgstr "Pode excluir utilizadores sem conteúdos."
 
 #: admin/views/tabs/social/pinterest.php:15
-#, fuzzy
 msgid "If you have already confirmed your website with Pinterest, you can skip the step below."
-msgstr "Se já confirmou o seu website no Pinterest, pode saltar o passo abaixo."
+msgstr "Se já confirmou o seu site no Pinterest, pode saltar o passo abaixo."
 
 #: admin/views/tabs/social/pinterest.php:21
 msgid "Pinterest confirmation"
@@ -729,9 +722,8 @@ msgid "Help center"
 msgstr "Centro de ajuda"
 
 #: admin/class-pointers.php:287
-#, fuzzy
 msgid "If you have a Google+ page for your business, add that URL here and link it on your %1$sGoogle+%2$s page&#8217;s about page."
-msgstr "Se tiver uma página no Google+ para o seu negócio, adicione o URL aqui e ligue-o à sua página sobre no %1$sGoogle+%2$s."
+msgstr "Se tiver uma página no Google+ para a sua empresa, adicione aqui o URL para estabelecer ligação à página do %1$sGoogle+%2$s sobre a sua empresa."
 
 #: admin/google_search_console/class-gsc-category-filters.php:113
 msgid "Show information about errors in category 'Access Denied'"
@@ -789,13 +781,12 @@ msgstr "Ajuda da análise de conteúdo"
 
 #: admin/views/partial-help-center-video.php:27
 msgid "Need more help?"
-msgstr "Precisa de mais ajuda"
+msgstr "Precisa de mais ajuda?"
 
 #. translators: %s expands to Yoast SEO Premium
 #: admin/views/partial-help-center-video.php:29
-#, fuzzy
 msgid "If you buy %s you'll get access to our support team and bonus features!"
-msgstr "Se comprar %s terá acesso à nossa equipa de suporte e funcionalidades extra!"
+msgstr "Se comprar o %s terá acesso à nossa equipa de suporte e a funcionalidades extra!"
 
 #. translators: %s expands to Yoast SEO
 #: admin/views/partial-help-center-video.php:40
@@ -804,15 +795,13 @@ msgstr "Quer ser um especialista em %s?"
 
 #. translators: %$1s expands to Yoast SEO
 #: admin/views/partial-help-center-video.php:42
-#, fuzzy
 msgid "Follow our %1$s for WordPress training and become a certified %1$s Expert!"
-msgstr "Faça o nosso %1$s para formação WordPress e fique um especialista certificado em %1$s!"
+msgstr "Inscreva-se no nosso curso de %1$s para WordPress e torne-se um especialista certificado em %1$s!"
 
 #. translators: %s expands to Yoast SEO for WordPress
 #: admin/views/partial-help-center-video.php:45
-#, fuzzy
 msgid "Enroll in the %s training &raquo;"
-msgstr "Inscreva-se na formação %s &raquo;"
+msgstr "Inscrever-se no curso %s &raquo;"
 
 #: inc/sitemaps/class-sitemaps-cache-validator.php:267
 #, fuzzy
@@ -966,16 +955,14 @@ msgstr "Inactivo"
 #. translators: 1: opens a link to a related knowledge base article. 2: closes
 #. the link
 #: admin/views/dashboard-widget.php:84
-#, fuzzy
 msgid "Yoast SEO has %1$snot fetched your site’s indexability status%2$s yet from OnPage.org"
-msgstr "Yoast SEO ainda %1$snão carregou o estado de indexação do seu site%2$s de OnPage.org"
+msgstr "O Yoast SEO ainda %1$snão carregou o estado de indexação do seu site%2$s a partir de OnPage.org"
 
 #. translators: 1: opens a link to a related knowledge base article. 2: closes
 #. the link
 #: admin/views/dashboard-widget.php:75
-#, fuzzy
 msgid "Yoast SEO has %1$snot been able to fetch your site’s indexability status%2$s from OnPage.org"
-msgstr "Yoast SEO não %1$sconseguiu verificar o estado de indexação do seu site%2$s no OnPage.org"
+msgstr "O Yoast SEO não %1$sconseguiu carregar o estado de indexação do seu site%2$s a partir de OnPage.org"
 
 #: admin/views/dashboard-widget.php:94
 msgid "Fetch the current status"
@@ -1024,7 +1011,6 @@ msgstr "Metadados do Facebook / Open Graph"
 
 #. translators: %1$s expands to the social network name
 #: admin/taxonomy/class-taxonomy-social-fields.php:46
-#, fuzzy
 msgid "If you don't want to use the title for sharing on %1$s but instead want another title there, write it here."
 msgstr "Caso não pretenda usar o título para partilhar no %1$s, mas sim um alternativo, escreva-o aqui."
 
@@ -1036,9 +1022,8 @@ msgstr "Caso não deseje usar a meta descrição para partilhar no %1$s, e prefi
 
 #. translators: %1$s expands to the social network name
 #: admin/taxonomy/class-taxonomy-social-fields.php:61
-#, fuzzy
 msgid "If you want to use an image for sharing on %1$s, you can upload / choose an image or add the image URL here."
-msgstr "Se quer usar uma imagem para partilhar no %1$s, pode carregar / escolher uma imagem ou adicionar aqui o URL de uma imagem."
+msgstr "Se quiser usar uma imagem para partilhar no %1$s, pode carregar/escolher uma imagem ou adicionar aqui o seu URL."
 
 #: admin/views/about.php:90 admin/views/about.php:95
 msgid "Architect"
@@ -1047,7 +1032,7 @@ msgstr "Arquitecto"
 #. translators: 1: expands to OnPage.org
 #: admin/views/dashboard-widget.php:46
 msgid "Indexability check by %1$s"
-msgstr "Indexação verificada por %1$s"
+msgstr "Verificação de indexação por %1$s"
 
 #: admin/views/dashboard-widget.php:59
 msgid "Your homepage can be indexed by search engines."
@@ -1304,9 +1289,8 @@ msgid "<a href=\"%s\">Did you know you can upgrade your license?</a>"
 msgstr "<a href=\"%s\">Sabia que podia fazer upgrade da sua licença?</a>"
 
 #: vendor/yoast/license-manager/class-license-manager.php:190
-#, fuzzy
 msgid "<a href=\"%s\">Your license is expiring in %d days, would you like to extend it?</a>"
-msgstr "<a href=\"%s\">A sua licença vai terminar dentro de %d dias. Pretende prolongar?</a>"
+msgstr "<a href=\"%s\">A sua licença vai expirar dentro de %d dias. Pretende renovar?</a>"
 
 #: vendor/yoast/license-manager/class-license-manager.php:199
 #, fuzzy
@@ -1464,22 +1448,20 @@ msgstr "Importar e exportar"
 
 #: admin/pages/tools.php:26
 msgid "Import settings from other SEO plugins and export your settings for re-use on (another) blog."
-msgstr "Importe as definições de outros plugins SEO e exporte as suas definições para reutilizar noutro site."
+msgstr "Importe as definições de outros plugins SEO e exporte as suas definições para as reutilizar noutro site."
 
 #: admin/pages/tools.php:31
 msgid "File editor"
 msgstr "Editor de ficheiro"
 
 #: admin/pages/tools.php:32
-#, fuzzy
 msgid "This tool allows you to quickly change important files for your SEO, like your robots.txt and, if you have one, your .htaccess file."
-msgstr "Esta ferramenta permite que altere de forma rápida ficheiros importantes para o seu SEO, como o seu robots.txt e, se tiver, o ficheiro .htaccess."
+msgstr "Esta ferramenta permite-lhe alterar rapidamente ficheiros importantes para o seu SEO, como o ficheiro robots.txt e, se tiver, o ficheiro .htaccess."
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/pages/tools.php:52
-#, fuzzy
 msgid "%1$s comes with some very powerful built-in tools:"
-msgstr "%1$s traz algumas ferramentas poderosas:"
+msgstr "O %1$s inclui algumas ferramentas poderosas:"
 
 #: admin/pages/tools.php:75
 msgid "&laquo; Back to Tools page"
@@ -2350,7 +2332,7 @@ msgstr "Restaurar as definições por omissão"
 #. translators: %s expands to Yoast SEO
 #: admin/views/tabs/dashboard/general.php:49
 msgid "If you want to restore a site to the default %s settings, press this button."
-msgstr "Se pretende repor as definições por omissão de %s, clique neste botão."
+msgstr "Se pretender repor as definições por omissão de %s, clique neste botão."
 
 #: admin/views/tabs/dashboard/general.php:54
 msgid "Are you sure you want to reset your SEO settings?"
@@ -2449,9 +2431,8 @@ msgid "%1$s Extensions"
 msgstr "Extensões de %1$s"
 
 #: admin/pages/licenses.php:230
-#, fuzzy
 msgid "This is where you would enter the license keys for one of our premium plugins, should you activate one."
-msgstr "Aqui é onde deve introduzir as chaves das licenças para um dos nossos premium plugins, se activar um."
+msgstr "Aqui é onde deverá introduzir as chaves das licenças dos nossos plugins premium, caso active algum."
 
 #: admin/pages/metas.php:21 admin/views/tabs/metas/home.php:14
 msgid "Homepage"
@@ -2754,7 +2735,7 @@ msgstr "URL do Google+"
 #. translators: %s expands to <code>&lt;head&gt;</code>
 #: admin/views/tabs/social/facebook.php:20
 msgid "Add Open Graph meta data to your site's %s section, Facebook and other social networks use this data when your pages are shared."
-msgstr "Adicione metadados Open Graph à secção %s do seu site, Facebook e outras redes sociais que usam estes dados quando as sua páginas são partilhadas."
+msgstr "Adicione metadados Open Graph à secção %s do seu site, o Facebook e outras redes sociais usam estes dados quando as sua páginas são partilhadas."
 
 #: admin/views/tabs/social/facebook.php:14
 msgid "Add Open Graph meta data"
@@ -2831,7 +2812,7 @@ msgstr "Editor por lote"
 
 #: admin/pages/tools.php:22
 msgid "This tool allows you to quickly change titles and descriptions of your posts and pages without having to go into the editor for each page."
-msgstr "Esta ferramenta permite-lhe mudar títulos e descrições dos seus conteúdos e páginas sem ter de usar o editor para cada página."
+msgstr "Esta ferramenta permite-lhe alterar títulos e descrições dos seus conteúdos e páginas sem ter de usar o editor para cada página."
 
 #. translators: %s expands to the file path and name.
 #: admin/ajax.php:111
@@ -3314,9 +3295,8 @@ msgid "Canonical URL"
 msgstr "URL canónico"
 
 #: admin/metabox/class-metabox.php:112
-#, fuzzy
 msgid "The canonical URL that this page should point to, leave empty to default to permalink. %sCross domain canonical%s supported too."
-msgstr "O link canónico desta página aponta para (deixe vazio para apontar para o permalink por omissão). %scanínicos cross domain%s também são suportados."
+msgstr "O URL canónico desta página aponta para (deixe vazio para apontar para a ligação permanente por omissão). Também são suportados %sURL canónicos entre domínios%s."
 
 #: admin/metabox/class-metabox.php:114
 msgid "301 Redirect"
@@ -3388,9 +3368,8 @@ msgstr "Razoável"
 
 #. translators: %s expands to the social network's name
 #: admin/class-social-admin.php:34
-#, fuzzy
 msgid "If you don't want to use the post title for sharing the post on %s but instead want another title there, write it here."
-msgstr "Se não quer utilizar o título do artigo para partilhar o artigo no %s e prefere outro título, escreva-o aqui."
+msgstr "Caso não pretenda usar o título do conteúdo para partilhar no %1$s, mas sim um alternativo, escreva-o aqui."
 
 #. translators: %s expands to the social network's name
 #: admin/class-social-admin.php:36
@@ -3400,9 +3379,8 @@ msgstr "Se não quer utilizar a meta descrição para partilhar o artigo no %s e
 
 #. translators: %s expands to the social network's name
 #: admin/class-social-admin.php:38
-#, fuzzy
 msgid "If you want to override the image used on %s for this post, upload / choose an image or add the URL here."
-msgstr "Se quiser substituir a imagem utilizada no %s para este artigo, carregue / escolha uma imagem ou adicione o URL aqui."
+msgstr "Se quiser substituir a imagem utilizada no %s para este conteúdo, pode carregar/escolher uma imagem ou adicionar aqui o seu URL."
 
 #. translators: %1$s expands to the social network, %2$s to the recommended
 #. image size
@@ -3476,9 +3454,8 @@ msgstr "Parabéns!"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-pointers.php:176
-#, fuzzy
 msgid "You&#8217;ve just installed %1$s! Click &#8220;Start Tour&#8221; to view a quick introduction of this plugin&#8217;s core functionality."
-msgstr "Acabou de instalar %1$s! Clique em &#8220;Iniciar a visita guiada&#8221; para ver uma pequena introdução das principais funcionalidades do plugin."
+msgstr "Acabou de instalar o %1$s! Clique em &#8220;Iniciar a visita guiada&#8221; para ver uma pequena introdução das principais funcionalidades do plugin."
 
 #: admin/class-pointers.php:182 admin/views/tabs/dashboard/general.php:21
 msgid "Start Tour"
@@ -3498,34 +3475,28 @@ msgstr "Definições gerais"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-pointers.php:232
-#, fuzzy
 msgid "These are the General settings for %1$s, here you can restart this tour or revert the %1$s settings to default."
-msgstr "Estas são as definições gerais para %1$s, aqui pode reiniciar o guia ou reverter para as definições por defeito do %1$s."
+msgstr "Estas são as definições gerais do %1$s, aqui pode reiniciar este guia ou restaurar as definições por omissão do %1$s."
 
 #: admin/class-pointers.php:233
-#, fuzzy
 msgid "Tab: Your Info / Company Info"
-msgstr "Tab: Os seus dados / Dados da Empresa"
+msgstr "Separador: Informação da empresa"
 
 #: admin/class-pointers.php:233
-#, fuzzy
 msgid "Add some info here needed for Google's Knowledge Graph."
-msgstr "Adicione mais informação necessária para o Google's Knowledge Graph."
+msgstr "Adicione alguma informação necessária para o Knowledge Graph do Google."
 
 #: admin/class-pointers.php:234
-#, fuzzy
 msgid "Tab: Webmaster Tools"
-msgstr "Ferramentas do Programador"
+msgstr "Separador: Ferramentas de webmaster"
 
 #: admin/class-pointers.php:234
-#, fuzzy
 msgid "You can add the verification codes for the different Webmaster Tools programs here. We highly encourage you to check out both Google and Bing&#8217;s Webmaster Tools."
-msgstr "Pode activar aqui códigos diferentes de verificação para as várias ferramentas de webmaster. Encorajamos a utilização das ferramentas do Google e Bing."
+msgstr "Aqui poderá activar códigos diferentes de verificação para as várias ferramentas de webmaster. Encorajamos a utilização das ferramentas de webmaster do Google e Bing."
 
 #: admin/class-pointers.php:235
-#, fuzzy
 msgid "Tab: Security"
-msgstr "Tab: Segurança"
+msgstr "Separador: Segurança"
 
 #: admin/class-pointers.php:235
 msgid "Determine who has access to the plugins advanced settings on the post edit screen."
@@ -3533,9 +3504,8 @@ msgstr "Determine quem tem acesso às definições avançadas do plugin no ecrã
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-pointers.php:238
-#, fuzzy
 msgid "More %1$s"
-msgstr "Mais %1$s"
+msgstr "Mais sobre o %1$s"
 
 #: admin/class-pointers.php:241
 #, fuzzy
@@ -3548,7 +3518,6 @@ msgstr "Subscreva a nossa Newsletter."
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-pointers.php:245
-#, fuzzy
 msgid "If you would like us to keep you up-to-date regarding %1$s and other plugins by Yoast, subscribe to our newsletter:"
 msgstr "Se quiser manter-se actualizado relativamente ao %1$s e outros plugins de Yoast, subscreva a nossa newsletter:"
 
@@ -3580,19 +3549,16 @@ msgid "The first tab will show you site-wide settings for titles, normally you'l
 msgstr "O primeiro separador mostra as definições do site para os títulos, normalmente apenas precisa de alterar o separador Titulo."
 
 #: admin/class-pointers.php:267
-#, fuzzy
 msgid "Templates and settings"
 msgstr "Modelos e definições"
 
 #: admin/class-pointers.php:267
-#, fuzzy
 msgid "Now click on the &#8216;%1$sPost Types%2$s&#8217;-tab, as this will be our example."
-msgstr "Agora carregue no separador &#8216;%1$sPost Types%2$s&#8217;-, pois esse será o nosso exemplo"
+msgstr "Carregue agora no separador &#8216;%1$sTipos de conteúdo%2$s&#8217; para ver o nosso exemplo"
 
 #: admin/class-pointers.php:267
-#, fuzzy
 msgid "The templates are built using variables. You can find all these variables in the help tab (in the top-right corner of the page). The settings allow you to set specific behavior for the post types."
-msgstr "Os modelos são construídos através de variáveis. Pode encontrar todas essas variáveis no separador de ajuda (no canto superior direito da página). As configurações permitem definir determinados comportamentos para os tipos de artigos."
+msgstr "Os modelos são construídos através de variáveis. Pode encontrar todas essas variáveis no separador de ajuda (no canto superior direito da página). As definições permitem escolher comportamentos específicos para os tipos de conteúdo."
 
 #: admin/class-pointers.php:268 admin/pages/metas.php:24
 #: frontend/class-frontend.php:537
@@ -3600,9 +3566,8 @@ msgid "Archives"
 msgstr "Arquivo"
 
 #: admin/class-pointers.php:268
-#, fuzzy
 msgid "On the archives tab you can set templates for specific pages like author archives, search results and more."
-msgstr "No separador arquivos pode definir modelos para cada página especifica, como arquivos de autor, resultados de pesquisa e outros."
+msgstr "No separador Arquivo pode definir modelos para cada página especifica, como arquivo de autor, resultados de pesquisa e outros."
 
 #: admin/class-pointers.php:269
 #: admin/google_search_console/class-gsc-category-filters.php:117
@@ -3616,12 +3581,10 @@ msgid "On the Other tab you can change sitewide meta settings, like enable meta 
 msgstr "No separador Outros pode alterar as definições de metadados para todo o site, tais como permitir palavras-chave meta."
 
 #: admin/class-pointers.php:282
-#, fuzzy
 msgid "Social settings"
-msgstr "Definições Social Media"
+msgstr "Definições de redes sociais"
 
 #: admin/class-pointers.php:283
-#, fuzzy
 msgid "On this tab you can enable the %1$sFacebook Open Graph%2$s functionality from this plugin, as well as assign a Facebook user or Application to be the admin of your site, so you can view the Facebook insights."
 msgstr "Neste separador pode activar a funcionalidade %1$sFacebook Open Graph%2$s para este plugin, bem como definir a aplicação ou utilizador do Facebook para este site, para que possa visualizar as estatísticas do Facebook."
 
@@ -3630,16 +3593,14 @@ msgid "The frontpage settings allow you to set meta-data for your homepage, wher
 msgstr "As definições da página inicial permitem configurar os seus metadados. As definições por omissão são usadas para todos os conteúdos/páginas sem imagens."
 
 #: admin/class-pointers.php:285
-#, fuzzy
 msgid "With %1$sTwitter Cards%2$s, you can attach rich photos, videos and media experience to tweets that drive traffic to your website. Simply check the box, sign up for the service, and users who Tweet links to your content will have a &#8220;Card&#8221; added to the tweet that&#8217;s visible to all of their followers."
-msgstr "Com %1$sTwitter Cards%2$s, pode anexar fotos, vídeos e experiências multimédia aos tweets, aumentando o tráfego para o seu site. Seleccione simplesmente a caixa, registe-se no serviço e os utilizadores que tweetam links para o seu conteúdo terão um &#8220;Card&#8221; adicionado ao tweet, que fica visível para todos os seus seguidores."
+msgstr "Com os %1$sCartões do Twitter%2$s, pode anexar fotos, vídeos e experiências multimédia aos tweets, aumentando o tráfego do seu site. Seleccione simplesmente a caixa, registe-se no serviço e os utilizadores que partilharem no Twitter ligações para o seu conteúdo terão um &#8220;Cartão&#8221; adicionado ao tweet, que fica visível para todos os seus seguidores."
 
 #: admin/class-pointers.php:286 admin/pages/social.php:19
 msgid "Pinterest"
 msgstr "Pinterest"
 
 #: admin/class-pointers.php:286
-#, fuzzy
 msgid "On this tab you can verify your site with Pinterest and enter your Pinterest account."
 msgstr "Neste separador pode verificar o seu site com o Pinterest e introduzir a sua conta."
 
@@ -3656,27 +3617,24 @@ msgid "What does the plugin do with XML Sitemaps?"
 msgstr "O que é que o plugin faz com os sitemaps XML?"
 
 #: admin/class-pointers.php:302
-#, fuzzy
 msgid "This plugin adds XML sitemaps to your site. The sitemaps are automatically updated when you publish a new post, page or custom post and Google and Bing will be automatically notified."
-msgstr "Este plugin adiciona o XML sitemap ao seu site. Este sitemap é automaticamente actualizado quando publica um novo artigo, página ou artigo personalizado. O Google e Bing são automaticamente notificados."
+msgstr "Este plugin adiciona o sitemap XML ao seu site. Este sitemap é actualizado automaticamente quando publica um novo artigo, página ou conteúdo personalizado. O Google e Bing são notificados automaticamente."
 
 #: admin/class-pointers.php:303
 msgid "If you want to exclude certain post types and/or taxonomies, you can also set that on this page."
 msgstr "Se precisar de excluir determinados tipos de conteúdo ou taxonomias (etiquetas/categorias) pode utilizar esta página."
 
 #: admin/class-pointers.php:304
-#, fuzzy
 msgid "Is your webserver low on memory? Decrease the entries per sitemap (default: 1000) to reduce load."
-msgstr "O seu servidor tem pouca memória? Diminua o número de entradas do sitemap (que é 1000 por omissão) para reduzir a carga."
+msgstr "O seu servidor tem pouca memória? Diminua o número de entradas do sitemap (por omissão é 1000) para reduzir o seu peso."
 
 #: admin/class-pointers.php:317
 msgid "Advanced Settings"
 msgstr "Definições avançadas"
 
 #: admin/class-pointers.php:317
-#, fuzzy
 msgid "All of the options on these tabs are for advanced users only, if you don&#8217;t know whether you should check any, don&#8217;t touch them."
-msgstr "Estas opções são apenas para utilizadores avançados, se não sabe o que está a fazer não mexa em nada."
+msgstr "As definições destes separadores são apenas para utilizadores avançados, se não souber o que fazer, não mexa em nada."
 
 #: admin/class-pointers.php:330
 msgid "Extensions and Licenses"
@@ -3685,11 +3643,8 @@ msgstr "Extensões e licenças"
 #. translators: %1$s expands to Yoast SEO, %2$s to Yoast SEO Premium, %3$s and
 #. %4$s to an anchor with link about our premium plugins
 #: admin/class-pointers.php:333
-#, fuzzy
 msgid "The powerful functions of %1$s can be extended with %3$sYoast premium plugins%4$s. These premium plugins require the installation of %1$s or %2$s and add specific functionality. You can read all about the Yoast Premium Plugins %3$shere%4$s."
-msgstr ""
-"As opções avançadas do %1$s, podem ser estendidas  com os %3$splugins premium de Yoast%4$s.\n"
-"Estes plugins premium requerem a instalação de %1$s ou %2$s e adicionam funcionalidades especificas. Pode ler toda a informação sobre Yoast Premium Plugins %3$saqui%4$s."
+msgstr "As definições avançadas do %1$s, podem ser aumentadas com os %3$splugins premium de Yoast%4$s. Estes plugins Premium requerem a instalação do %1$s ou %2$s e adicionam funcionalidades especificas. Pode ler toda a informação sobre os plugins Yoast Premium %3$saqui%4$s."
 
 #: admin/class-pointers.php:335 admin/pages/licenses.php:113
 msgid "Licenses"
@@ -3697,23 +3652,20 @@ msgstr "Licenças"
 
 #. translators: %1$s expands to Yoast SEO Premium
 #: admin/class-pointers.php:337
-#, fuzzy
 msgid "Once you&#8217;ve purchased %1$s or any other premium Yoast plugin, you&#8217;ll have to enter a license key. You can do so on the Licenses-tab. Once you&#8217;ve activated your premium plugin, you can use all its powerful features."
-msgstr "Assim que adquirir o %1$s ou quaisquer outros plugin Yoast premium, terá de inserir uma chave de licença. Pode fazê-lo no separador Licenças. Assim que activar o seu plugin premium, poderá usar todas as suas poderosas funcionalidades."
+msgstr "Assim que comprar o %1$s ou quaisquer outros plugins Yoast Premium, terá de inserir uma chave de licença. Pode fazê-lo no separador Licenças. Assim que activar o seu plugin Premium, poderá usar todas as suas poderosas funcionalidades."
 
 #: admin/class-pointers.php:339
 msgid "Like this plugin?"
 msgstr "Gosta deste plugin?"
 
 #: admin/class-pointers.php:339
-#, fuzzy
 msgid "So, we&#8217;ve come to the end of the tour. If you like the plugin, please %srate it 5 stars on WordPress.org%s!"
-msgstr "E assim chegamos ao fim da visita. Se gostou do plugin, por favor %sclassifique-o com 5 estrelas no WordPress.org%s!"
+msgstr "E assim chegámos ao fim da visita. Se gostou do plugin, por favor %sclassifique-o com 5 estrelas no WordPress.org%s!"
 
 #: admin/class-pointers.php:340
-#, fuzzy
 msgid "Thank you for using our plugin and good luck with your SEO!<br/><br/>Best,<br/>Team Yoast - %1$sYoast.com%2$s"
-msgstr "Obrigado por usar o nosso plugin e boa sorte com o seu SEO!<br/><br/>Cumprimentos,<br/>EquipaYoast - %1$sYoast.com%2$s"
+msgstr "Obrigado por usar o nosso plugin e boa sorte com o seu SEO!<br/><br/>Cumprimentos,<br/>Equipa Yoast - %1$sYoast.com%2$s"
 
 #: admin/class-social-facebook.php:113
 msgid "Please make sure both fields are filled."
@@ -3752,15 +3704,13 @@ msgstr "Pode encontrar mais informações %1$sna nossa base de conhecimento%2$s.
 
 #. translators: %1$s and %2$s expand to a link to Facebook Insights
 #: admin/class-social-facebook.php:315
-#, fuzzy
 msgid "To be able to access %1$sFacebook Insights%2$s, you need to add a user here. The name is used for reference only, the ID is used for verification."
-msgstr "Para poder aceder ao %1$sFacebook Insights%2$s, precisa de adicionar aqui um utilizador. O nome é usado apenas para referência, a ID é usada para verificação."
+msgstr "Para poder aceder ao %1$sFacebook Insights%2$s, precisa de adicionar aqui um utilizador. O nome é usado apenas para referência, para verificação é usado o ID."
 
 #. translators: %1$s and %2$s expand to a link to the Yoast Knowledge Base
 #: admin/class-social-facebook.php:319
-#, fuzzy
 msgid "If you don't know where to find the needed ID, see %1$sthis knowledge base article%2$s."
-msgstr "Se não sabe onde encontrar a ID, vê %1$seste artigo da base de conhecimento%2$s."
+msgstr "Se não souber onde encontrar o ID, veja %1$seste artigo da base de conhecimento%2$s."
 
 #: admin/class-social-facebook.php:322
 msgid "Admin's name:"
@@ -3772,7 +3722,7 @@ msgstr "ID de utilizador do administrador do Facebook"
 
 #: admin/class-social-facebook.php:331 admin/class-social-facebook.php:345
 msgid "Add Facebook admin"
-msgstr "Adicione administrador do Facebook"
+msgstr "Adicionar administrador do Facebook"
 
 #: admin/class-social-facebook.php:351
 msgid "Add Another Facebook Admin"
@@ -3808,9 +3758,8 @@ msgid "Meta keywords used on the archive page for this term."
 msgstr "Palavras-chave meta usadas no arquivo."
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:64
-#, fuzzy
 msgid "The canonical link is shown on the archive page for this term."
-msgstr "O link canónico é mostrado na página de arquivo para este termo."
+msgstr "A ligação canónica é mostrada na página de arquivo para este termo."
 
 #: admin/views/tabs/metas/post-types.php:72
 msgid "Breadcrumbs title"
@@ -3831,9 +3780,8 @@ msgstr "Incluir no sitemap?"
 
 #. translators: %s is the plugin name
 #: admin/class-yoast-dashboard-widget.php:44
-#, fuzzy
 msgid "%s Posts Overview"
-msgstr "%s Visualização de Artigos"
+msgstr "Visão geral dos conteúdos de %s"
 
 #: admin/class-yoast-dashboard-widget.php:162
 msgid "Posts with good SEO score"
