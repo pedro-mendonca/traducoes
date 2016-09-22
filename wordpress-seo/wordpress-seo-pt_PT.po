@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yoast SEO 3.4.2\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
-"PO-Revision-Date: 2016-09-22 01:07+0100\n"
+"PO-Revision-Date: 2016-09-22 01:18+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,33 +22,27 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: admin/ajax.php:134
-#, fuzzy
 msgid "Files successfully removed."
 msgstr "Ficheiros removidos com sucesso."
 
 #: admin/class-admin.php:211
-#, fuzzy
 msgid "Go Premium"
-msgstr "Passa para o Premium"
+msgstr "Obter Premium"
 
 #: admin/class-admin.php:231
-#, fuzzy
 msgid "Premium"
 msgstr "Premium"
 
 #: admin/class-bulk-editor-list-table.php:384
-#, fuzzy
 msgid "Show All Post Types"
 msgstr "Mostrar todos os tipos de conteúdo"
 
 #: admin/class-bulk-editor-list-table.php:396
-#, fuzzy
 msgid "Filter by post type"
 msgstr "Filtrar por tipo de conteúdo"
 
 #. translators: %s: post title
 #: admin/class-bulk-editor-list-table.php:770
-#, fuzzy
 msgid "Edit &#8220;%s&#8221;"
 msgstr "Editar &#8220;%s&#8221;"
 
@@ -59,12 +53,10 @@ msgid "Number of search results: %d"
 msgstr "Número dos resultados da pesquisa: %d"
 
 #: admin/google_search_console/views/gsc-display.php:101
-#, fuzzy
 msgid "Crawl issues list navigation"
 msgstr "Navegação da lista de problemas de rastreamento"
 
 #: admin/google_search_console/views/gsc-display.php:102
-#, fuzzy
 msgid "Crawl issues list"
 msgstr "Lista de problemas de rastreamento"
 
@@ -77,59 +69,48 @@ msgstr[0] "O seguinte ficheiro está a bloquear o funcionamento correcto do seu 
 msgstr[1] "Os seguintes ficheiros estão a bloquear o funcionamento correcto do seu sitemap XML. Apague os ficheiros (pode ser feito com o botão \"Resolver\") ou desactive o sitemap XML %1$s."
 
 #: admin/pages/licenses.php:30
-#, fuzzy
 msgid "Show your videos in Google Videos"
 msgstr "Mostre os seus vídeos no Google Vídeos"
 
 #: admin/pages/licenses.php:31
-#, fuzzy
 msgid "Enhance the experience of sharing posts with videos"
-msgstr "Melhore a experiência de partilhar artigos com vídeos"
+msgstr "Melhore a experiência de partilha de conteúdos com vídeos"
 
 #: admin/pages/licenses.php:32
-#, fuzzy
 msgid "Make videos responsive through enabling fitvids.js"
-msgstr "Faça vídeos 'responsive' activando fitvids.js"
+msgstr "Faça vídeos responsivos activando fitvids.js"
 
 #: admin/pages/licenses.php:42
-#, fuzzy
 msgid "Optimize your site for Google News"
 msgstr "Optimize o seu site para o Google News"
 
 #: admin/pages/licenses.php:43
-#, fuzzy
 msgid "Immediately pings Google on the publication of a new post"
-msgstr "Informe o Google de imediato da publicação de um novo artigo"
+msgstr "Informe de imediato o Google sobre a publicação de um novo conteúdo"
 
 #: admin/pages/licenses.php:44
-#, fuzzy
 msgid "Creates XML News Sitemaps"
 msgstr "Crie sitemap XML de notícias"
 
 #: admin/pages/licenses.php:54
-#, fuzzy
 msgid "Get found by potential clients"
 msgstr "Seja encontrado por potenciais clientes"
 
 #: admin/pages/licenses.php:55
-#, fuzzy
 msgid "Easily insert Google Maps, a store locator, opening hours and more"
-msgstr "Insira Google Maps de forma fácil, localização de lojas, horário de funcionamento e mais"
+msgstr "Insira facilmente Google Maps, localização de lojas, horário de funcionamento, etc."
 
 #: admin/pages/licenses.php:56
-#, fuzzy
 msgid "Improve the usability of your contact page"
 msgstr "Melhorar a usabilidade da página de contacto"
 
 #: admin/pages/licenses.php:68
-#, fuzzy
 msgid "Improve sharing on Pinterest"
 msgstr "Melhorar a partilha no Pinterest"
 
 #: admin/pages/licenses.php:71
-#, fuzzy
 msgid "Use %1$s breadcrumbs instead of %2$s ones"
-msgstr "Use a estruturação de %1$s em vez de %2$s "
+msgstr "Use breadcrumbs de %1$s em vez de %2$s"
 
 #: admin/pages/licenses.php:74
 #, fuzzy
@@ -143,72 +124,60 @@ msgid "%1$s, take your optimization to the next level!"
 msgstr "%1$s, leva a optimização até um próximo nível!"
 
 #: admin/pages/licenses.php:130
-#, fuzzy
 msgid "Redirect manager"
-msgstr "Gestor de redirecionamentos"
+msgstr "Gestor de redireccionamentos"
 
 #: admin/pages/licenses.php:131
-#, fuzzy
 msgid "create and manage redirects from within your WordPress install."
-msgstr "crie e organize redirecionamentos a partir da sua instalação WordPress."
+msgstr "crie e organize redireccionamentos a partir da sua instalação WordPress."
 
 #: admin/pages/licenses.php:134
-#, fuzzy
 msgid "Multiple focus keywords"
 msgstr "Múltiplas palavras-chave principais"
 
 #: admin/pages/licenses.php:135
 #, fuzzy
 msgid "optimize a single post for up to 5 keywords."
-msgstr "optimize um único artigo até 5 palavras-chave. "
+msgstr "optimize um único artigo até 5 palavras-chave."
 
 #: admin/pages/licenses.php:138
-#, fuzzy
 msgid "Social previews"
 msgstr "Pré-visualizações das redes sociais"
 
 #: admin/pages/licenses.php:139
-#, fuzzy
 msgid "check what your Facebook or Twitter post will look like."
-msgstr "verificar como as publicações no Facebook e Twitter vão aparecer."
+msgstr "verificar aparência das publicações no Facebook e Twitter."
 
 #: admin/pages/licenses.php:142
-#, fuzzy
 msgid "Premium support"
 msgstr "Suporte Premium"
 
 #: admin/pages/licenses.php:143
-#, fuzzy
 msgid "gain access to our 24/7 support team."
-msgstr "obtém acesso à nossa equipa de suporte 24/7."
+msgstr "obter acesso à nossa equipa de suporte 24/7."
 
 #: admin/pages/licenses.php:148 admin/pages/licenses.php:199
-#, fuzzy
 msgid "Installed"
 msgstr "Instalado"
 
 #. translators: $1$s expands to Yoast SEO Premium
 #: admin/pages/licenses.php:152
-#, fuzzy
 msgid "Buy %1$s"
-msgstr "Compre %1$s"
+msgstr "Comprar %1$s"
 
 #. translators: Text between %1$s and %2$s will only be shown to screen
 #. readers. %3$s expands to the product name.
 #: admin/pages/licenses.php:159 admin/pages/licenses.php:211
-#, fuzzy
 msgid "More information %1$sabout %3$s%2$s"
 msgstr "Mais informações %1$ssobre %3$s%2$s"
 
 #: admin/pages/licenses.php:166
-#, fuzzy
 msgid "Comes with our 30-day no questions asked money back guarantee"
-msgstr "Experimenta e usa durante 30 dias, garantia de devolução do pagamento sem questões.  "
+msgstr "Experimente e use durante 30 dias, garantia de devolução do pagamento sem perguntas."
 
 #: admin/pages/licenses.php:174
-#, fuzzy
 msgid "%1$s extensions"
-msgstr "%1$s extensões"
+msgstr "Extensões de %1$s"
 
 #. translators: %1$s expands to Yoast SEO extensions
 #: admin/pages/licenses.php:179
@@ -218,23 +187,19 @@ msgstr "%1$s para optimizar ainda mais o seu site"
 
 #. translators: %s expands to the current taxonomy index value
 #: admin/taxonomy/class-taxonomy-settings-fields.php:82
-#, fuzzy
 msgid "Default for this taxonomy type, currently: %s"
-msgstr "Colocar esta taxonomia como sendo a por omissão, actualmente é: %s"
+msgstr "Por omissão para esta taxonomia é: %s"
 
 #: admin/views/about.php:53
-#, fuzzy
 msgid "Team and contributors"
 msgstr "Equipa e colaboradores"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/views/tabs/dashboard/general.php:33
-#, fuzzy
 msgid "Take a look at the people that create %1$s."
-msgstr "Conhece as pessoas que fizeram %1$s."
+msgstr "Conheça as pessoas que criaram o %1$s."
 
 #: admin/views/tabs/dashboard/general.php:39
-#, fuzzy
 msgid "View Credits"
 msgstr "Ver créditos"
 
@@ -244,19 +209,16 @@ msgid "Note that links to archives might be still output by your theme and you w
 msgstr "Note que as ligações para o arquivo podem ser atribuídas pelo tema e terá de as remover de forma separada."
 
 #: admin/views/tool-bulk-editor.php:19
-#, fuzzy
 msgid "Filter posts list"
-msgstr "Filtrar lista de artigos"
+msgstr "Filtrar lista de conteúdos"
 
 #: admin/views/tool-bulk-editor.php:20
-#, fuzzy
 msgid "Posts list navigation"
-msgstr "Navegação da lista de artigos"
+msgstr "Navegação da lista de conteúdos"
 
 #: admin/views/tool-bulk-editor.php:21
-#, fuzzy
 msgid "Posts list"
-msgstr "Lista de artigos"
+msgstr "Lista de conteúdos"
 
 #: inc/wpseo-non-ajax-functions.php:187
 #, fuzzy
@@ -270,81 +232,66 @@ msgstr "Análise do site do Microsoft Edge "
 
 #. translators: %s expands to the directory path and name.
 #: admin/ajax.php:121
-#, fuzzy
 msgid "The directory %s could not be removed. Please remove it via FTP."
-msgstr "A directoria %s não pode ser removida. Por favor, remova-a via FTP."
+msgstr "O directório %s não pode ser removido. Por favor, remova-o via FTP."
 
 #. translators: %1$s and %2$s expand to a link to the SEO Permalinks settings
 #. page.
 #: admin/views/tabs/metas/post-types.php:27
-#, fuzzy
 msgid "As you are redirecting attachment URLs to parent post URLs, these settings will currently only have an effect on unattached media items! So remember: If you change the %1$sattachment redirection setting%2$s in the future, the below settings will take effect for *all* media items."
-msgstr "Como está a redirecionar URL de anexos para o URL do artigo, estas definições só terão um efeito nos ficheiros de média desanexados! Lembre-se: Se alterar a %1$sdefinição de redirecionamento de anexos%2$s no futuro, as definições abaixo irão afetar *todos* os intens de media."
+msgstr "Como está a redireccionar URL de anexos para o URL do conteúdo, estas definições só terão efeito nos ficheiros multimédia desanexados! Lembre-se: se alterar a %1$sdefinição de redireccionamento de anexos%2$s no futuro, as definições abaixo irão afectar *todos* os intens multimédia."
 
 #: admin/views/tabs/sitemaps/exclude-post.php:12
-#, fuzzy
 msgid "Excluded posts settings"
-msgstr "Excluir definições de artigos"
+msgstr "Definições de conteúdos excluídos"
 
 #: admin/views/tabs/sitemaps/general.php:12
-#, fuzzy
 msgid "Your XML Sitemap"
-msgstr "O seu Sitemap XML"
+msgstr "O seu sitemap XML"
 
 #: admin/views/tabs/sitemaps/general.php:26
-#, fuzzy
 msgid "Entries per sitemap page"
-msgstr "Eentradas por página de sitemap"
+msgstr "Entradas por página de sitemap"
 
 #: admin/views/tabs/sitemaps/post-types.php:12
-#, fuzzy
 msgid "Post types sitemap settings"
 msgstr "Definições do sitemap de tipos de conteúdo"
 
 #: admin/views/tabs/sitemaps/taxonomies.php:12
-#, fuzzy
 msgid "Taxonomies sitemap settings"
 msgstr "Definições do sitemap de taxonomias"
 
 #: admin/views/tabs/sitemaps/user-sitemap.php:12
-#, fuzzy
 msgid "User sitemap settings"
 msgstr "Definições do sitemap de utilizadores"
 
 #: admin/views/tabs/social/accounts.php:12
-#, fuzzy
 msgid "Your social profiles"
-msgstr "Os seus perfis sociais"
+msgstr "Os seus perfis em redes sociais"
 
 #: admin/views/tabs/social/accounts.php:15
-#, fuzzy
 msgid "To let search engines know which social profiles are associated to this site, enter them below:"
-msgstr "Para permitir aos motores de busca sabes quais os perfis sociais associados a este site, insira-os abaixo:"
+msgstr "Para permitir aos motores de pesquisa saber quais os perfis de redes sociais associados a este site, insira-os abaixo:"
 
 #: admin/views/tabs/social/facebook.php:12
-#, fuzzy
 msgid "Facebook settings"
 msgstr "Definições do Facebook"
 
 #: admin/views/tabs/social/google.php:12
-#, fuzzy
 msgid "Google+ settings"
 msgstr "Definições do Google+"
 
 #: admin/views/tabs/social/pinterest.php:12
-#, fuzzy
 msgid "Pinterest settings"
-msgstr "Definições Pinterest"
+msgstr "Definições do Pinterest"
 
 #: admin/views/tabs/social/twitterbox.php:12
-#, fuzzy
 msgid "Twitter settings"
 msgstr "Definições do Twitter"
 
 #: admin/views/user-profile.php:61
-#, fuzzy
 msgid "Disable SEO analysis"
-msgstr "Desativar análise SEO"
+msgstr "Desactivar análise de SEO"
 
 #: admin/views/user-profile.php:67
 #, fuzzy
@@ -352,37 +299,31 @@ msgid "Removes the keyword tab from the metabox and disables all SEO-related sug
 msgstr "Remove o separador da palavra-chave da caixa de meta e desativa todas as sugestões relacionadas com SEO."
 
 #: inc/wpseo-non-ajax-functions.php:112
-#, fuzzy
 msgid "Notifications"
 msgstr "Notificações"
 
 #: inc/wpseo-non-ajax-functions.php:133
-#, fuzzy
 msgid "Google Trends"
 msgstr "Google Trends"
 
 #. translators: %s: number of notifications
 #: admin/class-admin.php:136 inc/wpseo-non-ajax-functions.php:83
-#, fuzzy
 msgid "%s notification"
 msgid_plural "%s notifications"
 msgstr[0] "%s notificação"
 msgstr[1] "%s notificações"
 
 #: admin/class-admin.php:620
-#, fuzzy
 msgid "Yoast SEO video tutorial"
-msgstr "Tutoriais vídeo de Yoast SEO"
+msgstr "Tutorial vídeo de Yoast SEO"
 
 #: admin/class-config.php:135
-#, fuzzy
 msgid "Search results"
 msgstr "Resultados da pesquisa"
 
 #: admin/class-config.php:140
-#, fuzzy
 msgid "Back to search results"
-msgstr "Volta aos resultados da pesquisa"
+msgstr "Voltar aos resultados da pesquisa"
 
 #: admin/class-config.php:142
 #, fuzzy
@@ -390,17 +331,14 @@ msgid "Open the knowledge base article in a new window or read it in the iframe 
 msgstr "Abrir o artigo da base de conhecimento numa nova janela ou ler num iframe abaixo"
 
 #: admin/class-config.php:143
-#, fuzzy
 msgid "Knowledge base article"
 msgstr "Artigo da base de conhecimento"
 
 #: admin/class-yoast-form.php:177
-#, fuzzy
 msgid "Let our experts set up your Yoast SEO Premium plugin!"
-msgstr "Deixe que sejam os nossos especialistas a configurar o plugin Yoast SEO Premium!"
+msgstr "Deixe que sejam os nossos especialistas a configurar o seu plugin Yoast SEO Premium!"
 
 #: admin/google_search_console/views/gsc-create-redirect.php:41
-#, fuzzy
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -412,23 +350,19 @@ msgid "To allow %1$s to fetch your %2$s information, please enter your Google Au
 msgstr "Para permitir ao %1$s captar a sua informação %2$s, por favor, insira o seu código de autorização do Google. Ao carregar no botão abaixo irá abrir uma nova janela."
 
 #: admin/google_search_console/views/gsc-display.php:46
-#, fuzzy
 msgid "Enter your Google Authorization Code and press the Authenticate button."
-msgstr "Insira o seu código de autorização do Google e carregue no botão Autenticação."
+msgstr "Insira o seu código de autorização do Google e carregue no botão Autenticar."
 
 #: admin/metabox/class-metabox.php:358
 #: admin/taxonomy/class-taxonomy-metabox.php:114
-#, fuzzy
 msgid "Content optimization"
-msgstr "Otimização de conteúdo"
+msgstr "Optimização de conteúdo"
 
 #: admin/views/js-templates-primary-term.php:32
-#, fuzzy
 msgid "Make primary"
-msgstr "Faça primário"
+msgstr "Tornar primário"
 
 #: admin/views/tabs/advanced/breadcrumbs.php:15
-#, fuzzy
 msgid "Breadcrumbs settings"
 msgstr "Definições de breadcrumbs"
 
@@ -438,27 +372,22 @@ msgid "Stop words in slugs."
 msgstr "Palavras de ligação no URL."
 
 #: admin/views/tabs/advanced/rss.php:15
-#, fuzzy
 msgid "RSS feed settings"
 msgstr "Definições do feed RSS"
 
 #: admin/views/tabs/dashboard/general.php:44
-#, fuzzy
 msgid "Restore default settings"
-msgstr "Restaurar as definições por omissão."
+msgstr "Restaurar as definições por omissão"
 
 #: admin/views/tabs/dashboard/security.php:12
-#, fuzzy
 msgid "Security setting"
 msgstr "Definições de segurança"
 
 #: admin/views/tabs/metas/general.php:19
-#, fuzzy
 msgid "Title separator symbol"
 msgstr "Símbolo separador do título"
 
 #: admin/views/tabs/metas/general.php:29
-#, fuzzy
 msgid "Keyword analysis"
 msgstr "Análise de palavras-chave"
 
@@ -477,22 +406,18 @@ msgstr "Está a tentar carregar ficheiros não minificados, estes estão apenas 
 #: admin/formatter/class-metabox-formatter.php:50
 #: admin/formatter/class-metabox-formatter.php:69
 #: admin/taxonomy/class-taxonomy-columns.php:55
-#, fuzzy
 msgid "Readability"
 msgstr "Legibilidade"
 
 #: admin/formatter/class-metabox-formatter.php:74
-#, fuzzy
 msgid "Needs improvement"
-msgstr "Necessita de melhoramentos"
+msgstr "Precisa de melhoramentos"
 
 #: admin/views/tabs/metas/general.php:24
-#, fuzzy
 msgid "Enabled analysis"
-msgstr "Análise ativada"
+msgstr "Análise activada"
 
 #: admin/views/tabs/metas/general.php:26
-#, fuzzy
 msgid "Readability analysis"
 msgstr "Análise de legibilidade"
 
@@ -502,15 +427,13 @@ msgid "Removes the readability tab from the metabox and disables all readability
 msgstr "Remove o separador de legibilidade da caixa e desativa todas as sugestões relacionadas com esta opção."
 
 #: admin/views/user-profile.php:77
-#, fuzzy
 msgid "Disable readability analysis"
-msgstr "Desativa a análise de legibilidade"
+msgstr "Desactivar a análise de legibilidade"
 
 #: admin/metabox/class-metabox.php:76
 #: admin/taxonomy/class-taxonomy-content-fields.php:28
-#, fuzzy
 msgid "Pick the main keyword or keyphrase that this post/page is about. %sLearn more about the Focus Keyword%s."
-msgstr "Escolha a palavra-chave principal ou frase chave sobre o que trata este artigo/página. %sSaiba mais sobre a palavra-chave principal%s."
+msgstr "Escolha a palavra-chave principal ou frase-chave sobre o que trata este conteúdo/página. %sSaiba mais sobre a palavra-chave principal%s."
 
 #: admin/metabox/class-metabox.php:72
 #: admin/taxonomy/class-taxonomy-content-fields.php:36
@@ -519,47 +442,38 @@ msgid "This is the content analysis, a collection of content checks that analyze
 msgstr "Esta é a análise de conteúdo, uma colectânea de verificações de conteúdo que analisa a sua página. %sSaiba mais sobre a Ferramenta de Análise de Conteúdo%s."
 
 #: admin/views/about.php:55
-#, fuzzy
 msgid "Product Management"
 msgstr "Gestão do produto"
 
 #: admin/views/about.php:66
-#, fuzzy
 msgid "Head R&D"
-msgstr "Líder de I&D"
+msgstr "Líder de investigação e desenvolvimento"
 
 #: admin/views/about.php:71
-#, fuzzy
 msgid "Linguist"
 msgstr "Linguista"
 
 #: admin/views/about.php:79
-#, fuzzy
 msgid "Development Leaders"
 msgstr "Líderes de desenvolvimento"
 
 #: admin/views/about.php:85
-#, fuzzy
 msgid "CTO"
-msgstr "CTO"
+msgstr "Director técnico"
 
 #: admin/views/about.php:103
-#, fuzzy
 msgid "Yoast Developers"
 msgstr "Programadores Yoast"
 
 #: admin/views/about.php:162
-#, fuzzy
 msgid "Quality Assurance & Testing"
-msgstr "Controlo de qualidade & testes"
+msgstr "Controlo de qualidade e testes"
 
 #: admin/views/about.php:173 admin/views/about.php:178
-#, fuzzy
 msgid "Tester"
-msgstr "Controladores de testes"
+msgstr "Testes"
 
 #: admin/views/partial-alerts-errors.php:9
-#, fuzzy
 msgid "Problems"
 msgstr "Problemas"
 
@@ -569,22 +483,18 @@ msgid "We have detected the following issues that affect the SEO of your site."
 msgstr "Detetamos os seguintes problemas a afetarem o SEO do seu site."
 
 #: admin/views/partial-alerts-errors.php:11
-#, fuzzy
 msgid "Good job! We could detect no serious SEO problems."
-msgstr "Bom trabalho! Não detectamos problemas de SEO sérios."
+msgstr "Bom trabalho! Não foram detectados problemas graves de SEO."
 
 #: admin/views/partial-alerts-template.php:18
-#, fuzzy
 msgid "Dismiss this item."
 msgstr "Ignorar este item."
 
 #: admin/views/partial-alerts-template.php:22
-#, fuzzy
 msgid "Restore this item."
 msgstr "Restaurar este item."
 
 #: admin/views/partial-alerts-warnings.php:9
-#, fuzzy
 msgid "Improvements"
 msgstr "Melhoramentos"
 
@@ -594,15 +504,13 @@ msgid "Implement the following suggestions to further optimize your site for SEO
 msgstr "Implemente as seguintes sugestões para optimizar o SEO do seu site."
 
 #: admin/views/partial-alerts-warnings.php:11
-#, fuzzy
 msgid "Good job! We found nothing you can improve upon."
-msgstr "Bom trabalho! Não encontramos nada que tenha de melhorar."
+msgstr "Bom trabalho! Não foi encontrado nada que precise de melhorar."
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/views/tabs/dashboard/dashboard.php:14
-#, fuzzy
 msgid "%1$s Dashboard"
-msgstr "%1$s Painel"
+msgstr "Painel de %1$s"
 
 #: inc/options/class-wpseo-option-xml.php:156
 #, fuzzy
@@ -611,11 +519,10 @@ msgstr "\"Máximo de entradas por página de sitemap\" deve ser abaixo de %s par
 
 #. translators: %d resolves to the number of alerts being added.
 #: inc/wpseo-non-ajax-functions.php:90
-#, fuzzy
 msgid "You have a new issue concerning your SEO!"
 msgid_plural "You have %d new issues concerning your SEO!"
-msgstr[0] "Tem um novo problema relacionado com o seu SEO!"
-msgstr[1] "Tem %d novos problemas relacionados com o seu SEO!"
+msgstr[0] "Tem um novo problema relacionado com SEO!"
+msgstr[1] "Tem %d novos problemas relacionados com SEO!"
 
 #: admin/class-admin-init.php:154
 #, fuzzy
@@ -632,58 +539,47 @@ msgstr "Basta desmarcar a caixa antes de \"Dividir os comentários em páginas d
 #. translators: %1$s resolves to the starting tag of the link to the permalink
 #. settings page, %2$s resolves to the closing tag of the link
 #: admin/class-admin-init.php:201
-#, fuzzy
 msgid "You can fix this on the %1$sPermalink settings page%2$s."
-msgstr "Pode resolver isto na %1$spágina de Ligações permanentes%2$s."
+msgstr "Pode resolver isto na %1$spágina das Ligações permanentes%2$s."
 
 #: admin/class-admin.php:139 admin/class-admin.php:248
 #: admin/pages/dashboard.php:58 inc/wpseo-non-ajax-functions.php:254
-#, fuzzy
 msgid "Dashboard"
-msgstr "Opções gerais"
+msgstr "Painel"
 
 #: admin/class-config.php:132
-#, fuzzy
 msgid "No results found."
-msgstr "Sem resultados."
+msgstr "Nenhum resultado encontrado."
 
 #: admin/class-config.php:133
-#, fuzzy
 msgid "Search the Yoast knowledge base"
 msgstr "Procurar na base de conhecimento de Yoast"
 
 #: admin/class-config.php:136
-#, fuzzy
 msgid "Something went wrong. Please try again later."
 msgstr "Alguma coisa correu mal. Por favor, tente de novo mais tarde."
 
 #: admin/class-config.php:137
-#, fuzzy
 msgid "Loading..."
 msgstr "A carregar..."
 
 #: admin/class-config.php:138
-#, fuzzy
 msgid "search"
 msgstr "procurar"
 
 #: admin/class-config.php:139
-#, fuzzy
 msgid "Back"
 msgstr "Voltar"
 
 #: admin/class-config.php:141
-#, fuzzy
 msgid "Open"
 msgstr "Abrir"
 
 #: admin/class-help-center.php:46
-#, fuzzy
 msgid "Knowledge base"
 msgstr "Base de conhecimento"
 
 #: admin/class-help-center.php:60
-#, fuzzy
 msgid "Email support is a %s feature"
 msgstr "Suporte por email é uma funcionalidade de %s"
 
@@ -695,12 +591,10 @@ msgid "To be able to contact our support team, you need %1$s. You can buy the pl
 msgstr "Para poder contactar a nossa equipa de suporte precisa de %1$s. Pode comprar o plugin, incluindo um ano de suporte e actualizações em %2$s."
 
 #: admin/class-help-center.php:69
-#, fuzzy
 msgid "Email support"
 msgstr "Suporte por email"
 
 #: admin/class-help-center.php:95
-#, fuzzy
 msgid "Video tutorial"
 msgstr "Tutorial vídeo"
 
@@ -710,9 +604,8 @@ msgid "Meta description not set."
 msgstr "Descrição meta não definida."
 
 #: admin/class-meta-columns.php:176
-#, fuzzy
 msgid "Filter by SEO Score"
-msgstr "Filtrar por pontuação SEO"
+msgstr "Filtrar por classificação SEO"
 
 #: admin/class-yoast-form.php:172
 #, fuzzy
@@ -722,7 +615,7 @@ msgstr "Peça uma Análise ao Website e nós diremos como o melhorar para atrair
 #: admin/class-yoast-form.php:182
 #, fuzzy
 msgid "Take the online SEO Copywriting Training course and learn how to write awesome copy that ranks!"
-msgstr "Faça o curso online de SEO Copywriting e aprenda como escrever excelentes textos que classificam junto dos motores de busca."
+msgstr "Faça o curso online de SEO Copywriting e aprenda como escrever excelentes textos que classificam junto dos motores de pesquisa."
 
 #: admin/class-yoast-form.php:187
 #, fuzzy
@@ -760,40 +653,33 @@ msgid "Buy the Yoast News SEO plugin now and start optimizing to get your site f
 msgstr "Compre o plugin Yoast News SEO e comece a optimizar o seu site para ser destacado no Google News!"
 
 #: admin/formatter/class-metabox-formatter.php:51
-#, fuzzy
 msgid "Keyword:"
 msgstr "Palavra-chave:"
 
 #: admin/formatter/class-metabox-formatter.php:52
-#, fuzzy
 msgid "Enter your focus keyword"
 msgstr "Insira a sua palavra-chave principal"
 
 #: admin/formatter/class-metabox-formatter.php:73 inc/class-wpseo-rank.php:101
-#, fuzzy
 msgid "Not available"
 msgstr "Não disponivel"
 
 #: admin/metabox/class-metabox.php:68
 #: admin/taxonomy/class-taxonomy-content-fields.php:20
-#, fuzzy
 msgid "This is a rendering of what this post might look like in Google's search results. %sLearn more about the Snippet Preview%s."
-msgstr "Esta é uma apresentação de como este artigo poderá aparecer nos resultados de pesquisa do Google. %sSaiba mais sobre a pré-visualização de fragmentos%s."
+msgstr "Esta é uma simulação de como este conteúdo poderá aparecer nos resultados de pesquisa do Google. %sSaiba mais sobre a pré-visualização de fragmentos%s."
 
 #: admin/metabox/class-metabox.php:71
 #: admin/taxonomy/class-taxonomy-content-fields.php:35
-#, fuzzy
 msgid "Analysis"
 msgstr "Análise"
 
 #. translators: %s expands to <code>noodp</code>
 #: admin/views/tabs/metas/other.php:23
-#, fuzzy
 msgid "Prevents search engines from using the DMOZ description in the search results for all pages on this site. Note: If you set a custom description for a page or post, it will have the %s tag regardless of this setting."
-msgstr "Impede os motores de busca de usarem a descrição DMOZ nos resultados das pesquisas para todas as páginas neste site. Nota: Se definir uma descrição personalizada para uma página ou artigo, terá a etiqueta %s independentemente desta definição."
+msgstr "Impede os motores de pesquisa de usarem a descrição DMOZ nos resultados das pesquisas para todas as páginas neste site. Nota: Se definir uma descrição personalizada para uma página ou artigo, terá a etiqueta %s independentemente desta definição."
 
 #: admin/views/tabs/metas/taxonomies.php:24
-#, fuzzy
 msgid "Format-based archives"
 msgstr "Arquivo baseado no formato"
 
@@ -803,14 +689,12 @@ msgid "The user sitemap contains the author archive URLs for every user on your 
 msgstr "O sitemap de utilizadores contém o URL do arquivo do autor para cada utilizador no site."
 
 #: admin/views/tabs/sitemaps/user-sitemap.php:28
-#, fuzzy
 msgid "Users without posts"
-msgstr "Utilizadores sem artigos"
+msgstr "Utilizadores sem conteúdos"
 
 #: admin/views/tabs/sitemaps/user-sitemap.php:30
-#, fuzzy
 msgid "You can choose to not include users without posts."
-msgstr "Pode escolher não incluir utilizadores sem artigos."
+msgstr "Pode excluir utilizadores sem conteúdos."
 
 #: admin/views/tabs/social/pinterest.php:15
 #, fuzzy
@@ -818,35 +702,29 @@ msgid "If you have already confirmed your website with Pinterest, you can skip t
 msgstr "Se já confirmou o seu website no Pinterest, pode saltar o passo abaixo."
 
 #: admin/views/tabs/social/pinterest.php:21
-#, fuzzy
 msgid "Pinterest confirmation"
 msgstr "Confirmação do Pinterest"
 
 #: inc/class-wpseo-replace-vars.php:1097
-#, fuzzy
 msgid "Replaced with the primary category of the post/page"
-msgstr "Substituído pela categoria primária do artigo/página"
+msgstr "Substituído pela categoria primária do conteúdo/página"
 
 #: admin/views/tabs/dashboard/webmaster-tools.php:12
-#, fuzzy
 msgid "Webmaster Tools verification"
-msgstr "Verificação de Webmaster Tools"
+msgstr "Verificação de ferramentas de webmaster"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-bulk-title-editor-list-table.php:47
-#, fuzzy
 msgid "Existing %1$s Title"
-msgstr "Título %1$s existente"
+msgstr "Título de %1$s existente"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-bulk-title-editor-list-table.php:49
-#, fuzzy
 msgid "New %1$s Title"
-msgstr "Novo título %1$s"
+msgstr "Novo título de %1$s"
 
 #: admin/class-help-center.php:122
 #: admin/views/partial-settings-tab-video.php:19
-#, fuzzy
 msgid "Help center"
 msgstr "Centro de ajuda"
 
@@ -856,74 +734,60 @@ msgid "If you have a Google+ page for your business, add that URL here and link 
 msgstr "Se tiver uma página no Google+ para o seu negócio, adicione o URL aqui e ligue-o à sua página sobre no %1$sGoogle+%2$s."
 
 #: admin/google_search_console/class-gsc-category-filters.php:113
-#, fuzzy
 msgid "Show information about errors in category 'Access Denied'"
-msgstr "Mostrar informação sobre erros na categoria 'Acesso Negado'"
+msgstr "Mostrar informação sobre erros na categoria 'Acesso negado'"
 
 #: admin/google_search_console/class-gsc-category-filters.php:116
-#, fuzzy
 msgid "Show information about errors in category 'Not Found'"
-msgstr "Mostrar informação sobre erros na categoria 'Não Encontrado'"
+msgstr "Mostrar informação sobre erros na categoria 'Não encontrado'"
 
 #: admin/google_search_console/class-gsc-category-filters.php:117
-#, fuzzy
 msgid "Show information about errors in category 'Other'"
 msgstr "Mostrar informação sobre erros na categoria 'Outro'"
 
 #: admin/google_search_console/class-gsc-category-filters.php:119
-#, fuzzy
 msgid "Show information about errors in category 'Blocked'"
 msgstr "Mostrar informação sobre erros na categoria 'Bloqueado'"
 
 #: admin/google_search_console/class-gsc-category-filters.php:120
-#, fuzzy
 msgid "Show information about errors in category 'Server'"
 msgstr "Mostrar informação sobre erros na categoria 'Servidor'"
 
 #: admin/google_search_console/class-gsc-category-filters.php:121
-#, fuzzy
 msgid "Show information about errors in category 'Soft 404'"
 msgstr "Mostrar informação sobre erros na categoria 'Soft 404'"
 
 #. translators: %s expands to Yoast SEO Premium
 #. translators: %s expands to the product name
 #: admin/class-premium-popup.php:70 admin/pages/licenses.php:204
-#, fuzzy
 msgid "Buy %s"
 msgstr "Comprar %s"
 
 #: admin/metabox/class-metabox.php:69
-#, fuzzy
 msgid "Show information about the snippet editor"
 msgstr "Mostrar informação sobre editor de fragmentos"
 
 #: admin/metabox/class-metabox.php:73
-#, fuzzy
 msgid "Show information about the content analysis"
 msgstr "Mostrar informação sobre análise de conteúdo"
 
 #: admin/metabox/class-metabox.php:77
-#, fuzzy
 msgid "Show information about the focus keyword"
 msgstr "Mostrar informação sobre palavra-chave principal"
 
 #: admin/taxonomy/class-taxonomy-content-fields.php:23
-#, fuzzy
 msgid "Snippet Editor Help"
 msgstr "Ajuda do editor de fragmentos"
 
 #: admin/taxonomy/class-taxonomy-content-fields.php:31
-#, fuzzy
 msgid "Focus Keyword Help"
 msgstr "Ajuda da palavra-chave principal"
 
 #: admin/taxonomy/class-taxonomy-content-fields.php:39
-#, fuzzy
 msgid "Content Analysis Help"
-msgstr "Ajuda da Análise de Conteúdo"
+msgstr "Ajuda da análise de conteúdo"
 
 #: admin/views/partial-help-center-video.php:27
-#, fuzzy
 msgid "Need more help?"
 msgstr "Precisa de mais ajuda"
 
@@ -935,7 +799,6 @@ msgstr "Se comprar %s terá acesso à nossa equipa de suporte e funcionalidades 
 
 #. translators: %s expands to Yoast SEO
 #: admin/views/partial-help-center-video.php:40
-#, fuzzy
 msgid "Want to be a %s Expert?"
 msgstr "Quer ser um especialista em %s?"
 
@@ -957,14 +820,12 @@ msgid "Expected an integer as input."
 msgstr "A entrada deve ser um inteiro."
 
 #: admin/views/tabs/advanced/permalinks.php:26
-#, fuzzy
 msgid "No redirect"
-msgstr "Sem redirecionamento"
+msgstr "Não redireccionar"
 
 #: admin/views/tabs/advanced/permalinks.php:26
-#, fuzzy
 msgid "Redirect"
-msgstr "Redirecionamento"
+msgstr "Redireccionar"
 
 #: admin/views/tabs/advanced/permalinks.php:41
 #, fuzzy
@@ -977,57 +838,48 @@ msgid "Trying to build the sitemap cache key, but the postfix and prefix combina
 msgstr "A tentar criar uma chave de cache segura para o sitemap mas a combinação de sufixo e prefixo não deixa muito espaço para o fazer. Está provavelmente a pedir uma página que estará muito fora do alcance expectável."
 
 #: admin/views/tabs/advanced/breadcrumbs.php:38
-#, fuzzy
 msgid "Bold the last page"
 msgstr "Negrito na última página"
 
 #: admin/views/tabs/advanced/permalinks.php:17
-#, fuzzy
 msgid "Keep"
 msgstr "Manter"
 
 #: admin/views/tabs/advanced/permalinks.php:17
-#, fuzzy
 msgid "Remove"
 msgstr "Remover"
 
 #: admin/views/tabs/advanced/breadcrumbs.php:37
-#, fuzzy
 msgid "Regular"
-msgstr "Regular"
+msgstr "Normal"
 
 #: admin/views/tabs/sitemaps/user-sitemap.php:35
-#, fuzzy
 msgid "Filter specific user roles"
-msgstr "Filtrar utilizadores por perfil"
+msgstr "Filtrar por papel de utilizador"
 
 #: admin/taxonomy/class-taxonomy-columns.php:115
 #, fuzzy
 msgid "Term is set to noindex."
-msgstr "Termo está definido como a não indexar"
+msgstr "Termo está definido como a não indexar."
 
 #: admin/views/about.php:49
-#, fuzzy
 msgid "Integrations"
 msgstr "Integrações"
 
 #. translators: accessibility text. %1$s expands to the term title, %2$s to the
 #. taxonomy title.
 #: admin/views/js-templates-primary-term.php:28
-#, fuzzy
 msgid "Make %1$s primary %2$s"
-msgstr "Fazer %1$s primário em %2$s"
+msgstr "Tornar %1$s primário em %2$s"
 
 #: admin/views/js-templates-primary-term.php:36
-#, fuzzy
 msgid "Primary"
-msgstr "Primário"
+msgstr "Primário(a)"
 
 #. translators: %s is the taxonomy title. This will be shown to screenreaders
 #: admin/views/js-templates-primary-term.php:43
-#, fuzzy
 msgid "Primary %s"
-msgstr "Primário %s"
+msgstr "%s primário(a)"
 
 #: admin/views/tabs/advanced/breadcrumbs.php:33
 #, fuzzy
@@ -1035,66 +887,56 @@ msgid "Show Blog page"
 msgstr "Mostrar página do blog"
 
 #: admin/views/tabs/advanced/breadcrumbs.php:36
-#, fuzzy
 msgid "Bold"
 msgstr "Negrito"
 
 #: admin/views/tabs/metas/archives.php:13
 #: admin/views/tabs/metas/archives.php:22
-#, fuzzy
 msgid "Author archives"
-msgstr "Arquivo do Autor"
+msgstr "Arquivo de autor"
 
 #: admin/views/tabs/metas/archives.php:44
-#, fuzzy
 msgid "Date-based archives"
 msgstr "Arquivo por data"
 
 #: admin/views/tabs/metas/other.php:14
-#, fuzzy
 msgid "Subpages of archives"
-msgstr "Sub páginas dos arquivos"
+msgstr "Subpáginas dos arquivos"
 
 #: admin/pages/xml-sitemaps.php:27
-#, fuzzy
 msgid "XML sitemap functionality"
-msgstr "Funcionalidade XML do sitemap"
+msgstr "Funcionalidades de sitemaps XML"
 
 #: admin/views/tabs/sitemaps/user-sitemap.php:17
-#, fuzzy
 msgid "Author / user sitemap"
-msgstr "Autor / utilizador sitemap"
+msgstr "Sitemap de autor/utilizador"
 
 #: admin/views/tabs/sitemaps/post-types.php:15
 #: admin/views/tabs/sitemaps/user-sitemap.php:25
-#, fuzzy
 msgid "In sitemap"
-msgstr "No sitemap"
+msgstr "Incluir no sitemap"
 
 #: admin/views/tabs/sitemaps/post-types.php:16
 #: admin/views/tabs/sitemaps/user-sitemap.php:26
-#, fuzzy
 msgid "Not in sitemap"
-msgstr "Não está no sitemap"
+msgstr "Não incluir no sitemap"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/views/tabs/dashboard/security.php:22
 #, fuzzy
 msgid "The advanced section of the %1$s meta box allows a user to noindex posts or change the canonical. These are things you might not want if you don't trust your authors, so by default, only administrators can do this. Enabling the advanced box allows all users to change these settings."
-msgstr "A secção avançada da caixa meta de %1$s permite a um utilizar aplicar noindex a artigos ou alterar o endereço canónico. São aspectos que pode não querer se não confiar no autor. Por omissão, apenas os administradores podem fazer isto. Activar a caixa de opções avançadas permite a todos os utilizadores alterar estas definições.  "
+msgstr "A secção avançada da caixa meta de %1$s permite a um utilizar aplicar noindex a conteúdos ou alterar o endereço canónico. São aspectos que pode não querer se não confiar no autor. Por omissão, apenas os administradores podem fazer isto. Activar a caixa de opções avançadas permite a todos os utilizadores alterar estas definições. "
 
 #. translators: %1$s expands to OnPage.org
 #: admin/views/tabs/dashboard/webmaster-tools.php:22
-#, fuzzy
 msgid "%1$s indexability check"
-msgstr "%1$s verificação de indexação"
+msgstr "Verificação de indexação por %1$s"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/views/tabs/advanced/breadcrumbs.php:31
 #: admin/views/tabs/metas/post-types.php:37
 #: admin/views/tabs/metas/post-types.php:41
 #: admin/views/tabs/metas/taxonomies.php:40
-#, fuzzy
 msgid "Show"
 msgstr "Mostrar"
 
@@ -1109,7 +951,6 @@ msgstr "Parte avançada do %1$s meta"
 #: admin/views/tabs/metas/archives.php:42
 #: admin/views/tabs/metas/taxonomies.php:25
 #: admin/views/tabs/sitemaps/user-sitemap.php:16
-#, fuzzy
 msgid "Enabled"
 msgstr "Activo"
 
@@ -1119,7 +960,6 @@ msgstr "Activo"
 #: admin/views/tabs/metas/archives.php:43
 #: admin/views/tabs/metas/taxonomies.php:25
 #: admin/views/tabs/sitemaps/user-sitemap.php:16
-#, fuzzy
 msgid "Disabled"
 msgstr "Inactivo"
 
@@ -1138,31 +978,26 @@ msgid "Yoast SEO has %1$snot been able to fetch your site’s indexability statu
 msgstr "Yoast SEO não %1$sconseguiu verificar o estado de indexação do seu site%2$s no OnPage.org"
 
 #: admin/views/dashboard-widget.php:94
-#, fuzzy
 msgid "Fetch the current status"
 msgstr "Verificar estado actual"
 
 #: admin/views/dashboard-widget.php:98
-#, fuzzy
 msgid "Analyze entire site"
 msgstr "Analisar todo o site"
 
 #. translators: %s expands to <code>/category/</code>
 #: admin/views/tabs/advanced/permalinks.php:21
-#, fuzzy
 msgid "Strip the category base (usually %s) from the category URL."
-msgstr "Remover a categoria base (por norma %s) do URL da categoria."
+msgstr "Remover a base de categoria (por omissão é %s) do URL da categoria."
 
 #. translators: %s expands to <code>?replytocom</code>
 #: admin/views/tabs/advanced/permalinks.php:35
-#, fuzzy
 msgid "Remove the %s variables."
-msgstr "Remover as %s variáveis."
+msgstr "Remover as variáveis %s."
 
 #: admin/views/tabs/tool/import-seo.php:25
-#, fuzzy
 msgid "Import from wpSEO"
-msgstr "Importar a partir de wpSEO"
+msgstr "Importar de wpSEO"
 
 #: inc/class-wpseo-rank.php:102
 #, fuzzy
