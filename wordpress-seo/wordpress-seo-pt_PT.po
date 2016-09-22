@@ -2000,128 +2000,103 @@ msgid "Replaced with the post/page author's 'Biographical Info'"
 msgstr "Substituído pela informação biográfica do autor do artigo/página."
 
 #: inc/class-wpseo-replace-vars.php:1122
-#, fuzzy
 msgid "Replaced with the post/page author's userid"
-msgstr "Substituído pelo post/página autor userid"
+msgstr "Substituído pelo ID de utilizador do autor do conteúdo/página"
 
 #: inc/class-wpseo-replace-vars.php:1123
-#, fuzzy
 msgid "Replaced with the current time"
-msgstr "Substituir pelo tempo atual"
+msgstr "Substituído pela hora actual"
 
 #: inc/class-wpseo-replace-vars.php:1124
-#, fuzzy
 msgid "Replaced with the current date"
-msgstr "Substituir pela data atual"
+msgstr "Substituído pela data actual"
 
 #: inc/class-wpseo-replace-vars.php:1125
-#, fuzzy
 msgid "Replaced with the current day"
-msgstr "Substituido pelo dia actual"
+msgstr "Substituído pelo dia actual"
 
 #: inc/class-wpseo-replace-vars.php:1126
-#, fuzzy
 msgid "Replaced with the current month"
-msgstr "Substituir pelo mês atual"
+msgstr "Substituído pelo mês atual"
 
 #: inc/class-wpseo-replace-vars.php:1127
-#, fuzzy
 msgid "Replaced with the current year"
-msgstr "Substituir pelo ano atual"
+msgstr "Substituído pelo ano actual"
 
 #: inc/class-wpseo-replace-vars.php:1128
-#, fuzzy
 msgid "Replaced with the current page number with context (i.e. page 2 of 4)"
-msgstr "Substituída pelo actual número de página em contexto (p. e. página 2 de 4)"
+msgstr "Substituído pelo número actual de página em contexto (p.ex. página 2 de 4)"
 
 #: inc/class-wpseo-replace-vars.php:1129
-#, fuzzy
 msgid "Replaced with the current page total"
-msgstr "Substituir com o  total de páginas"
+msgstr "Substituído pelo número total de páginas"
 
 #: inc/class-wpseo-replace-vars.php:1130
-#, fuzzy
 msgid "Replaced with the current page number"
-msgstr "Substituir pelo número da página atual"
+msgstr "Substituído pelo número da página actual"
 
 #: inc/class-wpseo-replace-vars.php:1131
-#, fuzzy
 msgid "Attachment caption"
-msgstr "Anexo Legenda"
+msgstr "Legenda do anexo"
 
 #: inc/class-wpseo-replace-vars.php:1132
-#, fuzzy
 msgid "Replaced with the posts focus keyword"
-msgstr "Substituído pelo post Keyword princípal"
+msgstr "Substituído pela palavra-chave principal do conteúdo"
 
 #: inc/class-wpseo-replace-vars.php:1133
-#, fuzzy
 msgid "Replaced with the slug which caused the 404"
-msgstr "Substituído pelo slug que causou o erro 404"
+msgstr "Substituído pela slug que causou o erro 404"
 
 #: inc/class-wpseo-replace-vars.php:1134
-#, fuzzy
 msgid "Replaced with a posts custom field value"
-msgstr "Substituído pelo valor de um campo personalizado do post"
+msgstr "Substituído pelo valor de um campo personalizado do conteúdo"
 
 #: inc/class-wpseo-replace-vars.php:1135
-#, fuzzy
 msgid "Replaced with a posts custom taxonomies, comma separated."
-msgstr "Substituído pelas taxonomias personalizadas do post (separadas por vírgulas)"
+msgstr "Substituído pelas taxonomias personalizadas do conteúdo, separadas por vírgulas."
 
 #: inc/class-wpseo-replace-vars.php:1136
-#, fuzzy
 msgid "Replaced with a custom taxonomies description"
 msgstr "Substituído pela descrição da taxonomia personalizada"
 
 #: admin/formatter/class-metabox-formatter.php:76 inc/class-wpseo-rank.php:105
-#, fuzzy
 msgid "Good"
 msgstr "Bom"
 
 #: inc/class-wpseo-rank.php:103
-#, fuzzy
 msgid "Bad"
 msgstr "Mau"
 
 #: inc/options/class-wpseo-option-internallinks.php:68
-#, fuzzy
 msgid "Error 404: Page not found"
-msgstr "Erro 404: A página não foi encontrada"
+msgstr "Erro 404: Página não encontrada"
 
 #: inc/options/class-wpseo-option-internallinks.php:69
-#, fuzzy
 msgid "Archives for"
 msgstr "Arquivo de"
 
 #: inc/options/class-wpseo-option-internallinks.php:70
-#, fuzzy
 msgid "Home"
-msgstr "Home"
+msgstr "Início"
 
 #: inc/options/class-wpseo-option-internallinks.php:71
-#, fuzzy
 msgid "You searched for"
 msgstr "Pesquisou por"
 
 #: inc/options/class-wpseo-option-internallinks.php:165
-#, fuzzy
 msgid "Please select a valid taxonomy for post type \"%s\""
 msgstr "Por favor seleccione uma taxonomia para o tipo de conteúdo \"%s\""
 
 #: inc/options/class-wpseo-option-internallinks.php:204
-#, fuzzy
 msgid "Please select a valid post type for taxonomy \"%s\""
-msgstr "Por favor seleccione um artigo válido para a taxonomia \"%s\""
+msgstr "Por favor seleccione um tipo de conteúdo válido para a taxonomia \"%s\""
 
 #: admin/google_search_console/class-gsc-category-filters.php:117
-#, fuzzy
 msgid "Google was unable to crawl this URL due to an undetermined issue."
 msgstr "Google foi incapaz de rastrear este URL devido a um problema indeterminado."
 
 #. Translators: %1$s: expands to '<code>robots.txt</code>'.
 #: admin/google_search_console/class-gsc-category-filters.php:119
-#, fuzzy
 msgid "Blocked"
 msgstr "Bloqueado"
 
@@ -2131,34 +2106,28 @@ msgid "Googlebot could access your site, but certain URLs are blocked for Google
 msgstr "Googlebot acedeu ao seu site mas certos URL foram bloqueados pelo Googlebot no seu ficheiro %1$s. Este bloqueio pode ser para todos os Googlebots ou apenas específico para o Googlebot-mobile."
 
 #: admin/google_search_console/class-gsc-category-filters.php:120
-#, fuzzy
 msgid "Server Error"
 msgstr "Erro de servidor"
 
 #: admin/google_search_console/class-gsc-category-filters.php:120
-#, fuzzy
 msgid "Request timed out or site is blocking Google."
 msgstr "Tempo de operação excedido ou o site está a bloquear o Google."
 
 #: admin/google_search_console/class-gsc-category-filters.php:121
-#, fuzzy
 msgid "Soft 404"
-msgstr "Erro 404"
+msgstr "Soft 404"
 
 #: admin/google_search_console/class-gsc-category-filters.php:121
-#, fuzzy
 msgid "The target URL doesn't exist, but your server is not returning a 404 (file not found) error."
-msgstr "O URL de destino não existe mas o seu servidor não está a fornecer um erro 404 (ficheiro não encontrado)."
+msgstr "O URL de destino não existe mas o seu servidor não está a retornar um erro 404 (ficheiro não encontrado)."
 
 #: admin/google_search_console/class-gsc-platform-tabs.php:43
 #: admin/google_search_console/class-gsc.php:294
-#, fuzzy
 msgid "Desktop"
-msgstr "Desktop"
+msgstr "Computador"
 
 #: admin/google_search_console/class-gsc-platform-tabs.php:44
 #: admin/google_search_console/class-gsc.php:295
-#, fuzzy
 msgid "Smartphone"
 msgstr "Smartphone"
 
@@ -2181,49 +2150,40 @@ msgid "%1$s detected you’re using a version of %2$s which is not compatible wi
 msgstr "%1$s detectou que está a usar uma versão de %2$s que não é compatível com %1$s. Por favor, actualize %2$s para a versão mais recente para poder usar esta funcionalidade."
 
 #: admin/google_search_console/class-gsc-table.php:107
-#, fuzzy
 msgid "URL"
 msgstr "URL"
 
 #: admin/google_search_console/class-gsc-table.php:108
-#, fuzzy
 msgid "Last crawled"
 msgstr "Último rastreamento"
 
 #: admin/google_search_console/class-gsc-table.php:109
-#, fuzzy
 msgid "First detected"
-msgstr "Detectado primeiro"
+msgstr "Detectado em"
 
 #: admin/google_search_console/class-gsc-table.php:110
-#, fuzzy
 msgid "Response code"
 msgstr "Código de resposta"
 
 #: admin/google_search_console/class-gsc-table.php:139
 #: admin/google_search_console/class-gsc-table.php:210
-#, fuzzy
 msgid "Mark as fixed"
 msgstr "Marcar como resolvido"
 
 #: admin/google_search_console/class-gsc-table.php:206
 #: admin/google_search_console/views/gsc-create-redirect.php:40
-#, fuzzy
 msgid "Create redirect"
-msgstr "Criar redirecionamento"
+msgstr "Criar redireccionamento"
 
 #: admin/google_search_console/class-gsc.php:94
-#, fuzzy
 msgid "Don't miss your crawl errors: %1$sconnect with Google Search Console here%2$s."
 msgstr "Não perca os seus erros de rastreamento: %1$sligue-se aqui à Google Search Console%2$s."
 
 #: admin/class-config.php:134 admin/google_search_console/class-gsc.php:132
-#, fuzzy
 msgid "Search"
 msgstr "Procurar"
 
 #: admin/google_search_console/class-gsc.php:145
-#, fuzzy
 msgid "Crawl errors per page"
 msgstr "Erros de rastreamento por página"
 
@@ -2234,19 +2194,16 @@ msgid "The %1$s data has been removed. You will have to reauthenticate if you wa
 msgstr "Os dados de %1$s foram removidos. Tem de se autenticar de novo para obter os dados."
 
 #: admin/google_search_console/class-gsc.php:205
-#, fuzzy
 msgid "The issues have been successfully reloaded!"
-msgstr "Os assuntos foram carregados com sucesso."
+msgstr "Os problemas foram recarregados com sucesso."
 
 #: admin/google_search_console/class-gsc.php:236
-#, fuzzy
 msgid "Incorrect Google Authorization Code."
-msgstr "Código de autorização Google incorrecto."
+msgstr "Código de autorização do Google incorrecto."
 
 #: admin/google_search_console/class-gsc.php:293
-#, fuzzy
 msgid "Issue categories"
-msgstr "Categorias de assuntos"
+msgstr "Categorias de problemas"
 
 #: admin/google_search_console/class-gsc.php:294
 #, fuzzy
@@ -2264,118 +2221,96 @@ msgid "Errors that only occurred when your site was crawled by Googlebot for fea
 msgstr "Erros ocorridos apenas quando o seu site foi rastreado pelo Googlebot para telefones (erros que não surgiram em computadores)."
 
 #: admin/google_search_console/views/gsc-create-redirect.php:21
-#, fuzzy
 msgid "Redirect this broken URL and fix the error"
-msgstr "Redirecione este ULR partido e corrija o erro"
+msgstr "Redireccione este URL indisponível e corrija o erro"
 
 #: admin/google_search_console/views/gsc-create-redirect.php:24
-#, fuzzy
 msgid "Current URL:"
 msgstr "URL actual:"
 
 #: admin/google_search_console/views/gsc-create-redirect.php:28
-#, fuzzy
 msgid "New URL:"
 msgstr "Novo URL:"
 
 #: admin/google_search_console/views/gsc-create-redirect.php:32
-#, fuzzy
 msgid "Mark as fixed:"
 msgstr "Marcar como resolvido:"
 
 #. Translators: %1$s: expands to 'Google Search Console'.
 #: admin/google_search_console/views/gsc-create-redirect.php:36
-#, fuzzy
 msgid "Mark this issue as fixed in %1$s."
-msgstr "Marcar este assunto como resolvido em %1$s."
+msgstr "Marcar este problema como resolvido em %1$s."
 
 #: admin/google_search_console/views/gsc-create-redirect.php:47
-#, fuzzy
 msgid "Error: a redirect for this URL already exists"
-msgstr "Erro: já existe um redirecionamento para este URL"
+msgstr "Erro: já existe um redireccionamento para este URL"
 
 #. Translators: %1$s: expands to the current URL and %2$s expands to URL the
 #. redirects points to.
 #: admin/google_search_console/views/gsc-create-redirect.php:52
-#, fuzzy
 msgid "You do not have to create a redirect for URL %1$s because a redirect already exists. The existing redirect points to %2$s. If this is fine you can mark this issue as fixed. If not, please go to the redirects page and change the target URL."
-msgstr "Não tem de criar um redirecionamento para o URL %1$s porque já existe um redirecionamento. O redirecionamento aponta para %2$s. Se está bem assim pode marcar este assunto como resolvido. Se não, por favor vá à página de redirecionamentos e altere o URL de destino."
+msgstr "Não tem de criar um redireccionamento para o URL %1$s porque já existe um redireccionamento. O redireccionamento aponta para %2$s. Se está bem assim pode marcar este assunto como resolvido. Se não, por favor vá à página de redireccionamentos e altere o URL de destino."
 
 #. Translators: %s: expands to Yoast SEO Premium
 #: admin/google_search_console/views/gsc-create-redirect.php:62
-#, fuzzy
 msgid "Creating redirects is a %s feature"
-msgstr "Criar redirecionamentos é uma funcionalidade de %s"
+msgstr "Criar redireccionamentos é uma funcionalidade de %s"
 
 #. Translators: %1$s: expands to 'Yoast SEO Premium', %2$s: links to Yoast SEO
 #. Premium plugin page.
 #: admin/google_search_console/views/gsc-create-redirect.php:66
-#, fuzzy
 msgid "To be able to create a redirect and fix this issue, you need %1$s. You can buy the plugin, including one year of support and updates, on %2$s."
-msgstr "Para poder criar um redirecionamento e resolver este assunto, precisa de %1$s. Pode comprar o plugin, incluindo actualizações e suporte durante um ano em %2$s."
+msgstr "Para poder criar um redireccionamento e resolver este assunto, precisa de %1$s. Pode comprar o plugin, incluindo actualizações e suporte durante um ano em %2$s."
 
 #: admin/google_search_console/views/gsc-display.php:16
-#, fuzzy
 msgid "Reload crawl issues"
 msgstr "Actualizar problemas de rastreamento"
 
 #: admin/google_search_console/views/gsc-display.php:44
-#, fuzzy
 msgid "Get Google Authorization Code"
-msgstr "Obtém o código de autorização do Google"
+msgstr "Obter o código de autorização do Google"
 
 #: admin/google_search_console/views/gsc-display.php:50
-#, fuzzy
 msgid "Authenticate"
 msgstr "Autenticar"
 
 #: admin/google_search_console/views/gsc-display.php:54
-#, fuzzy
 msgid "Reauthenticate with Google "
-msgstr "Autenticar novamente com o Google"
+msgstr "Autenticar de novo com o Google"
 
 #: admin/google_search_console/views/gsc-display.php:55
-#, fuzzy
 msgid "Current profile"
 msgstr "Perfil actual"
 
 #: admin/google_search_console/views/gsc-display.php:75
-#, fuzzy
 msgid "Profile"
 msgstr "Perfil"
 
 #: admin/google_search_console/views/gsc-display.php:79
-#, fuzzy
 msgid "There were no profiles found"
-msgstr "Não foram encontrados perfis"
+msgstr "Nenhum perfil encontrado"
 
 #: admin/google_search_console/views/gsc-display.php:86
-#, fuzzy
 msgid "Save Profile"
 msgstr "Guardar perfil"
 
 #: admin/google_search_console/views/gsc-display.php:86
-#, fuzzy
 msgid "or"
 msgstr "ou"
 
 #: admin/pages/advanced.php:18
-#, fuzzy
 msgid "Breadcrumbs"
 msgstr "Breadcrumbs"
 
 #: admin/pages/advanced.php:28
-#, fuzzy
 msgid "Permalinks"
-msgstr "Permalinks"
+msgstr "Ligações permanentes"
 
 #: admin/pages/advanced.php:38
-#, fuzzy
 msgid "RSS"
 msgstr "RSS"
 
 #: admin/pages/dashboard.php:52
-#, fuzzy
 msgid "Fix it"
 msgstr "Resolver"
 
@@ -2385,56 +2320,46 @@ msgid "You do not have your postname in the URL of your posts and pages, it is h
 msgstr "Você não tem o seu postname na URL de seus posts e páginas, é altamente recomendável que você o faça. <strong> /% postname% / </ strong>."
 
 #: admin/pages/dashboard.php:60
-#, fuzzy
 msgid "Company Info"
 msgstr "Informação da empresa"
 
 #: admin/pages/dashboard.php:60
-#, fuzzy
 msgid "Your Info"
 msgstr "Os seus dados"
 
 #: admin/pages/dashboard.php:62
-#, fuzzy
 msgid "Webmaster Tools"
-msgstr "Webmaster Tools"
+msgstr "Ferramentas de webmaster"
 
 #: admin/pages/dashboard.php:63
-#, fuzzy
 msgid "Security"
 msgstr "Segurança"
 
 #: admin/views/tabs/dashboard/general.php:14
-#, fuzzy
 msgid "Introduction tour"
 msgstr "Guia de apresentação"
 
 #: admin/views/tabs/dashboard/general.php:17
-#, fuzzy
 msgid "Take this tour to quickly learn about the use of this plugin."
-msgstr "Faça a visita guiada para aprender rapidamente como usar o plugin."
+msgstr "Faça uma visita guiada para aprender rapidamente como usar o plugin."
 
 #: admin/views/tabs/dashboard/general.php:56
-#, fuzzy
 msgid "Restore Default Settings"
-msgstr "Restaurar as definições por defeito"
+msgstr "Restaurar as definições por omissão"
 
 #. translators: %s expands to Yoast SEO
 #: admin/views/tabs/dashboard/general.php:49
-#, fuzzy
 msgid "If you want to restore a site to the default %s settings, press this button."
-msgstr "Se pretende repor a configuração por omissão do %s, clique neste botão."
+msgstr "Se pretende repor as definições por omissão de %s, clique neste botão."
 
 #: admin/views/tabs/dashboard/general.php:54
-#, fuzzy
 msgid "Are you sure you want to reset your SEO settings?"
-msgstr "Tem a certeza que quer repor a sua configuração de SEO?"
+msgstr "Tem a certeza que quer repor as suas definições de SEO?"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:12
 #: admin/views/tabs/dashboard/knowledge-graph.php:20
-#, fuzzy
 msgid "Website name"
-msgstr "Nome do website"
+msgstr "Nome do site"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:16
 #, fuzzy
@@ -2442,15 +2367,13 @@ msgid "Google shows your website's name in the search results, we will default t
 msgstr "O Google apresenta o nome do website nos resultados de pesquisas, por isso vamos, por omissão, apresentado-lo mas pode adapta-lo aqui. Pode ainda fornecer um nome de website alternativo que queira que o Google considere."
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:21
-#, fuzzy
 msgid "Alternate name"
 msgstr "Nome alternativo"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:23
 #: admin/views/tabs/dashboard/knowledge-graph.php:32
-#, fuzzy
 msgid "Company or person"
-msgstr "Empresa ou Pessoa"
+msgstr "Empresa ou pessoa"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:28
 #, fuzzy
@@ -2458,55 +2381,45 @@ msgid "This data is shown as metadata in your site. It is intended to appear in 
 msgstr "Estes dados são apresentados como metadados no seu site. Destina-se a aparecer no Knowledge Graph do Google. Você pode ser uma empresa, ou uma pessoa, escolha a opção:"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:33
-#, fuzzy
 msgid "Choose whether you're a company or person"
 msgstr "Escolha se é uma empresa ou pessoa"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:34
 #: admin/views/tabs/dashboard/knowledge-graph.php:40
-#, fuzzy
 msgid "Company"
 msgstr "Empresa"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:35
 #: admin/views/tabs/dashboard/knowledge-graph.php:48
-#, fuzzy
 msgid "Person"
 msgstr "Pessoa"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:42
-#, fuzzy
 msgid "Company Name"
-msgstr "Nome da Empresa"
+msgstr "Nome da empresa"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:43
-#, fuzzy
 msgid "Company Logo"
-msgstr "Logo da Empresa"
+msgstr "Logótipo da empresa"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:49
-#, fuzzy
 msgid "Your name"
 msgstr "O seu nome"
 
 #: admin/views/tabs/dashboard/webmaster-tools.php:13
-#, fuzzy
 msgid "You can use the boxes below to verify with the different Webmaster Tools, if your site is already verified, you can just forget about these. Enter the verify meta values for:"
-msgstr "Pode usar os campos abaixo para verificar o seu site junto dos vários Webmaster Tools. Introduza aqui os meta valores de verificação:"
+msgstr "Pode usar os campos abaixo para verificar o seu site junto das várias ferramentas de webmaster. Se o seu site já foi verificado, pode ignorar isto. Insira aqui os metadados de verificação:"
 
 #: admin/views/tabs/dashboard/webmaster-tools.php:15
-#, fuzzy
 msgid "Bing Webmaster Tools"
-msgstr "Bing Webmaster Tools"
+msgstr "Ferramentas de webmaster do Bing"
 
 #: admin/views/tabs/dashboard/webmaster-tools.php:17
-#, fuzzy
 msgid "Yandex Webmaster Tools"
-msgstr "Ferramentas Yandex para Webmaster"
+msgstr "Ferramentas de webmaster do Yandex"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-plugin-availability.php:33 admin/pages/licenses.php:18
-#, fuzzy
 msgid "The premium version of %1$s with more features & support."
 msgstr "A versão premium do %1$s com mais funcionalidades e suporte."
 
@@ -2516,7 +2429,6 @@ msgid "Optimize your videos to show them off in search results and get more clic
 msgstr "Optimize os seus vídeos para os mostrar em resultados de pesquisas e gerar mais tráfego!"
 
 #: admin/class-plugin-availability.php:49 admin/pages/licenses.php:38
-#, fuzzy
 msgid "Are you in Google News? Increase your traffic from Google News by optimizing for it!"
 msgstr "Está no Google News? Aumente o seu tráfego optimizando-o para o Google News!"
 
@@ -2533,9 +2445,8 @@ msgstr "Integre WooCommerce com %1$s sem dificuldade e obtenha funcionalidades e
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/pages/licenses.php:108
-#, fuzzy
 msgid "%1$s Extensions"
-msgstr "Extensões %1$s"
+msgstr "Extensões de %1$s"
 
 #: admin/pages/licenses.php:230
 #, fuzzy
@@ -2543,17 +2454,14 @@ msgid "This is where you would enter the license keys for one of our premium plu
 msgstr "Aqui é onde deve introduzir as chaves das licenças para um dos nossos premium plugins, se activar um."
 
 #: admin/pages/metas.php:21 admin/views/tabs/metas/home.php:14
-#, fuzzy
 msgid "Homepage"
-msgstr "Página principal"
+msgstr "Página inicial"
 
 #: admin/pages/metas.php:22 admin/pages/xml-sitemaps.php:38
-#, fuzzy
 msgid "Post Types"
 msgstr "Tipos de conteúdo"
 
 #: admin/pages/metas.php:23 admin/pages/xml-sitemaps.php:40
-#, fuzzy
 msgid "Taxonomies"
 msgstr "Taxonomias"
 
@@ -2568,17 +2476,14 @@ msgid "%1$s has auto-detected whether it needs to force rewrite the titles for y
 msgstr "%1$s detecta automaticamente se precisa de forçar a reescrita dos títulos de suas páginas. Se acha que isso está errado e sabe o que está a fazer, pode alterar essa opção aqui."
 
 #: admin/views/tabs/metas/general.php:17
-#, fuzzy
 msgid "Title Separator"
 msgstr "Separador de títulos"
 
 #: admin/views/tabs/metas/general.php:22
-#, fuzzy
 msgid "Choose the symbol to use as your title separator. This will display, for instance, between your post title and site name."
-msgstr "Escolha o símbolo que pretende usar como separador de títulos. É normalmente inserido entre o título de um artigo e o nome do site."
+msgstr "Escolha o símbolo que pretende usar como separador de títulos. É normalmente inserido entre o título de um conteúdo e o nome do site."
 
 #: admin/views/tabs/metas/general.php:22
-#, fuzzy
 msgid "Symbols are shown in the size they'll appear in the search results."
 msgstr "Os símbolos são mostrados no tamanho em que aparecem nos resultados de pesquisas."
 
@@ -2588,7 +2493,6 @@ msgstr "Os símbolos são mostrados no tamanho em que aparecem nos resultados de
 #: admin/views/tabs/metas/archives.php:61 admin/views/tabs/metas/home.php:15
 #: admin/views/tabs/metas/post-types.php:30
 #: admin/views/tabs/metas/taxonomies.php:30
-#, fuzzy
 msgid "Title template"
 msgstr "Título por omissão"
 
@@ -2608,24 +2512,20 @@ msgid "Meta keywords template"
 msgstr "Descrição Meta template"
 
 #: admin/views/tabs/metas/home.php:23
-#, fuzzy
 msgid "Homepage &amp; Front page"
-msgstr "Páginas inicial &amp; principal"
+msgstr "Página inicial"
 
 #: admin/views/tabs/metas/home.php:25
-#, fuzzy
 msgid "You can determine the title and description for the front page by %sediting the front page itself &raquo;%s"
-msgstr "Pode indicar o o título e descrição da página inicial %seditando a página aquil &raquo;%s"
+msgstr "Pode indicar o título e descrição da página inicial ao %seditar a página inicial &raquo;%s"
 
 #: admin/views/tabs/metas/home.php:28
-#, fuzzy
 msgid "You can determine the title and description for the blog page by %sediting the blog page itself &raquo;%s"
-msgstr "Pode indicar o o título e descrição da página de artigos %seditando a página aqui &raquo;%s"
+msgstr "Pode indicar o título e descrição da página de artigos do site ao %seditar a página de artigos &raquo;%s"
 
 #: admin/pages/network.php:122
-#, fuzzy
 msgid "Take note:"
-msgstr "Note:"
+msgstr "Nota:"
 
 #: admin/views/tabs/metas/archives.php:23
 #: admin/views/tabs/metas/archives.php:45
@@ -2645,7 +2545,6 @@ msgstr "Data na pré-visualização do <em>snippet</em>"
 #: admin/views/tabs/metas/post-types.php:38
 #: admin/views/tabs/metas/post-types.php:42
 #: admin/views/tabs/metas/taxonomies.php:41
-#, fuzzy
 msgid "Hide"
 msgstr "Esconder"
 
@@ -2657,9 +2556,8 @@ msgid "%1$s Meta Box"
 msgstr "Caixa meta de %1$s"
 
 #: admin/views/tabs/metas/post-types.php:61
-#, fuzzy
 msgid "Custom Post Type Archives"
-msgstr "Arquivos de tipos de conteúdos personalizados"
+msgstr "Arquivo de tipos de conteúdo personalizados"
 
 #: admin/views/tabs/metas/post-types.php:62
 #, fuzzy
@@ -2668,35 +2566,29 @@ msgstr "Nota: em vez de modelos estes são os títulos e descrições meta reais
 
 #: admin/views/tabs/metas/post-types.php:66
 #: admin/views/tabs/social/facebook.php:30 admin/views/tool-bulk-editor.php:39
-#, fuzzy
 msgid "Title"
 msgstr "Título"
 
 #: admin/views/tabs/metas/archives.php:38
-#, fuzzy
 msgid "Date archives"
 msgstr "Arquivo por datas"
 
 #. translators: %1$s / %2$s: links to an article about duplicate content on
 #. yoast.com
 #: admin/views/tabs/metas/archives.php:26
-#, fuzzy
 msgid "If you're running a one author blog, the author archive will be exactly the same as your homepage. This is what's called a %1$sduplicate content problem%2$s."
-msgstr "Se está a gerir um blog de um autor, o arquivo do autor será o mesmo que a homepage. Isto é o que se chama  %1$sum problema de conteúdo duplicado%2$s."
+msgstr "Se está a gerir um site apenas com um autor, o arquivo do autor será o mesmo que a sua página inicial. Isto é o que se chama %1$sum problema de conteúdo duplicado%2$s."
 
 #. translators: %s expands to <code>noindex, follow</code>
 #: admin/views/tabs/metas/archives.php:29
-#, fuzzy
 msgid "If this is the case on your site, you can choose to either disable it (which makes it redirect to the homepage), or to add %s to it so it doesn't show up in the search results."
-msgstr "Se este é o caso do seu site, pode escolher entre desactivá-lo (que leva ao redirecionamento para a homepage), ou adicionar %s para que não apareça nos resultados de pesquisa."
+msgstr "Se este é o caso do seu site, pode escolher entre desactivá-lo (que leva ao redireccionamento para a página inicial), ou adicionar %s para que não apareça nos resultados de pesquisa."
 
 #: admin/views/tabs/metas/archives.php:47
-#, fuzzy
 msgid "Date-based archives could in some cases also be seen as duplicate content."
 msgstr "Arquivos baseados na data podem, nalguns casos, ser vistos como conteúdo duplicado."
 
 #: admin/views/tabs/metas/archives.php:54
-#, fuzzy
 msgid "Special Pages"
 msgstr "Páginas especiais"
 
@@ -2707,24 +2599,21 @@ msgid "These pages will be %s by default, so they will never show up in search r
 msgstr "Estas páginas são %s por omissão, de modo que nunca aparecem em resultados de pesquisa."
 
 #: admin/views/tabs/metas/archives.php:57
-#, fuzzy
 msgid "Search pages"
-msgstr "Resultados de busca (interna)"
+msgstr "Páginas de pesquisa"
 
 #: admin/views/tabs/metas/archives.php:60
-#, fuzzy
 msgid "404 pages"
-msgstr "Página 404"
+msgstr "Páginas 404"
 
 #: admin/views/tabs/metas/other.php:12
-#, fuzzy
 msgid "Sitewide meta settings"
-msgstr "Definições meta do site"
+msgstr "Definições de metadados para todo o site"
 
 #: admin/views/tabs/metas/other.php:15
 #, fuzzy
 msgid "If you want to prevent /page/2/ and further of any archive to show up in the search results, set this to \"noindex\"."
-msgstr "Se quer impedir que as páginas /page/2/ e seguintes de arquivos apareçam em resultados de buscas, defina isto para \"noindex\"."
+msgstr "Se quer impedir que as páginas /page/2/ e seguintes de arquivos apareçam em resultados de pesquisa, defina isto para \"noindex\"."
 
 #: admin/views/tabs/metas/other.php:18
 #, fuzzy
@@ -2743,60 +2632,49 @@ msgid "Force %s meta robots tag sitewide"
 msgstr "Forçar %s etiquetas meta robots do site"
 
 #: admin/pages/network.php:24
-#, fuzzy
 msgid "Settings Updated."
-msgstr "Definições Atualizadas."
+msgstr "Definições actualizadas."
 
 #: admin/pages/network.php:35
-#, fuzzy
 msgid "%s restored to default SEO settings."
-msgstr "%s restaurado para as configurações predefinidas do SEO."
+msgstr "%s restaurado para as definições por omissão de SEO."
 
 #: admin/pages/network.php:38
-#, fuzzy
 msgid "Blog %s not found."
-msgstr "Blog %s não encontrado."
+msgstr "Site %s não encontrado."
 
 #: admin/pages/network.php:68
-#, fuzzy
 msgid "public"
 msgstr "﻿público"
 
 #: admin/pages/network.php:71
-#, fuzzy
 msgid "archived"
 msgstr "arquivado"
 
 #: admin/pages/network.php:74
-#, fuzzy
 msgid "mature"
 msgstr "adulto"
 
 #: admin/pages/network.php:77
-#, fuzzy
 msgid "spam"
 msgstr "spam"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/pages/network.php:101
-#, fuzzy
 msgid "Who should have access to the %1$s settings"
-msgstr "Quem deve aceder às definições de %1$s "
+msgstr "Quem deverá aceder às definições de %1$s"
 
 #: admin/pages/network.php:103
-#, fuzzy
 msgid "Site Admins (default)"
-msgstr "Administrador do site (por defeito)"
+msgstr "Administradores do site (por omissão)"
 
 #: admin/pages/network.php:104
-#, fuzzy
 msgid "Super Admins only"
-msgstr "Só Super Administradores"
+msgstr "Apenas super administradores"
 
 #: admin/pages/network.php:112 admin/pages/network.php:119
-#, fuzzy
 msgid "New sites in the network inherit their SEO settings from this site"
-msgstr "Novos sites na rede herdam as configurações SEO deste site"
+msgstr "Novos sites na rede herdam as definições SEO deste site"
 
 #: admin/pages/network.php:116
 #, fuzzy
@@ -2814,109 +2692,88 @@ msgid "Privacy sensitive (FB admins and such), theme specific (title rewrite) an
 msgstr "Configurações relacionadas com privacidade (admins FB e similar), outras específicas de temas (redefinição de título) e ainda algumas configurações muito específicas de página não serão importadas para novos sites."
 
 #: admin/pages/network.php:125
-#, fuzzy
 msgid "Save MultiSite Settings"
-msgstr "Salvar configurações MultiSite"
+msgstr "Guardar definições multisite"
 
 #: admin/pages/network.php:128
-#, fuzzy
 msgid "Restore site to default settings"
-msgstr "Repor as Configurações Originais do site"
+msgstr "Restaurar as definições originais do site"
 
 #: admin/pages/network.php:131
-#, fuzzy
 msgid "Using this form you can reset a site to the default SEO settings."
-msgstr "Utilizando este formulário, pode efetuar um reset ao site e restaurar as definições originais."
+msgstr "Através deste formulário pode repor as definições por omissão de SEO de um site."
 
 #: admin/pages/network.php:137
-#, fuzzy
 msgid "Site ID"
 msgstr "ID do site"
 
 #: admin/pages/network.php:143
-#, fuzzy
 msgid "Blog ID"
-msgstr "Blog ID"
+msgstr "ID do blog"
 
 #: admin/pages/network.php:146
-#, fuzzy
 msgid "Restore site to defaults"
-msgstr "Repor as Configurações Originais"
+msgstr "Restaurar as definições originais"
 
 #: admin/pages/social.php:16
-#, fuzzy
 msgid "Accounts"
 msgstr "Contas"
 
 #: admin/views/tabs/social/accounts.php:18
-#, fuzzy
 msgid "Facebook Page URL"
 msgstr "URL da página do Facebook"
 
 #: admin/views/tabs/social/accounts.php:19
-#, fuzzy
 msgid "Twitter Username"
-msgstr "Utilizador Twitter"
+msgstr "Nome de utilizador do Twitter"
 
 #: admin/views/tabs/social/accounts.php:20
-#, fuzzy
 msgid "Instagram URL"
-msgstr "Instagram URL"
+msgstr "URL do Instagram"
 
 #: admin/views/tabs/social/accounts.php:21
-#, fuzzy
 msgid "LinkedIn URL"
-msgstr "LinkedIn URL"
+msgstr "URL do LinkedIn"
 
 #: admin/views/tabs/social/accounts.php:22
-#, fuzzy
 msgid "MySpace URL"
-msgstr "MySpace URL"
+msgstr "URL do MySpace"
 
 #: admin/views/tabs/social/accounts.php:23
-#, fuzzy
 msgid "Pinterest URL"
-msgstr "Pinterest URL"
+msgstr "URL do Pinterest"
 
 #: admin/views/tabs/social/accounts.php:24
-#, fuzzy
 msgid "YouTube URL"
-msgstr "YouTube URL"
+msgstr "URL do YouTube"
 
 #: admin/views/tabs/social/accounts.php:25
-#, fuzzy
 msgid "Google+ URL"
-msgstr "Google+ URL"
+msgstr "URL do Google+"
 
 #. translators: %s expands to <code>&lt;head&gt;</code>
 #: admin/views/tabs/social/facebook.php:20
-#, fuzzy
 msgid "Add Open Graph meta data to your site's %s section, Facebook and other social networks use this data when your pages are shared."
-msgstr "Adicione dados meta Open Graph à secção %s do seu site, Facebook e outras redes sociais usam estes dados quando as páginas são partilhadas."
+msgstr "Adicione metadados Open Graph à secção %s do seu site, Facebook e outras redes sociais que usam estes dados quando as sua páginas são partilhadas."
 
 #: admin/views/tabs/social/facebook.php:14
-#, fuzzy
 msgid "Add Open Graph meta data"
-msgstr "Adicionar meta dados Open Graph "
+msgstr "Adicionar metadados Open Graph"
 
 #: admin/views/tabs/social/facebook.php:26
-#, fuzzy
 msgid "Frontpage settings"
-msgstr "Configurações da Página Inicial"
+msgstr "Definições da página inicial"
 
 #: admin/views/tabs/social/facebook.php:27
-#, fuzzy
 msgid "These are the title, description and image used in the Open Graph meta tags on the front page of your site."
-msgstr "Estes são o título, a descrição e a imagem usadas nas dados meta do Open Graph, na página principal do seu site."
+msgstr "Estes são o título, descrição e imagem usados nos metadados Open Graph, na página principal do seu site."
 
 #: admin/views/tabs/social/facebook.php:29
 #: admin/views/tabs/social/facebook.php:42
-#, fuzzy
 msgid "Image URL"
-msgstr "URL da Imagem"
+msgstr "URL da imagem"
 
 #: admin/views/tabs/social/facebook.php:31 admin/views/tool-bulk-editor.php:41
-#, fuzzy
 msgid "Description"
 msgstr "Descrição"
 
@@ -2926,9 +2783,8 @@ msgid "Copy home meta description"
 msgstr "Copiar a descrição meta da página principal"
 
 #: admin/views/tabs/social/facebook.php:40
-#, fuzzy
 msgid "Default settings"
-msgstr "Configurações padrão"
+msgstr "Definições por omissão"
 
 #: admin/views/tabs/social/facebook.php:46
 #, fuzzy
@@ -2937,19 +2793,16 @@ msgstr "Esta imagem é usada se o artigo/página não tiver nenhuma imagem."
 
 #. translators: %s expands to <code>&lt;head&gt;</code>
 #: admin/views/tabs/social/twitterbox.php:17
-#, fuzzy
 msgid "Add Twitter card meta data to your site's %s section."
-msgstr "Adicione meta dos cartões do Twitter à secção %s do seu site."
+msgstr "Adicione metadados do cartão do Twitter à secção %s do seu site."
 
 #: admin/views/tabs/social/twitterbox.php:14
-#, fuzzy
 msgid "Add Twitter card meta data"
-msgstr "Acrescentar metadados Twitter card"
+msgstr "Adicionar metadados do cartão do Twitter"
 
 #: admin/views/tabs/social/twitterbox.php:22
-#, fuzzy
 msgid "The default card type to use"
-msgstr "Tipo de carta predefinida para uso"
+msgstr "Tipo de cartão por omissão"
 
 #: admin/views/tabs/social/pinterest.php:14
 #, fuzzy
@@ -2970,46 +2823,38 @@ msgstr "Se tiver uma página no Google+  para o seu negócio, adicione o URL aqu
 #: admin/views/tabs/social/google.php:16
 #, fuzzy
 msgid "Google Publisher Page"
-msgstr "Publicação Página do Google "
+msgstr "Página Google Publisher"
 
 #: admin/pages/tools.php:21
-#, fuzzy
 msgid "Bulk editor"
-msgstr "Editor de grupo"
+msgstr "Editor por lote"
 
 #: admin/pages/tools.php:22
-#, fuzzy
 msgid "This tool allows you to quickly change titles and descriptions of your posts and pages without having to go into the editor for each page."
-msgstr "Esta ferramenta permite que mude títulos e descrições dos seus artigos e páginas se ter de usar o editor para cada página."
+msgstr "Esta ferramenta permite-lhe mudar títulos e descrições dos seus conteúdos e páginas sem ter de usar o editor para cada página."
 
 #. translators: %s expands to the file path and name.
 #: admin/ajax.php:111
-#, fuzzy
 msgid "The file %s could not be removed. Please remove it via FTP."
-msgstr "O ficheiro %s não pode ser removido. Por favor, remova-o via FTP."
+msgstr "Não foi possível remover o ficheiro %s. Por favor remova-o via FTP."
 
 #: admin/ajax.php:223
-#, fuzzy
 msgid "Post doesn't exist."
-msgstr "O post não existe"
+msgstr "O conteúdo não existe."
 
 #: admin/ajax.php:232
-#, fuzzy
 msgid "Post has an invalid Post Type: %s."
-msgstr "O artigo tem um tipo de conteúdo inválido: %s"
+msgstr "O conteúdo é de um tipo de conteúdo inválido: %s"
 
 #: admin/ajax.php:240
-#, fuzzy
 msgid "You can't edit %s."
-msgstr "Voçê pode editar %s."
+msgstr "Não pode editar %s."
 
 #: admin/ajax.php:248
-#, fuzzy
 msgid "You can't edit %s that aren't yours."
-msgstr "Não pode editar %s de que não é dono."
+msgstr "Não pode editar %s de que não é autor."
 
 #: admin/ajax.php:256
-#, fuzzy
 msgid "You have used HTML in your value which is not allowed."
 msgstr "O valor que introduziu contém HTML, o que não é permitido."
 
@@ -3032,7 +2877,6 @@ msgstr "%1$s detectou que está a usar a versão %2$s de %3$s, por favor, actual
 #: admin/formatter/class-metabox-formatter.php:70
 #: admin/taxonomy/class-taxonomy-columns.php:51
 #: inc/wpseo-non-ajax-functions.php:100
-#, fuzzy
 msgid "SEO"
 msgstr "SEO"
 
@@ -3044,51 +2888,42 @@ msgstr "Títulos &amp; meta"
 #: admin/class-admin.php:166 admin/class-social-admin.php:106
 #: admin/taxonomy/class-taxonomy-metabox.php:185
 #: inc/wpseo-non-ajax-functions.php:266
-#, fuzzy
 msgid "Social"
-msgstr "Social"
+msgstr "Redes sociais"
 
 #: admin/class-admin.php:175 admin/class-pointers.php:300
 #: inc/wpseo-non-ajax-functions.php:272
-#, fuzzy
 msgid "XML Sitemaps"
-msgstr "XML Sitemaps"
+msgstr "Sitemaps XML"
 
 #: admin/class-admin.php:184 admin/metabox/class-metabox.php:374
 #: admin/metabox/class-metabox.php:382 inc/wpseo-non-ajax-functions.php:278
-#, fuzzy
 msgid "Advanced"
-msgstr "Avançado"
+msgstr "Avançadas"
 
 #: admin/class-admin.php:193 inc/wpseo-non-ajax-functions.php:284
-#, fuzzy
 msgid "Tools"
 msgstr "Ferramentas"
 
 #: admin/class-admin.php:202 inc/wpseo-non-ajax-functions.php:290
-#, fuzzy
 msgid "Search Console"
-msgstr "Pesquisar no painel"
+msgstr "Search Console"
 
 #: admin/class-admin.php:335 admin/class-pointers.php:331
 #: admin/pages/licenses.php:112 inc/wpseo-non-ajax-functions.php:296
-#, fuzzy
 msgid "Extensions"
 msgstr "Extensões"
 
 #: admin/class-admin.php:149 admin/pages/dashboard.php:59
 #: admin/pages/metas.php:20 admin/pages/xml-sitemaps.php:30
-#, fuzzy
 msgid "General"
 msgstr "Geral"
 
 #: admin/class-admin.php:283
-#, fuzzy
 msgid "For more information:"
-msgstr "Para mais informação:"
+msgstr "Para mais informações:"
 
 #: admin/class-admin.php:284
-#, fuzzy
 msgid "Title optimization"
 msgstr "Optimização de títulos"
 
@@ -3109,70 +2944,58 @@ msgid "The title &amp; metas settings for %1$s are made up of variables that are
 msgstr "As configurações meta do título &amp; para %1$s são compostas por variáveis que são substituídas por valores específicos provenientes da página, quando esta é visualizada. Os separadores à esquerda explicam as variáveis disponíveis."
 
 #: admin/class-admin.php:293 admin/pages/metas.php:42
-#, fuzzy
 msgid "Note that not all variables can be used in every template."
-msgstr "Lembre-se que nem todas as variáveis ​​podem ser utilizadas em todos os temas."
+msgstr "Atenção que nem todas as variáveis ​​podem ser utilizadas em todos os modelos."
 
 #: admin/class-admin.php:300 admin/class-admin.php:301 admin/pages/metas.php:48
 #: admin/pages/metas.php:50
-#, fuzzy
 msgid "Basic Variables"
-msgstr "Variáveis Básicas"
+msgstr "Variáveis básicas"
 
 #: admin/class-admin.php:308 admin/class-admin.php:309 admin/pages/metas.php:56
 #: admin/pages/metas.php:58
-#, fuzzy
 msgid "Advanced Variables"
 msgstr "Variáveis avançadas"
 
 #: admin/class-admin.php:322 admin/pages/network.php:93
-#, fuzzy
 msgid "MultiSite Settings"
-msgstr "MultiSite Definições"
+msgstr "Definições multisite"
 
 #: admin/class-admin.php:328
-#, fuzzy
 msgid "Edit Files"
 msgstr "Editar ficheiros"
 
 #: admin/class-admin.php:405
-#, fuzzy
 msgid "Posts"
-msgstr "Artigos"
+msgstr "Conteúdos"
 
 #: admin/class-admin-init.php:123
-#, fuzzy
 msgid "Huge SEO Issue: You're blocking access to robots."
-msgstr "Problema grave de SEO: Está a bloquear o acesso a robots."
+msgstr "Problema grave de SEO: Está a bloquear o acesso a robôs dos motores de pesquisa."
 
 #. translators: %1$s resolves to the opening tag of the link to the reading
 #. settings, %1$s resolves to the closing tag for the link
 #: admin/class-admin-init.php:126
-#, fuzzy
 msgid "You must %1$sgo to your Reading Settings%2$s and uncheck the box for Search Engine Visibility."
-msgstr "Deve ir %1$sàs definições de leitura%2$s e desmarcar a caixa relativa à visibilidade dos motores de busca."
+msgstr "Deve ir %1$sàs opções de leitura%2$s e desmarcar a caixa relativa à visibilidade nos motores de pesquisa."
 
 #: admin/class-admin.php:441
 #: admin/google_search_console/class-gsc-platform-tabs.php:40
 #: admin/taxonomy/class-taxonomy-metabox.php:131
 #: admin/taxonomy/class-taxonomy-metabox.php:139
-#, fuzzy
 msgid "Settings"
 msgstr "Definições"
 
 #: admin/class-admin.php:453
-#, fuzzy
 msgid "Premium Support"
 msgstr "Suporte Premium"
 
 #: admin/class-admin.php:457
-#, fuzzy
 msgid "FAQ"
 msgstr "FAQ"
 
 #: admin/class-admin.php:494 admin/class-pointers.php:287
 #: admin/pages/social.php:20
-#, fuzzy
 msgid "Google+"
 msgstr "Google+"
 
