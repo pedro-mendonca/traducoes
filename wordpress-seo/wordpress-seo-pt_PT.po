@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yoast SEO 3.4.2\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
-"PO-Revision-Date: 2016-09-22 01:36+0100\n"
+"PO-Revision-Date: 2016-09-22 01:44+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1020,7 +1020,7 @@ msgstr "%1$sA sua página inicial não pode ser indexada pelos motores de pesqui
 
 #: admin/taxonomy/class-taxonomy-metabox.php:162
 msgid "Facebook / Opengraph metadata"
-msgstr "Metadados de Facebook / Open Graph"
+msgstr "Metadados do Facebook / Open Graph"
 
 #. translators: %1$s expands to the social network name
 #: admin/taxonomy/class-taxonomy-social-fields.php:46
@@ -1080,7 +1080,7 @@ msgstr "A recalcular as classificações SEO para todos os conteúdos com a pala
 
 #: admin/class-social-admin.php:85
 msgid "Facebook / Open Graph metadata"
-msgstr "Metadados de Facebook / Open Graph"
+msgstr "Metadados do Facebook / Open Graph"
 
 #: admin/class-social-admin.php:96
 #: admin/taxonomy/class-taxonomy-metabox.php:175
@@ -3000,14 +3000,12 @@ msgid "Google+"
 msgstr "Google+"
 
 #: admin/class-admin.php:496
-#, fuzzy
 msgid "Twitter username (without @)"
-msgstr "Utilizador do Twitter (sem @)"
+msgstr "Nome de utilizador do Twitter (sem @)"
 
 #: admin/class-admin.php:498
-#, fuzzy
 msgid "Facebook profile URL"
-msgstr "Url de Perfil Facebook"
+msgstr "URL do perfil do Facebook"
 
 #. translators: this should be an array of stop words for your language,
 #. separated by comma's.
@@ -3027,12 +3025,10 @@ msgid "New Yoast Meta Description"
 msgstr "Nova Yoast Meta Description"
 
 #: admin/class-bulk-editor-list-table.php:135
-#, fuzzy
 msgid "You are not allowed to access this page."
-msgstr "Não tem autorização para aceder a esta página."
+msgstr "Não tem permissão para aceder a esta página."
 
 #: admin/class-bulk-editor-list-table.php:299
-#, fuzzy
 msgctxt "posts"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
@@ -3040,221 +3036,180 @@ msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
 msgstr[1] "Tudo <span class=\"count\">(%s)</span>"
 
 #: admin/class-bulk-editor-list-table.php:342
-#, fuzzy
 msgctxt "posts"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
-msgstr[0] "Reciclagem <span class=\"count\">(%s)</span>"
-msgstr[1] "Reciclagem <span class=\"count\">(%s)</span>"
+msgstr[0] "Lixo <span class=\"count\">(%s)</span>"
+msgstr[1] "Lixo <span class=\"count\">(%s)</span>"
 
 #: admin/class-bulk-editor-list-table.php:399
-#, fuzzy
 msgid "Filter"
 msgstr "Filtro"
 
 #: admin/class-bulk-editor-list-table.php:771
-#, fuzzy
 msgid "Edit"
 msgstr "Editar"
 
 #. translators: %s: post title
 #: admin/class-bulk-editor-list-table.php:782
-#, fuzzy
 msgid "Preview &#8220;%s&#8221;"
 msgstr "Pré-visualizar &#8220;%s&#8221;"
 
 #: admin/class-bulk-editor-list-table.php:783
-#, fuzzy
 msgid "Preview"
 msgstr "Pré-visualização"
 
 #. translators: %s: post title
 #: admin/class-bulk-editor-list-table.php:792
-#, fuzzy
 msgid "View &#8220;%s&#8221;"
 msgstr "Ver &#8220;%s&#8221;"
 
 #: admin/class-bulk-editor-list-table.php:793
 #: admin/google_search_console/class-gsc-table.php:209
-#, fuzzy
 msgid "View"
 msgstr "Ver"
 
 #: admin/class-bulk-editor-list-table.php:956
-#, fuzzy
 msgid "WP Page Title"
-msgstr "WP Título da Página"
+msgstr "Título de página do WP"
 
 #: admin/class-bulk-editor-list-table.php:957
-#, fuzzy
 msgid "Post Type"
-msgstr "Tipo de artigo"
+msgstr "Tipo de conteúdo"
 
 #: admin/class-bulk-editor-list-table.php:958
-#, fuzzy
 msgid "Post Status"
-msgstr "Estado do artigo"
+msgstr "Estado do conteúdo"
 
 #: admin/class-bulk-editor-list-table.php:959
-#, fuzzy
 msgid "Publication date"
 msgstr "﻿Data de publicação"
 
 #: admin/class-bulk-editor-list-table.php:960
-#, fuzzy
 msgid "Page URL/Slug"
 msgstr "URL/Slug da página"
 
 #: admin/class-bulk-editor-list-table.php:965
-#, fuzzy
 msgid "Action"
-msgstr "Ação"
+msgstr "Acção"
 
 #: admin/class-config.php:114 admin/metabox/class-metabox.php:748
 #: admin/taxonomy/class-taxonomy.php:109
-#, fuzzy
 msgid "Use Image"
 msgstr "Usar imagem"
 
 #. translators: %s: '%%term_title%%' variable used in titles and meta's
 #. template that's not compatible with the given template
 #: admin/class-config.php:128
-#, fuzzy
 msgid "Warning: the variable %s cannot be used in this template."
-msgstr "Aviso: a variável %s não pode ser utilizada neste modelo."
+msgstr "Aviso: não é possível usar a variável %s neste modelo."
 
 #: admin/class-config.php:128
-#, fuzzy
 msgid "See the help tab for more info."
 msgstr "Consulte o separador Ajuda para obter mais informações."
 
 #. translators: %s is the name of the plugin
 #: admin/class-customizer.php:52
-#, fuzzy
 msgid "%s Breadcrumbs"
-msgstr "%s Breadcrumbs"
+msgstr "Breadcrumbs de %s"
 
 #: admin/class-customizer.php:86
-#, fuzzy
 msgid "Remove blog page from breadcrumbs"
-msgstr "Remover páginas do blog das breadcrumbs"
+msgstr "Remover a página do site de breadcrumbs"
 
 #: admin/class-customizer.php:121
-#, fuzzy
 msgid "Breadcrumbs separator:"
 msgstr "Separador de breadcrumbs:"
 
 #: admin/class-customizer.php:146
-#, fuzzy
 msgid "Anchor text for the homepage:"
-msgstr "Texto âncora para a homepage:"
+msgstr "Texto âncora para a página inical:"
 
 #: admin/class-customizer.php:171
-#, fuzzy
 msgid "Prefix for breadcrumbs:"
 msgstr "Prefixo para breadcrumbs:"
 
 #: admin/class-customizer.php:196
-#, fuzzy
 msgid "Prefix for archive pages:"
-msgstr "Prefixo para a página de arquivo:"
+msgstr "Prefixo para páginas de arquivo:"
 
 #: admin/class-customizer.php:221
-#, fuzzy
 msgid "Prefix for search result pages:"
-msgstr "Prefixo para página de resultados de pesquisa:"
+msgstr "Prefixo para páginas de resultados de pesquisa:"
 
 #: admin/class-customizer.php:246
-#, fuzzy
 msgid "Breadcrumb for 404 pages:"
-msgstr "Breadcrumb para página 404:"
+msgstr "Breadcrumb para páginas 404:"
 
 #: admin/class-export.php:78
-#, fuzzy
 msgid "Error creating %1$s export: "
 msgstr "Erro ao criar %1$s para exportação: "
 
 #: admin/class-export.php:221
-#, fuzzy
 msgid "Could not zip settings-file."
-msgstr "Não foi possível fazer o zip do ficheiro de definições."
+msgstr "Não foi possível criar o ficheiro zip das definições."
 
 #: admin/class-export.php:97
-#, fuzzy
 msgid "Could not write settings to file."
-msgstr "Não foi possível gravar as definições para o ficheiro."
+msgstr "Não foi possível guardar as definições no ficheiro."
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-export.php:113
-#, fuzzy
 msgid "This is a settings export file for the %1$s plugin by Yoast.com"
-msgstr "Este é um ficheiro de configurações de exportação para o %1$s, um plugin de Yoast.com"
+msgstr "Este é um ficheiro de exportação de definições do %1$s, um plugin de Yoast.com"
 
 #: admin/class-export.php:115
-#, fuzzy
 msgid "This export includes taxonomy metadata"
-msgstr "Esta exportação contém metadata de taxonomia"
+msgstr "Esta exportação inclui metadados de taxonomias"
 
 #: admin/class-export.php:183
-#, fuzzy
 msgid "No taxonomy metadata found"
-msgstr "Não foram encontrados metadados da taxonomia"
+msgstr "Não foram encontrados metadados de taxonomias"
 
 #: admin/class-import-external.php:106
-#, fuzzy
 msgid "HeadSpace2 data successfully imported"
-msgstr "HeadSpace2 dados importados com sucesso."
+msgstr "Dados de HeadSpace2 importados com sucesso."
 
 #: admin/class-import-woothemes-seo.php:29
-#, fuzzy
 msgid "WooThemes SEO framework settings &amp; data successfully imported."
-msgstr "WooThemes SEO definições e dados de framework &amp; importados com sucesso. "
+msgstr "Dados e definições da framework WooThemes SEO importados com sucesso."
 
 #: admin/class-import.php:79 admin/class-import.php:85
 #: admin/class-import.php:91 admin/class-import.php:123
 #: admin/class-import.php:130 admin/class-import.php:155
-#, fuzzy
 msgid "Settings could not be imported:"
-msgstr "Definições não podem ser importadas."
+msgstr "Não é possível importar definições:"
 
 #: admin/class-import.php:91
-#, fuzzy
 msgid "Upload failed."
-msgstr "Falhou o envio."
+msgstr "Falhou ao enviar."
 
 #: admin/class-import.php:123
-#, fuzzy
 msgid "Unzipping failed with error \"%s\"."
-msgstr "Descompactação falhou com o erro \"%s\"."
+msgstr "Falhou ao descompactar com o erro \"%s\"."
 
 #: admin/class-import.php:130
-#, fuzzy
 msgid "Unzipping failed - file settings.ini not found."
-msgstr "Descompactação falhou - ficheiro settings.ini não foi encontrado."
+msgstr "Falhou ao descompactar - ficheiro settings.ini não encontrado."
 
 #: admin/class-import.php:151
-#, fuzzy
 msgid "Settings successfully imported."
 msgstr "Definições importadas com sucesso."
 
 #: admin/class-import.php:155
-#, fuzzy
 msgid "No settings found in file."
-msgstr "Não foram encontradas configurações no ficheiro."
+msgstr "Não foram encontradas definições no ficheiro."
 
 #: admin/class-import.php:177
-#, fuzzy
 msgid "Setting \"%s\" is no longer used and has been discarded."
-msgstr "A configuração \"%s\" já não está a ser usada e foi descartada."
+msgstr "A definição \"%s\" já não é utilizada e foi descartada."
 
 #: admin/metabox/class-metabox.php:75
 #: admin/taxonomy/class-taxonomy-content-fields.php:27
-#, fuzzy
 msgid "Focus keyword"
 msgstr "Palavra-chave principal"
 
 #: admin/class-meta-columns.php:68 admin/metabox/class-metabox.php:79
-#, fuzzy
 msgid "SEO Title"
 msgstr "Título SEO"
 
@@ -3288,19 +3243,16 @@ msgid "Warning: even though you can set the meta robots setting here, the entire
 msgstr "Aviso: apesar de poder definir configurações para robots meta aqui, o site inteiro está definido como não podendo ser indexado nas configurações de privacidade globais, por isso estas definições não terão efeito."
 
 #: admin/metabox/class-metabox.php:91
-#, fuzzy
 msgid "Default for this post type, currently: %s"
-msgstr "Defina para tipo de conteúdo por omissão, actualmente: %s"
+msgstr "Por omissão para este tipo de conteúdo é: %s"
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:83
-#, fuzzy
 msgid "Index"
-msgstr "Index"
+msgstr "Indexar"
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:84
-#, fuzzy
 msgid "Noindex"
-msgstr "Noindex"
+msgstr "Não indexar"
 
 #: admin/metabox/class-metabox.php:95
 #, fuzzy
@@ -3318,14 +3270,12 @@ msgid "Advanced <code>meta</code> robots settings for this page."
 msgstr "Definições avançadas de <code>meta</code> robots para esta página."
 
 #: admin/metabox/class-metabox.php:101
-#, fuzzy
 msgid "Site-wide default: %s"
 msgstr "Valor por omissão para todo o site: %s"
 
 #: admin/metabox/class-metabox.php:102 admin/pages/network.php:60
 #: admin/views/tabs/advanced/breadcrumbs.php:47
 #: admin/views/tabs/advanced/breadcrumbs.php:64 inc/class-wpseo-meta.php:416
-#, fuzzy
 msgid "None"
 msgstr "Nenhum"
 
@@ -3351,20 +3301,17 @@ msgstr "Sem pré-visualização"
 
 #: admin/metabox/class-metabox.php:108
 #: admin/taxonomy/class-taxonomy-settings-fields.php:56
-#, fuzzy
 msgid "Breadcrumbs Title"
-msgstr "Título do Breadcrumbs"
+msgstr "Título de breadcrumbs"
 
 #: admin/metabox/class-metabox.php:109
-#, fuzzy
 msgid "Title to use for this page in breadcrumb paths"
-msgstr "Título para esta página nos breadcrumbs"
+msgstr "Título para esta página no caminho das breadcrumbs"
 
 #: admin/metabox/class-metabox.php:111
 #: admin/taxonomy/class-taxonomy-settings-fields.php:63
-#, fuzzy
 msgid "Canonical URL"
-msgstr "URL Canónico"
+msgstr "URL canónico"
 
 #: admin/metabox/class-metabox.php:112
 #, fuzzy
@@ -3372,14 +3319,12 @@ msgid "The canonical URL that this page should point to, leave empty to default 
 msgstr "O link canónico desta página aponta para (deixe vazio para apontar para o permalink por omissão). %scanínicos cross domain%s também são suportados."
 
 #: admin/metabox/class-metabox.php:114
-#, fuzzy
 msgid "301 Redirect"
 msgstr "Redireccionamento 301"
 
 #: admin/metabox/class-metabox.php:115
-#, fuzzy
 msgid "The URL that this page should redirect to."
-msgstr "O URL desta página deve redirecionar para."
+msgstr "O URL para onde esta página deverá ser redireccionada."
 
 #: admin/class-meta-columns.php:346 admin/metabox/class-metabox.php:165
 #, fuzzy
@@ -3392,44 +3337,36 @@ msgid "No focus keyword set."
 msgstr "Nenhuma palavra-chave principal definida."
 
 #: admin/metabox/class-metabox.php:234 admin/taxonomy/class-taxonomy.php:225
-#, fuzzy
 msgid "(no parent)"
-msgstr "(sem pai)"
+msgstr "(sem superior)"
 
 #: admin/metabox/class-metabox.php:735
-#, fuzzy
 msgid "The featured image should be at least 200x200 pixels to be picked up by Facebook and other social media sites."
-msgstr "A imagem em destaque deve ter, pelo menos, 200x200 pixeis para ser utilizada pelo Facebook e outras redes sociais."
+msgstr "A imagem de destaque deve ter pelo menos 200x200 píxeis para ser utilizada pelo Facebook e outras redes sociais."
 
 #: inc/class-wpseo-rank.php:118
-#, fuzzy
 msgid "SEO: No Focus Keyword"
-msgstr "SEO: Sem Keyword Principal"
+msgstr "SEO: Sem palavra-chave principal"
 
 #: inc/class-wpseo-rank.php:119
-#, fuzzy
 msgid "SEO: Bad"
 msgstr "SEO: Mau"
 
 #: inc/class-wpseo-rank.php:120
-#, fuzzy
 msgid "SEO: OK"
-msgstr "SEO: Bom"
+msgstr "SEO: Razoável"
 
 #: inc/class-wpseo-rank.php:121
-#, fuzzy
 msgid "SEO: Good"
-msgstr "SEO: Muito Bom"
+msgstr "SEO: Bom"
 
 #: inc/class-wpseo-rank.php:122
-#, fuzzy
 msgid "SEO: Post Noindexed"
-msgstr "SEO: Artigo não indexado"
+msgstr "SEO: Conteúdo não indexado"
 
 #: admin/class-meta-columns.php:178
-#, fuzzy
 msgid "All SEO Scores"
-msgstr "SEO Pontuação"
+msgstr "Todas as classificações SEO"
 
 #: admin/class-meta-columns.php:69
 #, fuzzy
@@ -3437,20 +3374,17 @@ msgid "Meta Desc."
 msgstr "Meta Desc."
 
 #: admin/class-meta-columns.php:72
-#, fuzzy
 msgid "Focus KW"
-msgstr "Keyword Principal"
+msgstr "Palavra-chave principal"
 
 #: admin/class-meta-columns.php:106 admin/class-meta-columns.php:351
 #: admin/taxonomy/class-taxonomy-columns.php:130
-#, fuzzy
 msgid "Focus keyword not set."
-msgstr "Keyword Principal não definida."
+msgstr "Palavra-chave principal não definida."
 
 #: admin/formatter/class-metabox-formatter.php:75 inc/class-wpseo-rank.php:104
-#, fuzzy
 msgid "OK"
-msgstr "OK"
+msgstr "Razoável"
 
 #. translators: %s expands to the social network's name
 #: admin/class-social-admin.php:34
@@ -3476,40 +3410,34 @@ msgstr "Se quiser substituir a imagem utilizada no %s para este artigo, carregue
 #. image size
 #: admin/class-social-admin.php:40
 #: admin/taxonomy/class-taxonomy-social-fields.php:63
-#, fuzzy
 msgid "The recommended image size for %1$s is %2$spx."
 msgstr "O tamanho recomendado da imagem para %1$s é de %2$spx."
 
 #: admin/class-pointers.php:283 admin/class-social-admin.php:45
 #: admin/pages/social.php:17 admin/taxonomy/class-taxonomy-social-fields.php:93
-#, fuzzy
 msgid "Facebook"
 msgstr "Facebook"
 
 #: admin/class-pointers.php:285 admin/class-social-admin.php:46
 #: admin/pages/social.php:18 admin/taxonomy/class-taxonomy-social-fields.php:94
-#, fuzzy
 msgid "Twitter"
 msgstr "Twitter"
 
 #. translators: %s expands to the social network name
 #: admin/class-social-admin.php:58
 #: admin/taxonomy/class-taxonomy-social-fields.php:44
-#, fuzzy
 msgid "%s Title"
 msgstr "Título de %s"
 
 #. translators: %s expands to the social network name
 #: admin/class-social-admin.php:61
 #: admin/taxonomy/class-taxonomy-social-fields.php:52
-#, fuzzy
 msgid "%s Description"
 msgstr "Descrição de %s"
 
 #. translators: %s expands to the social network name
 #: admin/class-social-admin.php:64
 #: admin/taxonomy/class-taxonomy-social-fields.php:59
-#, fuzzy
 msgid "%s Image"
 msgstr "Imagem de %s"
 
@@ -3522,32 +3450,27 @@ msgstr "O %1$s e o %2$s criam uma saída OpenGraph, o que pode levar o Facebook,
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-plugin-conflict.php:137
-#, fuzzy
 msgid "Configure %1$s's OpenGraph settings"
-msgstr "Configure as definições OpenGraph em  %1$s"
+msgstr "Configure as definições de OpenGraph em %1$s"
 
 #. translators: %1$s expands to Yoast SEO, %2$s: 'Google XML Sitemaps' plugin
 #. name of possibly conflicting plugin with regard to the creation of sitemaps
 #: admin/class-plugin-conflict.php:145
-#, fuzzy
 msgid "Both %1$s and %2$s can create XML sitemaps. Having two XML sitemaps is not beneficial for search engines, yet might slow down your site."
-msgstr "Quer o %1$s como o %2$s podem criar sitemaps XML. Ter dois sitemaps XML não é benéfico para os motores de busca além de poder abrandar o seu site."
+msgstr "Tanto o plugin %1$s como o %2$s podem criar sitemaps XML. Ter dois sitemaps XML não é benéfico para os motores de pesquisa, além de poder diminuir a velocidade o seu site."
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-plugin-conflict.php:149
-#, fuzzy
 msgid "Configure %1$s's XML Sitemap settings"
-msgstr "Configure as definições XML Sitemap de %1$s"
+msgstr "Configure as definições do sitemap XML de %1$s"
 
 #: admin/class-pointers.php:111
 #: admin/google_search_console/views/gsc-create-redirect.php:57
 #: admin/google_search_console/views/gsc-create-redirect.php:71
-#, fuzzy
 msgid "Close"
 msgstr "Fechar"
 
 #: admin/class-pointers.php:174
-#, fuzzy
 msgid "Congratulations!"
 msgstr "Parabéns!"
 
@@ -3558,24 +3481,20 @@ msgid "You&#8217;ve just installed %1$s! Click &#8220;Start Tour&#8221; to view 
 msgstr "Acabou de instalar %1$s! Clique em &#8220;Iniciar a visita guiada&#8221; para ver uma pequena introdução das principais funcionalidades do plugin."
 
 #: admin/class-pointers.php:182 admin/views/tabs/dashboard/general.php:21
-#, fuzzy
 msgid "Start Tour"
 msgstr "Iniciar a visita guiada"
 
 #: admin/class-pointers.php:208
-#, fuzzy
 msgid "Next"
 msgstr "Seguinte"
 
 #: admin/class-pointers.php:214
-#, fuzzy
 msgid "Previous"
 msgstr "Anterior"
 
 #: admin/class-pointers.php:230
-#, fuzzy
 msgid "General settings"
-msgstr "Opções gerais"
+msgstr "Definições gerais"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-pointers.php:232
@@ -3609,9 +3528,8 @@ msgid "Tab: Security"
 msgstr "Tab: Segurança"
 
 #: admin/class-pointers.php:235
-#, fuzzy
 msgid "Determine who has access to the plugins advanced settings on the post edit screen."
-msgstr "Determine quem tem acesso às opções avançadas do plugin no ecrã de edição de artigo."
+msgstr "Determine quem tem acesso às definições avançadas do plugin no ecrã de edição de conteúdo."
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-pointers.php:238
@@ -3625,7 +3543,6 @@ msgid "There&#8217;s more to learn about WordPress &amp; SEO than just using thi
 msgstr "Para além da sua utilização, pode aprender muito mais acerca deste plugin. Um bom começo será o nosso artigo %1$sO guia do Wordpress SEO%2$s."
 
 #: admin/class-pointers.php:243
-#, fuzzy
 msgid "Subscribe to our Newsletter"
 msgstr "Subscreva a nossa Newsletter."
 
@@ -3636,12 +3553,10 @@ msgid "If you would like us to keep you up-to-date regarding %1$s and other plug
 msgstr "Se quiser manter-se actualizado relativamente ao %1$s e outros plugins de Yoast, subscreva a nossa newsletter:"
 
 #: admin/class-pointers.php:248
-#, fuzzy
 msgid "Email"
 msgstr "Email"
 
 #: admin/class-pointers.php:250
-#, fuzzy
 msgid "Subscribe"
 msgstr "Subscrever"
 
@@ -3656,9 +3571,8 @@ msgid "This is where you\tset the titles and meta-information for all your post 
 msgstr "Aqui pode definir →\t os títulos e a informação meta para todos os seus artigos, categorias, etiquetas, arquivos, páginas especiais e página principal. Esta página esta dividida em diferentes separadores. Não se esqueça de os verificar todos! "
 
 #: admin/class-pointers.php:266
-#, fuzzy
 msgid "Sitewide settings"
-msgstr "Sitewide definições"
+msgstr "Definições para todo o site"
 
 #: admin/class-pointers.php:266
 #, fuzzy
@@ -3668,7 +3582,7 @@ msgstr "O primeiro separador mostra as definições do site para os títulos, no
 #: admin/class-pointers.php:267
 #, fuzzy
 msgid "Templates and settings"
-msgstr "Modelos e configurações"
+msgstr "Modelos e definições"
 
 #: admin/class-pointers.php:267
 #, fuzzy
@@ -3682,7 +3596,6 @@ msgstr "Os modelos são construídos através de variáveis. Pode encontrar toda
 
 #: admin/class-pointers.php:268 admin/pages/metas.php:24
 #: frontend/class-frontend.php:537
-#, fuzzy
 msgid "Archives"
 msgstr "Arquivo"
 
@@ -3694,14 +3607,13 @@ msgstr "No separador arquivos pode definir modelos para cada página especifica,
 #: admin/class-pointers.php:269
 #: admin/google_search_console/class-gsc-category-filters.php:117
 #: admin/pages/metas.php:25
-#, fuzzy
 msgid "Other"
 msgstr "Outros"
 
 #: admin/class-pointers.php:269
 #, fuzzy
 msgid "On the Other tab you can change sitewide meta settings, like enable meta keywords."
-msgstr "No separador Outros pode alterar as configurações de meta sitewide, como permitir palavras chave meta."
+msgstr "No separador Outros pode alterar as definições de metadados para todo o site, tais como permitir palavras-chave meta."
 
 #: admin/class-pointers.php:282
 #, fuzzy
@@ -3714,9 +3626,8 @@ msgid "On this tab you can enable the %1$sFacebook Open Graph%2$s functionality 
 msgstr "Neste separador pode activar a funcionalidade %1$sFacebook Open Graph%2$s para este plugin, bem como definir a aplicação ou utilizador do Facebook para este site, para que possa visualizar as estatísticas do Facebook."
 
 #: admin/class-pointers.php:284
-#, fuzzy
 msgid "The frontpage settings allow you to set meta-data for your homepage, whereas the default settings allow you to set a fallback for all posts/pages without images. "
-msgstr "As definições da página principal permitem configurar os metadados para a sua página inicial. As definições por omissão são usadas para todos os artigos/páginas sem imagens."
+msgstr "As definições da página inicial permitem configurar os seus metadados. As definições por omissão são usadas para todos os conteúdos/páginas sem imagens."
 
 #: admin/class-pointers.php:285
 #, fuzzy
@@ -3724,7 +3635,6 @@ msgid "With %1$sTwitter Cards%2$s, you can attach rich photos, videos and media 
 msgstr "Com %1$sTwitter Cards%2$s, pode anexar fotos, vídeos e experiências multimédia aos tweets, aumentando o tráfego para o seu site. Seleccione simplesmente a caixa, registe-se no serviço e os utilizadores que tweetam links para o seu conteúdo terão um &#8220;Card&#8221; adicionado ao tweet, que fica visível para todos os seus seguidores."
 
 #: admin/class-pointers.php:286 admin/pages/social.php:19
-#, fuzzy
 msgid "Pinterest"
 msgstr "Pinterest"
 
@@ -3734,19 +3644,16 @@ msgid "On this tab you can verify your site with Pinterest and enter your Pinter
 msgstr "Neste separador pode verificar o seu site com o Pinterest e introduzir a sua conta."
 
 #: admin/class-pointers.php:301
-#, fuzzy
 msgid "What are XML sitemaps?"
-msgstr "O que são XML sitemaps?"
+msgstr "O que são sitemaps XML?"
 
 #: admin/class-pointers.php:301
-#, fuzzy
 msgid "A Sitemap is an XML file that lists the URLs for a site. It allows webmasters to include additional information about each URL: when it was last updated, how often it changes, and how important it is in relation to other URLs in the site. This allows search engines to crawl the site more intelligently."
-msgstr "O sitemap é um ficheiro XML que lista os URLs para um site. Permite aos webmasters incluir informação adicional sobre cada URL: quando foi actualizado pela última vez, com que frequência muda e quão importante é em relação a outros URLs no site. Isto permite aos motores de busca recolherem informação sobre o site de forma mais inteligente."
+msgstr "O sitemap é um ficheiro XML que lista os URL de um site. Permite aos webmasters incluir informação adicional sobre cada URL: quando foi actualizado pela última vez, com que frequência muda e quão importante é em relação a outros URL no site. Isto permite aos motores de pesquisa recolherem informações sobre o site de modo mais inteligente."
 
 #: admin/class-pointers.php:302
-#, fuzzy
 msgid "What does the plugin do with XML Sitemaps?"
-msgstr "O que é que o plugin faz com os XML sitemaps?"
+msgstr "O que é que o plugin faz com os sitemaps XML?"
 
 #: admin/class-pointers.php:302
 #, fuzzy
@@ -3754,9 +3661,8 @@ msgid "This plugin adds XML sitemaps to your site. The sitemaps are automaticall
 msgstr "Este plugin adiciona o XML sitemap ao seu site. Este sitemap é automaticamente actualizado quando publica um novo artigo, página ou artigo personalizado. O Google e Bing são automaticamente notificados."
 
 #: admin/class-pointers.php:303
-#, fuzzy
 msgid "If you want to exclude certain post types and/or taxonomies, you can also set that on this page."
-msgstr "Se precisar de excluir determinados tipos de artigos ou taxonomias (etiquetas/categorias) pode utilizar esta página."
+msgstr "Se precisar de excluir determinados tipos de conteúdo ou taxonomias (etiquetas/categorias) pode utilizar esta página."
 
 #: admin/class-pointers.php:304
 #, fuzzy
@@ -3764,9 +3670,8 @@ msgid "Is your webserver low on memory? Decrease the entries per sitemap (defaul
 msgstr "O seu servidor tem pouca memória? Diminua o número de entradas do sitemap (que é 1000 por omissão) para reduzir a carga."
 
 #: admin/class-pointers.php:317
-#, fuzzy
 msgid "Advanced Settings"
-msgstr "Opções Avançadas"
+msgstr "Definições avançadas"
 
 #: admin/class-pointers.php:317
 #, fuzzy
@@ -3774,7 +3679,6 @@ msgid "All of the options on these tabs are for advanced users only, if you don&
 msgstr "Estas opções são apenas para utilizadores avançados, se não sabe o que está a fazer não mexa em nada."
 
 #: admin/class-pointers.php:330
-#, fuzzy
 msgid "Extensions and Licenses"
 msgstr "Extensões e licenças"
 
@@ -3788,7 +3692,6 @@ msgstr ""
 "Estes plugins premium requerem a instalação de %1$s ou %2$s e adicionam funcionalidades especificas. Pode ler toda a informação sobre Yoast Premium Plugins %3$saqui%4$s."
 
 #: admin/class-pointers.php:335 admin/pages/licenses.php:113
-#, fuzzy
 msgid "Licenses"
 msgstr "Licenças"
 
@@ -3799,7 +3702,6 @@ msgid "Once you&#8217;ve purchased %1$s or any other premium Yoast plugin, you&#
 msgstr "Assim que adquirir o %1$s ou quaisquer outros plugin Yoast premium, terá de inserir uma chave de licença. Pode fazê-lo no separador Licenças. Assim que activar o seu plugin premium, poderá usar todas as suas poderosas funcionalidades."
 
 #: admin/class-pointers.php:339
-#, fuzzy
 msgid "Like this plugin?"
 msgstr "Gosta deste plugin?"
 
@@ -3814,32 +3716,26 @@ msgid "Thank you for using our plugin and good luck with your SEO!<br/><br/>Best
 msgstr "Obrigado por usar o nosso plugin e boa sorte com o seu SEO!<br/><br/>Cumprimentos,<br/>EquipaYoast - %1$sYoast.com%2$s"
 
 #: admin/class-social-facebook.php:113
-#, fuzzy
 msgid "Please make sure both fields are filled."
 msgstr "Por favor, tenha a certeza de que ambos os campos estão preenchidos."
 
 #: admin/class-social-facebook.php:116
-#, fuzzy
 msgid "Your input contains invalid characters. Please make sure both fields are filled in correctly."
-msgstr "Os dados que inseriu contém caracteres inválidos. Por favor, tenha a certeza de que ambos os campos estão preenchidos correctamente."
+msgstr "Os dados que inseriu contêm caracteres inválidos. Por favor, tenha a certeza de que ambos os campos estão preenchidos correctamente."
 
 #: admin/class-social-facebook.php:119
-#, fuzzy
 msgid "This Facebook user has already been added as an admin."
 msgstr "Este utilizador do Facebook já foi adicionado como administrador."
 
 #: admin/class-social-facebook.php:155
-#, fuzzy
 msgid "Successfully removed admin %s"
 msgstr "Administrador %s removido com sucesso"
 
 #: admin/class-social-facebook.php:178
-#, fuzzy
 msgid "Successfully cleared all Facebook Data"
-msgstr "Todos os Dados do Facebook foram limpos com sucesso"
+msgstr "Todos os dados do Facebook foram limpos com sucesso"
 
 #: admin/class-social-facebook.php:289
-#, fuzzy
 msgid "Facebook Insights and Admins"
 msgstr "Estatísticas (Insights) e administradores do Facebook"
 
@@ -3851,9 +3747,8 @@ msgstr "Para aceder ao %1$sFacebook Insights%2$s para o seu site, precisa de ind
 
 #. translators: %1$s and %2$s expand to a link to the Yoast Knowledge Base
 #: admin/class-social-facebook.php:298
-#, fuzzy
 msgid "More info can be found %1$son our knowledge base%2$s."
-msgstr "Mais informação pode ser encontrara %1$sna nossa base de conhecimento%2$s."
+msgstr "Pode encontrar mais informações %1$sna nossa base de conhecimento%2$s."
 
 #. translators: %1$s and %2$s expand to a link to Facebook Insights
 #: admin/class-social-facebook.php:315
@@ -3868,52 +3763,42 @@ msgid "If you don't know where to find the needed ID, see %1$sthis knowledge bas
 msgstr "Se não sabe onde encontrar a ID, vê %1$seste artigo da base de conhecimento%2$s."
 
 #: admin/class-social-facebook.php:322
-#, fuzzy
 msgid "Admin's name:"
 msgstr "Nome do administrador:"
 
 #: admin/class-social-facebook.php:326
-#, fuzzy
 msgid "Admin's Facebook user ID:"
-msgstr "ID do utilizador administrador do Facebook"
+msgstr "ID de utilizador do administrador do Facebook"
 
 #: admin/class-social-facebook.php:331 admin/class-social-facebook.php:345
-#, fuzzy
 msgid "Add Facebook admin"
-msgstr "Adicione um administrador do Facebook"
+msgstr "Adicione administrador do Facebook"
 
 #: admin/class-social-facebook.php:351
-#, fuzzy
 msgid "Add Another Facebook Admin"
-msgstr "Adicionar Outro Administrador do Facebook"
+msgstr "Adicionar outro administrador do Facebook"
 
 #: admin/class-social-facebook.php:356
-#, fuzzy
 msgid "Currently connected Facebook admins:"
-msgstr "Administradores do Facebook atualmente ligados:"
+msgstr "Administradores do Facebook actualmente ligados:"
 
 #: admin/class-social-facebook.php:383
-#, fuzzy
 msgid "Facebook App ID"
-msgstr "Facebook App ID"
+msgstr "ID da app do Facebook"
 
 #: admin/class-social-facebook.php:451
-#, fuzzy
 msgid "Clear all Facebook Data"
-msgstr "Limpar todos os Dados do Facebook"
+msgstr "Limpar todos os dados do Facebook"
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:86
-#, fuzzy
 msgid "Auto detect"
 msgstr "Detectar automaticamente"
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:87
-#, fuzzy
 msgid "Always include"
 msgstr "Incluir sempre"
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:88
-#, fuzzy
 msgid "Never include"
 msgstr "Nunca incluir"
 
@@ -3928,14 +3813,12 @@ msgid "The canonical link is shown on the archive page for this term."
 msgstr "O link canónico é mostrado na página de arquivo para este termo."
 
 #: admin/views/tabs/metas/post-types.php:72
-#, fuzzy
 msgid "Breadcrumbs title"
-msgstr "Título dos breadcrumbs"
+msgstr "Título de breadcrumbs"
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:57
-#, fuzzy
 msgid "The Breadcrumbs Title is used in the breadcrumbs where this taxonomy appears."
-msgstr "O título da navegação estruturada é usado na estrutura onde esta taxonomia aparece."
+msgstr "O título de breadcrumbs é usado em breadcrumbs onde esta taxonomia aparece."
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:45
 #, fuzzy
@@ -3943,7 +3826,6 @@ msgid "This taxonomy follows the indexation rules set under Metas and Titles, yo
 msgstr "Esta taxonomia segue as regras de indexação definidas em Títulos e Metas, mas pode mudá-la aqui."
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:50
-#, fuzzy
 msgid "Include in Sitemap?"
 msgstr "Incluir no sitemap?"
 
@@ -3954,85 +3836,70 @@ msgid "%s Posts Overview"
 msgstr "%s Visualização de Artigos"
 
 #: admin/class-yoast-dashboard-widget.php:162
-#, fuzzy
 msgid "Posts with good SEO score"
-msgstr "Artigos com boa classificação SEO"
+msgstr "Conteúdos com classificação boa de SEO"
 
 #: admin/class-yoast-dashboard-widget.php:161
-#, fuzzy
 msgid "Posts with OK SEO score"
-msgstr "Artigos com classificação SEO de OK"
+msgstr "Conteúdos com classificação razoável de SEO"
 
 #: admin/class-yoast-dashboard-widget.php:160
-#, fuzzy
 msgid "Posts with bad SEO score"
-msgstr "Artigos com uma má classificação SEO"
+msgstr "Conteúdos com classificação má de SEO"
 
 #: admin/class-yoast-dashboard-widget.php:159
-#, fuzzy
 msgid "Posts without focus keyword"
-msgstr "Artigos sem palavra-chave principal"
+msgstr "Conteúdos sem palavra-chave principal"
 
 #. translators: %s expands to <code>noindex</code>
 #: admin/class-yoast-dashboard-widget.php:164
-#, fuzzy
 msgid "Posts that are set to %s"
-msgstr "Artigos que estão definidos para %s"
+msgstr "Conteúdos que estão definidos para %s"
 
 #: admin/class-yoast-form.php:139
-#, fuzzy
 msgid "Debug Information"
-msgstr "Debug Informação"
+msgstr "Informações de depuração"
 
 #: admin/class-yoast-form.php:141
-#, fuzzy
 msgid "Current option:"
-msgstr "Opção atual"
+msgstr "Opção actual:"
 
 #: admin/class-yoast-form.php:262
-#, fuzzy
 msgid "Remove these ads?"
 msgstr "Remover estes anúncios?"
 
 #. translators: %1$s expands to Yoast SEO Premium
 #: admin/class-yoast-form.php:265
-#, fuzzy
 msgid "Upgrade to %1$s &raquo;"
 msgstr "Actualizar para %1$s &raquo;"
 
 #: admin/class-yoast-form.php:518 admin/metabox/class-metabox.php:545
 #: admin/taxonomy/class-taxonomy-fields-presenter.php:95
-#, fuzzy
 msgid "Upload Image"
 msgstr "Carregar imagem"
 
 #. translators: %1$s: 'Facebook & Open Graph' plugin name(s) of possibly
 #. conflicting plugin(s), %2$s to Yoast SEO
 #: admin/class-yoast-plugin-conflict.php:198
-#, fuzzy
 msgid "The %1$s plugin might cause issues when used in conjunction with %2$s."
 msgstr "O plugin %1$s pode causar problemas quando usado em conjugação com %2$s."
 
 #. translators: %s: 'Facebook' plugin name of possibly conflicting plugin
 #: admin/class-yoast-plugin-conflict.php:202
-#, fuzzy
 msgid "Deactivate %s"
 msgstr "Desactivar %s"
 
 #: admin/google_search_console/class-gsc-category-filters.php:113
-#, fuzzy
 msgid "Access denied"
 msgstr "Acesso negado"
 
 #: admin/google_search_console/class-gsc-category-filters.php:113
-#, fuzzy
 msgid "Server requires authentication or is blocking Googlebot from accessing the site."
-msgstr "O servidor requer autenticação ou está a bloquear por Googlebot de aceder ao site."
+msgstr "O servidor requer autenticação ou está a bloquear o acesso do Googlebot ao site."
 
 #: admin/google_search_console/class-gsc-category-filters.php:114
-#, fuzzy
 msgid "Faulty redirects"
-msgstr "Redirecionamentos com defeito"
+msgstr "Redireccionamentos com falhas"
 
 #: admin/google_search_console/class-gsc-category-filters.php:115
 #, fuzzy
@@ -4040,11 +3907,9 @@ msgid "Not followed"
 msgstr "Não seguido"
 
 #: admin/google_search_console/class-gsc-category-filters.php:116
-#, fuzzy
 msgid "Not found"
 msgstr "Não encontrado"
 
 #: admin/google_search_console/class-gsc-category-filters.php:116
-#, fuzzy
 msgid "URL points to a non-existent page."
-msgstr "URL aponta para uma página que não existe."
+msgstr "O URL aponta para uma página que não existe."
