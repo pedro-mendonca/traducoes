@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yoast SEO 3.4.2\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
-"PO-Revision-Date: 2016-09-22 15:28+0100\n"
+"PO-Revision-Date: 2016-09-26 16:29+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,7 +48,6 @@ msgstr "Editar &#8220;%s&#8221;"
 
 #. translators: %d: number of knowledge base search results found.
 #: admin/class-config.php:131
-#, fuzzy
 msgid "Number of search results: %d"
 msgstr "Número dos resultados da pesquisa: %d"
 
@@ -62,11 +61,10 @@ msgstr "Lista de problemas de rastreamento"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/pages/dashboard.php:45
-#, fuzzy
 msgid "The following file is blocking your XML sitemaps from working properly. Either delete it (this can be done with the \"Fix it\" button) or disable %1$s XML sitemaps."
 msgid_plural "The following files are blocking your XML sitemaps from working properly. Either delete them (this can be done with the \"Fix it\" button) or disable %1$s XML sitemaps."
-msgstr[0] "O seguinte ficheiro está a bloquear o funcionamento correcto do seu sitemap XML. Apague o ficheiro (pode ser feito com o botão \"Resolver\") ou desactive o sitemap XML %1$s."
-msgstr[1] "Os seguintes ficheiros estão a bloquear o funcionamento correcto do seu sitemap XML. Apague os ficheiros (pode ser feito com o botão \"Resolver\") ou desactive o sitemap XML %1$s."
+msgstr[0] "O seguinte ficheiro está a bloquear o funcionamento correcto do seu sitemap XML. Elimine o ficheiro (pode ser feito com o botão \"Resolver\") ou desactive os sitemaps XML do %1$s."
+msgstr[1] "Os seguintes ficheiros estão a bloquear o funcionamento correcto do seu sitemap XML. Elimine os ficheiros (pode ser feito com o botão \"Resolver\") ou desactive os sitemaps XML do %1$s."
 
 #: admin/pages/licenses.php:30
 msgid "Show your videos in Google Videos"
@@ -200,9 +198,8 @@ msgid "View Credits"
 msgstr "Ver créditos"
 
 #: admin/views/tabs/metas/archives.php:31
-#, fuzzy
 msgid "Note that links to archives might be still output by your theme and you would need to remove them separately."
-msgstr "Note que as ligações para o arquivo podem ser atribuídas pelo tema e terá de as remover de forma separada."
+msgstr "Atenção que as ligações para o arquivo podem ser atribuídas pelo tema e terá de as remover separadamente."
 
 #: admin/views/tool-bulk-editor.php:19
 msgid "Filter posts list"
@@ -217,14 +214,12 @@ msgid "Posts list"
 msgstr "Lista de conteúdos"
 
 #: inc/wpseo-non-ajax-functions.php:187
-#, fuzzy
 msgid "Google Structured Data Test"
 msgstr "Teste de dados estruturados do Google"
 
 #: inc/wpseo-non-ajax-functions.php:229
-#, fuzzy
 msgid "Microsoft Edge Site Scan"
-msgstr "Análise do site do Microsoft Edge "
+msgstr "Análise do site do Microsoft Edge"
 
 #. translators: %s expands to the directory path and name.
 #: admin/ajax.php:121
@@ -322,7 +317,6 @@ msgid "Back to search results"
 msgstr "Voltar aos resultados da pesquisa"
 
 #: admin/class-config.php:142
-#, fuzzy
 msgid "Open the knowledge base article in a new window or read it in the iframe below"
 msgstr "Abrir o artigo da base de conhecimento numa nova janela ou ler num iframe abaixo"
 
@@ -394,9 +388,8 @@ msgstr "Remove o separador da palavra-chave da caixa de meta e desativa todas as
 
 #. translators: %1$s resolves to https://github.com/Yoast/wordpress-seo
 #: admin/class-asset.php:180
-#, fuzzy
 msgid "You are trying to load non-minified files, these are only available in our development package. Check out %1$s to see all the source files."
-msgstr "Está a tentar carregar ficheiros não minificados, estes estão apenas disponíveis no nosso pacote de desenvolvimento. Verifique %1$s para ver todos os ficheiros fonte."
+msgstr "Está a tentar carregar ficheiros não minimizados, estes apenas estão disponíveis no nosso pacote de desenvolvimento. Veja %1$s para ver todos os ficheiros do código fonte."
 
 #: admin/class-meta-columns.php:66
 #: admin/formatter/class-metabox-formatter.php:50
@@ -433,9 +426,8 @@ msgstr "Escolha a palavra-chave principal ou frase-chave sobre o que trata este 
 
 #: admin/metabox/class-metabox.php:72
 #: admin/taxonomy/class-taxonomy-content-fields.php:36
-#, fuzzy
 msgid "This is the content analysis, a collection of content checks that analyze the content of your page. %sLearn more about the Content Analysis Tool%s."
-msgstr "Esta é a análise de conteúdo, uma colectânea de verificações de conteúdo que analisa a sua página. %sSaiba mais sobre a Ferramenta de Análise de Conteúdo%s."
+msgstr "Esta é a análise de conteúdo, uma colectânea de verificações de conteúdo que analisa a sua página. %sSaiba mais sobre a ferramenta de Análise de Conteúdo%s."
 
 #: admin/views/about.php:55
 msgid "Product Management"
@@ -474,9 +466,8 @@ msgid "Problems"
 msgstr "Problemas"
 
 #: admin/views/partial-alerts-errors.php:10
-#, fuzzy
 msgid "We have detected the following issues that affect the SEO of your site."
-msgstr "Detetamos os seguintes problemas a afetarem o SEO do seu site."
+msgstr "Foram detectados os seguintes problemas a afectar a classificação SEO do seu site."
 
 #: admin/views/partial-alerts-errors.php:11
 msgid "Good job! We could detect no serious SEO problems."
@@ -508,9 +499,8 @@ msgid "%1$s Dashboard"
 msgstr "Painel de %1$s"
 
 #: inc/options/class-wpseo-option-xml.php:156
-#, fuzzy
 msgid "\"Max entries per sitemap page\" should be below %s to meet Google's requirements, which %s is not."
-msgstr "\"Máximo de entradas por página de sitemap\" deve ser abaixo de %s para corresponder aos requisitos do Google, o que %s não cumpre."
+msgstr "\"Máximo de entradas por sitemap\" deve ser abaixo de %s para corresponder aos requisitos do Google, sendo que %s não corresponde."
 
 #. translators: %d resolves to the number of alerts being added.
 #: inc/wpseo-non-ajax-functions.php:90
@@ -520,16 +510,14 @@ msgstr[0] "Tem um novo problema relacionado com SEO!"
 msgstr[1] "Tem %d novos problemas relacionados com SEO!"
 
 #: admin/class-admin-init.php:154
-#, fuzzy
 msgid "Paging comments is enabled, this is not needed in 999 out of 1000 cases, we recommend to disable it."
-msgstr "Os comentários por página estão activados e isto não é necessário em 999 a cada 1000 casos, por isso recomendamos que os desactive."
+msgstr "A paginação de comentários está activada e isto não é necessário em 999 a cada 1000 casos, por isso recomendamos a sua desactivação."
 
 #. translators: %1$s resolves to the opening tag of the link to the comment
 #. setting page, %2$s resolves to the closing tag of the link
 #: admin/class-admin-init.php:159
-#, fuzzy
 msgid "Simply uncheck the box before \"Break comments into pages...\" on the %1$sComment settings page%2$s."
-msgstr "Basta desmarcar a caixa antes de \"Dividir os comentários em páginas de...\" na %1$sárea de Comentários nas Opções%2$s."
+msgstr "Basta desactivar a opção \"Dividir os comentários em páginas de...\" na página %1$sOpções de discussão%2$s."
 
 #. translators: %1$s resolves to the starting tag of the link to the permalink
 #. settings page, %2$s resolves to the closing tag of the link
@@ -581,7 +569,6 @@ msgstr "Suporte por email é uma funcionalidade de %s"
 #. translators: %1$s: expands to 'Yoast SEO Premium', %2$s: links to Yoast SEO
 #. Premium plugin page.
 #: admin/class-help-center.php:62
-#, fuzzy
 msgid "To be able to contact our support team, you need %1$s. You can buy the plugin, including one year of support, updates and upgrades, on %2$s."
 msgstr "Para poder contactar a nossa equipa de suporte precisa de %1$s. Pode comprar o plugin, incluindo um ano de suporte e actualizações em %2$s."
 
@@ -603,49 +590,40 @@ msgid "Filter by SEO Score"
 msgstr "Filtrar por classificação SEO"
 
 #: admin/class-yoast-form.php:172
-#, fuzzy
 msgid "Order a Website Review and we will tell you what to improve to attract more visitors!"
-msgstr "Peça uma Análise ao Website e nós diremos como o melhorar para atrair mais visitantes!"
+msgstr "Peça uma Análise ao site e nós diremos como o melhorar para atrair mais visitantes!"
 
 #: admin/class-yoast-form.php:182
-#, fuzzy
 msgid "Take the online SEO Copywriting Training course and learn how to write awesome copy that ranks!"
-msgstr "Faça o curso online de SEO Copywriting e aprenda como escrever excelentes textos que classificam junto dos motores de pesquisa."
+msgstr "Inscreva-se no curso online SEO Copywriting Training para aprender a criar textos que obtenham excelentes classificações nos motores de pesquisa."
 
 #: admin/class-yoast-form.php:187
-#, fuzzy
 msgid "Take the online Basic SEO Training course and learn the fundamentals of SEO!"
-msgstr "Faça a formação online Basic SEO e aprenda os fundamentos do SEO!"
+msgstr "Inscreva-se no curso online Basic SEO Training para aprender os fundamentos de SEO!"
 
 #: admin/class-yoast-form.php:192
-#, fuzzy
 msgid "Take the Yoast SEO for WordPress Training course and become a certified Yoast SEO for WordPress expert!"
-msgstr "Faça a formação Yoast SEO para WordPress e fique um especialista certificado Yoast SEO para WordPress!"
+msgstr "Inscreva-se no nosso curso Yoast SEO for WordPress Training e torne-se um especialista certificado em Yoast SEO para WordPress!"
 
 #: admin/class-yoast-form.php:200
-#, fuzzy
 msgid "Buy the Yoast SEO Premium plugin now and get access to extra features and 24/7 support!"
-msgstr "Compre o plugin Yoast SEO Premium agora e tenha acesso a funcionalidades extra e suporte 24/7!"
+msgstr "Compre agora o plugin Yoast SEO Premium e tenha acesso a funcionalidades extra e suporte 24/7!"
 
 #: admin/class-yoast-form.php:208
-#, fuzzy
 msgid "Buy the Yoast Video SEO plugin now and optimize your videos for video search results and social media!"
-msgstr "Compre o plugin Yoast Video SEO agora e optimize os seus vídeos para os resultados de pesquisas por vídeo e redes sociais. "
+msgstr "Compre agora o plugin Yoast Video SEO e optimize os seus vídeos para os resultados de pesquisas por vídeo e redes sociais!"
 
 #: admin/class-yoast-form.php:216
-#, fuzzy
 msgid "Buy the Yoast WooCommerce SEO plugin now and optimize your shop today to improve your product promotion!"
-msgstr "Compre o plugin Yoast WooCommerce SEO agora e optimize a sua loja hoje mesmo, para melhorar a promoção dos seus produtos!"
+msgstr "Compre agora o plugin Yoast WooCommerce SEO e optimize a sua loja hoje mesmo, para melhorar a promoção dos seus produtos!"
 
 #: admin/class-yoast-form.php:224
-#, fuzzy
 msgid "Buy the Yoast Local SEO plugin now to improve your site&#8217;s Local SEO and ranking in Google Maps!"
-msgstr "Compre o plugin Yoast Local SEO agora e melhore o SEO da localização e a classificação no Google Maps!"
+msgstr "Compre agora o plugin Yoast Local SEO e melhore o SEO da localização e a classificação no Google Maps!"
 
 #: admin/class-yoast-form.php:232
-#, fuzzy
 msgid "Buy the Yoast News SEO plugin now and start optimizing to get your site featured in Google News!"
-msgstr "Compre o plugin Yoast News SEO e comece a optimizar o seu site para ser destacado no Google News!"
+msgstr "Compre agora o plugin Yoast News SEO e comece a optimizar o seu site para ser destacado no Google News!"
 
 #: admin/formatter/class-metabox-formatter.php:51
 msgid "Keyword:"
@@ -796,7 +774,7 @@ msgstr "Quer ser um especialista em %s?"
 #. translators: %$1s expands to Yoast SEO
 #: admin/views/partial-help-center-video.php:42
 msgid "Follow our %1$s for WordPress training and become a certified %1$s Expert!"
-msgstr "Inscreva-se no nosso curso de %1$s para WordPress e torne-se um especialista certificado em %1$s!"
+msgstr "Inscreva-se no nosso curso %1$s for WordPress Training e torne-se um especialista certificado em %1$s!"
 
 #. translators: %s expands to Yoast SEO for WordPress
 #: admin/views/partial-help-center-video.php:45
@@ -804,9 +782,8 @@ msgid "Enroll in the %s training &raquo;"
 msgstr "Inscrever-se no curso %s &raquo;"
 
 #: inc/sitemaps/class-sitemaps-cache-validator.php:267
-#, fuzzy
 msgid "Expected an integer as input."
-msgstr "A entrada deve ser um inteiro."
+msgstr "A entrada deve ser um número inteiro."
 
 #: admin/views/tabs/advanced/permalinks.php:26
 msgid "No redirect"
@@ -817,12 +794,10 @@ msgid "Redirect"
 msgstr "Redireccionar"
 
 #: admin/views/tabs/advanced/permalinks.php:41
-#, fuzzy
 msgid "Note: this feature has been deprecated, as the SEO value is close to 0 these days. If you disable it you will not be able to put it back on."
-msgstr "Nota: esta funcionalidade ficou obsoleta, dado que o seu valor SEO é quase 0. Se a desactivar não será possível voltar a activar."
+msgstr "Nota: esta funcionalidade está obsoleta, uma vez que o seu valor relativamente a SEO é quase 0. Se a desactivar não será possível voltar a activar."
 
 #: inc/sitemaps/class-sitemaps-cache-validator.php:91
-#, fuzzy
 msgid "Trying to build the sitemap cache key, but the postfix and prefix combination leaves too little room to do this. You are probably requesting a page that is way out of the expected range."
 msgstr "A tentar criar uma chave de cache segura para o sitemap mas a combinação de sufixo e prefixo não deixa muito espaço para o fazer. Está provavelmente a pedir uma página que estará muito fora do alcance expectável."
 
@@ -847,7 +822,6 @@ msgid "Filter specific user roles"
 msgstr "Filtrar por papel de utilizador"
 
 #: admin/taxonomy/class-taxonomy-columns.php:115
-#, fuzzy
 msgid "Term is set to noindex."
 msgstr "Termo está definido como a não indexar."
 
@@ -871,9 +845,8 @@ msgid "Primary %s"
 msgstr "%s primário(a)"
 
 #: admin/views/tabs/advanced/breadcrumbs.php:33
-#, fuzzy
 msgid "Show Blog page"
-msgstr "Mostrar página do blog"
+msgstr "Mostrar página de artigos"
 
 #: admin/views/tabs/advanced/breadcrumbs.php:36
 msgid "Bold"
@@ -914,7 +887,7 @@ msgstr "Não incluir no sitemap"
 #: admin/views/tabs/dashboard/security.php:22
 #, fuzzy
 msgid "The advanced section of the %1$s meta box allows a user to noindex posts or change the canonical. These are things you might not want if you don't trust your authors, so by default, only administrators can do this. Enabling the advanced box allows all users to change these settings."
-msgstr "A secção avançada da caixa meta de %1$s permite a um utilizar aplicar noindex a conteúdos ou alterar o endereço canónico. São aspectos que pode não querer se não confiar no autor. Por omissão, apenas os administradores podem fazer isto. Activar a caixa de opções avançadas permite a todos os utilizadores alterar estas definições. "
+msgstr "A secção avançada da caixa meta de %1$s permite a um utilizar aplicar noindex a conteúdos ou alterar o endereço canónico. São aspectos que pode não querer se não confiar no autor. Por omissão, apenas os administradores podem fazer isto. Activar a caixa de opções avançadas permite a todos os utilizadores alterar estas definições."
 
 #. translators: %1$s expands to OnPage.org
 #: admin/views/tabs/dashboard/webmaster-tools.php:22
@@ -1049,9 +1022,8 @@ msgid "We've updated our SEO score algorithm. %1$sRecalculate the SEO scores%2$s
 msgstr "Actualizámos o nosso algoritmo de classificação SEO. %1$sCarregue aqui para recalcular as suas classificações SEO%2$s para todos os conteúdos e páginas."
 
 #: admin/class-admin-init.php:537
-#, fuzzy
 msgid "%s filter/action"
-msgstr "%s filtro/acção"
+msgstr "Filtro/acção %s"
 
 #. translators: 1: expands to a <span> containing the number of posts
 #. recalculated. 2: expands to a <strong> containing the total number of posts.
@@ -1107,15 +1079,13 @@ msgstr "Editor de fragmentos"
 
 #. translators: %1$s expands to the option name and %2$sexpands to Yoast SEO
 #: inc/options/class-wpseo-option-ms.php:153
-#, fuzzy
 msgid "%1$s is not a valid choice for who should be allowed access to the %2$s settings. Value reset to the default."
-msgstr "%1$s não é uma escolha válida para quem deve ter permissões de acesso às configurações do %2$s. Valor por omissão restaurado."
+msgstr "%1$s não é uma escolha válida para quem deve ter permissões de acesso às configurações do %2$s. Foi reposto o valor por omissão."
 
 #: inc/options/class-wpseo-option-ms.php:173
 #: inc/options/class-wpseo-option-ms.php:183
-#, fuzzy
 msgid "The default blog setting must be the numeric blog id of the blog you want to use as default."
-msgstr "A predefinição de configuração do blog tem de ser o id numérico do blog que pretende usar como predefinido."
+msgstr "As definições por omissão têm que ser o ID numérico do site cujas definições pretende usar por omissão."
 
 #: inc/options/class-wpseo-option-ms.php:173
 msgid "This must be an existing blog. Blog %s does not exist or has been marked as deleted."
@@ -1138,9 +1108,8 @@ msgid "Summary with large image"
 msgstr "Resumo com imagem grande"
 
 #: inc/options/class-wpseo-option-social.php:240
-#, fuzzy
 msgid "%s does not seem to be a valid Twitter user-id. Please correct."
-msgstr "%s não aparenta ser um utilizador válido do Twitter. Por favor rectifique."
+msgstr "%s não parece ser um utilizador válido do Twitter. Por favor tente de novo."
 
 #: inc/options/class-wpseo-option-titles.php:179
 msgid "%s, Author at %s"
@@ -1155,29 +1124,24 @@ msgid "%s Archive"
 msgstr "Arquivo de %s"
 
 #: inc/options/class-wpseo-option-xml.php:178
-#, fuzzy
 msgid "\"Max entries per sitemap page\" should be a positive number, which %s is not. Please correct."
-msgstr "\"Número máximo de entradas por página de mapa de site\" deve ser um número positivo, sendo que %s não o é. Por favor rectifique."
+msgstr "\"Máximo de entradas por sitemap\" deve ser um número positivo, sendo que %s não o é. Por favor tente de novo."
 
 #: inc/options/class-wpseo-option.php:295
-#, fuzzy
 msgid "%s does not seem to be a valid %s verification string. Please correct."
-msgstr "%s aparenta não ser uma variável de %s verificação válida. Por favor rectifique."
+msgstr "%s não parece ser uma variável de verificação de %s válida. Por favor tente de novo."
 
 #: inc/options/class-wpseo-option.php:328
-#, fuzzy
 msgid "%s does not seem to be a valid url. Please correct."
-msgstr "%s não parece ser um URL válido. Por favor corrija."
+msgstr "%s não parece ser um URL válido. Por favor tente de novo."
 
 #: inc/wpseo-non-ajax-functions.php:120
-#, fuzzy
 msgid "Keyword Research"
-msgstr "Pesquisa de palavra-chave"
+msgstr "Pesquisa de palavras-chave"
 
 #: inc/wpseo-non-ajax-functions.php:126
-#, fuzzy
 msgid "AdWords External"
-msgstr "AdWords Externo"
+msgstr "AdWords externo"
 
 #: inc/wpseo-non-ajax-functions.php:140
 msgid "SEO Book"
@@ -1208,24 +1172,20 @@ msgid "Facebook Debugger"
 msgstr "Depurador do Facebook"
 
 #: inc/wpseo-non-ajax-functions.php:201
-#, fuzzy
 msgid "Pinterest Rich Pins Validator"
-msgstr "Pinterest Rich Pins Validator"
+msgstr "Validação de Rich Pins do Pinterest"
 
 #: inc/wpseo-non-ajax-functions.php:208
-#, fuzzy
 msgid "HTML Validator"
-msgstr "HTML Validator"
+msgstr "Validação de HTML"
 
 #: inc/wpseo-non-ajax-functions.php:215
-#, fuzzy
 msgid "CSS Validator"
-msgstr "CSS Validator"
+msgstr "Validação de CSS"
 
 #: inc/wpseo-non-ajax-functions.php:222
-#, fuzzy
 msgid "Google Page Speed Test"
-msgstr "Google Page Speed Test"
+msgstr "Teste PageSpeed do Google"
 
 #: inc/wpseo-non-ajax-functions.php:236
 msgid "Mobile-Friendly Test"
@@ -1244,19 +1204,16 @@ msgid "All-In-One-SEO has been deactivated"
 msgstr "O plugin All in One SEO foi desactivado"
 
 #: vendor/yoast/i18n-module/i18n-module.php:170
-#, fuzzy
 msgid "As you can see, there is a translation of this plugin in %1$s. This translation is currently %3$d%% complete. We need your help to make it complete and to fix any errors. Please register at %4$s to help complete the translation to %1$s!"
-msgstr "Como pode ver, há uma tradução deste plugin em %1$s. Esta tradução está actualmente  %3$d%% completa. Precisamos da sua ajuda para a completar ou corrigir erros. Por favor, registe-se em %4$s para ajudar a completar a tradução de %1$s!"
+msgstr "Como pode ver, existe uma tradução deste plugin em %1$s. Esta tradução está actualmente %3$d%% concluída. Precisamos da sua ajuda para a completar ou corrigir erros. Por favor, registe-se em %4$s para ajudar na tradução para %1$s!"
 
 #: vendor/yoast/i18n-module/i18n-module.php:172
-#, fuzzy
 msgid "You're using WordPress in %1$s. While %2$s has been translated to %1$s for %3$d%%, it's not been shipped with the plugin yet. You can help! Register at %4$s to help complete the translation to %1$s!"
-msgstr "Você está a usar o Wordpress em %1$s. Enquanto %2$s foi traduzido para %1$s em %3$d%%, esta não será disponibilizada com o plugin. Você pode ajudar! Registe-se em %4$s para completar a tradução para %1$s! "
+msgstr "Está a usar o WordPress em %1$s. O %2$s está traduzido para %1$s em %3$d%%, esta tradução ainda não foi disponibilizada juntamente com o plugin. Se quiser pode ajudar! Registe-se em %4$s para ajudar na tradução para %1$s!"
 
 #: vendor/yoast/i18n-module/i18n-module.php:174
-#, fuzzy
 msgid "You're using WordPress in a language we don't support yet. We'd love for %2$s to be translated in that language too, but unfortunately, it isn't right now. You can change that! Register at %4$s to help translate it!"
-msgstr "Está a usar o WordPress num idioma que ainda não suportamos. Adoraríamos ter o %2$s traduzido nesta língua, mas com muita pena não é ainda possível. Mas pode mudar isso! Registe-se em %4$s para ajudar a traduzir! "
+msgstr "Está a usar o WordPress num idioma ainda não suportado. Gostaríamos muito de ter o %2$s traduzido neste idioma, mas infelizmente ainda não é possível. Pode mudar isto! Registe-se em %4$s para ajudar na sua tradução!"
 
 #: vendor/yoast/i18n-module/i18n-module.php:194
 msgid "Translation of %s"
@@ -1267,9 +1224,8 @@ msgid "Register now &raquo;"
 msgstr "Registe-se agora &raquo;"
 
 #: vendor/yoast/license-manager/class-license-manager.php:134
-#, fuzzy
 msgid "<b>Warning!</b> You're blocking external requests which means you won't be able to get %s updates. Please add %s to %s."
-msgstr "<b>Aviso!</b> Está a bloquear pedidos externos, o que significa que não vai poder obter actualizações %s. Por favor adicione %s a %s."
+msgstr "<b>Aviso!</b> Está a bloquear pedidos externos, o que significa que não receberá actualizações de %s. Por favor adicione %s a %s."
 
 #: vendor/yoast/license-manager/class-license-manager.php:175
 msgid "Your %s license has been activated. "
@@ -1284,18 +1240,16 @@ msgid "You have used %d/%d activations. "
 msgstr "Usou %d/%d activações. "
 
 #: vendor/yoast/license-manager/class-license-manager.php:186
-#, fuzzy
 msgid "<a href=\"%s\">Did you know you can upgrade your license?</a>"
-msgstr "<a href=\"%s\">Sabia que podia fazer upgrade da sua licença?</a>"
+msgstr "<a href=\"%s\">Sabia que pode actualizar a sua licença?</a>"
 
 #: vendor/yoast/license-manager/class-license-manager.php:190
 msgid "<a href=\"%s\">Your license is expiring in %d days, would you like to extend it?</a>"
 msgstr "<a href=\"%s\">A sua licença vai expirar dentro de %d dias. Pretende renovar?</a>"
 
 #: vendor/yoast/license-manager/class-license-manager.php:199
-#, fuzzy
 msgid "You've reached your activation limit. You must <a href=\"%s\">upgrade your license</a> to use it on this site."
-msgstr "Atingiu o limite de activações. Deve <a href=\"%s\">realizar um upgrade da sua licença</a> para a usar neste site."
+msgstr "Atingiu o seu limite de activações. Terá de <a href=\"%s\">actualizar a sua licença</a> para poder utilizá-la neste site."
 
 #: vendor/yoast/license-manager/class-license-manager.php:202
 msgid "Your license has expired. You must <a href=\"%s\">extend your license</a> in order to use it again."
@@ -1314,42 +1268,36 @@ msgid "Failed to deactivate your %s license."
 msgstr "Falhou ao desactivar a sua licença %s."
 
 #: vendor/yoast/license-manager/class-license-manager.php:267
-#, fuzzy
 msgid "Request error: \"%s\" (%scommon license notices%s)"
-msgstr "Erro no pedido: \"%s\" (%scommon license notices%s)"
+msgstr "Erro de pedido: \"%s\" (%savisos comuns de licenças%s)"
 
 #: vendor/yoast/license-manager/class-license-manager.php:426
 msgid "%s: License Settings"
 msgstr "%s: Definições da licença"
 
 #: vendor/yoast/license-manager/class-plugin-license-manager.php:73
-#, fuzzy
 msgid "%s is network activated, you can manage your license in the <a href=\"%s\">network admin license page</a>."
-msgstr "%s está activado através de uma rede, pode gerir a sua licença na  <a href=\"%s\">página de administração de licença  de rede</a>."
+msgstr "O %s está activado na rede, poderá gerir a sua licença na <a href=\"%s\">página de gestão de licenças de rede</a>."
 
 #: vendor/yoast/license-manager/class-plugin-license-manager.php:75
-#, fuzzy
 msgid "%s is network activated, please contact your site administrator to manage the license."
-msgstr "%s está activado para uma rede, por favor contacte o administrador do seu site para gerir a licença."
+msgstr "O %s está activado na rede, por favor contacte o administrador do site para gerir a licença."
 
 #: vendor/yoast/license-manager/class-update-manager.php:79
-#, fuzzy
 msgid "%s failed to check for updates because of the following error: <em>%s</em>"
-msgstr "%s falhou a verificação de actualizações devido ao erro seguinte: <em>%s</em>"
+msgstr "O %s falhou a verificação de actualizações devido ao seguinte erro: <em>%s</em>"
 
 #: vendor/yoast/license-manager/class-update-manager.php:157
-#, fuzzy
 msgid "This site has not been activated properly on yoast.com and thus cannot check for future updates. Please activate your site with a valid license key."
 msgstr "Este site não foi devidamente activado em yoast.com e portanto não pode verificar actualizações futuras. Por favor active o seu site com uma licença válida."
 
 #: vendor/yoast/license-manager/views/form.php:15
-#, fuzzy
 msgid "We couldn't create a connection to our API to verify your license key(s). Please ask your hosting company to allow outgoing connections from your server to %s."
-msgstr "Não conseguimos criar a ligação à nossa API para verificação da sua licença. Peça, por favor, à sua empresa de alojamento para permitir ligações externas do seu servidor para o nosso %s."
+msgstr "Não foi possível estabelecer ligação à nossa API para verificar a sua licença. Por favor peça ao seu serviço de alojamento que permita ligações externas do seu servidor para o nosso %s."
 
 #: vendor/yoast/license-manager/views/form.php:19
 msgid "Your server has an outdated version of the PHP module cURL (Version: %s). Please ask your hosting company to update this to a recent version of cURL. You can read more about that in our %sKnowledge base%s."
-msgstr "O seu servidor tem uma versão obsoleta do módulo cURL do PHP (versão: %s). Por favor solicite ao seu serviço de alojamento para actualizar a verão do cURL para uma versão mais recente. Pode obter mais informações sobre este assunto na nossa %sbase de conhecimento%s."
+msgstr "O seu servidor tem uma versão obsoleta do módulo cURL do PHP (versão: %s). Por favor peça ao seu serviço de alojamento para actualizar a verão do cURL para uma versão mais recente. Pode obter mais informações sobre este assunto na nossa %sbase de conhecimento%s."
 
 #: vendor/yoast/license-manager/views/form.php:31
 msgid "License status"
@@ -1373,23 +1321,20 @@ msgid "Activate License"
 msgstr "Active a licença"
 
 #: vendor/yoast/license-manager/views/form.php:52
-#, fuzzy
 msgid "Please enter a license key in the field below first."
-msgstr "Por favor digite primeiro a chave de licença no campo abaixo."
+msgstr "Por favor, insira primeiro a chave da licença no campo abaixo."
 
 #: vendor/yoast/license-manager/views/form.php:60
 msgid "License Key"
 msgstr "Chave de licença"
 
 #: vendor/yoast/license-manager/views/form.php:62
-#, fuzzy
 msgid "Paste your %s license key here.."
-msgstr "Cole a sua chave de licença %s aqui.."
+msgstr "Cole aqui a sua chave da licença de %s..."
 
 #: vendor/yoast/license-manager/views/form.php:64
-#, fuzzy
 msgid "You defined your license key using the %s PHP constant."
-msgstr "Definiu a sua chave de licença através da %s constante PHP."
+msgstr "Definiu a sua chave de licença através da constante de PHP %s."
 
 #: vendor/yoast/license-manager/views/form.php:81
 msgid "Your %s license will expire on %s."
@@ -1400,22 +1345,19 @@ msgid "%sRenew your license now%s."
 msgstr "%sRenovar a sua licença agora%s."
 
 #: wp-seo-main.php:416
-#, fuzzy
 msgid "The Standard PHP Library (SPL) extension seem to be unavailable. Please ask your web host to enable it."
-msgstr "A extensão Standard PHP Library (SPL) aparenta estar indisponível. Por favor peça ao administrador do seu alojamento para a activar."
+msgstr "A extensão PHP Library (padrão) não está disponível. Por favor peça ao seu serviço de alojamento para activá-la."
 
 #. translators: %1$s expands to Yoast SEO, %2$s / %3$s: links to the
 #. installation manual in the Readme for the Yoast SEO code repository on
 #. GitHub
 #: wp-seo-main.php:438
-#, fuzzy
 msgid "The %1$s plugin installation is incomplete. Please refer to %2$sinstallation instructions%3$s."
-msgstr "A instalação do plugin WordPress SEO está incompleta. Por favor, verifique as %1$sinstruções de intalação%2$s."
+msgstr "A instalação do plugin %1$s está incompleta. Por favor, leia as %2$sinstruções de instalação%3$s."
 
 #: wp-seo-main.php:462
-#, fuzzy
 msgid "The filter extension seem to be unavailable. Please ask your web host to enable it."
-msgstr "O filtro de extensão parece que não esta disponível. Por favor peça ao seu alojamento para activa-lo."
+msgstr "A extensão Filter não está disponível. Por favor peça ao seu serviço de alojamento para activá-la."
 
 #: wp-seo-main.php:472
 msgid "Activation failed:"
@@ -1430,9 +1372,8 @@ msgid "https://yoast.com/wordpress/plugins/seo/#utm_source=wpadmin&utm_medium=pl
 msgstr "https://yoast.com/wordpress/plugins/seo/#utm_source=wpadmin&utm_medium=plugin&utm_campaign=wpseoplugin"
 
 #. Description of the plugin/theme
-#, fuzzy
 msgid "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more."
-msgstr "A primeira e autentica solução de SEO integrada para WordPress, com análise de conteúdo na página, sitemaps de XML e muito mais."
+msgstr "A primeira solução integrada de SEO para WordPress, com análise de conteúdo na página, sitemaps XML e muito mais."
 
 #. Author of the plugin/theme
 msgid "Team Yoast"
@@ -1489,7 +1430,7 @@ msgstr "Guarde as suas definições para activar o seu sitemap XML."
 
 #: admin/views/tabs/sitemaps/general.php:29
 msgid "Please enter the maximum number of entries per sitemap page (defaults to %s, you might want to lower this to prevent memory issues on some installs):"
-msgstr "Por favor insira o número máximo de entradas por página de sitemap (por omissão é %s, poderá diminuir este valor para prevenir problemas de memória em algumas instalações):"
+msgstr "Por favor, insira o número máximo de entradas por página de sitemap (por omissão é %s, poderá diminuir este valor para prevenir problemas de memória em algumas instalações):"
 
 #: admin/views/tabs/sitemaps/general.php:33
 msgid "Max entries per sitemap"
@@ -1597,9 +1538,8 @@ msgid "Change URLs"
 msgstr "Alterar URL"
 
 #: admin/views/tabs/advanced/permalinks.php:28
-#, fuzzy
 msgid "Attachments to posts are stored in the database as posts, this means they're accessible under their own URLs if you do not redirect them, enabling this will redirect them to the post they were attached to."
-msgstr "Anexos para os artigos estão guardados na base de dados como artigos, o que significa que estão acessíveis pelos seus próprios URL caso não os redireccione; activando isto irá redirecciona-los para o artigo ao qual estão ligados."
+msgstr "Os anexos dos conteúdos são guardados na base de dados como conteúdos, o que significa que estão acessíveis pelos seus próprios URL caso não os redireccione, activando esta opção irá redireccioná-los para o conteúdo a que estão anexados."
 
 #: admin/views/tabs/advanced/permalinks.php:27
 msgid "Redirect attachment URLs to parent post URL."
@@ -1634,30 +1574,25 @@ msgid "People make mistakes in their links towards you sometimes, or unwanted pa
 msgstr "As pessoas poderão cometer erros nas ligações para o seu site, ou adicionam intencionalmente parâmetros indesejados ao final do seu URL, esta opção permite-lhe redireccionar tudo isto. Atenção que, embora esta seja uma funcionalidade mantida activamente no plugin, é conhecida por criar conflitos com diversos outros plugins, por isto deverá ser a primeira funcionalidade a desactivar caso ocorram alguns problemas após a sua instalação."
 
 #: admin/views/tabs/advanced/permalinks.php:46
-#, fuzzy
 msgid "Redirect ugly URLs to clean permalinks. (Not recommended in many cases!)"
-msgstr "Redireccionado as ligações URL feias para ligações permanentes limpas. (Não é recomendado em muitos casos!)."
+msgstr "Redireccionar ligações com URL feio para ligações permanentes limpas. (Não é recomendado em muitos casos!)"
 
 #: admin/views/tabs/advanced/permalinks.php:51
-#, fuzzy
 msgid "Google Site Search URLs look weird, and ugly, but if you're using Google Site Search, you probably do not want them cleaned out."
 msgstr "Os URL na pesquisa através do Google Site Search parecem estranhos, mas caso esteja a utilizar o Google Site Search provavelmente não os quer diferentes."
 
 #: admin/views/tabs/advanced/permalinks.php:50
-#, fuzzy
 msgid "Prevent cleaning out Google Site Search URLs."
 msgstr "Evitar limpar os URL no Google Site Search."
 
 #. translators: %s expands to <code>?utm_</code>
 #: admin/views/tabs/advanced/permalinks.php:55
-#, fuzzy
 msgid "If you use Google Analytics campaign parameters starting with %s, check this box. However, you're advised not to use these. Instead, use the version with a hash."
-msgstr "Se usa parâmetros em campanhas do Google Analytics que começam por %s, marque esta caixa. No entanto, aconselhamos a que não use isto. Em alternativa use a versão com a hash."
+msgstr "Se usa parâmetros em campanhas do Google Analytics que começam por %s, escolha esta opção. No entanto, aconselhamos a que não use isto. Em alternativa use a versão com a hash."
 
 #: admin/views/tabs/advanced/permalinks.php:53
-#, fuzzy
 msgid "Prevent cleaning out Google Analytics Campaign & Google AdWords Parameters."
-msgstr "Previna a limpeza dos parâmetros do Google Analytics Campaign & Google AdWords."
+msgstr "Evitar limpar os parâmetros do Google Analytics Campaign & Google AdWords."
 
 #: admin/views/tabs/advanced/permalinks.php:58
 msgid "You might have extra variables you want to prevent from cleaning out, add them here, comma separated."
@@ -1708,9 +1643,8 @@ msgid "You cannot edit the robots.txt file."
 msgstr "Não pode editar o ficheiro robots.txt."
 
 #: admin/views/tool-file-editor.php:44
-#, fuzzy
 msgid "Updated Robots.txt"
-msgstr "Atualizar Robots.txt"
+msgstr "Ficheiro robots.txt actualizado"
 
 #: admin/views/tool-file-editor.php:51
 msgid "You cannot edit the .htaccess file."
@@ -1729,14 +1663,12 @@ msgid "Create robots.txt file"
 msgstr "Criar ficheiro robots.txt"
 
 #: admin/views/tool-file-editor.php:95
-#, fuzzy
 msgid "If you had a robots.txt file and it was editable, you could edit it from here."
-msgstr "Se o ficheiro robots.txt tiver permissões de escrita, pode editá-lo aqui."
+msgstr "Caso tenha o ficheiro robots.txt e este tiver permissões de escrita, pode editá-lo aqui."
 
 #: admin/views/tool-file-editor.php:108
-#, fuzzy
 msgid "If your robots.txt were writable, you could edit it from here."
-msgstr "Caso o seu ficheiro robots.txt permita editá-lo, pode fazê-lo aqui."
+msgstr "Se o ficheiro robots.txt tiver permissões de escrita, pode editá-lo aqui."
 
 #: admin/views/tool-file-editor.php:114
 msgid "Edit the content of your robots.txt:"
@@ -1751,7 +1683,6 @@ msgid ".htaccess file"
 msgstr "Ficheiro .htaccess"
 
 #: admin/views/tool-file-editor.php:134
-#, fuzzy
 msgid "If your .htaccess were writable, you could edit it from here."
 msgstr "Se o ficheiro .htaccess tiver permissões de escrita, pode editá-lo aqui."
 
@@ -1764,14 +1695,12 @@ msgid "Save changes to .htaccess"
 msgstr "Guardar alterações no .htaccess"
 
 #: admin/views/tool-file-editor.php:147
-#, fuzzy
 msgid "If you had a .htaccess file and it was editable, you could edit it from here."
-msgstr "Se o ficheiro .htaccess tiver permissões de escrita, pode editá-lo aqui."
+msgstr "Caso tenha o ficheiro .htaccess e este tiver permissões de escrita, pode editá-lo aqui."
 
 #: admin/views/tool-import-export.php:75
-#, fuzzy
 msgid "The old data of the imported plugin was deleted successfully."
-msgstr "Os dados antigos importados do plugin foram apagados com sucesso."
+msgstr "Os dados antigos importados do plugin anterior foram eliminados com sucesso."
 
 #: admin/views/tabs/tool/import-seo.php:35
 #: admin/views/tool-import-export.php:88
@@ -1787,9 +1716,8 @@ msgid "Import from other SEO plugins"
 msgstr "Importar de outros plugins SEO"
 
 #: admin/views/tabs/tool/wpseo-import.php:13
-#, fuzzy
 msgid "Import settings by locating <em>settings.zip</em> and clicking \"Import settings\""
-msgstr "Importe as definições localizando <em>settings.zip</em> e clicando em \"Importar definições\""
+msgstr "Para importar as definições, seleccione o ficheiro <em>settings.zip</em> e clique em \"Importar definições\""
 
 #: admin/views/tabs/tool/wpseo-import.php:24
 msgid "Import settings"
@@ -1810,14 +1738,12 @@ msgid "Export your %1$s settings"
 msgstr "Exportar as suas definições de %1$s"
 
 #: admin/views/tabs/tool/import-seo.php:13
-#, fuzzy
 msgid "No doubt you've used an SEO plugin before if this site isn't new. Let's make it easy on you, you can import the data below. If you want, you can import first, check if it was imported correctly, and then import &amp; delete. No duplicate data will be imported."
-msgstr "Sem dúvida, você já usou um plugin SEO antes, se este site não é nova. Vamos torná-lo fácil para você, você pode importar os dados abaixo. Se você quiser, você pode importar em primeiro lugar, verificar se ele foi importado corretamente e, em seguida, importar e excluir. Não há dados duplicados serão importados."
+msgstr "Sem dúvida, se este site não for novo, já usou anteriormente um plugin de SEO. Para tornar mais fácil para si, pode importar os dados abaixo. Se quiser, pode primeiro importar, verificar se foi importado correctamente, e por fim importar e eliminar. Não serão importados dados duplicados."
 
 #: admin/views/tabs/tool/import-seo.php:15
-#, fuzzy
 msgid "If you've used another SEO plugin, try the %sSEO Data Transporter%s plugin to move your data into this plugin, it rocks!"
-msgstr "Caso queira adicionar outro SEO plugin, tente o %sSEO Data Transporter%s plugin para mover os seus dados deste plugin. Funciona!"
+msgstr "Se anteriormente utilizou outro plugin de SEO, tente o plugin %sSEO Data Transporter%s para mover os seus dados para este plugin, funciona!"
 
 #: admin/views/tabs/tool/import-seo.php:22
 msgid "Import from HeadSpace2?"
@@ -1883,14 +1809,12 @@ msgid "A replacement variable can only contain alphanumeric characters, an under
 msgstr "Uma variável de substituição apenas pode conter caracteres alfanuméricos, underscores ou hífenes. Tente renomear a sua variável."
 
 #: inc/class-wpseo-replace-vars.php:109
-#, fuzzy
 msgid "A replacement variable can not start with \"%%cf_\" or \"%%ct_\" as these are reserved for the WPSEO standard variable variables for custom fields and custom taxonomies. Try making your variable name unique."
-msgstr "Uma variável de substituição não pode começar com \"%%cf_\" ou \"%%ct_\" pois estas estão reservadas pelo WPSEO como variáveis por defeito para campos personalizados e taxonomias personalizadas. Tente usar um nome único para a sua variável."
+msgstr "Uma variável de substituição não pode começar com \"%%cf_\" ou \"%%ct_\" pois estas estão reservadas pelo WPSEO como variáveis por omissão para campos personalizados e taxonomias personalizadas. Tente usar um nome único para a sua variável."
 
 #: inc/class-wpseo-replace-vars.php:118
-#, fuzzy
 msgid "A replacement variable with the same name has already been registered. Try making your variable name more unique."
-msgstr "Uma variável de substituição com o mesmo nome já foi registada. Tente definir um nome único para a sua variável."
+msgstr "Já foi registada uma variável de substituição com o mesmo nome. Tente usar um nome único para a sua variável."
 
 #: inc/class-wpseo-replace-vars.php:122
 #, fuzzy
@@ -2083,9 +2007,8 @@ msgid "Blocked"
 msgstr "Bloqueado"
 
 #: admin/google_search_console/class-gsc-category-filters.php:119
-#, fuzzy
 msgid "Googlebot could access your site, but certain URLs are blocked for Googlebot in your %1$s file. This block could either be for all Googlebots or even specifically for Googlebot-mobile."
-msgstr "Googlebot acedeu ao seu site mas certos URL foram bloqueados pelo Googlebot no seu ficheiro %1$s. Este bloqueio pode ser para todos os Googlebots ou apenas específico para o Googlebot-mobile."
+msgstr "O Googlebot acedeu ao seu site mas certos URL foram bloqueados pelo Googlebot no seu ficheiro %1$s. Este bloqueio pode ser para todos os Googlebots ou apenas específico para o Googlebot-mobile."
 
 #: admin/google_search_console/class-gsc-category-filters.php:120
 msgid "Server Error"
@@ -2115,21 +2038,18 @@ msgstr "Smartphone"
 
 #: admin/google_search_console/class-gsc-platform-tabs.php:45
 #: admin/google_search_console/class-gsc.php:296
-#, fuzzy
 msgid "Feature phone"
-msgstr "Feature phone"
+msgstr "Telefone"
 
 #: admin/google_search_console/class-gsc-service.php:137
-#, fuzzy
 msgid "Yoast plugins share some code between them to make your site faster. As a result of that, we need all Yoast plugins to be up to date. We've detected this isn't the case, so please update the Yoast plugins that aren't up to date yet."
-msgstr "Os plugins Yoast partilham algum código entre eles que faz com que o seu site fique mais rápido. Como resultado, precisamos que os plugins Yoast estejam actualizados. Detectamos que não é este o caso, por favor, actualize os plugins Yoast que não estão actualizados."
+msgstr "Os plugins Yoast partilham algum código entre eles, para que o seu site seja rápido. Para isto, é necessário que os plugins Yoast estejam actualizados. Foi detectado que este não é o caso, por favor, actualize os plugins Yoast que não estão actualizados."
 
 #. translators: %1$s expands to Yoast SEO, %2$s expands to Google Analytics by
 #. Yoast
 #: admin/google_search_console/class-gsc-service.php:146
-#, fuzzy
 msgid "%1$s detected you’re using a version of %2$s which is not compatible with %1$s. Please update %2$s to the latest version to use this feature."
-msgstr "%1$s detectou que está a usar uma versão de %2$s que não é compatível com %1$s. Por favor, actualize %2$s para a versão mais recente para poder usar esta funcionalidade."
+msgstr "O %1$s detectou que está a usar uma versão do %2$s que não é compatível com o %1$s. Por favor, actualize o %2$s para a versão mais recente para poder usar esta funcionalidade."
 
 #: admin/google_search_console/class-gsc-table.php:107
 msgid "URL"
@@ -2171,9 +2091,8 @@ msgstr "Erros de rastreamento por página"
 
 #. Translators: %1$s: expands to Google Search Console.
 #: admin/google_search_console/class-gsc.php:192
-#, fuzzy
 msgid "The %1$s data has been removed. You will have to reauthenticate if you want to retrieve the data again."
-msgstr "Os dados de %1$s foram removidos. Tem de se autenticar de novo para obter os dados."
+msgstr "Os dados de %1$s foram removidos. Tem de autenticar-se de novo para obter os dados."
 
 #: admin/google_search_console/class-gsc.php:205
 msgid "The issues have been successfully reloaded!"
@@ -2188,17 +2107,14 @@ msgid "Issue categories"
 msgstr "Categorias de problemas"
 
 #: admin/google_search_console/class-gsc.php:294
-#, fuzzy
 msgid "Errors that occurred when your site was crawled by Googlebot."
 msgstr "Erros ocorridos quando o seu site foi rastreado pelo Googlebot."
 
 #: admin/google_search_console/class-gsc.php:295
-#, fuzzy
 msgid "Errors that occurred only when your site was crawled by Googlebot-Mobile (errors didn't appear for desktop)."
 msgstr "Erros ocorridos apenas quando o seu site foi rastreado pelo Googlebot-Mobile (erros que não surgiram em computadores)."
 
 #: admin/google_search_console/class-gsc.php:296
-#, fuzzy
 msgid "Errors that only occurred when your site was crawled by Googlebot for feature phones (errors didn't appear for desktop)."
 msgstr "Erros ocorridos apenas quando o seu site foi rastreado pelo Googlebot para telefones (erros que não surgiram em computadores)."
 
@@ -2297,9 +2213,8 @@ msgid "Fix it"
 msgstr "Resolver"
 
 #: admin/class-admin-init.php:197
-#, fuzzy
 msgid "You do not have your postname in the URL of your posts and pages, it is highly recommended that you do. Consider setting your permalink structure to <strong>/%postname%/</strong>."
-msgstr "Você não tem o seu postname na URL de seus posts e páginas, é altamente recomendável que você o faça. <strong> /% postname% / </ strong>."
+msgstr "Não tem o título do conteúdo no URL dos seus conteúdos e páginas, é altamente recomendável que o faça. Considere definir as suas ligações permanentes como <strong>/%postname%/</strong>."
 
 #: admin/pages/dashboard.php:60
 msgid "Company Info"
@@ -2344,9 +2259,8 @@ msgid "Website name"
 msgstr "Nome do site"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:16
-#, fuzzy
 msgid "Google shows your website's name in the search results, we will default to your site name but you can adapt it here. You can also provide an alternate website name you want Google to consider."
-msgstr "O Google apresenta o nome do website nos resultados de pesquisas, por isso vamos, por omissão, apresentado-lo mas pode adapta-lo aqui. Pode ainda fornecer um nome de website alternativo que queira que o Google considere."
+msgstr "O Google mostra o nome do seu site nos resultados de pesquisas, por omissão é utilizado o nome do seu site, mas pode adaptá-lo aqui. Pode ainda inserir um nome de site alternativo que pretenda que o Google considere."
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:21
 msgid "Alternate name"
@@ -2358,9 +2272,8 @@ msgid "Company or person"
 msgstr "Empresa ou pessoa"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:28
-#, fuzzy
 msgid "This data is shown as metadata in your site. It is intended to appear in Google's Knowledge Graph. You can be either a company, or a person, choose either:"
-msgstr "Estes dados são apresentados como metadados no seu site. Destina-se a aparecer no Knowledge Graph do Google. Você pode ser uma empresa, ou uma pessoa, escolha a opção:"
+msgstr "Estes dados são apresentados como metadados no seu site. Destina-se a aparecer no Knowledge Graph do Google. Pode ser uma empresa, ou uma pessoa, escolha a opção:"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:33
 msgid "Choose whether you're a company or person"
@@ -2406,7 +2319,6 @@ msgid "The premium version of %1$s with more features & support."
 msgstr "A versão premium do %1$s com mais funcionalidades e suporte."
 
 #: admin/class-plugin-availability.php:41 admin/pages/licenses.php:26
-#, fuzzy
 msgid "Optimize your videos to show them off in search results and get more clicks!"
 msgstr "Optimize os seus vídeos para os mostrar em resultados de pesquisas e gerar mais tráfego!"
 
@@ -2415,15 +2327,13 @@ msgid "Are you in Google News? Increase your traffic from Google News by optimiz
 msgstr "Está no Google News? Aumente o seu tráfego optimizando-o para o Google News!"
 
 #: admin/class-plugin-availability.php:57 admin/pages/licenses.php:50
-#, fuzzy
 msgid "Rank better locally and in Google Maps, without breaking a sweat!"
 msgstr "Melhore a sua posição e Google Maps sem esforço!"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-plugin-availability.php:66 admin/pages/licenses.php:63
-#, fuzzy
 msgid "Seamlessly integrate WooCommerce with %1$s and get extra features!"
-msgstr "Integre WooCommerce com %1$s sem dificuldade e obtenha funcionalidades extra!"
+msgstr "Integre o WooCommerce com o %1$s sem dificuldade e obtenha funcionalidades extra!"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/pages/licenses.php:108
@@ -2447,14 +2357,12 @@ msgid "Taxonomies"
 msgstr "Taxonomias"
 
 #: admin/views/tabs/metas/general.php:13
-#, fuzzy
 msgid "Force rewrite titles"
-msgstr "Forçar re-escrita dos títulos"
+msgstr "Forçar reescrita dos títulos"
 
 #: admin/views/tabs/metas/general.php:14
-#, fuzzy
 msgid "%1$s has auto-detected whether it needs to force rewrite the titles for your pages, if you think it's wrong and you know what you're doing, you can change the setting here."
-msgstr "%1$s detecta automaticamente se precisa de forçar a reescrita dos títulos de suas páginas. Se acha que isso está errado e sabe o que está a fazer, pode alterar essa opção aqui."
+msgstr "O %1$s detectou automaticamente que precisa forçar a reescrita dos títulos das suas páginas. Se achar que isto está errado e souber o que está a fazer, pode alterar esta opção aqui."
 
 #: admin/views/tabs/metas/general.php:17
 msgid "Title Separator"
@@ -2475,7 +2383,7 @@ msgstr "Os símbolos são mostrados no tamanho em que aparecem nos resultados de
 #: admin/views/tabs/metas/post-types.php:30
 #: admin/views/tabs/metas/taxonomies.php:30
 msgid "Title template"
-msgstr "Título por omissão"
+msgstr "Modelo de título"
 
 #: admin/views/tabs/metas/archives.php:15
 #: admin/views/tabs/metas/archives.php:40 admin/views/tabs/metas/home.php:16
@@ -2518,9 +2426,8 @@ msgid "Meta Robots"
 msgstr "Meta robots"
 
 #: admin/views/tabs/metas/post-types.php:39
-#, fuzzy
 msgid "Date in Snippet Preview"
-msgstr "Data na pré-visualização do <em>snippet</em>"
+msgstr "Data na pré-visualização dos fragmentos"
 
 #: admin/views/tabs/advanced/breadcrumbs.php:32
 #: admin/views/tabs/metas/post-types.php:38
@@ -2575,9 +2482,8 @@ msgstr "Páginas especiais"
 
 #. translators: %s expands to <code>noindex, follow</code>
 #: admin/views/tabs/metas/archives.php:56
-#, fuzzy
 msgid "These pages will be %s by default, so they will never show up in search results."
-msgstr "Estas páginas são %s por omissão, de modo que nunca aparecem em resultados de pesquisa."
+msgstr "Estas páginas estão definidas como %s por omissão, de modo a nunca aparecerem em resultados de pesquisa."
 
 #: admin/views/tabs/metas/archives.php:57
 msgid "Search pages"
@@ -2592,9 +2498,8 @@ msgid "Sitewide meta settings"
 msgstr "Definições de metadados para todo o site"
 
 #: admin/views/tabs/metas/other.php:15
-#, fuzzy
 msgid "If you want to prevent /page/2/ and further of any archive to show up in the search results, set this to \"noindex\"."
-msgstr "Se quer impedir que as páginas /page/2/ e seguintes de arquivos apareçam em resultados de pesquisa, defina isto para \"noindex\"."
+msgstr "Se quer impedir que as páginas de arquivo /page/2/ e seguintes de aparecer em resultados de pesquisa, defina isto para \"noindex\"."
 
 #: admin/views/tabs/metas/other.php:18
 #, fuzzy
@@ -2658,19 +2563,16 @@ msgid "New sites in the network inherit their SEO settings from this site"
 msgstr "Novos sites na rede herdam as definições SEO deste site"
 
 #: admin/pages/network.php:116
-#, fuzzy
 msgid "Choose the site whose settings you want to use as default for all sites that are added to your network. If you choose 'None', the normal plugin defaults will be used."
-msgstr "Escolha o site cujas configurações deseja usar como padrão para todos os sites que são adicionados à sua rede. Se escolher 'Nenhum', a configurração por omissão do plugin será usada."
+msgstr "Escolha o site cujas definições deseja usar por omissão para todos os sites que são adicionados à sua rede. Se escolher 'Nenhum', serão utilizadas as definições por omissão do plugin."
 
 #: admin/pages/network.php:120
-#, fuzzy
 msgid "Enter the %sSite ID%s for the site whose settings you want to use as default for all sites that are added to your network. Leave empty for none (i.e. the normal plugin defaults will be used)."
-msgstr "Insira o %sSite ID%s para o site cujas configurações quer usar como pré-definidas para todos os sites que são adicionados à sua rede. Deixe vazio para nenhum (p. e. as predefinições normais do plugin serão usadas)."
+msgstr "Insira o %sID do site%s cujas definições quer usar por omissão para todos os sites que são adicionados à sua rede. Deixe em branco para nenhum (p.ex. serão usadas as definições por omissão)."
 
 #: admin/pages/network.php:122
-#, fuzzy
 msgid "Privacy sensitive (FB admins and such), theme specific (title rewrite) and a few very site specific settings will not be imported to new blogs."
-msgstr "Configurações relacionadas com privacidade (admins FB e similar), outras específicas de temas (redefinição de título) e ainda algumas configurações muito específicas de página não serão importadas para novos sites."
+msgstr "Definições relacionadas com privacidade (administradores do FB e similares), específicas de temas (reescrever título) e ainda algumas definições muito específicas do site não serão importadas para novos sites."
 
 #: admin/pages/network.php:125
 msgid "Save MultiSite Settings"
@@ -2690,7 +2592,7 @@ msgstr "ID do site"
 
 #: admin/pages/network.php:143
 msgid "Blog ID"
-msgstr "ID do blog"
+msgstr "ID do site"
 
 #: admin/pages/network.php:146
 msgid "Restore site to defaults"
@@ -2761,16 +2663,15 @@ msgstr "Descrição"
 #: admin/views/tabs/social/facebook.php:36
 #, fuzzy
 msgid "Copy home meta description"
-msgstr "Copiar a descrição meta da página principal"
+msgstr "Copiar a descrição meta da página inicial"
 
 #: admin/views/tabs/social/facebook.php:40
 msgid "Default settings"
 msgstr "Definições por omissão"
 
 #: admin/views/tabs/social/facebook.php:46
-#, fuzzy
 msgid "This image is used if the post/page being shared does not contain any images."
-msgstr "Esta imagem é usada se o artigo/página não tiver nenhuma imagem."
+msgstr "Esta imagem é usada se o conteúdo/página não tiver nenhuma imagem."
 
 #. translators: %s expands to <code>&lt;head&gt;</code>
 #: admin/views/tabs/social/twitterbox.php:17
@@ -2786,9 +2687,8 @@ msgid "The default card type to use"
 msgstr "Tipo de cartão por omissão"
 
 #: admin/views/tabs/social/pinterest.php:14
-#, fuzzy
 msgid "Pinterest uses Open Graph metadata just like Facebook, so be sure to keep the Open Graph checkbox on the Facebook tab checked if you want to optimize your site for Pinterest."
-msgstr "Pinterest usa metadados Open Graph, tal como o Facebook, desta forma tenha a certeza de manter o botão Open Graph activado no separador Facebook se quiser optimizar o seu site para o Pinterest."
+msgstr "O Pinterest utiliza metadados Open Graph, tal como o Facebook, active a opção de metadados Open Graph no separador Facebook se quiser optimizar o seu site para o Pinterest."
 
 #. translators: %1$s / %2$s expands to a link to pinterest.com's help page.
 #: admin/views/tabs/social/pinterest.php:18
@@ -2797,12 +2697,10 @@ msgid "To %1$sconfirm your site with Pinterest%2$s, add the meta tag here:"
 msgstr "Para %1$sconfirmar o seu site com o Pinterest%2$s, adicione as etiquetas meta aqui:"
 
 #: admin/views/tabs/social/google.php:14
-#, fuzzy
 msgid "If you have a Google+ page for your business, add that URL here and link it on your Google+ page's about page."
-msgstr "Se tiver uma página no Google+  para o seu negócio, adicione o URL aqui e ligue-se à sua página no Google+"
+msgstr "Se tiver uma página no Google+ para o seu negócio, adicione o URL aqui e ligue-se à sua página no Google+."
 
 #: admin/views/tabs/social/google.php:16
-#, fuzzy
 msgid "Google Publisher Page"
 msgstr "Página Google Publisher"
 
@@ -2840,18 +2738,16 @@ msgid "You have used HTML in your value which is not allowed."
 msgstr "O valor que introduziu contém HTML, o que não é permitido."
 
 #: admin/class-admin-init.php:96
-#, fuzzy
 msgid "You still have the default WordPress tagline, even an empty one is probably better. %1$sYou can fix this in the customizer%2$s."
-msgstr "Ainda tem a etiqueta por omissão do WordPress, mesmo uma vazia é provavelmente melhor. %1$sPode resolver isto no Personalizador%2$s."
+msgstr "Ainda tem a descrição do site WordPress por omissão, mesmo uma descrição em branco será provavelmente melhor. Pode resolver isto no %1$spersonalizador%2$s."
 
 #. translators: %1$s expands to Yoast SEO, %2$s expands to 5.4.3, %3$s expands
 #. to Google Analytics by Yoast
 #. translators: %1$s expands to Yoast SEO, %2$s expands to the plugin version,
 #. %3$s expands to the plugin name
 #: admin/class-admin-init.php:258 admin/class-admin-init.php:307
-#, fuzzy
 msgid "%1$s detected you are using version %2$s of %3$s, please update to the latest version to prevent compatibility issues."
-msgstr "%1$s detectou que está a usar a versão %2$s de %3$s, por favor, actualize para a mais recente versão para prevenir problemas de incompatibilidade."
+msgstr "O %1$s detectou que está a usar a versão %2$s de %3$s, por favor, actualize para a mais recente versão para prevenir problemas de incompatibilidade."
 
 #: admin/class-admin.php:139 admin/class-admin.php:322
 #: admin/class-meta-columns.php:63
@@ -2911,12 +2807,11 @@ msgstr "Optimização de títulos"
 #: admin/class-admin.php:285
 #, fuzzy
 msgid "Why Google won't display the right page title"
-msgstr "Porque é que o Google não mostra o título da página correto"
+msgstr "Porque é que o Google não mostra o título correcto da página"
 
 #: admin/class-admin.php:291 admin/pages/metas.php:40
-#, fuzzy
 msgid "Template explanation"
-msgstr "Explicação do Template"
+msgstr "Explicação sobre modelos"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-admin.php:293 admin/pages/metas.php:42
@@ -3068,7 +2963,7 @@ msgstr "﻿Data de publicação"
 
 #: admin/class-bulk-editor-list-table.php:960
 msgid "Page URL/Slug"
-msgstr "URL/Slug da página"
+msgstr "URL da página"
 
 #: admin/class-bulk-editor-list-table.php:965
 msgid "Action"
@@ -3271,7 +3166,6 @@ msgid "No Image Index"
 msgstr "Nenhum Image Index"
 
 #: admin/metabox/class-metabox.php:105
-#, fuzzy
 msgid "No Archive"
 msgstr "Sem arquivo"
 
@@ -3307,12 +3201,10 @@ msgid "The URL that this page should redirect to."
 msgstr "O URL para onde esta página deverá ser redireccionada."
 
 #: admin/class-meta-columns.php:346 admin/metabox/class-metabox.php:165
-#, fuzzy
 msgid "Post is set to noindex."
-msgstr "Artigo está definido para noindex"
+msgstr "Conteúdo está definido como a não indexar."
 
 #: admin/metabox/class-metabox.php:172
-#, fuzzy
 msgid "No focus keyword set."
 msgstr "Nenhuma palavra-chave principal definida."
 
@@ -3422,9 +3314,8 @@ msgstr "Imagem de %s"
 #. translators: %1$s expands to Yoast SEO, %2%s: 'Facebook' plugin name of
 #. possibly conflicting plugin with regard to creating OpenGraph output
 #: admin/class-plugin-conflict.php:133
-#, fuzzy
 msgid "Both %1$s and %2$s create OpenGraph output, which might make Facebook, Twitter, LinkedIn and other social networks use the wrong texts and images when your pages are being shared."
-msgstr "O %1$s e o %2$s criam uma saída OpenGraph, o que pode levar o Facebook, Twitter, LinkedIn e outras redes sociais a utilizarem os textos e imagens erradas quando as suas páginas forem partilhadas."
+msgstr "Tanto o plugin %1$s como o %2$s criam metadados Open Graph, o que pode levar o Facebook, Twitter, LinkedIn e outras redes sociais a utilizarem os textos e imagens errados quando as suas páginas forem partilhadas."
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-plugin-conflict.php:137
@@ -3508,9 +3399,8 @@ msgid "More %1$s"
 msgstr "Mais sobre o %1$s"
 
 #: admin/class-pointers.php:241
-#, fuzzy
 msgid "There&#8217;s more to learn about WordPress &amp; SEO than just using this plugin. A great start is our article %1$sthe definitive guide to WordPress SEO%2$s."
-msgstr "Para além da sua utilização, pode aprender muito mais acerca deste plugin. Um bom começo será o nosso artigo %1$sO guia do Wordpress SEO%2$s."
+msgstr "Para além da utilização deste plugin, pode aprender muito mais sobre SEO. Um bom começo será o nosso artigo %1$sThe definitive guide to WordPress SEO%2$s."
 
 #: admin/class-pointers.php:243
 msgid "Subscribe to our Newsletter"
@@ -3544,9 +3434,8 @@ msgid "Sitewide settings"
 msgstr "Definições para todo o site"
 
 #: admin/class-pointers.php:266
-#, fuzzy
 msgid "The first tab will show you site-wide settings for titles, normally you'll only need to change the Title Separator."
-msgstr "O primeiro separador mostra as definições do site para os títulos, normalmente apenas precisa de alterar o separador Titulo."
+msgstr "O primeiro separador mostra as definições de títulos para todo o site, normalmente aqui apenas precisa de alterar o Separador de títulos."
 
 #: admin/class-pointers.php:267
 msgid "Templates and settings"
@@ -3850,7 +3739,6 @@ msgid "Faulty redirects"
 msgstr "Redireccionamentos com falhas"
 
 #: admin/google_search_console/class-gsc-category-filters.php:115
-#, fuzzy
 msgid "Not followed"
 msgstr "Não seguido"
 
