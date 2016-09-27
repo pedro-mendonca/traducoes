@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yoast SEO 3.4.2\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
-"PO-Revision-Date: 2016-09-26 16:29+0100\n"
+"PO-Revision-Date: 2016-09-27 14:13+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -230,7 +230,7 @@ msgstr "O directório %s não pode ser removido. Por favor, remova-o via FTP."
 #. page.
 #: admin/views/tabs/metas/post-types.php:27
 msgid "As you are redirecting attachment URLs to parent post URLs, these settings will currently only have an effect on unattached media items! So remember: If you change the %1$sattachment redirection setting%2$s in the future, the below settings will take effect for *all* media items."
-msgstr "Como está a redireccionar URL de anexos para o URL do conteúdo, estas definições só terão efeito nos ficheiros multimédia desanexados! Lembre-se: se alterar a %1$sdefinição de redireccionamento de anexos%2$s no futuro, as definições abaixo irão afectar *todos* os intens multimédia."
+msgstr "Como está a redireccionar URL de anexos para o URL do conteúdo, estas definições só terão efeito nos ficheiros multimédia desanexados! Se no futuro alterar a %1$sdefinição de redireccionamento de anexos%2$s, as definições abaixo irão afectar *todos* os itens multimédia."
 
 #: admin/views/tabs/sitemaps/exclude-post.php:12
 msgid "Excluded posts settings"
@@ -285,9 +285,8 @@ msgid "Disable SEO analysis"
 msgstr "Desactivar análise de SEO"
 
 #: admin/views/user-profile.php:67
-#, fuzzy
 msgid "Removes the keyword tab from the metabox and disables all SEO-related suggestions."
-msgstr "Remove o separador da palavra-chave da caixa de meta e desativa todas as sugestões relacionadas com SEO."
+msgstr "Remove da metabox o separador da palavra-chave e desactiva todas as sugestões relacionadas com SEO."
 
 #: inc/wpseo-non-ajax-functions.php:112
 msgid "Notifications"
@@ -335,9 +334,8 @@ msgstr "Cancelar"
 #. Translators: %1$s: expands to 'Yoast SEO', %2$s expands to Google Search
 #. Console.
 #: admin/google_search_console/views/gsc-display.php:41
-#, fuzzy
 msgid "To allow %1$s to fetch your %2$s information, please enter your Google Authorization Code. Clicking the button below will open a new window."
-msgstr "Para permitir ao %1$s captar a sua informação %2$s, por favor, insira o seu código de autorização do Google. Ao carregar no botão abaixo irá abrir uma nova janela."
+msgstr "Para permitir ao %1$s obter a sua informação da %2$s, por favor, insira o seu código de autorização do Google. Ao carregar no botão abaixo irá abrir uma nova janela."
 
 #: admin/google_search_console/views/gsc-display.php:46
 msgid "Enter your Google Authorization Code and press the Authenticate button."
@@ -357,7 +355,6 @@ msgid "Breadcrumbs settings"
 msgstr "Definições de breadcrumbs"
 
 #: admin/views/tabs/advanced/permalinks.php:31
-#, fuzzy
 msgid "Stop words in slugs."
 msgstr "Palavras de ligação no URL."
 
@@ -382,9 +379,8 @@ msgid "Keyword analysis"
 msgstr "Análise de palavras-chave"
 
 #: admin/views/tabs/metas/general.php:30
-#, fuzzy
 msgid "Removes the keyword tab from the metabox and disables all keyword-related suggestions."
-msgstr "Remove o separador da palavra-chave da caixa de meta e desativa todas as sugestões relacionadas com palavras-chave."
+msgstr "Remove da metabox o separador da palavra-chave e desactiva todas as sugestões relacionadas com palavras-chave."
 
 #. translators: %1$s resolves to https://github.com/Yoast/wordpress-seo
 #: admin/class-asset.php:180
@@ -411,13 +407,12 @@ msgid "Readability analysis"
 msgstr "Análise de legibilidade"
 
 #: admin/views/tabs/metas/general.php:27 admin/views/user-profile.php:83
-#, fuzzy
 msgid "Removes the readability tab from the metabox and disables all readability-related suggestions."
-msgstr "Remove o separador de legibilidade da caixa e desativa todas as sugestões relacionadas com esta opção."
+msgstr "Remove da metabox o separador de legibilidade e desactiva todas as sugestões relacionadas com legibilidade."
 
 #: admin/views/user-profile.php:77
 msgid "Disable readability analysis"
-msgstr "Desactivar a análise de legibilidade"
+msgstr "Desactivar análise de legibilidade"
 
 #: admin/metabox/class-metabox.php:76
 #: admin/taxonomy/class-taxonomy-content-fields.php:28
@@ -581,9 +576,8 @@ msgid "Video tutorial"
 msgstr "Tutorial vídeo"
 
 #: admin/class-meta-columns.php:101
-#, fuzzy
 msgid "Meta description not set."
-msgstr "Descrição meta não definida."
+msgstr "Meta descrição não definida."
 
 #: admin/class-meta-columns.php:176
 msgid "Filter by SEO Score"
@@ -650,7 +644,7 @@ msgstr "Análise"
 #. translators: %s expands to <code>noodp</code>
 #: admin/views/tabs/metas/other.php:23
 msgid "Prevents search engines from using the DMOZ description in the search results for all pages on this site. Note: If you set a custom description for a page or post, it will have the %s tag regardless of this setting."
-msgstr "Impede os motores de pesquisa de usarem a descrição DMOZ nos resultados das pesquisas para todas as páginas neste site. Nota: Se definir uma descrição personalizada para uma página ou artigo, terá a etiqueta %s independentemente desta definição."
+msgstr "Impede os motores de pesquisa de usarem a descrição DMOZ nos resultados das pesquisas para todas as páginas neste site. Nota: Se definir uma descrição personalizada para uma página ou conteúdo, terá a etiqueta %s independentemente desta definição."
 
 #: admin/views/tabs/metas/taxonomies.php:24
 msgid "Format-based archives"
@@ -885,9 +879,8 @@ msgstr "Não incluir no sitemap"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/views/tabs/dashboard/security.php:22
-#, fuzzy
 msgid "The advanced section of the %1$s meta box allows a user to noindex posts or change the canonical. These are things you might not want if you don't trust your authors, so by default, only administrators can do this. Enabling the advanced box allows all users to change these settings."
-msgstr "A secção avançada da caixa meta de %1$s permite a um utilizar aplicar noindex a conteúdos ou alterar o endereço canónico. São aspectos que pode não querer se não confiar no autor. Por omissão, apenas os administradores podem fazer isto. Activar a caixa de opções avançadas permite a todos os utilizadores alterar estas definições."
+msgstr "As definições avançadas da metabox do %1$s permitem a um utilizador escolher não indexar conteúdos ou alterar o seu endereço canónico. Estas definições são indesejáveis, caso não confie no autor. Por omissão, apenas os administradores podem fazer isto. Ao activar estas definições permite que todos os utilizadores as possam alterar."
 
 #. translators: %1$s expands to OnPage.org
 #: admin/views/tabs/dashboard/webmaster-tools.php:22
@@ -904,9 +897,8 @@ msgstr "Mostrar"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/views/tabs/dashboard/security.php:18
-#, fuzzy
 msgid "Advanced part of the %1$s meta box"
-msgstr "Parte avançada do %1$s meta"
+msgstr "Definições avançadas da metabox do %1$s"
 
 #: admin/class-yoast-form.php:369 admin/views/tabs/dashboard/security.php:16
 #: admin/views/tabs/metas/archives.php:20
@@ -985,13 +977,12 @@ msgstr "Metadados do Facebook / Open Graph"
 #. translators: %1$s expands to the social network name
 #: admin/taxonomy/class-taxonomy-social-fields.php:46
 msgid "If you don't want to use the title for sharing on %1$s but instead want another title there, write it here."
-msgstr "Caso não pretenda usar o título para partilhar no %1$s, mas sim um alternativo, escreva-o aqui."
+msgstr "Se não quiser usar o título para partilhar no %1$s, e preferir um título alternativo, escreva-o aqui."
 
 #. translators: %1$s expands to the social network name
 #: admin/taxonomy/class-taxonomy-social-fields.php:54
-#, fuzzy
 msgid "If you don't want to use the meta description for sharing on %1$s but want another description there, write it here."
-msgstr "Caso não deseje usar a meta descrição para partilhar no %1$s, e prefira outra descrição, escreva-a aqui."
+msgstr "Se não quiser usar a meta descrição para partilhar no %1$s, e preferir uma descrição alternativa, escreva-a aqui."
 
 #. translators: %1$s expands to the social network name
 #: admin/taxonomy/class-taxonomy-social-fields.php:61
@@ -1063,9 +1054,8 @@ msgstr "Múltiplas palavras-chave principais é uma funcionalidade de %s"
 #. translators: %1$s: expands to 'Yoast SEO Premium', %2$s: links to Yoast SEO
 #. Premium plugin page.
 #: admin/metabox/class-metabox-add-keyword-tab.php:33
-#, fuzzy
 msgid "To be able to add and analyze multiple keywords for a post or page you need %1$s. You can buy the plugin, including one year of support, updates and upgrades, on %2$s."
-msgstr "Para ser possível acrescentar e analisar múltiplas palavras-chave num artigo ou página, precisa de %1$s. Pode adquirir o plugin, com um ano de suporte e actualizações em %2$s."
+msgstr "Para ser possível adicionar e analisar múltiplas palavras-chave num conteúdo ou página, precisa do %1$s. Pode adquirir o plugin com um ano de suporte e actualizações em %2$s."
 
 #. translators: %s expands to Yoast SEO Premium
 #: admin/views/partial-help-center-video.php:32
@@ -1304,9 +1294,8 @@ msgid "License status"
 msgstr "Estado da licença"
 
 #: vendor/yoast/license-manager/views/form.php:41
-#, fuzzy
 msgid "Toggle license status"
-msgstr "Altere o estado da licença"
+msgstr "Alterar o estado da licença"
 
 #: vendor/yoast/license-manager/views/form.php:45
 msgid "Deactivate License"
@@ -1430,7 +1419,7 @@ msgstr "Guarde as suas definições para activar o seu sitemap XML."
 
 #: admin/views/tabs/sitemaps/general.php:29
 msgid "Please enter the maximum number of entries per sitemap page (defaults to %s, you might want to lower this to prevent memory issues on some installs):"
-msgstr "Por favor, insira o número máximo de entradas por página de sitemap (por omissão é %s, poderá diminuir este valor para prevenir problemas de memória em algumas instalações):"
+msgstr "Por favor, insira o número máximo de entradas por página de sitemap (por omissão é %s, poderá diminuir este valor para evitar problemas de memória em algumas instalações):"
 
 #: admin/views/tabs/sitemaps/general.php:33
 msgid "Max entries per sitemap"
@@ -1550,14 +1539,12 @@ msgid "Clean up permalinks"
 msgstr "Limpar as ligações permanentes"
 
 #: admin/views/tabs/advanced/permalinks.php:32
-#, fuzzy
 msgid "This helps you to create cleaner URLs by automatically removing the stopwords from them."
-msgstr "Isto ajuda na criação de URLs mais limpos através da remoção automática de palavras de ligação."
+msgstr "Isto ajuda na criação de URL mais limpos através da remoção automática de palavras de ligação."
 
 #: admin/views/tabs/advanced/permalinks.php:36
-#, fuzzy
 msgid "This prevents threaded replies from working when the user has JavaScript disabled, but on a large site can mean a <em>huge</em> improvement in crawl efficiency for search engines when you have a lot of comments."
-msgstr "Isto previne respostas, quando o utilizador tem o javascript desligado, mas num site grande  <em>huge</em> melhorar a eficiência do crawl dos motores de pesquisa, quando se tem muitos comentários."
+msgstr "Isto impede o funcionamento de comentários em conversa quando o utilizador tem o JavaScript desligado, mas num site grande com muitos comentários, pode significar um <em>enorme</em> melhoramento na eficiência do rastreamento dos motores de pesquisa."
 
 #. translators: %1$s expands to <code>.html</code>, %2$s expands to
 #. <code>/</code>
@@ -1596,7 +1583,7 @@ msgstr "Evitar limpar os parâmetros do Google Analytics Campaign & Google AdWor
 
 #: admin/views/tabs/advanced/permalinks.php:58
 msgid "You might have extra variables you want to prevent from cleaning out, add them here, comma separated."
-msgstr "Poderá ter variáveis extra que deseja proteger de serem limpas, adicione-as aqui, separadas por vírgulas."
+msgstr "Poderá ter variáveis extra que queira impedir que sejam limpas, adicione-as aqui, separadas por vírgulas."
 
 #: admin/views/tabs/advanced/permalinks.php:57
 msgid "Other variables not to clean"
@@ -1764,21 +1751,19 @@ msgstr "Eliminar os dados antigos após a importação? (Recomendado)"
 #. translators: %1$s expands to Yoast SEO
 #: admin/views/user-profile.php:10
 msgid "%1$s settings"
-msgstr "Definições de %1$s"
+msgstr "Definições do %1$s"
 
 #: admin/views/user-profile.php:16
 msgid "Title to use for Author page"
-msgstr "Título para usar na página de autor"
+msgstr "Título da página de autor"
 
 #: admin/views/user-profile.php:25
-#, fuzzy
 msgid "Meta description to use for Author page"
-msgstr "Descrição Meta para usar na página de autor"
+msgstr "Meta descrição da página de autor"
 
 #: admin/views/user-profile.php:36
-#, fuzzy
 msgid "Meta keywords to use for Author page"
-msgstr "Meta Keywords, para usar noutra página."
+msgstr "Meta palavras-chave da página de autor"
 
 #: admin/views/user-profile.php:48
 msgid "Exclude user from Author-sitemap"
@@ -1800,9 +1785,8 @@ msgid "Page not found"
 msgstr "Página não encontrada"
 
 #: frontend/class-frontend.php:1252
-#, fuzzy
 msgid "Admin only notice: this page doesn't show a meta description because it doesn't have one, either write it for this page specifically or go into the SEO -> Titles menu and set up a template."
-msgstr "Nota só para administradores: esta página não mostra a descrição meta, porque não está definida nenhuma. Escreva uma ou então vá ao menu SEO -> Títulos e defina um template."
+msgstr "Nota apenas para administradores: esta página não mostra nenhuma meta descrição porque ainda não foi definida. Escreva uma especificamente para esta página ou então vá ao menu SEO -> Títulos e defina um modelo."
 
 #: inc/class-wpseo-replace-vars.php:106
 msgid "A replacement variable can only contain alphanumeric characters, an underscore or a dash. Try renaming your variable."
@@ -1817,9 +1801,8 @@ msgid "A replacement variable with the same name has already been registered. Tr
 msgstr "Já foi registada uma variável de substituição com o mesmo nome. Tente usar um nome único para a sua variável."
 
 #: inc/class-wpseo-replace-vars.php:122
-#, fuzzy
 msgid "You cannot overrule a WPSEO standard variable replacement by registering a variable with the same name. Use the \"wpseo_replacements\" filter instead to adjust the replacement value."
-msgstr "Não pode sobrepor uma substituição de variável predefinida do WPSEO ao registar uma variável com o mesmo nome. Use antes o filtro \"wpseo_replacements\" para ajustar o valor de substituição."
+msgstr "Não pode sobrepor uma substituição de variável predefinida do WPSEO ao registar uma variável com o mesmo nome. Em alternativa use o filtro \"wpseo_replacements\" para ajustar o valor de substituição."
 
 #: inc/class-wpseo-replace-vars.php:900
 msgid "Page %1$d of %2$d"
@@ -2389,16 +2372,14 @@ msgstr "Modelo de título"
 #: admin/views/tabs/metas/archives.php:40 admin/views/tabs/metas/home.php:16
 #: admin/views/tabs/metas/post-types.php:31
 #: admin/views/tabs/metas/taxonomies.php:31
-#, fuzzy
 msgid "Meta description template"
-msgstr "Descrição meta por omissão"
+msgstr "Modelo de meta descrição"
 
 #: admin/views/tabs/metas/archives.php:17 admin/views/tabs/metas/home.php:18
 #: admin/views/tabs/metas/post-types.php:33
 #: admin/views/tabs/metas/taxonomies.php:33
-#, fuzzy
 msgid "Meta keywords template"
-msgstr "Descrição Meta template"
+msgstr "Modelo de meta palavras-chave"
 
 #: admin/views/tabs/metas/home.php:23
 msgid "Homepage &amp; Front page"
@@ -2421,7 +2402,6 @@ msgstr "Nota:"
 #: admin/views/tabs/metas/post-types.php:35
 #: admin/views/tabs/metas/post-types.php:74
 #: admin/views/tabs/metas/taxonomies.php:35
-#, fuzzy
 msgid "Meta Robots"
 msgstr "Meta robots"
 
@@ -2439,18 +2419,16 @@ msgstr "Esconder"
 #. translators: %1$s expands to Yoast SEO
 #: admin/views/tabs/metas/post-types.php:44
 #: admin/views/tabs/metas/taxonomies.php:43
-#, fuzzy
 msgid "%1$s Meta Box"
-msgstr "Caixa meta de %1$s"
+msgstr "Metabox do %1$s"
 
 #: admin/views/tabs/metas/post-types.php:61
 msgid "Custom Post Type Archives"
 msgstr "Arquivo de tipos de conteúdo personalizados"
 
 #: admin/views/tabs/metas/post-types.php:62
-#, fuzzy
 msgid "Note: instead of templates these are the actual titles and meta descriptions for these custom post type archive pages."
-msgstr "Nota: em vez de modelos estes são os títulos e descrições meta reais para estes arquivos de tipos de conteúdos personalizados."
+msgstr "Nota: em vez de modelos, estes são os títulos e meta descrições actuais para as páginas de arquivo destes tipos de conteúdo personalizados."
 
 #: admin/views/tabs/metas/post-types.php:66
 #: admin/views/tabs/social/facebook.php:30 admin/views/tool-bulk-editor.php:39
@@ -2502,20 +2480,17 @@ msgid "If you want to prevent /page/2/ and further of any archive to show up in 
 msgstr "Se quer impedir que as páginas de arquivo /page/2/ e seguintes de aparecer em resultados de pesquisa, defina isto para \"noindex\"."
 
 #: admin/views/tabs/metas/other.php:18
-#, fuzzy
 msgid "I don't know why you'd want to use meta keywords, but if you want to, enable this."
-msgstr "Não sei que razão você terá para usar palavras-chave meta, mas se quiser usá-las, habilite esta opção."
+msgstr "Não há razão para que queira usar meta palavras-chave, mas se quiser usar, active esta opção."
 
 #: admin/views/tabs/metas/other.php:17
-#, fuzzy
 msgid "Use meta keywords tag?"
-msgstr "Usar palavras-chave meta?"
+msgstr "Usar meta palavras-chave?"
 
 #. translators: %s expands to <code>noodp</code>
 #: admin/views/tabs/metas/other.php:21
-#, fuzzy
 msgid "Force %s meta robots tag sitewide"
-msgstr "Forçar %s etiquetas meta robots do site"
+msgstr "Forçar meta robots %s para todo o site"
 
 #: admin/pages/network.php:24
 msgid "Settings Updated."
@@ -2649,7 +2624,7 @@ msgstr "Definições da página inicial"
 
 #: admin/views/tabs/social/facebook.php:27
 msgid "These are the title, description and image used in the Open Graph meta tags on the front page of your site."
-msgstr "Estes são o título, descrição e imagem usados nos metadados Open Graph, na página principal do seu site."
+msgstr "Estes são o título, descrição e imagem usados nos metadados Open Graph, na página inicial do seu site."
 
 #: admin/views/tabs/social/facebook.php:29
 #: admin/views/tabs/social/facebook.php:42
@@ -2661,9 +2636,8 @@ msgid "Description"
 msgstr "Descrição"
 
 #: admin/views/tabs/social/facebook.php:36
-#, fuzzy
 msgid "Copy home meta description"
-msgstr "Copiar a descrição meta da página inicial"
+msgstr "Copiar a meta descrição da página inicial"
 
 #: admin/views/tabs/social/facebook.php:40
 msgid "Default settings"
@@ -2692,9 +2666,8 @@ msgstr "O Pinterest utiliza metadados Open Graph, tal como o Facebook, active a 
 
 #. translators: %1$s / %2$s expands to a link to pinterest.com's help page.
 #: admin/views/tabs/social/pinterest.php:18
-#, fuzzy
 msgid "To %1$sconfirm your site with Pinterest%2$s, add the meta tag here:"
-msgstr "Para %1$sconfirmar o seu site com o Pinterest%2$s, adicione as etiquetas meta aqui:"
+msgstr "Para %1$sconfirmar o seu site com o Pinterest%2$s, adicione a meta tag aqui:"
 
 #: admin/views/tabs/social/google.php:14
 msgid "If you have a Google+ page for your business, add that URL here and link it on your Google+ page's about page."
@@ -2747,7 +2720,7 @@ msgstr "Ainda tem a descrição do site WordPress por omissão, mesmo uma descri
 #. %3$s expands to the plugin name
 #: admin/class-admin-init.php:258 admin/class-admin-init.php:307
 msgid "%1$s detected you are using version %2$s of %3$s, please update to the latest version to prevent compatibility issues."
-msgstr "O %1$s detectou que está a usar a versão %2$s de %3$s, por favor, actualize para a mais recente versão para prevenir problemas de incompatibilidade."
+msgstr "O %1$s detectou que está a usar a versão %2$s de %3$s, por favor, actualize para a mais recente versão para evitar problemas de incompatibilidade."
 
 #: admin/class-admin.php:139 admin/class-admin.php:322
 #: admin/class-meta-columns.php:63
@@ -2758,9 +2731,8 @@ msgid "SEO"
 msgstr "SEO"
 
 #: admin/class-admin.php:158 inc/wpseo-non-ajax-functions.php:260
-#, fuzzy
 msgid "Titles &amp; Metas"
-msgstr "Títulos &amp; meta"
+msgstr "Títulos e metas"
 
 #: admin/class-admin.php:166 admin/class-social-admin.php:106
 #: admin/taxonomy/class-taxonomy-metabox.php:185
@@ -2805,9 +2777,8 @@ msgid "Title optimization"
 msgstr "Optimização de títulos"
 
 #: admin/class-admin.php:285
-#, fuzzy
 msgid "Why Google won't display the right page title"
-msgstr "Porque é que o Google não mostra o título correcto da página"
+msgstr "Por que razão o Google não mostra o título correcto da página"
 
 #: admin/class-admin.php:291 admin/pages/metas.php:40
 msgid "Template explanation"
@@ -2815,9 +2786,8 @@ msgstr "Explicação sobre modelos"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-admin.php:293 admin/pages/metas.php:42
-#, fuzzy
 msgid "The title &amp; metas settings for %1$s are made up of variables that are replaced by specific values from the page when the page is displayed. The tabs on the left explain the available variables."
-msgstr "As configurações meta do título &amp; para %1$s são compostas por variáveis que são substituídas por valores específicos provenientes da página, quando esta é visualizada. Os separadores à esquerda explicam as variáveis disponíveis."
+msgstr "As definições de Título e metas do %1$s são compostas por variáveis que são substituídas por valores específicos provenientes da página, quando esta é visualizada. Os separadores à esquerda explicam as variáveis disponíveis."
 
 #: admin/class-admin.php:293 admin/pages/metas.php:42
 msgid "Note that not all variables can be used in every template."
@@ -2886,19 +2856,16 @@ msgstr "URL do perfil do Facebook"
 #. translators: this should be an array of stop words for your language,
 #. separated by comma's.
 #: admin/class-stop-words.php:39
-#, fuzzy
 msgid "a,about,above,after,again,against,all,am,an,and,any,are,as,at,be,because,been,before,being,below,between,both,but,by,could,did,do,does,doing,down,during,each,few,for,from,further,had,has,have,having,he,he'd,he'll,he's,her,here,here's,hers,herself,him,himself,his,how,how's,i,i'd,i'll,i'm,i've,if,in,into,is,it,it's,its,itself,let's,me,more,most,my,myself,nor,of,on,once,only,or,other,ought,our,ours,ourselves,out,over,own,same,she,she'd,she'll,she's,should,so,some,such,than,that,that's,the,their,theirs,them,themselves,then,there,there's,these,they,they'd,they'll,they're,they've,this,those,through,to,too,under,until,up,very,was,we,we'd,we'll,we're,we've,were,what,what's,when,when's,where,where's,which,while,who,who's,whom,why,why's,with,would,you,you'd,you'll,you're,you've,your,yours,yourself,yourselves"
 msgstr "a,sobre,acima,depois,novamente,contra,todos,uma,e,qualquer,são,como,em,ser,porque,foi,antes,ser,abaixo,entre,ambas,mas,por,podia,fez,fazer,faz,fazendo,abaixo,durante,cada,poucos,para,de,adiante,teve,tem,tem,tendo,ele,tinha,terá,é,ela,aqui,está,dela,ela,ele,ele,dele,como,como,eu,vou,vou,sou,tenho,se,em,dentro,é,ele,dele,sua,se,deixa,eu,mais,mais,meu,eu,nem,de,em,uma,só,ou,outro,dever,nosso,nossos,nós,fora,acabou,próprio,igual,ela,tinha,terá,dela,deveria,assim,alguma,tal,que,que,isso,o,seu,seu,eles,eles,então,há,há,estes,eles,tinham,terão,são,têm,este,estes,através,para,muito,debaixo,até,acima,muito,foi,nós,teremos,vamos,somos,temos,foram,quê,que,quando,quando,onde,onde,quê,enquanto,quem,é,quem,porque,que,com,faria,tu,ficaria,ficará,és,tens,teu,teus,teu,teus"
 
 #: admin/class-bulk-description-editor-list-table.php:44
-#, fuzzy
 msgid "Existing Yoast Meta Description"
-msgstr "Yoast Meta Description existente"
+msgstr "Meta descrição existente do Yoast"
 
 #: admin/class-bulk-description-editor-list-table.php:45
-#, fuzzy
 msgid "New Yoast Meta Description"
-msgstr "Nova Yoast Meta Description"
+msgstr "Nova meta descrição do Yoast"
 
 #: admin/class-bulk-editor-list-table.php:135
 msgid "You are not allowed to access this page."
@@ -3090,33 +3057,28 @@ msgid "SEO Title"
 msgstr "Título SEO"
 
 #: admin/metabox/class-metabox.php:81 admin/views/tabs/metas/post-types.php:67
-#, fuzzy
 msgid "Meta description"
-msgstr "Descrição Meta"
+msgstr "Meta descrição"
 
 #: admin/metabox/class-metabox.php:83
 #: admin/taxonomy/class-taxonomy-settings-fields.php:37
 #: admin/views/tabs/metas/post-types.php:69
-#, fuzzy
 msgid "Meta keywords"
-msgstr "Palavras-chave meta"
+msgstr "Meta palavras-chave"
 
 #: admin/metabox/class-metabox.php:84
-#, fuzzy
 msgid "If you type something above it will override your %smeta keywords template%s."
-msgstr "O que escrever acima irá substituir os seus %stemplates de meta keywords%s."
+msgstr "O que escrever acima irá substituir o seu %smodelo de meta palavras-chave%s."
 
 #: admin/metabox/class-metabox.php:87
 #: admin/taxonomy/class-taxonomy-settings-fields.php:44
-#, fuzzy
 msgid "Meta Robots Index"
-msgstr "Meta Robots Index"
+msgstr "Meta robots - Indexar"
 
 #: admin/metabox/class-metabox.php:89
 #: admin/taxonomy/class-taxonomy-settings-fields.php:101
-#, fuzzy
 msgid "Warning: even though you can set the meta robots setting here, the entire site is set to noindex in the sitewide privacy settings, so these settings won't have an effect."
-msgstr "Aviso: apesar de poder definir configurações para robots meta aqui, o site inteiro está definido como não podendo ser indexado nas configurações de privacidade globais, por isso estas definições não terão efeito."
+msgstr "Aviso: apesar de poder aqui configurar aqui as definições de meta robots, todo o site está definido para não ser indexado nas definições globais de privacidade, assim estas definições não terão efeito."
 
 #: admin/metabox/class-metabox.php:91
 msgid "Default for this post type, currently: %s"
@@ -3131,17 +3093,14 @@ msgid "Noindex"
 msgstr "Não indexar"
 
 #: admin/metabox/class-metabox.php:95
-#, fuzzy
 msgid "Meta Robots Follow"
-msgstr "Meta Robots Follow"
+msgstr "Meta robots - Seguir"
 
 #: admin/metabox/class-metabox.php:99
-#, fuzzy
 msgid "Meta Robots Advanced"
-msgstr "Meta Robots avançado"
+msgstr "Avançadas de meta robots"
 
 #: admin/metabox/class-metabox.php:100
-#, fuzzy
 msgid "Advanced <code>meta</code> robots settings for this page."
 msgstr "Definições avançadas de <code>meta</code> robots para esta página."
 
@@ -3156,23 +3115,20 @@ msgid "None"
 msgstr "Nenhum"
 
 #: admin/metabox/class-metabox.php:103
-#, fuzzy
 msgid "NO ODP"
-msgstr "NO ODP"
+msgstr "Não usar ODP"
 
 #: admin/metabox/class-metabox.php:104
-#, fuzzy
 msgid "No Image Index"
-msgstr "Nenhum Image Index"
+msgstr "Não indexar imagens"
 
 #: admin/metabox/class-metabox.php:105
 msgid "No Archive"
-msgstr "Sem arquivo"
+msgstr "Não arquivar"
 
 #: admin/metabox/class-metabox.php:106
-#, fuzzy
 msgid "No Snippet"
-msgstr "Sem pré-visualização"
+msgstr "Não mostrar fragmento"
 
 #: admin/metabox/class-metabox.php:108
 #: admin/taxonomy/class-taxonomy-settings-fields.php:56
@@ -3181,7 +3137,7 @@ msgstr "Título de breadcrumbs"
 
 #: admin/metabox/class-metabox.php:109
 msgid "Title to use for this page in breadcrumb paths"
-msgstr "Título para esta página no caminho das breadcrumbs"
+msgstr "Título desta página no caminho das breadcrumbs"
 
 #: admin/metabox/class-metabox.php:111
 #: admin/taxonomy/class-taxonomy-settings-fields.php:63
@@ -3241,9 +3197,8 @@ msgid "All SEO Scores"
 msgstr "Todas as classificações SEO"
 
 #: admin/class-meta-columns.php:69
-#, fuzzy
 msgid "Meta Desc."
-msgstr "Meta Desc."
+msgstr "Meta descrição"
 
 #: admin/class-meta-columns.php:72
 msgid "Focus KW"
@@ -3261,13 +3216,12 @@ msgstr "Razoável"
 #. translators: %s expands to the social network's name
 #: admin/class-social-admin.php:34
 msgid "If you don't want to use the post title for sharing the post on %s but instead want another title there, write it here."
-msgstr "Caso não pretenda usar o título do conteúdo para partilhar no %1$s, mas sim um alternativo, escreva-o aqui."
+msgstr "Se não quiser usar o título do conteúdo para partilhar o conteúdo no %1$s, e preferir um título alternativo, escreva-o aqui."
 
 #. translators: %s expands to the social network's name
 #: admin/class-social-admin.php:36
-#, fuzzy
 msgid "If you don't want to use the meta description for sharing the post on %s but want another description there, write it here."
-msgstr "Se não quer utilizar a meta descrição para partilhar o artigo no %s e prefere outra descrição, escreva-a aqui."
+msgstr "Se não quiser usar a meta descrição para partilhar o conteúdo no %s, e preferir uma descrição alternativa, escreva-a aqui."
 
 #. translators: %s expands to the social network's name
 #: admin/class-social-admin.php:38
@@ -3420,14 +3374,12 @@ msgid "Subscribe"
 msgstr "Subscrever"
 
 #: admin/class-pointers.php:264
-#, fuzzy
 msgid "Title &amp; Metas settings"
-msgstr "Título &amp; configurações meta"
+msgstr "Definições de título e metas"
 
 #: admin/class-pointers.php:265
-#, fuzzy
 msgid "This is where you\tset the titles and meta-information for all your post types, taxonomies, archives, special pages and for your homepage. The page is divided into different tabs. Make sure you check &#8217;em all out!"
-msgstr "Aqui pode definir →\t os títulos e a informação meta para todos os seus artigos, categorias, etiquetas, arquivos, páginas especiais e página principal. Esta página esta dividida em diferentes separadores. Não se esqueça de os verificar todos! "
+msgstr "Aqui pode definir os títulos e metadados para todos os seus conteúdos, categorias, etiquetas, arquivos, páginas especiais e página inicial. Esta página esta dividida em diferentes separadores. Não se esqueça de os verificar todos!"
 
 #: admin/class-pointers.php:266
 msgid "Sitewide settings"
@@ -3465,9 +3417,8 @@ msgid "Other"
 msgstr "Outros"
 
 #: admin/class-pointers.php:269
-#, fuzzy
 msgid "On the Other tab you can change sitewide meta settings, like enable meta keywords."
-msgstr "No separador Outros pode alterar as definições de metadados para todo o site, tais como permitir palavras-chave meta."
+msgstr "No separador Outros pode alterar as definições de metadados para todo o site, tais como permitir meta palavras-chave."
 
 #: admin/class-pointers.php:282
 msgid "Social settings"
@@ -3582,9 +3533,8 @@ msgstr "Estatísticas (Insights) e administradores do Facebook"
 
 #. translators: %1$s and %2$s expand to a link to Facebook Insights
 #: admin/class-social-facebook.php:292
-#, fuzzy
 msgid "To be able to access %1$sFacebook Insights%2$s for your site, you need to specify a Facebook Admin. This can be a user. If you have an app for your site, you could use that as well."
-msgstr "Para aceder ao %1$sFacebook Insights%2$s para o seu site, precisa de indicar um administrador do Facebook. Pode ser um utilizador. Se tiver uma app para o seu site, também pode usa-la para isso."
+msgstr "Para poder aceder ao %1$sFacebook Insights%2$s para o seu site, tem que especificar um administrador do Facebook. Pode ser um utilizador. Se tiver uma app para o seu site, também a pode usar para isto."
 
 #. translators: %1$s and %2$s expand to a link to the Yoast Knowledge Base
 #: admin/class-social-facebook.php:298
@@ -3642,9 +3592,8 @@ msgid "Never include"
 msgstr "Nunca incluir"
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:38
-#, fuzzy
 msgid "Meta keywords used on the archive page for this term."
-msgstr "Palavras-chave meta usadas no arquivo."
+msgstr "Meta palavras-chave da página de arquivo deste termo."
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:64
 msgid "The canonical link is shown on the archive page for this term."
@@ -3659,9 +3608,8 @@ msgid "The Breadcrumbs Title is used in the breadcrumbs where this taxonomy appe
 msgstr "O título de breadcrumbs é usado em breadcrumbs onde esta taxonomia aparece."
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:45
-#, fuzzy
 msgid "This taxonomy follows the indexation rules set under Metas and Titles, you can override it here."
-msgstr "Esta taxonomia segue as regras de indexação definidas em Títulos e Metas, mas pode mudá-la aqui."
+msgstr "Esta taxonomia segue as regras de indexação definidas em Títulos e metas, pode personalizar aqui."
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:50
 msgid "Include in Sitemap?"
