@@ -385,7 +385,7 @@ msgstr "Remove da metabox o separador da palavra-chave e desactiva todas as suge
 #. translators: %1$s resolves to https://github.com/Yoast/wordpress-seo
 #: admin/class-asset.php:180
 msgid "You are trying to load non-minified files, these are only available in our development package. Check out %1$s to see all the source files."
-msgstr "Está a tentar carregar ficheiros não minimizados, estes apenas estão disponíveis no nosso pacote de desenvolvimento. Veja %1$s para ver todos os ficheiros do código fonte."
+msgstr "Está a tentar carregar ficheiros não minificados, estes apenas estão disponíveis no nosso pacote de desenvolvimento. Veja %1$s para ver todos os ficheiros do código fonte."
 
 #: admin/class-meta-columns.php:66
 #: admin/formatter/class-metabox-formatter.php:50
@@ -1099,7 +1099,7 @@ msgstr "Resumo com imagem grande"
 
 #: inc/options/class-wpseo-option-social.php:240
 msgid "%s does not seem to be a valid Twitter user-id. Please correct."
-msgstr "%s não parece ser um utilizador válido do Twitter. Por favor tente de novo."
+msgstr "%s não parece ser um utilizador válido do Twitter. Por favor rectifique."
 
 #: inc/options/class-wpseo-option-titles.php:179
 msgid "%s, Author at %s"
@@ -1115,15 +1115,15 @@ msgstr "Arquivo de %s"
 
 #: inc/options/class-wpseo-option-xml.php:178
 msgid "\"Max entries per sitemap page\" should be a positive number, which %s is not. Please correct."
-msgstr "\"Máximo de entradas por sitemap\" deve ser um número positivo, sendo que %s não o é. Por favor tente de novo."
+msgstr "\"Máximo de entradas por sitemap\" deve ser um número positivo, sendo que %s não o é. Por favor rectifique."
 
 #: inc/options/class-wpseo-option.php:295
 msgid "%s does not seem to be a valid %s verification string. Please correct."
-msgstr "%s não parece ser uma variável de verificação de %s válida. Por favor tente de novo."
+msgstr "%s não parece ser uma variável de verificação de %s válida. Por favor rectifique."
 
 #: inc/options/class-wpseo-option.php:328
 msgid "%s does not seem to be a valid url. Please correct."
-msgstr "%s não parece ser um URL válido. Por favor tente de novo."
+msgstr "%s não parece ser um URL válido. Por favor rectifique."
 
 #: inc/wpseo-non-ajax-functions.php:120
 msgid "Keyword Research"
