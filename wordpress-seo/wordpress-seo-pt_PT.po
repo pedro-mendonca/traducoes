@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Yoast SEO 3.6\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
 "POT-Creation-Date: 2016-09-27 22:46+0100\n"
-"PO-Revision-Date: 2016-09-29 00:39+0100\n"
+"PO-Revision-Date: 2016-09-29 00:51+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -3512,7 +3512,7 @@ msgstr "Data na pré-visualização dos fragmentos"
 #: admin/views/tabs/metas/post-types.php:44
 #: admin/views/tabs/metas/taxonomies.php:43
 msgid "%1$s Meta Box"
-msgstr "Caixa do %1$s"
+msgstr "Metabox do %1$s"
 
 #: admin/views/tabs/metas/post-types.php:61
 msgid "Custom Post Type Archives"
