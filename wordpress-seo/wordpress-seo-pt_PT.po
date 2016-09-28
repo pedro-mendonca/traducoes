@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Yoast SEO 3.6\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
 "POT-Creation-Date: 2016-09-27 22:46+0100\n"
-"PO-Revision-Date: 2016-09-28 15:37+0100\n"
+"PO-Revision-Date: 2016-09-29 00:39+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -313,11 +313,11 @@ msgstr ""
 
 #: admin/class-bulk-description-editor-list-table.php:44
 msgid "Existing Yoast Meta Description"
-msgstr "Meta descrição existente do Yoast"
+msgstr "Descrição existente do Yoast"
 
 #: admin/class-bulk-description-editor-list-table.php:45
 msgid "New Yoast Meta Description"
-msgstr "Nova meta descrição do Yoast"
+msgstr "Nova descrição do Yoast"
 
 #: admin/class-bulk-editor-list-table.php:135
 msgid "You are not allowed to access this page."
@@ -390,7 +390,7 @@ msgstr "Acção"
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-bulk-title-editor-list-table.php:47
 msgid "Existing %1$s Title"
-msgstr "Título de %1$s existente"
+msgstr "Título existente do %1$s"
 
 #. translators: %1$s expands to Yoast SEO
 #: admin/class-bulk-title-editor-list-table.php:49
@@ -608,7 +608,7 @@ msgstr "Título SEO"
 
 #: admin/class-meta-columns.php:69
 msgid "Meta Desc."
-msgstr "Meta descrição"
+msgstr "Descrição"
 
 #: admin/class-meta-columns.php:72
 msgid "Focus KW"
@@ -616,7 +616,7 @@ msgstr "Palavra-chave principal"
 
 #: admin/class-meta-columns.php:101
 msgid "Meta description not set."
-msgstr "Meta descrição não definida."
+msgstr "Descrição não definida."
 
 #: admin/class-meta-columns.php:106 admin/class-meta-columns.php:351
 #: admin/taxonomy/class-taxonomy-columns.php:130
@@ -733,8 +733,8 @@ msgid ""
 "If you don't want to use the meta description for sharing the post on %s but "
 "want another description there, write it here."
 msgstr ""
-"Se não quiser usar a meta descrição para partilhar o conteúdo no %s, e "
-"preferir uma descrição alternativa, escreva-a aqui."
+"Se não quiser usar a descrição para partilhar o conteúdo no %s, e preferir "
+"uma descrição alternativa, escreva-a aqui."
 
 #. translators: %s expands to the social network's name
 #: admin/class-social-admin.php:38
@@ -1903,7 +1903,7 @@ msgstr "Título SEO"
 
 #: admin/metabox/class-metabox.php:81 admin/views/tabs/metas/post-types.php:67
 msgid "Meta description"
-msgstr "Meta descrição"
+msgstr "Descrição"
 
 #: admin/metabox/class-metabox.php:83
 #: admin/taxonomy/class-taxonomy-settings-fields.php:37
@@ -1919,7 +1919,7 @@ msgstr ""
 
 #: admin/metabox/class-metabox.php:87
 msgid "Meta robots index"
-msgstr "Meta robots - indexar"
+msgstr "Robôs - indexar"
 
 #: admin/metabox/class-metabox.php:89
 #: admin/taxonomy/class-taxonomy-settings-fields.php:101
@@ -1928,8 +1928,8 @@ msgid ""
 "site is set to noindex in the sitewide privacy settings, so these settings "
 "won't have an effect."
 msgstr ""
-"Aviso: apesar de poder aqui configurar aqui as definições de meta robots, "
-"todo o site está definido para não ser indexado nas definições globais de "
+"Aviso: apesar de poder aqui configurar aqui as definições de robôs, todo o "
+"site está definido para não ser indexado nas definições globais de "
 "privacidade, assim estas definições não terão efeito."
 
 #: admin/metabox/class-metabox.php:91
@@ -1938,15 +1938,15 @@ msgstr "Por omissão para este tipo de conteúdo é: %s"
 
 #: admin/metabox/class-metabox.php:95
 msgid "Meta robots follow"
-msgstr "Meta robots - seguir"
+msgstr "Robôs - seguir"
 
 #: admin/metabox/class-metabox.php:99
 msgid "Meta robots advanced"
-msgstr "Avançadas de meta robots"
+msgstr "Robôs - avançado"
 
 #: admin/metabox/class-metabox.php:100
 msgid "Advanced <code>meta</code> robots settings for this page."
-msgstr "Definições avançadas de <code>meta</code> robots para esta página."
+msgstr "Definições avançadas de robôs para esta página."
 
 #: admin/metabox/class-metabox.php:101
 msgid "Site-wide default: %s"
@@ -2498,7 +2498,7 @@ msgstr "Meta palavras-chave da página de arquivo deste termo."
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:44
 msgid "Meta Robots Index"
-msgstr "Meta robots - Indexar"
+msgstr "Robôs - indexar"
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:45
 msgid ""
@@ -2562,7 +2562,7 @@ msgid ""
 "If you don't want to use the meta description for sharing on %1$s but want "
 "another description there, write it here."
 msgstr ""
-"Se não quiser usar a meta descrição para partilhar no %1$s, e preferir uma "
+"Se não quiser usar a descrição para partilhar no %1$s, e preferir uma "
 "descrição alternativa, escreva-a aqui."
 
 #. translators: %1$s expands to the social network name
@@ -3113,7 +3113,7 @@ msgid ""
 "The advanced settings include site-wide settings for your titles and meta "
 "descriptions, social metadata, sitemaps and much more."
 msgstr ""
-"As definições avançadas incluem definições para títulos e meta descrições "
+"As definições avançadas incluem definições para títulos e descrições "
 "aplicadas a todo o site, metadados de redes sociais, sitemaps e muito mais."
 
 #: admin/views/tabs/dashboard/features.php:19
@@ -3283,7 +3283,7 @@ msgstr "Modelo de título"
 #: admin/views/tabs/metas/home.php:16 admin/views/tabs/metas/post-types.php:31
 #: admin/views/tabs/metas/taxonomies.php:31
 msgid "Meta description template"
-msgstr "Modelo de meta descrição"
+msgstr "Modelo de descrição"
 
 #: admin/views/tabs/metas/archives.php:17 admin/views/tabs/metas/home.php:18
 #: admin/views/tabs/metas/post-types.php:33
@@ -3296,7 +3296,7 @@ msgstr "Modelo de meta palavras-chave"
 #: admin/views/tabs/metas/post-types.php:74
 #: admin/views/tabs/metas/taxonomies.php:35
 msgid "Meta Robots"
-msgstr "Meta robots"
+msgstr "Robôs"
 
 #. translators: %1$s / %2$s: links to an article about duplicate content on
 #. yoast.com
@@ -3476,7 +3476,7 @@ msgstr ""
 #. translators: %s expands to <code>noodp</code>
 #: admin/views/tabs/metas/other.php:21
 msgid "Force %s meta robots tag sitewide"
-msgstr "Forçar meta robots %s para todo o site"
+msgstr "Forçar etiqueta %s de robôs para todo o site"
 
 #. translators: %s expands to <code>noodp</code>
 #: admin/views/tabs/metas/other.php:23
@@ -3512,7 +3512,7 @@ msgstr "Data na pré-visualização dos fragmentos"
 #: admin/views/tabs/metas/post-types.php:44
 #: admin/views/tabs/metas/taxonomies.php:43
 msgid "%1$s Meta Box"
-msgstr "Metabox do %1$s"
+msgstr "Caixa do %1$s"
 
 #: admin/views/tabs/metas/post-types.php:61
 msgid "Custom Post Type Archives"
@@ -3523,8 +3523,8 @@ msgid ""
 "Note: instead of templates these are the actual titles and meta descriptions "
 "for these custom post type archive pages."
 msgstr ""
-"Nota: em vez de modelos, estes são os títulos e meta descrições actuais para "
-"as páginas de arquivo destes tipos de conteúdo personalizados."
+"Nota: em vez de modelos, estes são os títulos e descrições actuais para as "
+"páginas de arquivo destes tipos de conteúdo personalizados."
 
 #: admin/views/tabs/metas/post-types.php:66
 #: admin/views/tabs/social/facebook.php:30 admin/views/tool-bulk-editor.php:39
@@ -3690,7 +3690,7 @@ msgstr "Descrição"
 
 #: admin/views/tabs/social/facebook.php:36
 msgid "Copy home meta description"
-msgstr "Copiar a meta descrição da página inicial"
+msgstr "Copiar a descrição da página inicial"
 
 #: admin/views/tabs/social/facebook.php:40
 msgid "Default settings"
@@ -3868,7 +3868,7 @@ msgstr "Não pode editar o ficheiro .htaccess."
 
 #: admin/views/tool-file-editor.php:83
 msgid "Robots.txt"
-msgstr "Robots.txt "
+msgstr "Robots.txt"
 
 #: admin/views/tool-file-editor.php:90
 msgid "You don't have a robots.txt file, create one here:"
@@ -3946,7 +3946,7 @@ msgstr "Título da página de autor"
 
 #: admin/views/user-profile.php:25
 msgid "Meta description to use for Author page"
-msgstr "Meta descrição da página de autor"
+msgstr "Descrição da página de autor"
 
 #: admin/views/user-profile.php:36
 msgid "Meta keywords to use for Author page"
@@ -3991,9 +3991,9 @@ msgid ""
 "doesn't have one, either write it for this page specifically or go into the "
 "SEO -> Titles menu and set up a template."
 msgstr ""
-"Nota apenas para administradores: esta página não mostra nenhuma meta "
-"descrição porque ainda não foi definida. Escreva uma especificamente para "
-"esta página ou então vá ao menu SEO -> Títulos e defina um modelo."
+"Nota apenas para administradores: esta página não mostra nenhuma descrição "
+"porque ainda não foi definida. Escreva uma especificamente para esta página "
+"ou então vá ao menu SEO -> Títulos e defina um modelo."
 
 #: inc/class-wpseo-rank.php:102
 msgid "No index"
@@ -4893,22 +4893,22 @@ msgstr[1] ""
 
 #: js/assessments/metaDescriptionKeywordAssessment.js:13
 msgid "The meta description contains the focus keyword."
-msgstr "A meta descrição contém a palavra-chave principal."
+msgstr "A descrição contém a palavra-chave principal."
 
 #: js/assessments/metaDescriptionKeywordAssessment.js:19
 msgid ""
 "A meta description has been specified, but it does not contain the focus "
 "keyword."
 msgstr ""
-"Foi especificada uma meta descrição mas não contém a palavra-chave principal."
+"Foi especificada uma descrição mas não contém a palavra-chave principal."
 
 #: js/assessments/metaDescriptionLengthAssessment.js:15
 msgid ""
 "No meta description has been specified, search engines will display copy from "
 "the page instead."
 msgstr ""
-"A meta descrição não foi especificada, em alternativa, os motores de pesquisa "
-"vão mostrar uma cópia da página."
+"A descrição não foi especificada, em alternativa, os motores de pesquisa vão "
+"mostrar uma cópia da página."
 
 #: js/assessments/metaDescriptionLengthAssessment.js:22
 #, javascript-format
@@ -4916,8 +4916,7 @@ msgid ""
 "The meta description is under %1$d characters, however up to %2$d characters "
 "are available."
 msgstr ""
-"A meta descrição tem menos de %1$d caracteres. Tem até %2$d caracteres "
-"disponíveis."
+"A descrição tem menos de %1$d caracteres. Tem até %2$d caracteres disponíveis."
 
 #: js/assessments/metaDescriptionLengthAssessment.js:29
 #, javascript-format
@@ -4925,7 +4924,7 @@ msgid ""
 "The specified meta description is over %1$d characters. Reducing it will "
 "ensure the entire description is visible."
 msgstr ""
-"A meta descrição especificada ultrapassa %1$d caracteres. Reduza-a até ficar "
+"A descrição especificada ultrapassa %1$d caracteres. Reduza-a até ficar "
 "visível por inteiro."
 
 #: js/assessments/metaDescriptionLengthAssessment.js:36
@@ -4933,7 +4932,7 @@ msgid ""
 "In the specified meta description, consider: How does it compare to the "
 "competition? Could it be made more appealing?"
 msgstr ""
-"Na meta descrição especificada, considere: Como está ao comparar com a "
+"Na descrição especificada, considere: Como está ao comparar com a "
 "concorrência? Poderei tornar mais apelativo?"
 
 #: js/assessments/pageTitleWidthAssessment.js:19
@@ -5055,7 +5054,7 @@ msgstr[1] ""
 #: js/assessments/sentenceLengthInDescriptionAssessment.js:25
 #, javascript-format
 msgid "The meta description contains no sentences %1$sover %2$s words%3$s."
-msgstr "A meta descrição não contém frases %1$scom mais de %2$s palavras%3$s."
+msgstr "A descrição não contém frases %1$scom mais de %2$s palavras%3$s."
 
 #. Translators: %1$d expands to number of sentences, %2$s expands to a link on yoast.com,
 #. %3$s expands to the recommended maximum sentence length, %4$s expands to the anchor end tag.
@@ -5068,10 +5067,10 @@ msgid_plural ""
 "The meta description contains %1$d sentences %2$sover %3$s words%4$s. Try to "
 "shorten these sentences."
 msgstr[0] ""
-"A meta descrição contém %1$d frase %2$scom mais de %3$s palavras%4$s. Tente "
+"A descrição contém %1$d frase %2$scom mais de %3$s palavras%4$s. Tente "
 "encurtar esta frase."
 msgstr[1] ""
-"A meta descrição contém %1$d frases %2$scom mais de %3$s palavras%4$s. Tente "
+"A descrição contém %1$d frases %2$scom mais de %3$s palavras%4$s. Tente "
 "encurtar estas frases."
 
 #. Translators: %1$d expands to percentage of sentences, %2$s expands to a link on yoast.com,
@@ -5563,7 +5562,7 @@ msgstr "Pré-visualização do URL:"
 
 #: js/snippetPreview.js:374
 msgid "Meta description preview:"
-msgstr "Pré-visualização da meta descrição:"
+msgstr "Pré-visualização da descrição:"
 
 #: js/snippetPreview.js:377
 msgid ""
@@ -5578,7 +5577,7 @@ msgstr "Por favor, insira um título SEO editando o fragmento abaixo."
 
 #: js/snippetPreview.js:651
 msgid "Please provide a meta description by editing the snippet below."
-msgstr "Por favor, insira uma meta descrição editando o fragmento abaixo."
+msgstr "Por favor, insira uma descrição editando o fragmento abaixo."
 
 #: yoast-components/composites/OnboardingWizard/OnboardingWizard.js:262
 msgid "Next step"
@@ -5610,12 +5609,12 @@ msgstr "Fechar o formulário dos resultados da pesquisa"
 
 #: yoast-components/composites/SearchResultForm/SearchResultForm.js:37
 msgid "Please provide a meta description by editing it here."
-msgstr "Por favor, insira uma meta descrição editando-a aqui."
+msgstr "Por favor, insira uma descrição editando-a aqui."
 
 #: yoast-components/composites/SearchResultForm/SearchResultForm.js:36
 #: yoast-components/composites/SearchResultPreview/SearchResultPreview.js:28
 msgid "Meta description preview: "
-msgstr "Pré-visualização da meta descrição: "
+msgstr "Pré-visualização da descrição: "
 
 #: yoast-components/composites/SearchResultForm/SearchResultForm.js:35
 msgid "Slug preview: "
