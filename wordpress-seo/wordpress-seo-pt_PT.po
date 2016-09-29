@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Yoast SEO 3.6\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
 "POT-Creation-Date: 2016-09-27 22:46+0100\n"
-"PO-Revision-Date: 2016-09-29 00:51+0100\n"
+"PO-Revision-Date: 2016-09-29 01:33+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -2458,7 +2458,7 @@ msgstr "O %1$s inclui algumas ferramentas poderosas:"
 
 #: admin/pages/tools.php:75
 msgid "&laquo; Back to Tools page"
-msgstr "&laquo; Voltar à pagina de ferramentas"
+msgstr "&laquo; Voltar à página Ferramentas"
 
 #: admin/pages/xml-sitemaps.php:27
 msgid "XML sitemap functionality"
