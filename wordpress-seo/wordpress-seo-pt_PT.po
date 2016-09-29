@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Yoast SEO 3.6\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
 "POT-Creation-Date: 2016-09-27 22:46+0100\n"
-"PO-Revision-Date: 2016-09-29 09:00+0100\n"
+"PO-Revision-Date: 2016-09-29 19:13+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -1908,16 +1908,13 @@ msgstr "Descrição"
 #: admin/metabox/class-metabox.php:83
 #: admin/taxonomy/class-taxonomy-settings-fields.php:37
 #: admin/views/tabs/metas/post-types.php:69
-#, fuzzy
 msgid "Meta keywords"
-msgstr "Meta palavras-chave"
+msgstr "Palavras-chave"
 
 #: admin/metabox/class-metabox.php:84
-#, fuzzy
 msgid ""
 "If you type something above it will override your %smeta keywords template%s."
-msgstr ""
-"O que escrever acima irá substituir o seu %smodelo de meta palavras-chave%s."
+msgstr "O que escrever acima irá substituir o seu %smodelo de palavras-chave%s."
 
 #: admin/metabox/class-metabox.php:87
 msgid "Meta robots index"
@@ -2495,9 +2492,8 @@ msgid "Facebook / Opengraph metadata"
 msgstr "Metadados do Facebook / Open Graph"
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:38
-#, fuzzy
 msgid "Meta keywords used on the archive page for this term."
-msgstr "Meta palavras-chave da página de arquivo deste termo."
+msgstr "Palavras-chave da página de arquivo deste termo."
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:44
 msgid "Meta Robots Index"
@@ -3291,9 +3287,8 @@ msgstr "Modelo de descrição"
 #: admin/views/tabs/metas/archives.php:17 admin/views/tabs/metas/home.php:18
 #: admin/views/tabs/metas/post-types.php:33
 #: admin/views/tabs/metas/taxonomies.php:33
-#, fuzzy
 msgid "Meta keywords template"
-msgstr "Modelo de meta palavras-chave"
+msgstr "Modelo de palavras-chave"
 
 #: admin/views/tabs/metas/archives.php:23 admin/views/tabs/metas/archives.php:45
 #: admin/views/tabs/metas/post-types.php:35
@@ -3466,18 +3461,16 @@ msgstr ""
 "resultados de pesquisa, defina isto para \"noindex\"."
 
 #: admin/views/tabs/metas/other.php:17
-#, fuzzy
 msgid "Use meta keywords tag?"
-msgstr "Usar meta palavras-chave?"
+msgstr "Usar palavras-chave?"
 
 #: admin/views/tabs/metas/other.php:18
-#, fuzzy
 msgid ""
 "I don't know why you'd want to use meta keywords, but if you want to, enable "
 "this."
 msgstr ""
-"Não há razão para que queira usar meta palavras-chave, mas se quiser usar, "
-"active esta opção."
+"Não há razão para que queira usar palavras-chave, mas se quiser usar, active "
+"esta opção."
 
 #. translators: %s expands to <code>noodp</code>
 #: admin/views/tabs/metas/other.php:21
@@ -3955,9 +3948,8 @@ msgid "Meta description to use for Author page"
 msgstr "Descrição da página de autor"
 
 #: admin/views/user-profile.php:36
-#, fuzzy
 msgid "Meta keywords to use for Author page"
-msgstr "Meta palavras-chave da página de autor"
+msgstr "Palavras-chave da página de autor"
 
 #: admin/views/user-profile.php:48
 msgid "Exclude user from Author-sitemap"
