@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Yoast SEO 3.6\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
 "POT-Creation-Date: 2016-09-27 22:46+0100\n"
-"PO-Revision-Date: 2016-09-29 01:33+0100\n"
+"PO-Revision-Date: 2016-09-29 09:00+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -1442,7 +1442,7 @@ msgstr ""
 
 #: admin/formatter/class-metabox-formatter.php:51
 msgid "Keyword:"
-msgstr "Palavra-chave:"
+msgstr "Palavra-chave principal:"
 
 #: admin/formatter/class-metabox-formatter.php:52
 msgid "Enter your focus keyword"
@@ -1908,10 +1908,12 @@ msgstr "Descrição"
 #: admin/metabox/class-metabox.php:83
 #: admin/taxonomy/class-taxonomy-settings-fields.php:37
 #: admin/views/tabs/metas/post-types.php:69
+#, fuzzy
 msgid "Meta keywords"
 msgstr "Meta palavras-chave"
 
 #: admin/metabox/class-metabox.php:84
+#, fuzzy
 msgid ""
 "If you type something above it will override your %smeta keywords template%s."
 msgstr ""
@@ -2493,6 +2495,7 @@ msgid "Facebook / Opengraph metadata"
 msgstr "Metadados do Facebook / Open Graph"
 
 #: admin/taxonomy/class-taxonomy-settings-fields.php:38
+#, fuzzy
 msgid "Meta keywords used on the archive page for this term."
 msgstr "Meta palavras-chave da página de arquivo deste termo."
 
@@ -3288,6 +3291,7 @@ msgstr "Modelo de descrição"
 #: admin/views/tabs/metas/archives.php:17 admin/views/tabs/metas/home.php:18
 #: admin/views/tabs/metas/post-types.php:33
 #: admin/views/tabs/metas/taxonomies.php:33
+#, fuzzy
 msgid "Meta keywords template"
 msgstr "Modelo de meta palavras-chave"
 
@@ -3462,10 +3466,12 @@ msgstr ""
 "resultados de pesquisa, defina isto para \"noindex\"."
 
 #: admin/views/tabs/metas/other.php:17
+#, fuzzy
 msgid "Use meta keywords tag?"
 msgstr "Usar meta palavras-chave?"
 
 #: admin/views/tabs/metas/other.php:18
+#, fuzzy
 msgid ""
 "I don't know why you'd want to use meta keywords, but if you want to, enable "
 "this."
@@ -3949,6 +3955,7 @@ msgid "Meta description to use for Author page"
 msgstr "Descrição da página de autor"
 
 #: admin/views/user-profile.php:36
+#, fuzzy
 msgid "Meta keywords to use for Author page"
 msgstr "Meta palavras-chave da página de autor"
 
@@ -4839,7 +4846,7 @@ msgid ""
 "The keyword density is %1$s, which is way over the advised %3$s maximum; the "
 "focus keyword was found %2$d times."
 msgstr ""
-"A densidade da palavra-chave é %1$s, o que muito superior ao máxumo "
+"A densidade da palavra-chave principal é %1$s, o que muito superior ao máxumo "
 "recomendado de %3$s, a palavra-chave principal foi encontrada %2$d vezes."
 
 #. Translators: %1$s expands to the keyword density percentage, %2$d expands to the keyword count,
@@ -4850,8 +4857,8 @@ msgid ""
 "The keyword density is %1$s, which is over the advised %3$s maximum; the "
 "focus keyword was found %2$d times."
 msgstr ""
-"A densidade da palavra-chave é %1$s, o que é superior ao máximo recomendado "
-"de %3$s, a palavra-chave principal foi encontrada %2$d vezes."
+"A densidade da palavra-chave principal é %1$s, o que é superior ao máximo "
+"recomendado de %3$s, a palavra-chave principal foi encontrada %2$d vezes."
 
 #. Translators: %1$s expands to the keyword density percentage, %2$d expands to the keyword count.
 #: js/assessments/keywordDensityAssessment.js:56
@@ -4860,8 +4867,8 @@ msgid ""
 "The keyword density is %1$s, which is great; the focus keyword was found %2$d "
 "times."
 msgstr ""
-"A densidade da palavra-chave é %1$s, o que é muito bom, a palavra-chave "
-"principal foi encontrada %2$d vezes."
+"A densidade da palavra-chave principal é %1$s, o que é muito bom, a palavra-"
+"chave principal foi encontrada %2$d vezes."
 
 #. Translators: %1$s expands to the keyword density percentage, %2$d expands to the keyword count.
 #: js/assessments/keywordDensityAssessment.js:66
@@ -4870,8 +4877,8 @@ msgid ""
 "The keyword density is %1$s, which is too low; the focus keyword was found "
 "%2$d times."
 msgstr ""
-"A densidade da palavra-chave é %1$s, o que é muito pouco, a palavra-chave "
-"principal foi encontrada %2$d vezes."
+"A densidade da palavra-chave principal é %1$s, o que é muito pouco, a palavra-"
+"chave principal foi encontrada %2$d vezes."
 
 #. Translators: %1$s opens a link to a Yoast article about stop words, %2$s closes the link
 #: js/assessments/keywordStopWordsAssessment.js:16
@@ -5467,7 +5474,7 @@ msgstr "Ocorreu um erro na avaliação de '%1$s'"
 
 #: js/bundledPlugins/previouslyUsedKeywords.js:65
 msgid "You've never used this focus keyword before, very good."
-msgstr "Nunca usou esta palavra-chave antes, muito bem."
+msgstr "Nunca usou esta palavra-chave principal antes, muito bem."
 
 #. Translators: %1$s and %2$s expand to an admin link where the focus keyword is already used
 #: js/bundledPlugins/previouslyUsedKeywords.js:73
@@ -5476,8 +5483,9 @@ msgid ""
 "You've used this focus keyword %1$sonce before%2$s, be sure to make very "
 "clear which URL on your site is the most important for this keyword."
 msgstr ""
-"Já usou esta palavra-chave %1$suma vez antes%2$s, não se esqueça de deixar "
-"bem claro que o URL do seu site é o mais importante para esta palavra-chave."
+"Já usou esta palavra-chave principal %1$suma vez antes%2$s, não se esqueça de "
+"deixar bem claro que o URL do seu site é o mais importante para esta palavra-"
+"chave."
 
 #. Translators: %1$s and $3$s expand to the admin search page for the focus keyword, %2$d expands to the number of times this focus
 #. keyword has been used before, %4$s and %5$s expand to a link to an article on yoast.com about cornerstone content
