@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Yoast SEO 3.6\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
 "POT-Creation-Date: 2016-09-27 22:46+0100\n"
-"PO-Revision-Date: 2016-09-29 19:13+0100\n"
+"PO-Revision-Date: 2016-09-30 10:49+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -1753,8 +1753,8 @@ msgid ""
 "Authorization Code. Clicking the button below will open a new window."
 msgstr ""
 "Para permitir ao %1$s obter a sua informação da %2$s, por favor, insira o seu "
-"código de autorização do Google. Ao carregar no botão abaixo irá abrir uma "
-"nova janela."
+"código de autorização do Google. Ao clicar no botão abaixo abre uma nova "
+"janela."
 
 #: admin/google_search_console/views/gsc-display.php:44
 msgid "Get Google Authorization Code"
@@ -5623,7 +5623,7 @@ msgstr "Pré-visualização do URL: "
 #: yoast-components/composites/SearchResultForm/SearchResultForm.js:34
 #: yoast-components/composites/SearchResultPreview/SearchResultPreview.js:26
 msgid "This is an example title - edit by clicking here"
-msgstr "Este é o exemplo de um título - clique aqui para editar"
+msgstr "Este é um exemplo de título - clique aqui para editar"
 
 #: yoast-components/composites/SearchResultForm/SearchResultForm.js:33
 #: yoast-components/composites/SearchResultPreview/SearchResultPreview.js:25
