@@ -1,0 +1,532 @@
+# Translation of Yoast SEO Premium (for WordPress) in Portuguese (Portugal)
+# This file is distributed under the same license as the Yoast SEO Premium (for WordPress) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-09-07 08:39:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0\n"
+"Language: pt\n"
+"Project-Id-Version: Yoast SEO Premium (for WordPress)\n"
+
+#. translators: %1$s: Yoast SEO Premium, %2$s and %3$s expand to a link to the
+#. admin page, %4$s: Old slug of the term, %5$s: New slug of the term, the text
+#. surrounded by %6$s and %7$s is placed in a button that can undo the created
+#. redirect
+#: classes/class-term-watcher.php:202
+msgid "%1$s created a %2$sredirect%3$s from the old term URL to the new term URL. %6$sClick here to undo this%7$s  <br> Old URL: %4$s <br> New URL: %5$s"
+msgstr "%1$s criou um %2$sredirecionamento%3$s a partir do antigo URL do termo para o novo URL do termo. %6$sClique aqui para desfazer%7$s  <br> URL antigo: %4$s <br> Novo URL: %5$s"
+
+#. translators: 1: opens a link to a related knowledge base article. 2: closes
+#. the link.
+#: classes/redirect/views/redirects-form.php:31
+msgid "The redirect type is the HTTP response code sent to the browser telling the browser what type of redirect is served. %1$sLearn more about redirect types%2$s."
+msgstr "O tipo de redirecionamento é o código de resposta HTTP enviado para o navegador, dizendo que tipo de redirecionamento é servido. %1$sAprenda mais sobre os tipos de redirecionamento%2$s."
+
+#. translators: 1: opens a link to a related knowledge base article. 2: closes
+#. the link.
+#: classes/redirect/views/redirects-tab-regex.php:20
+msgid "Regular Expressions (regex) Redirects are extremely powerful redirects. You should only use them if you know what you are doing. %1$sRead more about regex redirects on our knowledge base%2$s."
+msgstr "Redirecionamentos Regular Expressions (regex) são redirecionamentos extremamente poderosos. Deve apenas usa-los caso saiba o que está a fazer. %1$sLeia mais sobre redirecionamentos regex na nossa base de conhecimento%2$s."
+
+#. translators: %1$s: Yoast SEO Premium, %2$s and %3$s expand to a link to the
+#. admin page, %4$s: Old slug of the post, %5$s: New slug of the post, the text
+#. surrounded by %6$s and %7$s is placed in a button that can undo the created
+#. redirect
+#: classes/class-post-watcher.php:305
+msgid "%1$s created a %2$sredirect%3$s from the old post URL to the new post URL. %6$sClick here to undo this%7$s <br> Old URL: %4$s <br> New URL: %5$s"
+msgstr "%1$s cria um %2$sredirecionamento%3$s a partir do antigo URL do artigo para o novo URL. %6$sCarregue aqui para desfazer%7$s <br> Antigo URL: %4$s <br> Novo URL: %5$s"
+
+#. translators: %s expands to the file path that we tried to write to
+#: classes/redirect/class-redirect-file-util.php:42
+msgid "We're unable to create the directory %s"
+msgstr "Mão foi possível criar o diretório %s"
+
+#: classes/redirect/class-redirect-self-redirect-validation.php:29
+msgid ""
+"You are attempting to redirect to the same URL as the origin.\n"
+"\t\t\t\t\tPlease choose a different URL to redirect to."
+msgstr ""
+"Está a tentar redirecionar para o URL original.\n"
+"→\t→\t→\t→\t→\tPor favor, escolha um URL diferente para redicionar."
+
+#: node_modules/yoast-social-previews/js/facebookPreview.js:688
+msgid "By"
+msgstr "Por"
+
+#. translators: %1$s expands to Facebook
+#. translators: %1$s expands to Twitter
+#: node_modules/yoast-social-previews/js/facebookPreview.js:140
+#: node_modules/yoast-social-previews/js/twitterPreview.js:133
+msgid "Modify your %1$s description by editing it right here"
+msgstr "Modifique a sua descrição %1$s editando-a aqui"
+
+#. translators: %1$s expands to Facebook
+#. translators: %1$s expands to Twitter
+#: node_modules/yoast-social-previews/js/facebookPreview.js:213
+#: node_modules/yoast-social-previews/js/twitterPreview.js:206
+msgid "Edit %1$s preview"
+msgstr "Editar pré-visualização no %1$s"
+
+#. translators: %1$s expands to Facebook
+#. translators: %1$s expands to Twitter
+#: node_modules/yoast-social-previews/js/facebookPreview.js:215
+#: node_modules/yoast-social-previews/js/twitterPreview.js:208
+msgid "%1$s preview"
+msgstr "Pré-visualização do %1$s"
+
+#. translators: %1$s expands to Facebook
+#. translators: %1$s expands to Twitter
+#: node_modules/yoast-social-previews/js/facebookPreview.js:217
+#: node_modules/yoast-social-previews/js/twitterPreview.js:210
+msgid "%1$s editor"
+msgstr "Editor %1$s"
+
+#. translators: %1$s expands to Facebook
+#. translators: %1$s expands to Twitter
+#: node_modules/yoast-social-previews/js/facebookPreview.js:275
+#: node_modules/yoast-social-previews/js/twitterPreview.js:269
+msgid "%1$s title"
+msgstr "Título para %1$s"
+
+#. translators: %1$s expands to Facebook
+#. translators: %1$s expands to Twitter
+#: node_modules/yoast-social-previews/js/facebookPreview.js:284
+#: node_modules/yoast-social-previews/js/twitterPreview.js:281
+msgid "%1$s description"
+msgstr "Descrição para %1$s"
+
+#. translators: %1$s expands to Facebook
+#. translators: %1$s expands to Twitter
+#: node_modules/yoast-social-previews/js/facebookPreview.js:293
+#: node_modules/yoast-social-previews/js/twitterPreview.js:293
+msgid "%1$s image"
+msgstr "Imagem para %1$s"
+
+#: node_modules/yoast-social-previews/js/facebookPreview.js:448
+msgid "Please select an image by clicking here"
+msgstr "Por favor, seleccione uma imagem carregando nela"
+
+#. translators: %1$s expands to Facebook
+#: node_modules/yoast-social-previews/js/facebookPreview.js:467
+msgid "We are unable to detect an image in your post that is large enough to be displayed on Facebook. We advise you to select a %1$s image that fits the recommended image size."
+msgstr "Não nos foi possível detectar a imagem no seu artigo que seja grande o suficiente para ser apresentada no Facebook. Aconselhamos a que seleccione uma imagem %1$s enquadrada no tamanho de imagem recomendado."
+
+#: node_modules/yoast-social-previews/js/facebookPreview.js:137
+#: node_modules/yoast-social-previews/js/twitterPreview.js:130
+msgid "This is an example title - edit by clicking here"
+msgstr "Este é um título de exemplo - edite carregando aqui"
+
+#: classes/class-social-previews.php:136
+msgid "Show information about Facebook title"
+msgstr "Mostrar informação sobre título para Facebook."
+
+#: classes/class-social-previews.php:137
+msgid "Show information about Facebook description"
+msgstr "Mostrar informação sobre descrição para Facebook."
+
+#: classes/class-social-previews.php:138
+msgid "Show information about Facebook image"
+msgstr "Mostrar informação sobre imagem para Facebook."
+
+#: classes/class-social-previews.php:139
+msgid "Show information about Twitter title"
+msgstr "Mostrar informação sobre título para Twitter."
+
+#: classes/class-social-previews.php:140
+msgid "Show information about Twitter description"
+msgstr "Mostrar informação sobre descrição para Twitter."
+
+#: classes/class-social-previews.php:141
+msgid "Show information about Twitter image"
+msgstr "Mostrar informação sobre imagem para Twitter."
+
+#: classes/class-social-previews.php:129
+msgid "Upload image"
+msgstr "Carregar imagem"
+
+#: classes/class-social-previews.php:130
+msgid "Use other image"
+msgstr "Usar outra imagem"
+
+#: classes/class-social-previews.php:131
+msgid "Remove image"
+msgstr "Remover imagem"
+
+#. translators: %1$s expands to Facebook
+#: node_modules/yoast-social-previews/js/facebookPreview.js:473
+msgid "The image you selected is too small for %1$s"
+msgstr "A imagem que seleccionou é muito pequena para o %1$s"
+
+#: node_modules/yoast-social-previews/js/facebookPreview.js:497
+msgid "The given image url cannot be loaded"
+msgstr "O URL fornecido para a imagem não pode ser carregado"
+
+#. translators: %1$s expands to Facebook
+#. translators: %1$s expands to Twitter
+#: node_modules/yoast-social-previews/js/facebookPreview.js:316
+#: node_modules/yoast-social-previews/js/twitterPreview.js:318
+msgid "Please provide a %1$s title by editing the snippet below."
+msgstr "Forneça, por favor, um título para o %1$s, editando o fragmento abaixo."
+
+#. translators: %1$s expands to Facebook
+#. translators: %1$s expands to Twitter
+#: node_modules/yoast-social-previews/js/facebookPreview.js:330
+#: node_modules/yoast-social-previews/js/twitterPreview.js:332
+msgid "Please provide a %1$s description by editing the snippet below."
+msgstr "Por favor, forneça uma descrição para o %1$s editando o fragmento abaixo."
+
+#. translators: %s: 'Yoast SEO Premium'
+#: classes/redirect/views/redirects-tab-settings.php:87
+msgid "%s can generate redirect files that can be included in your website web server configuration. If you choose this option the PHP redirects will be disabled. Only check this option if you know what you are doing!"
+msgstr "%s pode gerar ficheiros de redireccionamento que podem ser incluídos na configuração do servidor do seu website. Se escolher esta opção o redireccionamento por PHP será desactivado. Escolha esta opção apenas se tiver a certeza do que está a fazer!"
+
+#: classes/redirect/views/redirects-tab-settings.php:74
+msgid "Redirect method"
+msgstr "Método de redireccionamento"
+
+#: classes/redirect/views/redirects-tab-settings.php:73
+msgid "Web server"
+msgstr "Servidor web"
+
+#. translators: %1$s: Yoast SEO Premium, %2$s: List with actions, %3$s: <a
+#. href=''>, %4$s: </a>
+#: classes/class-post-watcher.php:129
+msgid "%1$s detected that you moved a post to the trash. You can either: %2$s Don't know what to do? %3$sRead this post%4$s."
+msgstr "%1$s detectou que moveu um artigo para o lixo. Pode: %2$s Não sabe o que fazer? %3$sLeia este artigo%4$s."
+
+#. translators: %1$s: Yoast SEO Premium, %2$s: List with actions, %3$s: <a
+#. href='{post_with_explaination.}'>, %4$s: </a>
+#: classes/class-post-watcher.php:318
+msgid "%1$s detected that you deleted a post. You can either: %2$s Don't know what to do? %3$sRead this post %4$s."
+msgstr "%1$s detectou que eliminou um artigo.. Pode: %2$s Não sabe o que fazer? %3$sLeia este artigo %4$s."
+
+#: classes/class-premium-javascript-strings.php:33
+msgid "410 Redirect created from %1$s!"
+msgstr "Criado redirecionamento 410 de %1$s!"
+
+#. translators: %1$s: Yoast SEO Premium, %2$s: List with actions, %3$s: <a
+#. href='{post_with_explaination.}'>, %4$s: </a>
+#: classes/class-term-watcher.php:215
+msgid "%1$s detected that you deleted a term. You can either: %2$s Don't know what to do? %3$sRead this post %4$s."
+msgstr "%1$s detectou que eliminou um termo. Pode: %2$s Não sabe o que fazer? %3$sLeia este artigo %4$s."
+
+#: classes/class-watcher.php:234
+msgid "Redirect it to another URL"
+msgstr "Redirecione para outro URL"
+
+#: classes/class-watcher.php:235
+msgid "Make it serve a 410 Content Deleted header"
+msgstr "Faça com que apresente um cabeçalho 410 Conteúdo Eliminado."
+
+#: classes/class-premium-javascript-strings.php:50
+msgid "Save"
+msgstr "Guardar"
+
+#: classes/class-premium-javascript-strings.php:51
+msgid "Save anyway"
+msgstr "Guardar na mesma"
+
+#: classes/class-premium-javascript-strings.php:53
+#: classes/redirect/views/redirects-quick-edit.php:12
+msgid "Edit redirect"
+msgstr "Editar redirecionamento"
+
+#: classes/class-premium-javascript-strings.php:54
+msgid "You are already editing a redirect, please finish this one first"
+msgstr "Já está a editar um redirecionamento, por favor termine este primeiro "
+
+#: classes/redirect/class-redirect-accessible-validation.php:34
+msgid "The URL you entered could not be resolved."
+msgstr "O URL que introduziu não pode ser alcançado."
+
+#. translators: %1$s expands to the returned http code
+#: classes/redirect/class-redirect-accessible-validation.php:47
+msgid "The URL you are redirecting to seems to return a %1$s status. You might want to check if the target can be reached manually before saving."
+msgstr "O URL para o qual está a redirecionar parece retornar um estado %1$s. Verifique, de forma manual, se o alvo pode ser alcançado antes de guardar."
+
+#: classes/redirect/class-redirect-accessible-validation.php:57
+msgid "You're redirecting to a target that returns a 301 HTTP code (permanently moved). Make sure the target you specify is directly reachable."
+msgstr "Está a redirecionar para um alvo que retorna um código 301 HTTP (movido permanentemente). Tenha a certeza de que o alvo que especificou é alcançável."
+
+#. translators: %1$s expands to the returned http code
+#: classes/redirect/class-redirect-accessible-validation.php:67
+msgid "The URL you entered returned a HTTP code different than 200(OK). The received HTTP code is %1$s."
+msgstr "O URL que introduziu retornou um código HTTP diferente do 200(OK). O código HTTP recebido é %1$s."
+
+#: classes/redirect/class-redirect-ajax.php:59
+msgid "Unknown error. Failed to create redirect."
+msgstr "Erro desconhecido. Falhou a criação do redirecionamento."
+
+#: classes/redirect/class-redirect-ajax.php:92
+msgid "Unknown error. Failed to update redirect."
+msgstr "Erro desconhecido. Falhou a actualização do redirecionamento. "
+
+#: classes/redirect/class-redirect-endpoint-validation.php:43
+msgid "The redirect you are trying to save will create a redirect loop. This means there probably already exists a redirect that points to the origin of the redirect you are trying to save"
+msgstr "O redirecionamento que está a tentar guardar irá criar um \\\"loop\\\". Isto significa que já existirá um redirecionamento que aponta para a origem do redirecionamento que está a tentar guardar"
+
+#. translators: %1$s: will be the target, %2$s: will be the found endpoint.
+#: classes/redirect/class-redirect-endpoint-validation.php:53
+msgid "%1$s will be redirected to %2$s. Maybe it's worth considering to create a direct redirect to %2$s."
+msgstr "%1$s será redirecionado para %2$s. Talvez seja de considerar criar um redirecionamento directo para %2$s."
+
+#. translators: %s expands to the file path that we tried to write to
+#: classes/redirect/class-redirect-file-util.php:84
+msgid "We're unable to write data to the file %s"
+msgstr "Não foi possível escrever dados no ficheiro %s"
+
+#: classes/redirect/class-redirect-form-presenter.php:49
+msgid "301 Moved Permanently"
+msgstr "301 Movido Permanentemente"
+
+#: classes/redirect/class-redirect-form-presenter.php:50
+msgid "302 Found"
+msgstr "302 Encontrado"
+
+#: classes/redirect/class-redirect-form-presenter.php:51
+msgid "307 Temporary Redirect"
+msgstr "307 Redirecionamento temporário"
+
+#: classes/redirect/class-redirect-form-presenter.php:52
+msgid "410 Content Deleted"
+msgstr "410 Conteúdo apagado"
+
+#: classes/redirect/class-redirect-form-presenter.php:53
+msgid "451 Unavailable For Legal Reasons"
+msgstr "451 Indisponível por razões legais"
+
+#: classes/redirect/class-redirect-presence-validation.php:38
+msgid "Not all the required fields are filled."
+msgstr "Nem todos os campos requeridos estão preenchidos."
+
+#: classes/redirect/class-redirect-uniqueness-validation.php:34
+msgid "The old URL already exists as a redirect."
+msgstr "O url antigo já existe como redirecionamento."
+
+#: classes/redirect/views/redirects-quick-edit.php:32
+msgid "Update Redirect"
+msgstr "Actualizar redirecionamento"
+
+#. translators: %s expands to the folder location where the redirects fill will
+#. be saved.
+#: classes/redirect/views/redirects-tab-settings.php:49
+msgid "We're unable to save the redirect file to %s"
+msgstr "Não foi possível guardar o ficheiro de redirecionamento para %s"
+
+#: classes/class-premium-javascript-strings.php:36
+msgid "Redirect added."
+msgstr "Redirecionamento adicionado."
+
+#: classes/class-premium-javascript-strings.php:37
+msgid "The redirect was added successfully."
+msgstr "O redirecionamento foi adicionado com sucesso."
+
+#: classes/class-premium-javascript-strings.php:40
+msgid "Redirect updated."
+msgstr "Redirecionamento actualizado."
+
+#: classes/class-premium-javascript-strings.php:41
+msgid "The redirect was updated successfully."
+msgstr "O redirecionamento foi actualizado com sucesso."
+
+#: classes/class-premium-javascript-strings.php:44
+msgid "Redirect deleted."
+msgstr "Redirecionamento eliminado."
+
+#: classes/class-premium-javascript-strings.php:45
+msgid "The redirect was deleted successfully."
+msgstr "O redirecionamento foi eliminado com sucesso."
+
+#: classes/class-premium-javascript-strings.php:49
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. translators: %s: '.htaccess' file name
+#: classes/class-premium-import-manager.php:252
+msgid "%s import"
+msgstr "%s importado"
+
+#. translators: %1$s: '.htaccess' file name, %2$s plugin name
+#: classes/class-premium-import-manager.php:275
+msgid "You can copy the contents of any %1$s file in here, and it will import the redirects into %2$s."
+msgstr "Pode copiar o conteúdo de qualquer ficheiro %1$s para aqui e será importado o redirecionamento para o %2$s."
+
+#. translators: %1$s: Yoast SEO Premium, %2$s: <a href='{undo_redirect_url}'>,
+#. %3$s: </a>
+#: classes/class-post-watcher.php:155
+msgid "%1$s detected that you restored a post from the trash. %2$sClick here to remove the redirect%3$s"
+msgstr "%1$s detectou que restaurou um artigo a partir do lixo. %2$sCarregue aqui para remover o redirecionamento%3$s."
+
+#. translators: %s: '.htaccess' file name
+#: classes/class-premium-import-manager.php:68
+msgid "%s redirects have been imported."
+msgstr "%s redirecionamento foram importados."
+
+#. translators: %s: '.htaccess' file name
+#: classes/class-premium-import-manager.php:273
+msgid "Import redirects from %s"
+msgstr "Importar redirecionamentos de %s"
+
+#: classes/class-premium-javascript-strings.php:23
+msgid "The Regular Expression field can't be empty."
+msgstr "O campo de expressão regular não pode ficar vazio."
+
+#: classes/class-premium-javascript-strings.php:30
+msgid "Please enter the new URL for %s"
+msgstr "Por favor coloque o novo URL para %s"
+
+#: classes/class-premium-javascript-strings.php:32
+msgid "Redirect created from %1$s to %2$s!"
+msgstr "Redirecionamento criado de %1$s para %2$s!"
+
+#: classes/redirect/class-redirect-table.php:60
+#: classes/redirect/views/redirects-form.php:13
+msgctxt "noun"
+msgid "Type"
+msgstr "Tipo"
+
+#: classes/redirect/class-redirect-table-presenter.php:67
+msgid "Regular Expression"
+msgstr "Expressão regular"
+
+#. translators: 1: '.htaccess' file name
+#: classes/redirect/views/redirects-tab-settings.php:78
+msgid "Write redirects to the %1$s file. Make sure the %1$s file is writable."
+msgstr "Escreve redirecionamentos para o ficheiro %1$s. Tenha a certeza que o ficheiro %1$s pode ser escrito."
+
+#. translators: %s: '.htaccess' file name
+#: classes/redirect/views/redirects-tab-settings.php:83
+msgid "By default we write the redirects to your %s file, check this if you want the redirects written to a separate file. Only check this option if you know what you are doing!"
+msgstr "Por omissão escrevemos os redirecionamentos no ficheiro %s. Confirme aqui se quer o redirecionamento escrito num ficheiro separado. Confirme esta opção apenas se souber o que estás a fazer!"
+
+#: classes/class-premium-javascript-strings.php:21
+msgid "You can't redirect a URL to itself."
+msgstr "Não pode redireccionar um URL para si próprio."
+
+#: class-premium.php:351
+msgid "Add custom fields to page analysis"
+msgstr "Adicionar campos personalizados à análise de páginas"
+
+#. translators: %s: '.htaccess' file name.
+#: classes/redirect/views/redirects-tab-settings.php:24
+msgid "We're unable to save the redirects to your %s file. Please make the file writable."
+msgstr "Não conseguimos guardar os redirecionamentos no ficheiro %s. Por favor dê permissões de escrita ao ficheiro."
+
+#: classes/redirect/views/redirects-tab-settings.php:80
+msgid "Generate a separate redirect file"
+msgstr "Gerar um ficheiro de redirecionamento separado"
+
+#: classes/redirect/class-redirect-page.php:66
+msgid "Redirects per page"
+msgstr "Redirecionamentos por página"
+
+#. translators: %s: '.htaccess' file name
+#: classes/class-premium-import-manager.php:80
+msgid "%s import failed: No redirects found."
+msgstr "Importação do %s falhou: não foram encontrados redirecionamentos."
+
+#: classes/class-premium-import-manager.php:280
+msgid "Import .htaccess"
+msgstr "Importar .htaccess"
+
+#: classes/class-premium-javascript-strings.php:22
+msgid "The old URL field can't be empty."
+msgstr "O campo do anterior URL não pode ficar vazio."
+
+#: classes/class-premium-javascript-strings.php:24
+msgid "The new URL field can't be empty."
+msgstr "O campo do novo URL não pode ficar vazio."
+
+#: classes/class-premium-javascript-strings.php:25
+msgid "Error while saving this redirect"
+msgstr "Erro ao salvar este redirecionamento"
+
+#: classes/class-premium-javascript-strings.php:26
+msgid "New type can't be empty."
+msgstr "Novo tipo não pode ficar vazio."
+
+#: classes/redirect/class-redirect-presenter.php:59
+msgid "Settings"
+msgstr "Opções"
+
+#: classes/redirect/class-redirect-table.php:316
+msgid "Edit"
+msgstr "Editar"
+
+#: classes/class-premium-javascript-strings.php:48
+msgid "OK"
+msgstr "OK"
+
+#: class-premium.php:319
+msgid "Create Redirect"
+msgstr "Criar redirecionamento"
+
+#: class-premium.php:370 classes/redirect/class-redirect-presenter.php:57
+msgid "Redirects"
+msgstr "Redirecionamentos"
+
+#: classes/redirect/views/redirects-form.php:48
+msgid "URL"
+msgstr "URL"
+
+#: classes/class-premium-import-manager.php:34
+msgid "Redirection redirects have been imported."
+msgstr "Importado o redirecionamentos do Redirection"
+
+#: classes/class-premium-import-manager.php:45
+msgid "Redirection import failed: Redirection plugin not installed or activated."
+msgstr "Importação do Redirection falhou: o plugin Redirection não está instalado ou está desactivado."
+
+#: classes/class-premium-import-manager.php:56
+msgid "Redirection import failed: No redirects found."
+msgstr "Importação do Redirection falhou: Não foram encontrados redirecionamentos."
+
+#: classes/class-premium-import-manager.php:244
+msgid "Import from Redirection?"
+msgstr "Importar do Redirecion?"
+
+#: classes/class-premium-javascript-strings.php:27
+msgid "You have unsaved redirects, are you sure you want to leave?"
+msgstr "Tem redirecionamentos por guardar, tem a certeza de que quer sair?"
+
+#: classes/redirect/class-redirect-table.php:62
+msgid "New URL"
+msgstr "Novo URL"
+
+#: classes/redirect/class-redirect-table.php:231
+#: classes/redirect/class-redirect-table.php:317
+msgid "Delete"
+msgstr "Eliminar"
+
+#: classes/redirect/views/redirects-tab-plain.php:51
+#: classes/redirect/views/redirects-tab-regex.php:62
+msgid "Search"
+msgstr "Procurar"
+
+#: classes/redirect/views/redirects-tab-settings.php:91
+msgid "Save Changes"
+msgstr "Guardar alterações"
+
+#: classes/redirect/class-redirect-presenter.php:58
+msgid "Regex Redirects"
+msgstr "Redirecionamentos Regex"
+
+#: classes/redirect/class-redirect-table-presenter.php:70
+msgid "Old URL"
+msgstr "URL antigo"
+
+#: classes/redirect/views/redirects-tab-plain.php:31
+#: classes/redirect/views/redirects-tab-regex.php:42
+msgid "Add Redirect"
+msgstr "Adicionar redirecionamentos"
+
+#: classes/redirect/views/redirects-tab-settings.php:37
+msgid "As you're on Nginx, you should add the following include to the Nginx config file:"
+msgstr "Como está num servidor Nginx, deve acrescentar o seguinte no ficheiro de configuração do website em Nginx:"
+
+#: classes/redirect/views/redirects-tab-settings.php:12
+msgid "As you're on Apache, you should add the following include to the website httpd config file:"
+msgstr "Como está num servidor Apache, deve acrescentar o seguinte no ficheiro de configuração httpd do website:"
