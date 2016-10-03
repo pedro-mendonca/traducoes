@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Yoast SEO Premium (for WordPress) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-10-03 10:02+0100\n"
+"PO-Revision-Date: 2016-10-03 14:59+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,13 +21,13 @@ msgstr ""
 #. redirect
 #: classes/class-term-watcher.php:202
 msgid "%1$s created a %2$sredirect%3$s from the old term URL to the new term URL. %6$sClick here to undo this%7$s  <br> Old URL: %4$s <br> New URL: %5$s"
-msgstr "O %1$s criou um %2$sredireccionamento%3$s a partir do antigo URL do termo para o novo URL do termo. %6$sClique aqui para desfazer%7$s  <br> URL antigo: %4$s <br> Novo URL: %5$s"
+msgstr "O %1$s criou um %2$sredireccionamento%3$s a partir do antigo URL do termo para o novo URL do termo. %6$sClique aqui para desfazer%7$s  <br> Antigo URL: %4$s <br> Novo URL: %5$s"
 
 #. translators: 1: opens a link to a related knowledge base article. 2: closes
 #. the link.
 #: classes/redirect/views/redirects-form.php:31
 msgid "The redirect type is the HTTP response code sent to the browser telling the browser what type of redirect is served. %1$sLearn more about redirect types%2$s."
-msgstr "O tipo de redireccionamento é o código de resposta HTTP enviado para o navegador, dizendo que tipo de redirecionamento é servido. %1$sAprenda mais sobre os tipos de redireccionamento%2$s."
+msgstr "O tipo de redireccionamento é o código de resposta HTTP enviado para o navegador, dizendo que tipo de redirecionamento é servido. %1$sSaiba mais sobre os tipos de redireccionamento%2$s."
 
 #. translators: 1: opens a link to a related knowledge base article. 2: closes
 #. the link.
@@ -520,7 +520,7 @@ msgstr "Redireccionamentos Regex"
 
 #: classes/redirect/class-redirect-table-presenter.php:70
 msgid "Old URL"
-msgstr "URL antigo"
+msgstr "Antigo URL"
 
 #: classes/redirect/views/redirects-tab-plain.php:31
 #: classes/redirect/views/redirects-tab-regex.php:42
