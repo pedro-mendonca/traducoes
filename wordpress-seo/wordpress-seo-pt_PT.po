@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Yoast SEO 3.6\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
 "POT-Creation-Date: 2016-09-27 22:46+0100\n"
-"PO-Revision-Date: 2016-09-30 10:49+0100\n"
+"PO-Revision-Date: 2016-10-03 14:34+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -4474,7 +4474,7 @@ msgstr ""
 
 #: vendor/yoast/license-manager/class-license-manager.php:175
 msgid "Your %s license has been activated. "
-msgstr "A tua %s licença foi activada. "
+msgstr "A sua licença do %s foi activada. "
 
 #: vendor/yoast/license-manager/class-license-manager.php:179
 msgid "You have an unlimited license. "
@@ -4486,7 +4486,7 @@ msgstr "Usou %d/%d activações. "
 
 #: vendor/yoast/license-manager/class-license-manager.php:186
 msgid "<a href=\"%s\">Did you know you can upgrade your license?</a>"
-msgstr "<a href=\"%s\">Sabia que pode actualizar a sua licença?</a>"
+msgstr "<a href=\"%s\">Sabe que pode actualizar a sua licença?</a>"
 
 #: vendor/yoast/license-manager/class-license-manager.php:190
 msgid ""
@@ -4518,11 +4518,11 @@ msgstr "Erro ao ativar a sua licença. A chave da sua licença parece inválida.
 
 #: vendor/yoast/license-manager/class-license-manager.php:229
 msgid "Your %s license has been deactivated."
-msgstr "A sua licença %s foi desactivada."
+msgstr "A sua licença do %s foi desactivada."
 
 #: vendor/yoast/license-manager/class-license-manager.php:231
 msgid "Failed to deactivate your %s license."
-msgstr "Falhou ao desactivar a sua licença %s."
+msgstr "Falhou ao desactivar a sua licença do %s."
 
 #: vendor/yoast/license-manager/class-license-manager.php:267
 msgid "Request error: \"%s\" (%scommon license notices%s)"
@@ -4642,7 +4642,7 @@ msgstr "Chave de licença"
 
 #: vendor/yoast/license-manager/views/form.php:62
 msgid "Paste your %s license key here.."
-msgstr "Cole aqui a sua chave da licença de %s..."
+msgstr "Cole aqui a sua chave da licença do %s..."
 
 #: vendor/yoast/license-manager/views/form.php:64
 msgid "You defined your license key using the %s PHP constant."
@@ -4650,7 +4650,7 @@ msgstr "Definiu a sua chave de licença através da constante de PHP %s."
 
 #: vendor/yoast/license-manager/views/form.php:81
 msgid "Your %s license will expire on %s."
-msgstr "A sua %s licença expira em %s."
+msgstr "A sua licença do %s expira em %s."
 
 #: vendor/yoast/license-manager/views/form.php:84
 msgid "%sRenew your license now%s."
