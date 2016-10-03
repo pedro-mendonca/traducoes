@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yoast SEO Premium (for WordPress)\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-10-03 20:16+0100\n"
+"PO-Revision-Date: 2016-10-03 20:28+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -407,7 +407,7 @@ msgstr "Escreve redireccionamentos para o ficheiro %1$s. Tenha a certeza que o f
 #. translators: %s: '.htaccess' file name
 #: classes/redirect/views/redirects-tab-settings.php:83
 msgid "By default we write the redirects to your %s file, check this if you want the redirects written to a separate file. Only check this option if you know what you are doing!"
-msgstr "Por omissão os redireccionamentos são escritos no ficheiro %s. Confirme aqui se quer o redireccionamento escrito num ficheiro separado. Confirme esta opção apenas se souber o que está a fazer!"
+msgstr "Por omissão os redireccionamentos são escritos no ficheiro %s. Active isto se quer o redireccionamento escrito num ficheiro separado. Apenas utilize esta opção se souber o que está a fazer!"
 
 #: classes/class-premium-javascript-strings.php:21
 msgid "You can't redirect a URL to itself."
