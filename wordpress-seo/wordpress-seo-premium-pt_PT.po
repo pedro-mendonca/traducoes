@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Yoast SEO Premium (for WordPress) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-30 12:18+0100\n"
+"PO-Revision-Date: 2016-10-03 09:02+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,9 +32,8 @@ msgstr "O tipo de redireccionamento é o código de resposta HTTP enviado para o
 #. translators: 1: opens a link to a related knowledge base article. 2: closes
 #. the link.
 #: classes/redirect/views/redirects-tab-regex.php:20
-#, fuzzy
 msgid "Regular Expressions (regex) Redirects are extremely powerful redirects. You should only use them if you know what you are doing. %1$sRead more about regex redirects on our knowledge base%2$s."
-msgstr "Os redireccionamentos Regular Expressions (regex) são redireccionamentos extremamente poderosos. Apenas deverá usá-los caso saiba o que está a fazer. %1$sLeia mais sobre redireccionamentos regex na nossa base de conhecimento%2$s."
+msgstr "Os redireccionamentos de expressões regulares (regex) são redireccionamentos extremamente poderosos. Apenas deverá usá-los caso saiba o que está a fazer. %1$sLeia mais sobre redireccionamentos regex na nossa base de conhecimento%2$s."
 
 #. translators: %1$s: Yoast SEO Premium, %2$s and %3$s expand to a link to the
 #. admin page, %4$s: Old slug of the post, %5$s: New slug of the post, the text
@@ -79,7 +78,6 @@ msgstr "Editar pré-visualização para o %1$s"
 #. translators: %1$s expands to Twitter
 #: node_modules/yoast-social-previews/js/facebookPreview.js:215
 #: node_modules/yoast-social-previews/js/twitterPreview.js:208
-#, fuzzy
 msgid "%1$s preview"
 msgstr "Pré-visualização do %1$s"
 
@@ -87,32 +85,29 @@ msgstr "Pré-visualização do %1$s"
 #. translators: %1$s expands to Twitter
 #: node_modules/yoast-social-previews/js/facebookPreview.js:217
 #: node_modules/yoast-social-previews/js/twitterPreview.js:210
-#, fuzzy
 msgid "%1$s editor"
-msgstr "Editor %1$s"
+msgstr "Editor do %1$s"
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
 #: node_modules/yoast-social-previews/js/facebookPreview.js:275
 #: node_modules/yoast-social-previews/js/twitterPreview.js:269
-#, fuzzy
 msgid "%1$s title"
-msgstr "Título para %1$s"
+msgstr "Título para o %1$s"
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
 #: node_modules/yoast-social-previews/js/facebookPreview.js:284
 #: node_modules/yoast-social-previews/js/twitterPreview.js:281
 msgid "%1$s description"
-msgstr "Descrição para %1$s"
+msgstr "Descrição para o %1$s"
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
 #: node_modules/yoast-social-previews/js/facebookPreview.js:293
 #: node_modules/yoast-social-previews/js/twitterPreview.js:293
-#, fuzzy
 msgid "%1$s image"
-msgstr "Imagem para %1$s"
+msgstr "Imagem para o %1$s"
 
 #: node_modules/yoast-social-previews/js/facebookPreview.js:448
 msgid "Please select an image by clicking here"
@@ -189,9 +184,8 @@ msgstr "Por favor, insira uma descrição para o %1$s editando o fragmento abaix
 
 #. translators: %s: 'Yoast SEO Premium'
 #: classes/redirect/views/redirects-tab-settings.php:87
-#, fuzzy
 msgid "%s can generate redirect files that can be included in your website web server configuration. If you choose this option the PHP redirects will be disabled. Only check this option if you know what you are doing!"
-msgstr "%s pode gerar ficheiros de redireccionamento que podem ser incluídos na configuração do servidor do seu website. Se escolher esta opção o redireccionamento por PHP será desactivado. Escolha esta opção apenas se tiver a certeza do que está a fazer!"
+msgstr "O %s pode gerar ficheiros de redireccionamento que podem ser incluídos na configuração do servidor do seu website. Se escolher esta opção o redireccionamento por PHP será desactivado. Escolha esta opção apenas se tiver a certeza do que está a fazer!"
 
 #: classes/redirect/views/redirects-tab-settings.php:74
 msgid "Redirect method"
@@ -214,9 +208,8 @@ msgid "%1$s detected that you deleted a post. You can either: %2$s Don't know wh
 msgstr "O %1$s detectou que eliminou um artigo. Pode: %2$s Não sabe o que fazer? %3$sLeia este artigo%4$s."
 
 #: classes/class-premium-javascript-strings.php:33
-#, fuzzy
 msgid "410 Redirect created from %1$s!"
-msgstr "Criado redirecionamento 410 de %1$s!"
+msgstr "Criado redireccionamento 410 a partir de %1$s!"
 
 #. translators: %1$s: Yoast SEO Premium, %2$s: List with actions, %3$s: <a
 #. href='{post_with_explaination.}'>, %4$s: </a>
@@ -229,9 +222,8 @@ msgid "Redirect it to another URL"
 msgstr "Redireccione para outro URL"
 
 #: classes/class-watcher.php:235
-#, fuzzy
 msgid "Make it serve a 410 Content Deleted header"
-msgstr "Faça com que apresente um cabeçalho 410 Conteúdo Eliminado."
+msgstr "Faça com que apresente um cabeçalho 410 Conteúdo eliminado."
 
 #: classes/class-premium-javascript-strings.php:50
 msgid "Save"
@@ -277,15 +269,13 @@ msgid "Unknown error. Failed to update redirect."
 msgstr "Erro desconhecido. Falhou ao actualizar redireccionamento."
 
 #: classes/redirect/class-redirect-endpoint-validation.php:43
-#, fuzzy
 msgid "The redirect you are trying to save will create a redirect loop. This means there probably already exists a redirect that points to the origin of the redirect you are trying to save"
 msgstr "O redireccionamento que está a tentar guardar irá criar um \\\"loop\\\". Isto significa que já existirá um redireccionamento que aponta para a origem do redireccionamento que está a tentar guardar."
 
 #. translators: %1$s: will be the target, %2$s: will be the found endpoint.
 #: classes/redirect/class-redirect-endpoint-validation.php:53
-#, fuzzy
 msgid "%1$s will be redirected to %2$s. Maybe it's worth considering to create a direct redirect to %2$s."
-msgstr "%1$s será redirecionado para %2$s. Talvez seja de considerar criar um redirecionamento directo para %2$s."
+msgstr "%1$s será redireccionado para %2$s. Talvez seja de considerar criar um redireccionamento directo para %2$s."
 
 #. translators: %s expands to the file path that we tried to write to
 #: classes/redirect/class-redirect-file-util.php:84
@@ -309,7 +299,6 @@ msgid "410 Content Deleted"
 msgstr "410 Conteúdo eliminado"
 
 #: classes/redirect/class-redirect-form-presenter.php:53
-#, fuzzy
 msgid "451 Unavailable For Legal Reasons"
 msgstr "451 Indisponível por razões legais"
 
@@ -361,9 +350,8 @@ msgstr "Cancelar"
 
 #. translators: %s: '.htaccess' file name
 #: classes/class-premium-import-manager.php:252
-#, fuzzy
 msgid "%s import"
-msgstr "%s importado"
+msgstr "Importação de %s"
 
 #. translators: %1$s: '.htaccess' file name, %2$s plugin name
 #: classes/class-premium-import-manager.php:275
@@ -387,7 +375,6 @@ msgid "Import redirects from %s"
 msgstr "Importar redireccionamentos de %s"
 
 #: classes/class-premium-javascript-strings.php:23
-#, fuzzy
 msgid "The Regular Expression field can't be empty."
 msgstr "O campo de expressão regular não pode ficar vazio."
 
@@ -406,13 +393,11 @@ msgid "Type"
 msgstr "Tipo"
 
 #: classes/redirect/class-redirect-table-presenter.php:67
-#, fuzzy
 msgid "Regular Expression"
 msgstr "Expressão regular"
 
 #. translators: 1: '.htaccess' file name
 #: classes/redirect/views/redirects-tab-settings.php:78
-#, fuzzy
 msgid "Write redirects to the %1$s file. Make sure the %1$s file is writable."
 msgstr "Escreve redireccionamentos para o ficheiro %1$s. Tenha a certeza que o ficheiro %1$s pode ser escrito."
 
