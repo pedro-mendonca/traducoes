@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Yoast SEO 3.6\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
 "POT-Creation-Date: 2016-09-27 22:46+0100\n"
-"PO-Revision-Date: 2016-10-03 15:42+0100\n"
+"PO-Revision-Date: 2016-10-04 10:51+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -4630,7 +4630,7 @@ msgstr "(desactive a sua licença para poder activá-la noutro site WordPress)"
 
 #: vendor/yoast/license-manager/views/form.php:50
 msgid "Activate License"
-msgstr "Active a licença"
+msgstr "Activar licença"
 
 #: vendor/yoast/license-manager/views/form.php:52
 msgid "Please enter a license key in the field below first."
