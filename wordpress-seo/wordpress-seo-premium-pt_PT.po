@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yoast SEO Premium (for WordPress)\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-10-03 20:28+0100\n"
+"PO-Revision-Date: 2016-10-13 00:39+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -18,11 +18,52 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
+#: yoast-premium-components/composites/KeywordSuggestions/KeywordSuggestions.js:49
+msgid "The following words and word combinations occur the most in the content. These can give an indication on what your text focuses on. If they differ a lot from your focus keyword, you might want to rewrite your text accordingly."
+msgstr "As seguintes palavras e combinações de palavras ocorrem com frequência no conteúdo. Isto pode dar uma indicação sobre o assunto do seu texto. Se forem muito diferentes das suas palavras-chave principais, deverá corrigir o seu texto em conformidade."
+
+#: yoast-premium-components/composites/KeywordSuggestions/KeywordSuggestions.js:18
+msgid "Read our %$1sultimate guide to keyword research%$2s to learn more about keyword research and keyword strategy."
+msgstr "Leia o nosso %$1sguia completo para pesquisa de palavras-chave%$2s e saiba mais sobre pesquisa e estratégia de palavras-chave."
+
+#: assets/js/src/keywordSuggestions/KeywordSuggestions.js:67
+msgid "Insights"
+msgstr "Detalhes"
+
+#: class-premium.php:83
+msgid "Metabox insights"
+msgstr "Secção de detalhes"
+
+#: class-premium.php:85
+msgid "The metabox insights section contains insights about your content, like an overview of the most prominent words in your text."
+msgstr "A secção de detalhes da metabox contém detalhes sobre o seu conteúdo, como uma visão geral das palavras mais proeminentes no seu texto."
+
+#: class-premium.php:426
+msgid "Enabled"
+msgstr "Activo"
+
+#: classes/class-premium-import-manager.php:279
+msgid "Enter redirects to import"
+msgstr "Insira os redireccionamentos a importar"
+
+#. translators: %1$s expands to the subdirectory WordPress is installed.
+#: classes/redirect/class-redirect-subdirectory-validation.php:41
+msgid "Your redirect is missing the subdirectory where WordPress is installed in. This will result in a redirect that won't work. Make sure the redirect starts with %1$s"
+msgstr "O seu redireccionamento não tem o subdirectório onde o WordPress está instalado. Isto resultará num redireccionamento que não funciona. Tenha a certeza que o redireccionamento começa com %1$s"
+
+#: classes/redirect/class-redirect-table.php:178
+msgid "Select this redirect"
+msgstr "Seleccione este redireccionamento"
+
+#: yoast-premium-components/composites/KeywordSuggestions/KeywordSuggestions.js:76
+msgid "Prominent words"
+msgstr "Palavras proeminentes"
+
 #. translators: %1$s: Yoast SEO Premium, %2$s and %3$s expand to a link to the
 #. admin page, %4$s: Old slug of the term, %5$s: New slug of the term, the text
 #. surrounded by %6$s and %7$s is placed in a button that can undo the created
 #. redirect
-#: classes/class-term-watcher.php:202
+#: classes/class-term-watcher.php:208
 msgid "%1$s created a %2$sredirect%3$s from the old term URL to the new term URL. %6$sClick here to undo this%7$s  <br> Old URL: %4$s <br> New URL: %5$s"
 msgstr "O %1$s criou um %2$sredireccionamento%3$s a partir do antigo URL do termo para o novo URL do termo. %6$sClique aqui para desfazer%7$s  <br> Antigo URL: %4$s <br> Novo URL: %5$s"
 
@@ -42,7 +83,7 @@ msgstr "Os redireccionamentos de expressões regulares (regex) são redirecciona
 #. admin page, %4$s: Old slug of the post, %5$s: New slug of the post, the text
 #. surrounded by %6$s and %7$s is placed in a button that can undo the created
 #. redirect
-#: classes/class-post-watcher.php:305
+#: classes/class-post-watcher.php:311
 msgid "%1$s created a %2$sredirect%3$s from the old post URL to the new post URL. %6$sClick here to undo this%7$s <br> Old URL: %4$s <br> New URL: %5$s"
 msgstr "O %1$s criou um %2$sredireccionamento%3$s a partir do antigo URL do conteúdo para o novo URL do conteúdo. %6$sClique aqui para desfazer%7$s <br> Antigo URL: %4$s <br> Novo URL: %5$s"
 
@@ -59,70 +100,70 @@ msgstr ""
 "Está a tentar redireccionar para o URL original.\n"
 "\t\t\t\t\tPor favor, escolha um URL diferente para rediccionar."
 
-#: node_modules/yoast-social-previews/js/facebookPreview.js:688
+#: node_modules/yoast-social-previews/js/facebookPreview.js:689
 msgid "By"
 msgstr "Por"
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
-#: node_modules/yoast-social-previews/js/facebookPreview.js:140
-#: node_modules/yoast-social-previews/js/twitterPreview.js:133
+#: node_modules/yoast-social-previews/js/facebookPreview.js:139
+#: node_modules/yoast-social-previews/js/twitterPreview.js:132
 msgid "Modify your %1$s description by editing it right here"
 msgstr "Modifique a sua descrição para o %1$s editando-a aqui"
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
-#: node_modules/yoast-social-previews/js/facebookPreview.js:213
-#: node_modules/yoast-social-previews/js/twitterPreview.js:206
+#: node_modules/yoast-social-previews/js/facebookPreview.js:212
+#: node_modules/yoast-social-previews/js/twitterPreview.js:205
 msgid "Edit %1$s preview"
 msgstr "Editar pré-visualização para o %1$s"
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
-#: node_modules/yoast-social-previews/js/facebookPreview.js:215
-#: node_modules/yoast-social-previews/js/twitterPreview.js:208
+#: node_modules/yoast-social-previews/js/facebookPreview.js:214
+#: node_modules/yoast-social-previews/js/twitterPreview.js:207
 msgid "%1$s preview"
 msgstr "Pré-visualização do %1$s"
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
-#: node_modules/yoast-social-previews/js/facebookPreview.js:217
-#: node_modules/yoast-social-previews/js/twitterPreview.js:210
+#: node_modules/yoast-social-previews/js/facebookPreview.js:216
+#: node_modules/yoast-social-previews/js/twitterPreview.js:209
 msgid "%1$s editor"
 msgstr "Editor do %1$s"
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
-#: node_modules/yoast-social-previews/js/facebookPreview.js:275
-#: node_modules/yoast-social-previews/js/twitterPreview.js:269
+#: node_modules/yoast-social-previews/js/facebookPreview.js:274
+#: node_modules/yoast-social-previews/js/twitterPreview.js:268
 msgid "%1$s title"
 msgstr "Título para o %1$s"
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
-#: node_modules/yoast-social-previews/js/facebookPreview.js:284
-#: node_modules/yoast-social-previews/js/twitterPreview.js:281
+#: node_modules/yoast-social-previews/js/facebookPreview.js:283
+#: node_modules/yoast-social-previews/js/twitterPreview.js:280
 msgid "%1$s description"
 msgstr "Descrição para o %1$s"
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
-#: node_modules/yoast-social-previews/js/facebookPreview.js:293
-#: node_modules/yoast-social-previews/js/twitterPreview.js:293
+#: node_modules/yoast-social-previews/js/facebookPreview.js:292
+#: node_modules/yoast-social-previews/js/twitterPreview.js:292
 msgid "%1$s image"
 msgstr "Imagem para o %1$s"
 
-#: node_modules/yoast-social-previews/js/facebookPreview.js:448
+#: node_modules/yoast-social-previews/js/facebookPreview.js:447
 msgid "Please select an image by clicking here"
 msgstr "Por favor, clique aqui para seleccionar uma imagem"
 
 #. translators: %1$s expands to Facebook
-#: node_modules/yoast-social-previews/js/facebookPreview.js:467
+#: node_modules/yoast-social-previews/js/facebookPreview.js:466
 msgid "We are unable to detect an image in your post that is large enough to be displayed on Facebook. We advise you to select a %1$s image that fits the recommended image size."
 msgstr "Não foi possível detectar uma imagem no seu conteúdo que seja grande o suficiente para ser apresentada no Facebook. Aconselhamos a que seleccione uma imagem para o %1$s que se enquadre no tamanho de imagem recomendado."
 
-#: node_modules/yoast-social-previews/js/facebookPreview.js:137
-#: node_modules/yoast-social-previews/js/twitterPreview.js:130
+#: node_modules/yoast-social-previews/js/facebookPreview.js:136
+#: node_modules/yoast-social-previews/js/twitterPreview.js:129
 msgid "This is an example title - edit by clicking here"
 msgstr "Este é um exemplo de título - clique aqui para editar"
 
@@ -163,25 +204,25 @@ msgid "Remove image"
 msgstr "Remover imagem"
 
 #. translators: %1$s expands to Facebook
-#: node_modules/yoast-social-previews/js/facebookPreview.js:473
+#: node_modules/yoast-social-previews/js/facebookPreview.js:474
 msgid "The image you selected is too small for %1$s"
 msgstr "A imagem que seleccionou é demasiado pequena para o %1$s"
 
-#: node_modules/yoast-social-previews/js/facebookPreview.js:497
+#: node_modules/yoast-social-previews/js/facebookPreview.js:498
 msgid "The given image url cannot be loaded"
 msgstr "Não é possível carregar o URL de imagem fornecido"
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
-#: node_modules/yoast-social-previews/js/facebookPreview.js:316
-#: node_modules/yoast-social-previews/js/twitterPreview.js:318
+#: node_modules/yoast-social-previews/js/facebookPreview.js:315
+#: node_modules/yoast-social-previews/js/twitterPreview.js:317
 msgid "Please provide a %1$s title by editing the snippet below."
 msgstr "Por favor, insira um título para o %1$s editando o fragmento abaixo."
 
 #. translators: %1$s expands to Facebook
 #. translators: %1$s expands to Twitter
-#: node_modules/yoast-social-previews/js/facebookPreview.js:330
-#: node_modules/yoast-social-previews/js/twitterPreview.js:332
+#: node_modules/yoast-social-previews/js/facebookPreview.js:329
+#: node_modules/yoast-social-previews/js/twitterPreview.js:331
 msgid "Please provide a %1$s description by editing the snippet below."
 msgstr "Por favor, insira uma descrição para o %1$s editando o fragmento abaixo."
 
@@ -200,13 +241,13 @@ msgstr "Servidor web"
 
 #. translators: %1$s: Yoast SEO Premium, %2$s: List with actions, %3$s: <a
 #. href=''>, %4$s: </a>
-#: classes/class-post-watcher.php:129
+#: classes/class-post-watcher.php:135
 msgid "%1$s detected that you moved a post to the trash. You can either: %2$s Don't know what to do? %3$sRead this post%4$s."
 msgstr "O %1$s detectou que moveu um artigo para o lixo. Pode: %2$s Não sabe o que fazer? %3$sLeia este artigo%4$s."
 
 #. translators: %1$s: Yoast SEO Premium, %2$s: List with actions, %3$s: <a
 #. href='{post_with_explaination.}'>, %4$s: </a>
-#: classes/class-post-watcher.php:318
+#: classes/class-post-watcher.php:324
 msgid "%1$s detected that you deleted a post. You can either: %2$s Don't know what to do? %3$sRead this post %4$s."
 msgstr "O %1$s detectou que eliminou um artigo. Pode: %2$s Não sabe o que fazer? %3$sLeia este artigo%4$s."
 
@@ -216,7 +257,7 @@ msgstr "Criado redireccionamento 410 a partir de %1$s!"
 
 #. translators: %1$s: Yoast SEO Premium, %2$s: List with actions, %3$s: <a
 #. href='{post_with_explaination.}'>, %4$s: </a>
-#: classes/class-term-watcher.php:215
+#: classes/class-term-watcher.php:221
 msgid "%1$s detected that you deleted a term. You can either: %2$s Don't know what to do? %3$sRead this post %4$s."
 msgstr "O %1$s detectou que eliminou um termo. Pode: %2$s Não sabe o que fazer? %3$sLeia este artigo%4$s."
 
@@ -348,6 +389,7 @@ msgid "The redirect was deleted successfully."
 msgstr "O redireccionamento foi eliminado com sucesso."
 
 #: classes/class-premium-javascript-strings.php:49
+#: classes/redirect/views/redirects-quick-edit.php:33
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -363,7 +405,7 @@ msgstr "Pode copiar o conteúdo de qualquer ficheiro %1$s para aqui e será impo
 
 #. translators: %1$s: Yoast SEO Premium, %2$s: <a href='{undo_redirect_url}'>,
 #. %3$s: </a>
-#: classes/class-post-watcher.php:155
+#: classes/class-post-watcher.php:161
 msgid "%1$s detected that you restored a post from the trash. %2$sClick here to remove the redirect%3$s"
 msgstr "O %1$s detectou que restaurou um artigo a partir do lixo. %2$sClique aqui para remover o redireccionamento%3$s."
 
@@ -413,7 +455,7 @@ msgstr "Por omissão os redireccionamentos são escritos no ficheiro %s. Active 
 msgid "You can't redirect a URL to itself."
 msgstr "Não pode redireccionar um URL para si próprio."
 
-#: class-premium.php:351
+#: class-premium.php:373
 msgid "Add custom fields to page analysis"
 msgstr "Adicionar campos personalizados à análise de páginas"
 
@@ -435,7 +477,7 @@ msgstr "Redireccionamentos por página"
 msgid "%s import failed: No redirects found."
 msgstr "Falhou ao importar %s: não foram encontrados redireccionamentos."
 
-#: classes/class-premium-import-manager.php:280
+#: classes/class-premium-import-manager.php:281
 msgid "Import .htaccess"
 msgstr "Importar .htaccess"
 
@@ -459,7 +501,8 @@ msgstr "Novo tipo não pode ficar vazio."
 msgid "Settings"
 msgstr "Definições"
 
-#: classes/redirect/class-redirect-table.php:316
+#: classes/class-premium-javascript-strings.php:56
+#: classes/redirect/class-redirect-table.php:325
 msgid "Edit"
 msgstr "Editar"
 
@@ -467,11 +510,11 @@ msgstr "Editar"
 msgid "OK"
 msgstr "OK"
 
-#: class-premium.php:319
+#: class-premium.php:341
 msgid "Create Redirect"
 msgstr "Criar redireccionamento"
 
-#: class-premium.php:370 classes/redirect/class-redirect-presenter.php:57
+#: class-premium.php:392 classes/redirect/class-redirect-presenter.php:57
 msgid "Redirects"
 msgstr "Redireccionamentos"
 
@@ -503,8 +546,9 @@ msgstr "Tem redireccionamentos por guardar, tem a certeza de que quer sair?"
 msgid "New URL"
 msgstr "Novo URL"
 
-#: classes/redirect/class-redirect-table.php:231
-#: classes/redirect/class-redirect-table.php:317
+#: classes/class-premium-javascript-strings.php:57
+#: classes/redirect/class-redirect-table.php:236
+#: classes/redirect/class-redirect-table.php:326
 msgid "Delete"
 msgstr "Eliminar"
 
@@ -537,9 +581,6 @@ msgstr "Como está num servidor Nginx, deve acrescentar o seguinte no ficheiro d
 #: classes/redirect/views/redirects-tab-settings.php:12
 msgid "As you're on Apache, you should add the following include to the website httpd config file:"
 msgstr "Como está num servidor Apache, deve acrescentar o seguinte no ficheiro de configuração httpd do site:"
-
-#~ msgid "Enabled"
-#~ msgstr "Activo"
 
 #~ msgid "Plain redirects"
 #~ msgstr "Redireccionamentos simples"
