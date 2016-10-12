@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Yoast SEO 3.6\n"
 "Report-Msgid-Bugs-To: https://github.com/yoast/wordpress-seo/issues\n"
 "POT-Creation-Date: 2016-10-11 16:56+0100\n"
-"PO-Revision-Date: 2016-10-13 00:21+0100\n"
+"PO-Revision-Date: 2016-10-13 00:55+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -2647,7 +2647,7 @@ msgstr ""
 #: admin/views/about.php:41
 msgid "Want to help us develop? Read our %1$scontribution guidelines%2$s!"
 msgstr ""
-"Quer ajudar-nos no desenvolvimento ? Leia as nossas %1$sregras de contribuição"
+"Quer ajudar-nos no desenvolvimento? Leia as nossas %1$sregras de contribuição"
 "%2$s!"
 
 #: admin/views/about.php:48 admin/views/tabs/dashboard/general.php:30
